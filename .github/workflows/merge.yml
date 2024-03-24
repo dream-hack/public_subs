@@ -24,12 +24,14 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run merge script
-        run: python meta_merge.py 
+        run: python meta_merge.py
 
       - name: Run shadowrocket merge script
-        run: python merge.py  
+        run: python merge.py
+
       - name: Run sing-box script
-        run: python sing-box.py  
+        run: python sing-box.py
+
       - name: Commit Changes
         run: |
           if [[ -n "$(git status --porcelain)" ]]; then
