@@ -1,12 +1,18 @@
-name: Merge Script
+name: Merge subs
 
 on:
+  # push自动触发
   # push:
   #   branches:
   #     - main  # 触发的认分支
+
+  # 定时自动触发
   schedule:
-    - cron: 0 */6 * * *  # 每6h触发一次
-  workflow_dispatch:  # 手动触发
+    - cron: 0 */6 * * *  # 6h触发一次
+
+  # 手动触发
+  workflow_dispatch: 
+
 jobs:
   merge:
     runs-on: ubuntu-latest
