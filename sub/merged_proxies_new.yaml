@@ -25,82 +25,58 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: France_Paris_hy_0
-  type: hysteria
-  server: 51.158.54.46
-  port: 55396
-  ports: 55396
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
+- name: United States_Los Angeles_hy2_0
+  type: hysteria2
+  server: 64.110.25.11
+  port: 33337
+  password: dongtaiwang.com
   fast-open: true
-  protocol: udp
-  sni: youku.com
+  sni: www.bing.com
   skip-cert-verify: true
-  alpn:
-  - h3
-- name: Taiwan_Taipei_hy_1
-  type: hysteria
-  server: www.dtku40.xyz
-  port: 18490
-  ports: 18490
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
+- name: France_None_hy2_1
+  type: hysteria2
+  server: 62.210.103.0
+  port: 22483
+  password: dongtaiwang.com
   fast-open: true
-  protocol: udp
-  sni: bing.com
+  sni: www.bing.com
   skip-cert-verify: true
-  alpn:
-  - h3
-- name: United States_Los Angeles_hy_2
-  type: hysteria
-  server: 173.234.25.52
-  port: 48919
-  ports: 48919
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
+- name: France_Paris_hy2_2
+  type: hysteria2
+  server: 51.159.77.198
+  port: 53967
+  password: dongtaiwang.com
   fast-open: true
-  protocol: udp
-  sni: bing.com
+  sni: www.bing.com
   skip-cert-verify: true
-  alpn:
-  - h3
-- name: United States_Los Angeles_hy_3
-  type: hysteria
-  server: 167.160.91.115
-  port: 41189
-  ports: 41189
-  auth_str: bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF
-  up: 1000
-  down: 1000
+- name: France_None_hy2_3
+  type: hysteria2
+  server: 62.210.103.0
+  port: 22483
+  password: dongtaiwang.com
   fast-open: true
-  protocol: udp
-  sni: www.amazon.cn
+  sni: www.bing.com
   skip-cert-verify: true
-  alpn:
-  - h3
 proxy-groups:
 - name: 节点选择
   type: select
   proxies:
   - 自动选择
   - DIRECT
-  - France_Paris_hy_0
-  - Taiwan_Taipei_hy_1
-  - United States_Los Angeles_hy_2
-  - United States_Los Angeles_hy_3
+  - United States_Los Angeles_hy2_0
+  - France_None_hy2_1
+  - France_Paris_hy2_2
+  - France_None_hy2_3
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - France_Paris_hy_0
-  - Taiwan_Taipei_hy_1
-  - United States_Los Angeles_hy_2
-  - United States_Los Angeles_hy_3
+  - United States_Los Angeles_hy2_0
+  - France_None_hy2_1
+  - France_Paris_hy2_2
+  - France_None_hy2_3
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
