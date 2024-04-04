@@ -1,2 +1,6 @@
-https://raw.githubusercontent.com/Alvin9999/pac2/master/singbox/1/config.json
-https://raw.githubusercontent.com/Alvin9999/pac2/master/singbox/config.json
+https://github.com/Alvin9999/pac2/raw/master/singbox/1/config.json
+https://github.com/Alvin9999/pac2/raw/master/singbox/config.json
+https://github.com/Alvin9999/PAC/raw/master/backup/img/1/2/ip/singbox/1/config.json
+https://github.com/Alvin9999/PAC/raw/master/backup/img/1/2/ip/singbox/2/config.json
+https://github.com/Alvin9999/PAC/raw/master/backup/img/1/2/ip/singbox/3/config.json
+https://github.com/Alvin9999/PAC/raw/master/backup/img/1/2/ip/singbox/4/config.json
