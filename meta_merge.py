@@ -286,7 +286,7 @@ merged_proxies = []
 # 处理 clash URLs
 process_urls("./urls/clash_urls.txt", process_clash)
 
-# 处理 shadowtls URLs
+# 处理 sing-box URLs
 # process_urls('./urls/sb_urls.txt', process_sb)
 
 # 处理 hysteria URLs
