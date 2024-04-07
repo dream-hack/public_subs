@@ -25,66 +25,17 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: None_None_vmess_01
-  type: vmess
-  server: fbi.gov
-  port: 8080
-  cipher: auto
-  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
-  alterId: 0
-  tls: false
+- name: United States_Los Angeles_hysteria2_01
+  type: hysteria2
+  server: 74.63.233.74
+  port: 33445
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: www.bing.com
   skip-cert-verify: true
-  servername: pcs-referenced-camera-concerns.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
-    headers:
-      host: pcs-referenced-camera-concerns.trycloudflare.com
-- name: None_None_vmess_02
-  type: vmess
-  server: fbi.gov
-  port: 8080
-  cipher: auto
-  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: bibliographic-sword-sequence-advertisers.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
-    headers:
-      host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-- name: None_None_vmess_03
-  type: vmess
-  server: fbi.gov
-  port: 8080
-  cipher: auto
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: None_None_vmess_04
-  type: vmess
-  server: fbi.gov
-  port: 8080
-  cipher: auto
-  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: larger-marketing-amounts-skin.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
-    headers:
-      host: larger-marketing-amounts-skin.trycloudflare.com
+  up: 5 Mbps
+  down: 20 Mbps
 - name: Canada_Ottawa_vmess_11
   type: vmess
   server: 23.227.39.12
@@ -265,7 +216,7 @@ proxies:
     path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
     headers:
       host: larger-marketing-amounts-skin.trycloudflare.com
-- name: None_None_vmess_29
+- name: United States_None_vmess_29
   type: vmess
   server: yh2.freeh1.xyz
   port: 8080
@@ -280,7 +231,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
     headers:
       host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-- name: United States_None_vmess_210
+- name: None_None_vmess_210
   type: vmess
   server: yh2.freeh1.xyz
   port: 8080
@@ -295,7 +246,7 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: United States_None_vmess_211
+- name: None_None_vmess_211
   type: vmess
   server: yh2.freeh1.xyz
   port: 8080
@@ -400,7 +351,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
     headers:
       host: pcs-referenced-camera-concerns.trycloudflare.com
-- name: United States_None_vmess_32
+- name: None_None_vmess_32
   type: vmess
   server: yh1.freeh1.xyz
   port: 8080
@@ -445,7 +396,7 @@ proxies:
     path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
     headers:
       host: larger-marketing-amounts-skin.trycloudflare.com
-- name: None_None_vmess_35
+- name: United States_None_vmess_35
   type: vmess
   server: yh2.freeh1.xyz
   port: 8080
@@ -460,7 +411,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
     headers:
       host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-- name: None_None_vmess_36
+- name: United States_None_vmess_36
   type: vmess
   server: yh2.freeh1.xyz
   port: 8080
@@ -595,7 +546,7 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
     headers:
       host: per-essex-patterns-bowling.trycloudflare.com
-- name: None_None_vmess_43
+- name: United States_None_vmess_43
   type: vmess
   server: yh1.freeh1.xyz
   port: 8080
@@ -634,12 +585,12 @@ proxies:
   alterId: 0
   tls: false
   skip-cert-verify: true
-  servername: pcs-referenced-camera-concerns.trycloudflare.com
+  servername: concentrations-taxi-about-recognised.trycloudflare.com
   network: ws
   ws-opts:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
     headers:
-      host: pcs-referenced-camera-concerns.trycloudflare.com
+      host: concentrations-taxi-about-recognised.trycloudflare.com
 - name: None_None_vmess_52
   type: vmess
   server: fbi.gov
@@ -649,12 +600,12 @@ proxies:
   alterId: 0
   tls: false
   skip-cert-verify: true
-  servername: bibliographic-sword-sequence-advertisers.trycloudflare.com
+  servername: hang-broke-john-neither.trycloudflare.com
   network: ws
   ws-opts:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
     headers:
-      host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+      host: hang-broke-john-neither.trycloudflare.com
 - name: None_None_vmess_53
   type: vmess
   server: fbi.gov
@@ -664,12 +615,12 @@ proxies:
   alterId: 0
   tls: false
   skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
+  servername: booty-pensions-scheduling-blogging.trycloudflare.com
   network: ws
   ws-opts:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
     headers:
-      host: nest-emily-healing-h.trycloudflare.com
+      host: booty-pensions-scheduling-blogging.trycloudflare.com
 - name: None_None_vmess_54
   type: vmess
   server: fbi.gov
@@ -679,12 +630,12 @@ proxies:
   alterId: 0
   tls: false
   skip-cert-verify: true
-  servername: larger-marketing-amounts-skin.trycloudflare.com
+  servername: fantastic-doe-bids-ended.trycloudflare.com
   network: ws
   ws-opts:
     path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
     headers:
-      host: larger-marketing-amounts-skin.trycloudflare.com
+      host: fantastic-doe-bids-ended.trycloudflare.com
 - name: United States_Kansas City_hysteria2_61
   type: hysteria2
   server: 109.104.152.89
@@ -1084,10 +1035,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - None_None_vmess_01
-  - None_None_vmess_02
-  - None_None_vmess_03
-  - None_None_vmess_04
+  - United States_Los Angeles_hysteria2_01
   - Canada_Ottawa_vmess_11
   - Canada_Ottawa_vmess_12
   - Canada_Ottawa_vmess_13
@@ -1100,20 +1048,20 @@ proxy-groups:
   - None_None_vmess_26
   - None_None_vmess_27
   - None_None_vmess_28
-  - None_None_vmess_29
-  - United States_None_vmess_210
-  - United States_None_vmess_211
+  - United States_None_vmess_29
+  - None_None_vmess_210
+  - None_None_vmess_211
   - United States_None_vmess_212
   - United States_None_vmess_213
   - United States_None_vmess_214
   - United States_None_vmess_215
   - United States_None_vmess_216
   - None_None_vmess_31
-  - United States_None_vmess_32
+  - None_None_vmess_32
   - None_None_vmess_33
   - None_None_vmess_34
-  - None_None_vmess_35
-  - None_None_vmess_36
+  - United States_None_vmess_35
+  - United States_None_vmess_36
   - None_None_vmess_37
   - United States_None_vmess_38
   - United States_None_vmess_39
@@ -1122,7 +1070,7 @@ proxy-groups:
   - United States_None_vmess_312
   - United States_None_vmess_41
   - United States_None_vmess_42
-  - None_None_vmess_43
+  - United States_None_vmess_43
   - None_None_vmess_44
   - None_None_vmess_51
   - None_None_vmess_52
@@ -1168,10 +1116,7 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - None_None_vmess_01
-  - None_None_vmess_02
-  - None_None_vmess_03
-  - None_None_vmess_04
+  - United States_Los Angeles_hysteria2_01
   - Canada_Ottawa_vmess_11
   - Canada_Ottawa_vmess_12
   - Canada_Ottawa_vmess_13
@@ -1184,20 +1129,20 @@ proxy-groups:
   - None_None_vmess_26
   - None_None_vmess_27
   - None_None_vmess_28
-  - None_None_vmess_29
-  - United States_None_vmess_210
-  - United States_None_vmess_211
+  - United States_None_vmess_29
+  - None_None_vmess_210
+  - None_None_vmess_211
   - United States_None_vmess_212
   - United States_None_vmess_213
   - United States_None_vmess_214
   - United States_None_vmess_215
   - United States_None_vmess_216
   - None_None_vmess_31
-  - United States_None_vmess_32
+  - None_None_vmess_32
   - None_None_vmess_33
   - None_None_vmess_34
-  - None_None_vmess_35
-  - None_None_vmess_36
+  - United States_None_vmess_35
+  - United States_None_vmess_36
   - None_None_vmess_37
   - United States_None_vmess_38
   - United States_None_vmess_39
@@ -1206,7 +1151,7 @@ proxy-groups:
   - United States_None_vmess_312
   - United States_None_vmess_41
   - United States_None_vmess_42
-  - None_None_vmess_43
+  - United States_None_vmess_43
   - None_None_vmess_44
   - None_None_vmess_51
   - None_None_vmess_52
