@@ -147,7 +147,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
     headers:
       host: concentrations-taxi-about-recognised.trycloudflare.com
-- name: United States_None_vmess_52
+- name: None_None_vmess_52
   type: vmess
   server: yh1.dtku41.xyz
   port: 8080
@@ -162,9 +162,9 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
     headers:
       host: hang-broke-john-neither.trycloudflare.com
-- name: None_None_vmess_53
+- name: United States_None_vmess_53
   type: vmess
-  server: yh4.dtku41.xyz
+  server: yh7.dtku41.xyz
   port: 8080
   cipher: auto
   uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
@@ -322,81 +322,6 @@ proxies:
       enabled: true
       up: 11
       down: 55
-- name: None_None_vmess_141
-  type: vmess
-  server: 104.19.58.70
-  port: 8080
-  cipher: auto
-  uuid: 01c3345a-aadb-4e07-a920-947c20d83096
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: emily-citizen-oxford-gba.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
-    headers:
-      host: emily-citizen-oxford-gba.trycloudflare.com
-- name: None_None_vmess_142
-  type: vmess
-  server: yh1.freeh1.xyz
-  port: 8080
-  cipher: auto
-  uuid: 01c3345a-aadb-4e07-a920-947c20d83096
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: emily-citizen-oxford-gba.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
-    headers:
-      host: emily-citizen-oxford-gba.trycloudflare.com
-- name: None_None_vmess_143
-  type: vmess
-  server: 104.20.20.30
-  port: 8080
-  cipher: auto
-  uuid: 01c3345a-aadb-4e07-a920-947c20d83096
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: emily-citizen-oxford-gba.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
-    headers:
-      host: emily-citizen-oxford-gba.trycloudflare.com
-- name: United States_None_vmess_144
-  type: vmess
-  server: yh3.freeh1.xyz
-  port: 8080
-  cipher: auto
-  uuid: 01c3345a-aadb-4e07-a920-947c20d83096
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: emily-citizen-oxford-gba.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
-    headers:
-      host: emily-citizen-oxford-gba.trycloudflare.com
-- name: None_None_vmess_145
-  type: vmess
-  server: yh4.dtku41.xyz
-  port: 8080
-  cipher: auto
-  uuid: 01c3345a-aadb-4e07-a920-947c20d83096
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: emily-citizen-oxford-gba.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
-    headers:
-      host: emily-citizen-oxford-gba.trycloudflare.com
 - name: Taiwan_Taipei_hysteria2_151
   type: hysteria2
   server: www.dtku40.xyz
@@ -467,11 +392,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Taiwan_Taipei_hy_1
+- name: France_None_hy_1
   type: hysteria
-  server: www.dtku40.xyz
-  port: 18490
-  ports: 18490
+  server: 62.210.243.131
+  port: 18702
+  ports: 18702
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -573,26 +498,26 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: France_None_hy2_1
+- name: United States_Los Angeles_hy2_1
   type: hysteria2
-  server: 62.210.103.0
-  port: 22483
+  server: 104.192.224.141
+  port: 40391
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: France_Paris_hy2_2
+- name: United States_Los Angeles_hy2_2
   type: hysteria2
-  server: 51.159.77.198
-  port: 53967
+  server: 104.192.224.141
+  port: 40391
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: United States_Kansas City_hy2_3
+- name: United States_Los Angeles_hy2_3
   type: hysteria2
-  server: 109.104.152.194
-  port: 20352
+  server: 104.192.224.141
+  port: 40391
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -641,8 +566,8 @@ proxy-groups:
   - United States_Kansas City_vless_31
   - United States_Kansas City_vless_41
   - None_None_vmess_51
-  - United States_None_vmess_52
-  - None_None_vmess_53
+  - None_None_vmess_52
+  - United States_None_vmess_53
   - None_None_vmess_54
   - United States_Kansas City_hysteria2_61
   - United States_Kansas City_ss_71
@@ -653,18 +578,13 @@ proxy-groups:
   - United States_Los Angeles_hysteria2_121
   - Taiwan_Taipei_ss_122
   - United States_Kansas City_ss_131
-  - None_None_vmess_141
-  - None_None_vmess_142
-  - None_None_vmess_143
-  - United States_None_vmess_144
-  - None_None_vmess_145
   - Taiwan_Taipei_hysteria2_151
   - Taiwan_Taipei_hysteria2_161
   - United States_Seattle_ss_171
   - Taiwan_Xizhi District_tuic_181
   - France_Paris_hysteria2_191
   - United States_Los Angeles_hy_0
-  - Taiwan_Taipei_hy_1
+  - France_None_hy_1
   - France_None_hy_2
   - United States_Kansas City_hy_3
   - France_Paris_hy_4
@@ -672,9 +592,9 @@ proxy-groups:
   - United States_Los Angeles_hy_6
   - Taiwan_Taipei_hy_7
   - United States_Los Angeles_hy2_0
-  - France_None_hy2_1
-  - France_Paris_hy2_2
-  - United States_Kansas City_hy2_3
+  - United States_Los Angeles_hy2_1
+  - United States_Los Angeles_hy2_2
+  - United States_Los Angeles_hy2_3
   - United States_Los Angeles_hy2_4
   - France_None_hy2_5
   - France_Paris_hy2_6
@@ -691,8 +611,8 @@ proxy-groups:
   - United States_Kansas City_vless_31
   - United States_Kansas City_vless_41
   - None_None_vmess_51
-  - United States_None_vmess_52
-  - None_None_vmess_53
+  - None_None_vmess_52
+  - United States_None_vmess_53
   - None_None_vmess_54
   - United States_Kansas City_hysteria2_61
   - United States_Kansas City_ss_71
@@ -703,18 +623,13 @@ proxy-groups:
   - United States_Los Angeles_hysteria2_121
   - Taiwan_Taipei_ss_122
   - United States_Kansas City_ss_131
-  - None_None_vmess_141
-  - None_None_vmess_142
-  - None_None_vmess_143
-  - United States_None_vmess_144
-  - None_None_vmess_145
   - Taiwan_Taipei_hysteria2_151
   - Taiwan_Taipei_hysteria2_161
   - United States_Seattle_ss_171
   - Taiwan_Xizhi District_tuic_181
   - France_Paris_hysteria2_191
   - United States_Los Angeles_hy_0
-  - Taiwan_Taipei_hy_1
+  - France_None_hy_1
   - France_None_hy_2
   - United States_Kansas City_hy_3
   - France_Paris_hy_4
@@ -722,9 +637,9 @@ proxy-groups:
   - United States_Los Angeles_hy_6
   - Taiwan_Taipei_hy_7
   - United States_Los Angeles_hy2_0
-  - France_None_hy2_1
-  - France_Paris_hy2_2
-  - United States_Kansas City_hy2_3
+  - United States_Los Angeles_hy2_1
+  - United States_Los Angeles_hy2_2
+  - United States_Los Angeles_hy2_3
   - United States_Los Angeles_hy2_4
   - France_None_hy2_5
   - France_Paris_hy2_6
