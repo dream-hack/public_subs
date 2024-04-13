@@ -270,7 +270,7 @@ proxies:
   password: dongtaiwang.com
   sni: bing.com
   skip-cert-verify: true
-- name: Taiwan_Taipei_tuic_111
+- name: Taiwan_New Taipei_tuic_111
   server: www2.dtku48.xyz
   port: 33993
   type: tuic
@@ -293,7 +293,7 @@ proxies:
   skip-cert-verify: true
   up: 100 Mbps
   down: 100 Mbps
-- name: Taiwan_Taipei_ss_122
+- name: Taiwan_New Taipei_ss_122
   type: ss
   server: www2.dtku48.xyz
   port: 33001
@@ -333,7 +333,7 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: Taiwan_Taipei_hysteria2_161
+- name: Taiwan_New Taipei_hysteria2_161
   type: hysteria2
   server: www2.dtku48.xyz
   port: 48726
@@ -574,12 +574,12 @@ proxy-groups:
   - United States_Kansas City_ss_81
   - United States_Kansas City_vless_91
   - France_Paris_hysteria2_101
-  - Taiwan_Taipei_tuic_111
+  - Taiwan_New Taipei_tuic_111
   - United States_Los Angeles_hysteria2_121
-  - Taiwan_Taipei_ss_122
+  - Taiwan_New Taipei_ss_122
   - United States_Kansas City_ss_131
   - Taiwan_Taipei_hysteria2_151
-  - Taiwan_Taipei_hysteria2_161
+  - Taiwan_New Taipei_hysteria2_161
   - United States_Seattle_ss_171
   - Taiwan_Xizhi District_tuic_181
   - France_Paris_hysteria2_191
@@ -619,12 +619,12 @@ proxy-groups:
   - United States_Kansas City_ss_81
   - United States_Kansas City_vless_91
   - France_Paris_hysteria2_101
-  - Taiwan_Taipei_tuic_111
+  - Taiwan_New Taipei_tuic_111
   - United States_Los Angeles_hysteria2_121
-  - Taiwan_Taipei_ss_122
+  - Taiwan_New Taipei_ss_122
   - United States_Kansas City_ss_131
   - Taiwan_Taipei_hysteria2_151
-  - Taiwan_Taipei_hysteria2_161
+  - Taiwan_New Taipei_hysteria2_161
   - United States_Seattle_ss_171
   - Taiwan_Xizhi District_tuic_181
   - France_Paris_hysteria2_191
