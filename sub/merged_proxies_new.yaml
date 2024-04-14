@@ -132,66 +132,6 @@ proxies:
       enabled: true
       up: 11
       down: 55
-- name: None_None_vmess_51
-  type: vmess
-  server: 104.19.58.60
-  port: 8080
-  cipher: auto
-  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: concentrations-taxi-about-recognised.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
-    headers:
-      host: concentrations-taxi-about-recognised.trycloudflare.com
-- name: None_None_vmess_52
-  type: vmess
-  server: yh1.dtku41.xyz
-  port: 8080
-  cipher: auto
-  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: hang-broke-john-neither.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
-    headers:
-      host: hang-broke-john-neither.trycloudflare.com
-- name: United States_None_vmess_53
-  type: vmess
-  server: yh7.dtku41.xyz
-  port: 8080
-  cipher: auto
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: booty-pensions-scheduling-blogging.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
-    headers:
-      host: booty-pensions-scheduling-blogging.trycloudflare.com
-- name: None_None_vmess_54
-  type: vmess
-  server: 104.20.26.40
-  port: 8080
-  cipher: auto
-  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: fantastic-doe-bids-ended.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
-    headers:
-      host: fantastic-doe-bids-ended.trycloudflare.com
 - name: United States_Kansas City_hysteria2_61
   type: hysteria2
   server: 109.104.152.89
@@ -355,7 +295,7 @@ proxies:
     host: nijigen-works.jp
     password: lhWGKo/dJHvvMKzuhWX2v1GRIoUOuFb6wCkPLxR2uIk=
     version: 3
-- name: Taiwan_Xizhi District_tuic_181
+- name: Taiwan_Taipei_tuic_181
   server: www.dtku50.xyz
   port: 22335
   type: tuic
@@ -434,17 +374,17 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_Paris_hy_4
+- name: United States_Los Angeles_hy_4
   type: hysteria
-  server: 51.159.79.103
-  port: 55396
-  ports: 55396
+  server: 173.234.25.51
+  port: 48919
+  ports: 48919
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
   fast-open: true
   protocol: udp
-  sni: youku.com
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -462,17 +402,17 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Los Angeles_hy_6
+- name: France_Paris_hy_6
   type: hysteria
-  server: 173.234.25.51
-  port: 48919
-  ports: 48919
+  server: 51.159.79.103
+  port: 55396
+  ports: 55396
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
   fast-open: true
   protocol: udp
-  sni: bing.com
+  sni: youku.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -565,10 +505,6 @@ proxy-groups:
   - United States_Kansas City_vless_21
   - United States_Kansas City_vless_31
   - United States_Kansas City_vless_41
-  - None_None_vmess_51
-  - None_None_vmess_52
-  - United States_None_vmess_53
-  - None_None_vmess_54
   - United States_Kansas City_hysteria2_61
   - United States_Kansas City_ss_71
   - United States_Kansas City_ss_81
@@ -581,15 +517,15 @@ proxy-groups:
   - Taiwan_Taipei_hysteria2_151
   - Taiwan_New Taipei_hysteria2_161
   - United States_Seattle_ss_171
-  - Taiwan_Xizhi District_tuic_181
+  - Taiwan_Taipei_tuic_181
   - France_Paris_hysteria2_191
   - United States_Los Angeles_hy_0
   - France_None_hy_1
   - France_None_hy_2
   - United States_Kansas City_hy_3
-  - France_Paris_hy_4
+  - United States_Los Angeles_hy_4
   - United States_Los Angeles_hy_5
-  - United States_Los Angeles_hy_6
+  - France_Paris_hy_6
   - Taiwan_Taipei_hy_7
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
@@ -610,10 +546,6 @@ proxy-groups:
   - United States_Kansas City_vless_21
   - United States_Kansas City_vless_31
   - United States_Kansas City_vless_41
-  - None_None_vmess_51
-  - None_None_vmess_52
-  - United States_None_vmess_53
-  - None_None_vmess_54
   - United States_Kansas City_hysteria2_61
   - United States_Kansas City_ss_71
   - United States_Kansas City_ss_81
@@ -626,15 +558,15 @@ proxy-groups:
   - Taiwan_Taipei_hysteria2_151
   - Taiwan_New Taipei_hysteria2_161
   - United States_Seattle_ss_171
-  - Taiwan_Xizhi District_tuic_181
+  - Taiwan_Taipei_tuic_181
   - France_Paris_hysteria2_191
   - United States_Los Angeles_hy_0
   - France_None_hy_1
   - France_None_hy_2
   - United States_Kansas City_hy_3
-  - France_Paris_hy_4
+  - United States_Los Angeles_hy_4
   - United States_Los Angeles_hy_5
-  - United States_Los Angeles_hy_6
+  - France_Paris_hy_6
   - Taiwan_Taipei_hy_7
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
