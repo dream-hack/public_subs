@@ -210,7 +210,7 @@ proxies:
   password: dongtaiwang.com
   sni: bing.com
   skip-cert-verify: true
-- name: Taiwan_New Taipei_tuic_111
+- name: Taiwan_Taoyuan District_tuic_111
   server: www2.dtku48.xyz
   port: 33993
   type: tuic
@@ -233,7 +233,7 @@ proxies:
   skip-cert-verify: true
   up: 100 Mbps
   down: 100 Mbps
-- name: Taiwan_New Taipei_ss_122
+- name: Taiwan_Taoyuan District_ss_122
   type: ss
   server: www2.dtku48.xyz
   port: 33001
@@ -277,7 +277,7 @@ proxies:
     path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
     headers:
       host: emily-citizen-oxford-gba.trycloudflare.com
-- name: None_None_vmess_142
+- name: The Netherlands_Amsterdam_vmess_142
   type: vmess
   server: yh9.dtku41.xyz
   port: 8080
@@ -348,7 +348,7 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: Taiwan_New Taipei_hysteria2_161
+- name: Taiwan_Taoyuan District_hysteria2_161
   type: hysteria2
   server: www2.dtku48.xyz
   port: 48726
@@ -585,17 +585,17 @@ proxy-groups:
   - United States_Kansas City_ss_81
   - United States_Kansas City_vless_91
   - France_Paris_hysteria2_101
-  - Taiwan_New Taipei_tuic_111
+  - Taiwan_Taoyuan District_tuic_111
   - United States_Los Angeles_hysteria2_121
-  - Taiwan_New Taipei_ss_122
+  - Taiwan_Taoyuan District_ss_122
   - United States_Kansas City_ss_131
   - United States_None_vmess_141
-  - None_None_vmess_142
+  - The Netherlands_Amsterdam_vmess_142
   - None_None_vmess_143
   - United States_None_vmess_144
   - United States_None_vmess_145
   - Taiwan_Taipei_hysteria2_151
-  - Taiwan_New Taipei_hysteria2_161
+  - Taiwan_Taoyuan District_hysteria2_161
   - United States_Seattle_ss_171
   - Taiwan_Taipei_tuic_181
   - France_Paris_hysteria2_191
@@ -631,17 +631,17 @@ proxy-groups:
   - United States_Kansas City_ss_81
   - United States_Kansas City_vless_91
   - France_Paris_hysteria2_101
-  - Taiwan_New Taipei_tuic_111
+  - Taiwan_Taoyuan District_tuic_111
   - United States_Los Angeles_hysteria2_121
-  - Taiwan_New Taipei_ss_122
+  - Taiwan_Taoyuan District_ss_122
   - United States_Kansas City_ss_131
   - United States_None_vmess_141
-  - None_None_vmess_142
+  - The Netherlands_Amsterdam_vmess_142
   - None_None_vmess_143
   - United States_None_vmess_144
   - United States_None_vmess_145
   - Taiwan_Taipei_hysteria2_151
-  - Taiwan_New Taipei_hysteria2_161
+  - Taiwan_Taoyuan District_hysteria2_161
   - United States_Seattle_ss_171
   - Taiwan_Taipei_tuic_181
   - France_Paris_hysteria2_191
