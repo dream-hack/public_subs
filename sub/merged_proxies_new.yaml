@@ -262,6 +262,81 @@ proxies:
       enabled: true
       up: 11
       down: 55
+- name: United States_None_vmess_141
+  type: vmess
+  server: yh7.freeh1.xyz
+  port: 8080
+  cipher: auto
+  uuid: 01c3345a-aadb-4e07-a920-947c20d83096
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: emily-citizen-oxford-gba.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
+    headers:
+      host: emily-citizen-oxford-gba.trycloudflare.com
+- name: None_None_vmess_142
+  type: vmess
+  server: yh9.dtku41.xyz
+  port: 8080
+  cipher: auto
+  uuid: 01c3345a-aadb-4e07-a920-947c20d83096
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: emily-citizen-oxford-gba.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
+    headers:
+      host: emily-citizen-oxford-gba.trycloudflare.com
+- name: None_None_vmess_143
+  type: vmess
+  server: yh2.dtku41.xyz
+  port: 8080
+  cipher: auto
+  uuid: 01c3345a-aadb-4e07-a920-947c20d83096
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: emily-citizen-oxford-gba.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
+    headers:
+      host: emily-citizen-oxford-gba.trycloudflare.com
+- name: United States_None_vmess_144
+  type: vmess
+  server: yh1.freeh1.xyz
+  port: 8080
+  cipher: auto
+  uuid: 01c3345a-aadb-4e07-a920-947c20d83096
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: emily-citizen-oxford-gba.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
+    headers:
+      host: emily-citizen-oxford-gba.trycloudflare.com
+- name: United States_None_vmess_145
+  type: vmess
+  server: yh6.dtku41.xyz
+  port: 8080
+  cipher: auto
+  uuid: 01c3345a-aadb-4e07-a920-947c20d83096
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: emily-citizen-oxford-gba.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
+    headers:
+      host: emily-citizen-oxford-gba.trycloudflare.com
 - name: Taiwan_Taipei_hysteria2_151
   type: hysteria2
   server: www.dtku40.xyz
@@ -514,6 +589,11 @@ proxy-groups:
   - United States_Los Angeles_hysteria2_121
   - Taiwan_New Taipei_ss_122
   - United States_Kansas City_ss_131
+  - United States_None_vmess_141
+  - None_None_vmess_142
+  - None_None_vmess_143
+  - United States_None_vmess_144
+  - United States_None_vmess_145
   - Taiwan_Taipei_hysteria2_151
   - Taiwan_New Taipei_hysteria2_161
   - United States_Seattle_ss_171
@@ -555,6 +635,11 @@ proxy-groups:
   - United States_Los Angeles_hysteria2_121
   - Taiwan_New Taipei_ss_122
   - United States_Kansas City_ss_131
+  - United States_None_vmess_141
+  - None_None_vmess_142
+  - None_None_vmess_143
+  - United States_None_vmess_144
+  - United States_None_vmess_145
   - Taiwan_Taipei_hysteria2_151
   - Taiwan_New Taipei_hysteria2_161
   - United States_Seattle_ss_171
