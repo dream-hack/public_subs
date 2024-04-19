@@ -337,7 +337,7 @@ proxies:
     path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
     headers:
       host: emily-citizen-oxford-gba.trycloudflare.com
-- name: Taiwan_Taipei_hysteria2_151
+- name: Taiwan_New Taipei_hysteria2_151
   type: hysteria2
   server: www.dtku40.xyz
   port: 22334
@@ -463,17 +463,17 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Los Angeles_hy_5
+- name: United States_Seattle_hy_5
   type: hysteria
-  server: 167.160.91.117
-  port: 14455
-  ports: 14455
+  server: 64.42.176.179
+  port: 50991
+  ports: 50991
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
   fast-open: true
   protocol: udp
-  sni: bing.com
+  sni: google.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -491,7 +491,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Taiwan_Taipei_hy_7
+- name: Taiwan_New Taipei_hy_7
   type: hysteria
   server: www.dtku40.xyz
   port: 18091
@@ -545,10 +545,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: France_None_hy2_5
+- name: United States_Seattle_hy2_5
   type: hysteria2
-  server: 62.210.103.0
-  port: 22483
+  server: 64.42.176.178
+  port: 50690
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -594,7 +594,7 @@ proxy-groups:
   - None_None_vmess_143
   - United States_None_vmess_144
   - United States_None_vmess_145
-  - Taiwan_Taipei_hysteria2_151
+  - Taiwan_New Taipei_hysteria2_151
   - Taiwan_Taoyuan District_hysteria2_161
   - United States_Seattle_ss_171
   - Taiwan_Taipei_tuic_181
@@ -604,15 +604,15 @@ proxy-groups:
   - France_None_hy_2
   - United States_Kansas City_hy_3
   - United States_Los Angeles_hy_4
-  - United States_Los Angeles_hy_5
+  - United States_Seattle_hy_5
   - France_Paris_hy_6
-  - Taiwan_Taipei_hy_7
+  - Taiwan_New Taipei_hy_7
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
   - United States_Los Angeles_hy2_2
   - United States_Los Angeles_hy2_3
   - United States_Los Angeles_hy2_4
-  - France_None_hy2_5
+  - United States_Seattle_hy2_5
   - France_Paris_hy2_6
   - France_None_hy2_7
 - name: 自动选择
@@ -640,7 +640,7 @@ proxy-groups:
   - None_None_vmess_143
   - United States_None_vmess_144
   - United States_None_vmess_145
-  - Taiwan_Taipei_hysteria2_151
+  - Taiwan_New Taipei_hysteria2_151
   - Taiwan_Taoyuan District_hysteria2_161
   - United States_Seattle_ss_171
   - Taiwan_Taipei_tuic_181
@@ -650,15 +650,15 @@ proxy-groups:
   - France_None_hy_2
   - United States_Kansas City_hy_3
   - United States_Los Angeles_hy_4
-  - United States_Los Angeles_hy_5
+  - United States_Seattle_hy_5
   - France_Paris_hy_6
-  - Taiwan_Taipei_hy_7
+  - Taiwan_New Taipei_hy_7
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
   - United States_Los Angeles_hy2_2
   - United States_Los Angeles_hy2_3
   - United States_Los Angeles_hy2_4
-  - France_None_hy2_5
+  - United States_Seattle_hy2_5
   - France_Paris_hy2_6
   - France_None_hy2_7
 rules:
