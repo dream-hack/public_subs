@@ -289,7 +289,7 @@ proxies:
     path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
     headers:
       host: emily-citizen-oxford-gba.trycloudflare.com
-- name: United States_None_vmess_143
+- name: None_None_vmess_143
   type: vmess
   server: yh2.dtku41.xyz
   port: 8080
@@ -334,7 +334,7 @@ proxies:
     path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
     headers:
       host: emily-citizen-oxford-gba.trycloudflare.com
-- name: Taiwan_New Taipei_tuic_151
+- name: Taiwan_Taipei_tuic_151
   server: www.dtku40.xyz
   port: 33098
   type: tuic
@@ -492,7 +492,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Taiwan_New Taipei_hy_7
+- name: Taiwan_Taipei_hy_7
   type: hysteria
   server: www.dtku40.xyz
   port: 18091
@@ -591,10 +591,10 @@ proxy-groups:
   - United States_Kansas City_ss_131
   - United States_None_vmess_141
   - None_None_vmess_142
-  - United States_None_vmess_143
+  - None_None_vmess_143
   - United States_None_vmess_144
   - None_None_vmess_145
-  - Taiwan_New Taipei_tuic_151
+  - Taiwan_Taipei_tuic_151
   - Taiwan_Taoyuan District_hysteria_161
   - United States_Seattle_ss_171
   - Taiwan_Taipei_tuic_181
@@ -606,7 +606,7 @@ proxy-groups:
   - United States_Los Angeles_hy_4
   - United States_Seattle_hy_5
   - France_Paris_hy_6
-  - Taiwan_New Taipei_hy_7
+  - Taiwan_Taipei_hy_7
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
   - United States_Los Angeles_hy2_2
@@ -636,10 +636,10 @@ proxy-groups:
   - United States_Kansas City_ss_131
   - United States_None_vmess_141
   - None_None_vmess_142
-  - United States_None_vmess_143
+  - None_None_vmess_143
   - United States_None_vmess_144
   - None_None_vmess_145
-  - Taiwan_New Taipei_tuic_151
+  - Taiwan_Taipei_tuic_151
   - Taiwan_Taoyuan District_hysteria_161
   - United States_Seattle_ss_171
   - Taiwan_Taipei_tuic_181
@@ -651,7 +651,7 @@ proxy-groups:
   - United States_Los Angeles_hy_4
   - United States_Seattle_hy_5
   - France_Paris_hy_6
-  - Taiwan_New Taipei_hy_7
+  - Taiwan_Taipei_hy_7
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
   - United States_Los Angeles_hy2_2
