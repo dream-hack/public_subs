@@ -291,7 +291,7 @@ proxies:
       host: emily-citizen-oxford-gba.trycloudflare.com
 - name: None_None_vmess_143
   type: vmess
-  server: yh2.dtku41.xyz
+  server: yh4.dtku41.xyz
   port: 8080
   cipher: auto
   uuid: 01c3345a-aadb-4e07-a920-947c20d83096
