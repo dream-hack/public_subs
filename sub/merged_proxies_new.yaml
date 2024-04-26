@@ -216,7 +216,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Taiwan_Taoyuan District_tuic_111
+- name: Taiwan_Daan_tuic_111
   server: www2.dtku48.xyz
   port: 33993
   type: tuic
@@ -274,7 +274,7 @@ proxies:
     path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
     headers:
       host: emily-citizen-oxford-gba.trycloudflare.com
-- name: The Netherlands_Amsterdam_vmess_142
+- name: None_None_vmess_142
   type: vmess
   server: yh9.dtku41.xyz
   port: 8080
@@ -289,7 +289,7 @@ proxies:
     path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
     headers:
       host: emily-citizen-oxford-gba.trycloudflare.com
-- name: United States_None_vmess_143
+- name: None_None_vmess_143
   type: vmess
   server: yh2.dtku41.xyz
   port: 8080
@@ -346,7 +346,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Taiwan_Taoyuan District_hysteria_161
+- name: Taiwan_Daan_hysteria_161
   type: hysteria
   server: www2.dtku48.xyz
   port: 33449
@@ -586,16 +586,16 @@ proxy-groups:
   - United States_Kansas City_ss_81
   - United States_Kansas City_vless_91
   - France_Paris_tuic_101
-  - Taiwan_Taoyuan District_tuic_111
+  - Taiwan_Daan_tuic_111
   - United States_Los Angeles_hysteria_121
   - United States_Kansas City_ss_131
   - United States_None_vmess_141
-  - The Netherlands_Amsterdam_vmess_142
-  - United States_None_vmess_143
+  - None_None_vmess_142
+  - None_None_vmess_143
   - United States_None_vmess_144
   - None_None_vmess_145
   - Taiwan_Taipei_tuic_151
-  - Taiwan_Taoyuan District_hysteria_161
+  - Taiwan_Daan_hysteria_161
   - United States_Seattle_ss_171
   - Taiwan_Taipei_tuic_181
   - France_Paris_tuic_191
@@ -631,16 +631,16 @@ proxy-groups:
   - United States_Kansas City_ss_81
   - United States_Kansas City_vless_91
   - France_Paris_tuic_101
-  - Taiwan_Taoyuan District_tuic_111
+  - Taiwan_Daan_tuic_111
   - United States_Los Angeles_hysteria_121
   - United States_Kansas City_ss_131
   - United States_None_vmess_141
-  - The Netherlands_Amsterdam_vmess_142
-  - United States_None_vmess_143
+  - None_None_vmess_142
+  - None_None_vmess_143
   - United States_None_vmess_144
   - None_None_vmess_145
   - Taiwan_Taipei_tuic_151
-  - Taiwan_Taoyuan District_hysteria_161
+  - Taiwan_Daan_hysteria_161
   - United States_Seattle_ss_171
   - Taiwan_Taipei_tuic_181
   - France_Paris_tuic_191
