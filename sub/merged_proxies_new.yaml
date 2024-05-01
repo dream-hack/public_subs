@@ -85,7 +85,7 @@ proxies:
     path: /argox-vl?ed=2048
     headers:
       host: giving-hide-provisions-corrected.trycloudflare.com
-- name: United States_None_vless_32
+- name: None_None_vless_32
   type: vless
   server: yh9.dtku41.xyz
   port: 443
@@ -109,7 +109,7 @@ proxies:
     path: /argox-vl?ed=2048
     headers:
       host: giving-hide-provisions-corrected.trycloudflare.com
-- name: None_None_vless_34
+- name: United States_None_vless_34
   type: vless
   server: yh1.dtku41.xyz
   port: 443
@@ -290,7 +290,7 @@ proxies:
     path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
     headers:
       host: emily-citizen-oxford-gba.trycloudflare.com
-- name: United States_None_vmess_142
+- name: None_None_vmess_142
   type: vmess
   server: yh9.dtku41.xyz
   port: 8080
@@ -596,9 +596,9 @@ proxy-groups:
   - United States_Los Angeles_tuic_11
   - United States_Kansas City_vless_21
   - None_None_vless_31
-  - United States_None_vless_32
+  - None_None_vless_32
   - None_None_vless_33
-  - None_None_vless_34
+  - United States_None_vless_34
   - None_None_vmess_41
   - United States_Los Angeles_hysteria_51
   - United States_Kansas City_hysteria2_61
@@ -610,7 +610,7 @@ proxy-groups:
   - United States_Los Angeles_hysteria_121
   - United States_Kansas City_ss_131
   - None_None_vmess_141
-  - United States_None_vmess_142
+  - None_None_vmess_142
   - None_None_vmess_143
   - United States_None_vmess_144
   - None_None_vmess_145
@@ -645,9 +645,9 @@ proxy-groups:
   - United States_Los Angeles_tuic_11
   - United States_Kansas City_vless_21
   - None_None_vless_31
-  - United States_None_vless_32
+  - None_None_vless_32
   - None_None_vless_33
-  - None_None_vless_34
+  - United States_None_vless_34
   - None_None_vmess_41
   - United States_Los Angeles_hysteria_51
   - United States_Kansas City_hysteria2_61
@@ -659,7 +659,7 @@ proxy-groups:
   - United States_Los Angeles_hysteria_121
   - United States_Kansas City_ss_131
   - None_None_vmess_141
-  - United States_None_vmess_142
+  - None_None_vmess_142
   - None_None_vmess_143
   - United States_None_vmess_144
   - None_None_vmess_145
