@@ -85,7 +85,7 @@ proxies:
     path: /argox-vl?ed=2048
     headers:
       host: giving-hide-provisions-corrected.trycloudflare.com
-- name: None_None_vless_32
+- name: The Netherlands_Amsterdam_vless_32
   type: vless
   server: yh9.dtku41.xyz
   port: 443
@@ -123,7 +123,7 @@ proxies:
       host: giving-hide-provisions-corrected.trycloudflare.com
 - name: None_None_vmess_41
   type: vmess
-  server: 104.16.104.34
+  server: yh4.dtku41.xyz
   port: 8080
   cipher: auto
   uuid: ef8c954e-014f-4b36-8273-9b5086afab34
@@ -232,7 +232,19 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Taiwan_Xindian District_tuic_111
+- name: United States_Seattle_tuic_111
+  server: 64.42.176.182
+  port: 61123
+  type: tuic
+  uuid: de954fbf-b042-4043-98f1-3cad99dbbf0b
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: Taiwan_Xindian District_tuic_112
   server: www2.dtku48.xyz
   port: 33993
   type: tuic
@@ -290,7 +302,7 @@ proxies:
     path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
     headers:
       host: emily-citizen-oxford-gba.trycloudflare.com
-- name: None_None_vmess_142
+- name: The Netherlands_Amsterdam_vmess_142
   type: vmess
   server: yh9.dtku41.xyz
   port: 8080
@@ -305,7 +317,7 @@ proxies:
     path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
     headers:
       host: emily-citizen-oxford-gba.trycloudflare.com
-- name: None_None_vmess_143
+- name: United States_None_vmess_143
   type: vmess
   server: yh4.dtku41.xyz
   port: 8080
@@ -320,7 +332,7 @@ proxies:
     path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
     headers:
       host: emily-citizen-oxford-gba.trycloudflare.com
-- name: United States_None_vmess_144
+- name: None_None_vmess_144
   type: vmess
   server: yh1.dtku41.xyz
   port: 8080
@@ -596,7 +608,7 @@ proxy-groups:
   - United States_Los Angeles_tuic_11
   - United States_Kansas City_vless_21
   - None_None_vless_31
-  - None_None_vless_32
+  - The Netherlands_Amsterdam_vless_32
   - None_None_vless_33
   - United States_None_vless_34
   - None_None_vmess_41
@@ -606,13 +618,14 @@ proxy-groups:
   - United States_Kansas City_ss_81
   - United States_Kansas City_vless_91
   - France_Paris_tuic_101
-  - Taiwan_Xindian District_tuic_111
+  - United States_Seattle_tuic_111
+  - Taiwan_Xindian District_tuic_112
   - United States_Los Angeles_hysteria_121
   - United States_Kansas City_ss_131
   - None_None_vmess_141
-  - None_None_vmess_142
-  - None_None_vmess_143
-  - United States_None_vmess_144
+  - The Netherlands_Amsterdam_vmess_142
+  - United States_None_vmess_143
+  - None_None_vmess_144
   - None_None_vmess_145
   - Taiwan_Taipei_tuic_151
   - Taiwan_Xindian District_hysteria_161
@@ -645,7 +658,7 @@ proxy-groups:
   - United States_Los Angeles_tuic_11
   - United States_Kansas City_vless_21
   - None_None_vless_31
-  - None_None_vless_32
+  - The Netherlands_Amsterdam_vless_32
   - None_None_vless_33
   - United States_None_vless_34
   - None_None_vmess_41
@@ -655,13 +668,14 @@ proxy-groups:
   - United States_Kansas City_ss_81
   - United States_Kansas City_vless_91
   - France_Paris_tuic_101
-  - Taiwan_Xindian District_tuic_111
+  - United States_Seattle_tuic_111
+  - Taiwan_Xindian District_tuic_112
   - United States_Los Angeles_hysteria_121
   - United States_Kansas City_ss_131
   - None_None_vmess_141
-  - None_None_vmess_142
-  - None_None_vmess_143
-  - United States_None_vmess_144
+  - The Netherlands_Amsterdam_vmess_142
+  - United States_None_vmess_143
+  - None_None_vmess_144
   - None_None_vmess_145
   - Taiwan_Taipei_tuic_151
   - Taiwan_Xindian District_hysteria_161
