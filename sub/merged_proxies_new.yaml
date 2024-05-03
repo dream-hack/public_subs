@@ -85,7 +85,7 @@ proxies:
     path: /argox-vl?ed=2048
     headers:
       host: giving-hide-provisions-corrected.trycloudflare.com
-- name: The Netherlands_Amsterdam_vless_32
+- name: None_None_vless_32
   type: vless
   server: yh9.dtku41.xyz
   port: 443
@@ -302,7 +302,7 @@ proxies:
     path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
     headers:
       host: emily-citizen-oxford-gba.trycloudflare.com
-- name: The Netherlands_Amsterdam_vmess_142
+- name: None_None_vmess_142
   type: vmess
   server: yh9.dtku41.xyz
   port: 8080
@@ -317,7 +317,7 @@ proxies:
     path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
     headers:
       host: emily-citizen-oxford-gba.trycloudflare.com
-- name: None_None_vmess_143
+- name: United States_None_vmess_143
   type: vmess
   server: yh4.dtku41.xyz
   port: 8080
@@ -608,7 +608,7 @@ proxy-groups:
   - United States_Los Angeles_tuic_11
   - United States_Kansas City_vless_21
   - None_None_vless_31
-  - The Netherlands_Amsterdam_vless_32
+  - None_None_vless_32
   - None_None_vless_33
   - United States_None_vless_34
   - None_None_vmess_41
@@ -623,8 +623,8 @@ proxy-groups:
   - United States_Los Angeles_hysteria_121
   - United States_Kansas City_ss_131
   - None_None_vmess_141
-  - The Netherlands_Amsterdam_vmess_142
-  - None_None_vmess_143
+  - None_None_vmess_142
+  - United States_None_vmess_143
   - None_None_vmess_144
   - None_None_vmess_145
   - Taiwan_Taipei_tuic_151
@@ -658,7 +658,7 @@ proxy-groups:
   - United States_Los Angeles_tuic_11
   - United States_Kansas City_vless_21
   - None_None_vless_31
-  - The Netherlands_Amsterdam_vless_32
+  - None_None_vless_32
   - None_None_vless_33
   - United States_None_vless_34
   - None_None_vmess_41
@@ -673,8 +673,8 @@ proxy-groups:
   - United States_Los Angeles_hysteria_121
   - United States_Kansas City_ss_131
   - None_None_vmess_141
-  - The Netherlands_Amsterdam_vmess_142
-  - None_None_vmess_143
+  - None_None_vmess_142
+  - United States_None_vmess_143
   - None_None_vmess_144
   - None_None_vmess_145
   - Taiwan_Taipei_tuic_151
