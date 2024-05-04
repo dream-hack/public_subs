@@ -75,10 +75,10 @@ proxies:
       down: 55
 - name: None_None_vless_31
   type: vless
-  server: yh7.dtku41.xyz
-  port: 443
+  server: 104.26.9.12
+  port: 80
   uuid: 1a62379a-e160-45a3-8361-3e6b5021d192
-  tls: true
+  tls: false
   servername: giving-hide-provisions-corrected.trycloudflare.com
   network: ws
   ws-opts:
@@ -87,10 +87,10 @@ proxies:
       host: giving-hide-provisions-corrected.trycloudflare.com
 - name: None_None_vless_32
   type: vless
-  server: yh9.dtku41.xyz
-  port: 443
+  server: 104.19.21.24
+  port: 80
   uuid: 1a62379a-e160-45a3-8361-3e6b5021d192
-  tls: true
+  tls: false
   servername: giving-hide-provisions-corrected.trycloudflare.com
   network: ws
   ws-opts:
@@ -99,22 +99,22 @@ proxies:
       host: giving-hide-provisions-corrected.trycloudflare.com
 - name: None_None_vless_33
   type: vless
-  server: yh6.dtku41.xyz
-  port: 443
+  server: 104.26.9.54
+  port: 80
   uuid: 1a62379a-e160-45a3-8361-3e6b5021d192
-  tls: true
+  tls: false
   servername: giving-hide-provisions-corrected.trycloudflare.com
   network: ws
   ws-opts:
     path: /argox-vl?ed=2048
     headers:
       host: giving-hide-provisions-corrected.trycloudflare.com
-- name: United States_None_vless_34
+- name: None_None_vless_34
   type: vless
-  server: yh1.dtku41.xyz
-  port: 443
+  server: 104.19.38.28
+  port: 80
   uuid: 1a62379a-e160-45a3-8361-3e6b5021d192
-  tls: true
+  tls: false
   servername: giving-hide-provisions-corrected.trycloudflare.com
   network: ws
   ws-opts:
@@ -123,7 +123,52 @@ proxies:
       host: giving-hide-provisions-corrected.trycloudflare.com
 - name: None_None_vmess_41
   type: vmess
-  server: yh4.dtku41.xyz
+  server: 104.26.9.22
+  port: 8080
+  cipher: auto
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: dual-nothing-prep-exit.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+    headers:
+      host: dual-nothing-prep-exit.trycloudflare.com
+- name: United States_None_vmess_42
+  type: vmess
+  server: 172.64.97.235
+  port: 8080
+  cipher: auto
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: dual-nothing-prep-exit.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+    headers:
+      host: dual-nothing-prep-exit.trycloudflare.com
+- name: None_None_vmess_43
+  type: vmess
+  server: 104.19.38.28
+  port: 8080
+  cipher: auto
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: dual-nothing-prep-exit.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+    headers:
+      host: dual-nothing-prep-exit.trycloudflare.com
+- name: None_None_vmess_44
+  type: vmess
+  server: 104.19.38.48
   port: 8080
   cipher: auto
   uuid: ef8c954e-014f-4b36-8273-9b5086afab34
@@ -244,7 +289,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Taiwan_Xindian District_tuic_112
+- name: Taiwan_New Taipei_tuic_112
   server: www2.dtku48.xyz
   port: 33993
   type: tuic
@@ -289,7 +334,7 @@ proxies:
       down: 55
 - name: None_None_vmess_141
   type: vmess
-  server: yh7.dtku41.xyz
+  server: 104.26.9.16
   port: 8080
   cipher: auto
   uuid: 01c3345a-aadb-4e07-a920-947c20d83096
@@ -304,7 +349,7 @@ proxies:
       host: emily-citizen-oxford-gba.trycloudflare.com
 - name: None_None_vmess_142
   type: vmess
-  server: yh9.dtku41.xyz
+  server: 104.19.21.44
   port: 8080
   cipher: auto
   uuid: 01c3345a-aadb-4e07-a920-947c20d83096
@@ -317,9 +362,9 @@ proxies:
     path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
     headers:
       host: emily-citizen-oxford-gba.trycloudflare.com
-- name: United States_None_vmess_143
+- name: None_None_vmess_143
   type: vmess
-  server: yh4.dtku41.xyz
+  server: 104.26.9.51
   port: 8080
   cipher: auto
   uuid: 01c3345a-aadb-4e07-a920-947c20d83096
@@ -334,7 +379,7 @@ proxies:
       host: emily-citizen-oxford-gba.trycloudflare.com
 - name: None_None_vmess_144
   type: vmess
-  server: yh1.dtku41.xyz
+  server: 104.19.38.128
   port: 8080
   cipher: auto
   uuid: 01c3345a-aadb-4e07-a920-947c20d83096
@@ -347,9 +392,9 @@ proxies:
     path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
     headers:
       host: emily-citizen-oxford-gba.trycloudflare.com
-- name: None_None_vmess_145
+- name: United States_None_vmess_145
   type: vmess
-  server: yh6.dtku41.xyz
+  server: yh4.dtku41.xyz
   port: 8080
   cipher: auto
   uuid: 01c3345a-aadb-4e07-a920-947c20d83096
@@ -374,7 +419,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Taiwan_Xindian District_hysteria_161
+- name: Taiwan_New Taipei_hysteria_161
   type: hysteria
   server: www2.dtku48.xyz
   port: 33449
@@ -610,8 +655,11 @@ proxy-groups:
   - None_None_vless_31
   - None_None_vless_32
   - None_None_vless_33
-  - United States_None_vless_34
+  - None_None_vless_34
   - None_None_vmess_41
+  - United States_None_vmess_42
+  - None_None_vmess_43
+  - None_None_vmess_44
   - United States_Los Angeles_hysteria_51
   - United States_Kansas City_hysteria2_61
   - United States_Kansas City_ss_71
@@ -619,16 +667,16 @@ proxy-groups:
   - United States_Kansas City_vless_91
   - France_Paris_tuic_101
   - United States_Seattle_tuic_111
-  - Taiwan_Xindian District_tuic_112
+  - Taiwan_New Taipei_tuic_112
   - United States_Los Angeles_hysteria_121
   - United States_Kansas City_ss_131
   - None_None_vmess_141
   - None_None_vmess_142
-  - United States_None_vmess_143
+  - None_None_vmess_143
   - None_None_vmess_144
-  - None_None_vmess_145
+  - United States_None_vmess_145
   - Taiwan_Taipei_tuic_151
-  - Taiwan_Xindian District_hysteria_161
+  - Taiwan_New Taipei_hysteria_161
   - United States_Seattle_ss_171
   - Taiwan_Taipei_tuic_181
   - France_Paris_tuic_191
@@ -660,8 +708,11 @@ proxy-groups:
   - None_None_vless_31
   - None_None_vless_32
   - None_None_vless_33
-  - United States_None_vless_34
+  - None_None_vless_34
   - None_None_vmess_41
+  - United States_None_vmess_42
+  - None_None_vmess_43
+  - None_None_vmess_44
   - United States_Los Angeles_hysteria_51
   - United States_Kansas City_hysteria2_61
   - United States_Kansas City_ss_71
@@ -669,16 +720,16 @@ proxy-groups:
   - United States_Kansas City_vless_91
   - France_Paris_tuic_101
   - United States_Seattle_tuic_111
-  - Taiwan_Xindian District_tuic_112
+  - Taiwan_New Taipei_tuic_112
   - United States_Los Angeles_hysteria_121
   - United States_Kansas City_ss_131
   - None_None_vmess_141
   - None_None_vmess_142
-  - United States_None_vmess_143
+  - None_None_vmess_143
   - None_None_vmess_144
-  - None_None_vmess_145
+  - United States_None_vmess_145
   - Taiwan_Taipei_tuic_151
-  - Taiwan_Xindian District_hysteria_161
+  - Taiwan_New Taipei_hysteria_161
   - United States_Seattle_ss_171
   - Taiwan_Taipei_tuic_181
   - France_Paris_tuic_191
