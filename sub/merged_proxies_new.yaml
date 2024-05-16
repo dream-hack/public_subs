@@ -337,76 +337,76 @@ proxies:
   server: 104.26.9.16
   port: 8080
   cipher: auto
-  uuid: 01c3345a-aadb-4e07-a920-947c20d83096
+  uuid: 4dd80463-21bf-4b95-8cd5-37f1f38cc494
   alterId: 0
   tls: false
   skip-cert-verify: true
-  servername: emily-citizen-oxford-gba.trycloudflare.com
+  servername: playstation-january-rt-semiconductor.trycloudflare.com
   network: ws
   ws-opts:
-    path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
+    path: /argox-vm?ed=2048
     headers:
-      host: emily-citizen-oxford-gba.trycloudflare.com
+      host: playstation-january-rt-semiconductor.trycloudflare.com
 - name: None_None_vmess_142
   type: vmess
   server: 104.19.21.44
   port: 8080
   cipher: auto
-  uuid: 01c3345a-aadb-4e07-a920-947c20d83096
+  uuid: 4dd80463-21bf-4b95-8cd5-37f1f38cc494
   alterId: 0
   tls: false
   skip-cert-verify: true
-  servername: emily-citizen-oxford-gba.trycloudflare.com
+  servername: playstation-january-rt-semiconductor.trycloudflare.com
   network: ws
   ws-opts:
-    path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
+    path: /argox-vm?ed=2048
     headers:
-      host: emily-citizen-oxford-gba.trycloudflare.com
+      host: playstation-january-rt-semiconductor.trycloudflare.com
 - name: None_None_vmess_143
   type: vmess
   server: 104.26.9.51
   port: 8080
   cipher: auto
-  uuid: 01c3345a-aadb-4e07-a920-947c20d83096
+  uuid: 4dd80463-21bf-4b95-8cd5-37f1f38cc494
   alterId: 0
   tls: false
   skip-cert-verify: true
-  servername: emily-citizen-oxford-gba.trycloudflare.com
+  servername: playstation-january-rt-semiconductor.trycloudflare.com
   network: ws
   ws-opts:
-    path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
+    path: /argox-vm?ed=2048
     headers:
-      host: emily-citizen-oxford-gba.trycloudflare.com
+      host: playstation-january-rt-semiconductor.trycloudflare.com
 - name: None_None_vmess_144
   type: vmess
   server: 104.19.38.128
   port: 8080
   cipher: auto
-  uuid: 01c3345a-aadb-4e07-a920-947c20d83096
+  uuid: 4dd80463-21bf-4b95-8cd5-37f1f38cc494
   alterId: 0
   tls: false
   skip-cert-verify: true
-  servername: emily-citizen-oxford-gba.trycloudflare.com
+  servername: playstation-january-rt-semiconductor.trycloudflare.com
   network: ws
   ws-opts:
-    path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
+    path: /argox-vm?ed=2048
     headers:
-      host: emily-citizen-oxford-gba.trycloudflare.com
+      host: playstation-january-rt-semiconductor.trycloudflare.com
 - name: None_None_vmess_145
   type: vmess
   server: yh4.dtku41.xyz
   port: 8080
   cipher: auto
-  uuid: 01c3345a-aadb-4e07-a920-947c20d83096
+  uuid: 4dd80463-21bf-4b95-8cd5-37f1f38cc494
   alterId: 0
   tls: false
   skip-cert-verify: true
-  servername: emily-citizen-oxford-gba.trycloudflare.com
+  servername: playstation-january-rt-semiconductor.trycloudflare.com
   network: ws
   ws-opts:
-    path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
+    path: /argox-vm?ed=2048
     headers:
-      host: emily-citizen-oxford-gba.trycloudflare.com
+      host: playstation-january-rt-semiconductor.trycloudflare.com
 - name: Taiwan_Taipei_tuic_151
   server: www.dtku40.xyz
   port: 33098
