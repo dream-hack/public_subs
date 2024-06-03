@@ -435,9 +435,9 @@ proxies:
 - name: United States_Seattle_ss_171
   type: ss
   server: 62.204.54.81
-  port: 33221
+  port: 33556
   cipher: 2022-blake3-chacha20-poly1305
-  password: cNoeQiREIlGx+U/pFoRG126lD9U1RT1zkXjei2UaT2w=
+  password: mfhZAx4akAoFHLkfGO0btGBAOP9PVqDHRGI6h2uExpk=
   plugin: shadow-tls
   plugin-opts:
     host: nijigen-works.jp
