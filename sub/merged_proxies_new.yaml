@@ -432,18 +432,20 @@ proxies:
   up: 11
   down: 55
   hop_interval: 10
-- name: United States_Seattle_ss_171
-  type: ss
+- name: United States_Seattle_hysteria_171
+  type: hysteria
   server: 62.204.54.81
-  port: 33556
-  cipher: 2022-blake3-chacha20-poly1305
-  password: mfhZAx4akAoFHLkfGO0btGBAOP9PVqDHRGI6h2uExpk=
-  plugin: shadow-tls
-  plugin-opts:
-    host: nijigen-works.jp
-    password: lhWGKo/dJHvvMKzuhWX2v1GRIoUOuFb6wCkPLxR2uIk=
-    version: 3
-- name: Taiwan_Taipei City_tuic_181
+  port: 34555
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  auth_str: dongtaiwang.com
+  up: 11
+  down: 55
+  hop_interval: 10
+- name: Taiwan_Keelung_tuic_181
   server: www.dtku50.xyz
   port: 22335
   type: tuic
@@ -677,8 +679,8 @@ proxy-groups:
   - None_None_vmess_145
   - Taiwan_Taipei_tuic_151
   - Taiwan_New Taipei_hysteria_161
-  - United States_Seattle_ss_171
-  - Taiwan_Taipei City_tuic_181
+  - United States_Seattle_hysteria_171
+  - Taiwan_Keelung_tuic_181
   - France_Paris_tuic_191
   - United States_Los Angeles_hy_0
   - France_None_hy_1
@@ -730,8 +732,8 @@ proxy-groups:
   - None_None_vmess_145
   - Taiwan_Taipei_tuic_151
   - Taiwan_New Taipei_hysteria_161
-  - United States_Seattle_ss_171
-  - Taiwan_Taipei City_tuic_181
+  - United States_Seattle_hysteria_171
+  - Taiwan_Keelung_tuic_181
   - France_Paris_tuic_191
   - United States_Los Angeles_hy_0
   - France_None_hy_1
