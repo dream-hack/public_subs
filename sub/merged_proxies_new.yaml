@@ -445,7 +445,7 @@ proxies:
   up: 11
   down: 55
   hop_interval: 10
-- name: Taiwan_Keelung_tuic_181
+- name: Taiwan_Taipei_tuic_181
   server: www.dtku50.xyz
   port: 22335
   type: tuic
@@ -680,7 +680,7 @@ proxy-groups:
   - Taiwan_Taipei_tuic_151
   - Taiwan_New Taipei_hysteria_161
   - United States_Seattle_hysteria_171
-  - Taiwan_Keelung_tuic_181
+  - Taiwan_Taipei_tuic_181
   - France_Paris_tuic_191
   - United States_Los Angeles_hy_0
   - France_None_hy_1
@@ -733,7 +733,7 @@ proxy-groups:
   - Taiwan_Taipei_tuic_151
   - Taiwan_New Taipei_hysteria_161
   - United States_Seattle_hysteria_171
-  - Taiwan_Keelung_tuic_181
+  - Taiwan_Taipei_tuic_181
   - France_Paris_tuic_191
   - United States_Los Angeles_hy_0
   - France_None_hy_1
