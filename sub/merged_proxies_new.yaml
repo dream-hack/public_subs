@@ -265,18 +265,19 @@ proxies:
       enabled: true
       up: 11
       down: 55
-- name: France_Paris_tuic_101
-  server: 51.159.199.102
-  port: 33008
-  type: tuic
-  uuid: df19a216-8317-4890-829c-a8b7717d53d6
-  password: dongtaiwang.com
+- name: United States_Seattle_hysteria_101
+  type: hysteria
+  server: 64.42.176.181
+  port: 41604
+  sni: bing.com
+  skip-cert-verify: true
   alpn:
   - h3
-  disable-sni: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
+  protocol: udp
+  auth_str: dongtaiwang.com
+  up: 11
+  down: 55
+  hop_interval: 10
 - name: United States_Seattle_tuic_111
   server: 64.42.176.182
   port: 61123
@@ -541,15 +542,15 @@ proxies:
   - h3
 - name: United States_Seattle_hy_5
   type: hysteria
-  server: 64.42.176.179
-  port: 50991
-  ports: 50991
+  server: 64.42.176.181
+  port: 41604
+  ports: 41604
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
   fast-open: true
   protocol: udp
-  sni: google.com
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -667,7 +668,7 @@ proxy-groups:
   - United States_Kansas City_ss_71
   - United States_Kansas City_ss_81
   - United States_Kansas City_vless_91
-  - France_Paris_tuic_101
+  - United States_Seattle_hysteria_101
   - United States_Seattle_tuic_111
   - Taiwan_New Taipei_tuic_112
   - United States_Los Angeles_hysteria_121
@@ -720,7 +721,7 @@ proxy-groups:
   - United States_Kansas City_ss_71
   - United States_Kansas City_ss_81
   - United States_Kansas City_vless_91
-  - France_Paris_tuic_101
+  - United States_Seattle_hysteria_101
   - United States_Seattle_tuic_111
   - Taiwan_New Taipei_tuic_112
   - United States_Los Angeles_hysteria_121
