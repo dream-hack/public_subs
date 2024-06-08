@@ -458,11 +458,11 @@ proxies:
   up: 11
   down: 55
   hop_interval: 10
-- name: Taiwan_Taipei_tuic_181
-  server: www.dtku50.xyz
-  port: 22335
+- name: United States_Los Angeles_tuic_181
+  server: 64.110.25.12
+  port: 22447
   type: tuic
-  uuid: ef634e71-99e1-4a08-ac38-a3a5d1db4188
+  uuid: 6681e414-d1ad-49e8-8a1a-3cf8707059bd
   password: dongtaiwang.com
   alpn:
   - h3
@@ -693,7 +693,7 @@ proxy-groups:
   - Taiwan_Taipei_tuic_151
   - United States_Seattle_hysteria_161
   - Taiwan_New Taipei_hysteria_171
-  - Taiwan_Taipei_tuic_181
+  - United States_Los Angeles_tuic_181
   - France_Paris_tuic_191
   - United States_Los Angeles_hy_0
   - France_None_hy_1
@@ -746,7 +746,7 @@ proxy-groups:
   - Taiwan_Taipei_tuic_151
   - United States_Seattle_hysteria_161
   - Taiwan_New Taipei_hysteria_171
-  - Taiwan_Taipei_tuic_181
+  - United States_Los Angeles_tuic_181
   - France_Paris_tuic_191
   - United States_Los Angeles_hy_0
   - France_None_hy_1
