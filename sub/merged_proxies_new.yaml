@@ -432,10 +432,10 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Taiwan_New Taipei_hysteria_161
+- name: United States_Seattle_hysteria_161
   type: hysteria
-  server: www2.dtku48.xyz
-  port: 33449
+  server: 62.204.54.81
+  port: 34555
   sni: bing.com
   skip-cert-verify: true
   alpn:
@@ -445,10 +445,10 @@ proxies:
   up: 11
   down: 55
   hop_interval: 10
-- name: United States_Seattle_hysteria_171
+- name: Taiwan_New Taipei_hysteria_171
   type: hysteria
-  server: 62.204.54.81
-  port: 34555
+  server: www2.dtku48.xyz
+  port: 33449
   sni: bing.com
   skip-cert-verify: true
   alpn:
@@ -691,8 +691,8 @@ proxy-groups:
   - None_None_vmess_144
   - None_None_vmess_145
   - Taiwan_Taipei_tuic_151
-  - Taiwan_New Taipei_hysteria_161
-  - United States_Seattle_hysteria_171
+  - United States_Seattle_hysteria_161
+  - Taiwan_New Taipei_hysteria_171
   - Taiwan_Taipei_tuic_181
   - France_Paris_tuic_191
   - United States_Los Angeles_hy_0
@@ -744,8 +744,8 @@ proxy-groups:
   - None_None_vmess_144
   - None_None_vmess_145
   - Taiwan_Taipei_tuic_151
-  - Taiwan_New Taipei_hysteria_161
-  - United States_Seattle_hysteria_171
+  - United States_Seattle_hysteria_161
+  - Taiwan_New Taipei_hysteria_171
   - Taiwan_Taipei_tuic_181
   - France_Paris_tuic_191
   - United States_Los Angeles_hy_0
