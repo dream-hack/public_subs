@@ -35,11 +35,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip001.dtku47.xyz
+  servername: ip001.freegradely.xyz
   ws-opts:
     path: /9aqOiXD2/
     headers:
-      Host: ip001.dtku47.xyz
+      Host: ip001.freegradely.xyz
 - name: United States_San Francisco_vmess_02
   type: vmess
   server: 172.64.169.160
@@ -50,11 +50,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip001.dtku47.xyz
+  servername: ip001.freegradely.xyz
   ws-opts:
     path: /9aqOiXD2/
     headers:
-      Host: ip001.dtku47.xyz
+      Host: ip001.freegradely.xyz
 - name: None_None_vmess_03
   type: vmess
   server: 162.159.128.118
@@ -65,11 +65,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip001.dtku47.xyz
+  servername: ip001.freegradely.xyz
   ws-opts:
     path: /9aqOiXD2/
     headers:
-      Host: ip001.dtku47.xyz
+      Host: ip001.freegradely.xyz
 - name: None_None_vmess_04
   type: vmess
   server: 104.19.38.12
@@ -80,11 +80,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip001.dtku47.xyz
+  servername: ip001.freegradely.xyz
   ws-opts:
     path: /9aqOiXD2/
     headers:
-      Host: ip001.dtku47.xyz
+      Host: ip001.freegradely.xyz
 - name: None_None_vmess_11
   type: vmess
   server: fbi.gov
@@ -95,11 +95,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip002.dtku47.xyz
+  servername: ip002.freegradely.xyz
   ws-opts:
     path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
     headers:
-      Host: ip002.dtku47.xyz
+      Host: ip002.freegradely.xyz
 - name: None_None_vmess_12
   type: vmess
   server: 162.159.136.33
@@ -110,11 +110,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip002.dtku47.xyz
+  servername: ip002.freegradely.xyz
   ws-opts:
     path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
     headers:
-      Host: ip002.dtku47.xyz
+      Host: ip002.freegradely.xyz
 - name: None_None_vmess_13
   type: vmess
   server: 104.19.51.232
@@ -125,11 +125,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip002.dtku47.xyz
+  servername: ip002.freegradely.xyz
   ws-opts:
     path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
     headers:
-      Host: ip002.dtku47.xyz
+      Host: ip002.freegradely.xyz
 - name: None_None_vmess_14
   type: vmess
   server: 104.19.38.62
@@ -140,11 +140,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip002.dtku47.xyz
+  servername: ip002.freegradely.xyz
   ws-opts:
     path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
     headers:
-      Host: ip002.dtku47.xyz
+      Host: ip002.freegradely.xyz
 - name: United States_Kansas City_vless_21
   type: vless
   server: 109.104.152.101
@@ -179,11 +179,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip002.dtku47.xyz
+  servername: ip002.freegradely.xyz
   ws-opts:
     path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
     headers:
-      Host: ip002.dtku47.xyz
+      Host: ip002.freegradely.xyz
 - name: None_None_vmess_32
   type: vmess
   server: 162.159.136.33
@@ -194,11 +194,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip002.dtku47.xyz
+  servername: ip002.freegradely.xyz
   ws-opts:
     path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
     headers:
-      Host: ip002.dtku47.xyz
+      Host: ip002.freegradely.xyz
 - name: None_None_vmess_33
   type: vmess
   server: fbi.gov
@@ -209,11 +209,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip002.dtku47.xyz
+  servername: ip002.freegradely.xyz
   ws-opts:
     path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
     headers:
-      Host: ip002.dtku47.xyz
+      Host: ip002.freegradely.xyz
 - name: None_None_vmess_34
   type: vmess
   server: 104.19.38.62
@@ -224,11 +224,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip002.dtku47.xyz
+  servername: ip002.freegradely.xyz
   ws-opts:
     path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
     headers:
-      Host: ip002.dtku47.xyz
+      Host: ip002.freegradely.xyz
 - name: None_None_vmess_41
   type: vmess
   server: 104.26.9.22
@@ -359,11 +359,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.dtku47.xyz
+  servername: ip5.freegradely.xyz
   ws-opts:
     path: /WNh8bXQv/
     headers:
-      Host: ip5.dtku47.xyz
+      Host: ip5.freegradely.xyz
 - name: None_None_vmess_62
   type: vmess
   server: 162.159.136.208
@@ -374,11 +374,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.dtku47.xyz
+  servername: ip5.freegradely.xyz
   ws-opts:
     path: /WNh8bXQv/
     headers:
-      Host: ip5.dtku47.xyz
+      Host: ip5.freegradely.xyz
 - name: United States_San Francisco_vmess_63
   type: vmess
   server: 172.64.144.66
@@ -389,11 +389,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.dtku47.xyz
+  servername: ip5.freegradely.xyz
   ws-opts:
     path: /WNh8bXQv/
     headers:
-      Host: ip5.dtku47.xyz
+      Host: ip5.freegradely.xyz
 - name: None_None_vmess_64
   type: vmess
   server: 104.19.38.88
@@ -404,11 +404,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.dtku47.xyz
+  servername: ip5.freegradely.xyz
   ws-opts:
     path: /WNh8bXQv/
     headers:
-      Host: ip5.dtku47.xyz
+      Host: ip5.freegradely.xyz
 - name: United States_Kansas City_ss_71
   type: ss
   server: 109.104.152.186
@@ -571,24 +571,18 @@ proxies:
     path: /WNh8bXQv/
     headers:
       Host: ip5.dtku47.xyz
-- name: United States_Kansas City_ss_131
-  type: ss
-  server: 109.104.152.186
-  port: 11223
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 7/bb9x3TJQ4Y5SRA/Al3OdwxIk4uf3Jg8N9wDQg+Uto=
-  smux:
-    enabled: true
-    protocol: smux
-    max-connections: 1
-    min-streams: 4
-    statistic: false
-    only-tcp: false
-    padding: true
-    brutal-opts:
-      enabled: true
-      up: 11
-      down: 55
+- name: France_Paris_tuic_131
+  server: 51.159.77.153
+  port: 44559
+  type: tuic
+  uuid: 2f8f3873-9edf-4c4e-9888-b8a8b2d9d809
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: Taiwan_Hsinchu_tuic_141
   server: www.dtku40.xyz
   port: 33098
@@ -880,7 +874,7 @@ proxy-groups:
   - None_None_vmess_122
   - None_None_vmess_123
   - None_None_vmess_124
-  - United States_Kansas City_ss_131
+  - France_Paris_tuic_131
   - Taiwan_Hsinchu_tuic_141
   - Taiwan_Hsinchu_tuic_151
   - United States_Seattle_hysteria_161
@@ -944,7 +938,7 @@ proxy-groups:
   - None_None_vmess_122
   - None_None_vmess_123
   - None_None_vmess_124
-  - United States_Kansas City_ss_131
+  - France_Paris_tuic_131
   - Taiwan_Hsinchu_tuic_141
   - Taiwan_Hsinchu_tuic_151
   - United States_Seattle_hysteria_161
