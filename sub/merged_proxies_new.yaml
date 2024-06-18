@@ -55,9 +55,9 @@ proxies:
     path: /9aqOiXD2/
     headers:
       Host: ip001.freegradely.xyz
-- name: None_None_vmess_03
+- name: Canada_Ottawa_vmess_03
   type: vmess
-  server: 162.159.128.118
+  server: 23.227.38.3
   port: 8080
   uuid: ffaba3ee-4070-4590-9959-d863f9a4c6de
   alterId: 0
@@ -100,9 +100,9 @@ proxies:
     path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
     headers:
       Host: ip002.freegradely.xyz
-- name: None_None_vmess_12
+- name: Canada_Ottawa_vmess_12
   type: vmess
-  server: 162.159.136.33
+  server: 23.227.38.6
   port: 2086
   uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
   alterId: 0
@@ -184,9 +184,9 @@ proxies:
     path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
     headers:
       Host: ip002.freegradely.xyz
-- name: None_None_vmess_32
+- name: Canada_Ottawa_vmess_32
   type: vmess
-  server: 162.159.136.33
+  server: 23.227.38.5
   port: 2086
   uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
   alterId: 0
@@ -259,9 +259,9 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
     headers:
       host: luther-soon-uploaded-anxiety.trycloudflare.com
-- name: None_None_vmess_43
+- name: Canada_Ottawa_vmess_43
   type: vmess
-  server: 104.19.38.28
+  server: 23.227.38.7
   port: 8080
   cipher: auto
   uuid: ef8c954e-014f-4b36-8273-9b5086afab34
@@ -304,9 +304,9 @@ proxies:
     path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
     headers:
       Host: remaining-criminal-douglas-idol.trycloudflare.com
-- name: None_None_vmess_52
+- name: Canada_Ottawa_vmess_52
   type: vmess
-  server: 162.159.136.23
+  server: 23.227.38.3
   port: 8880
   uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
   alterId: 0
@@ -351,7 +351,7 @@ proxies:
       Host: remaining-criminal-douglas-idol.trycloudflare.com
 - name: None_None_vmess_61
   type: vmess
-  server: 162.159.129.111
+  server: 104.16.149.222
   port: 2095
   uuid: e9555d84-a146-4e36-9c23-eac28387be48
   alterId: 0
@@ -364,9 +364,9 @@ proxies:
     path: /WNh8bXQv/
     headers:
       Host: ip5.freegradely.xyz
-- name: None_None_vmess_62
+- name: Canada_Ottawa_vmess_62
   type: vmess
-  server: 162.159.136.208
+  server: 23.227.38.8
   port: 2095
   uuid: e9555d84-a146-4e36-9c23-eac28387be48
   alterId: 0
@@ -583,7 +583,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Taiwan_Hsinchu_tuic_141
+- name: Taiwan_Banqiao_tuic_141
   server: www.dtku40.xyz
   port: 33098
   type: tuic
@@ -595,7 +595,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Taiwan_Hsinchu_tuic_151
+- name: Taiwan_Banqiao_tuic_151
   server: www.dtku40.xyz
   port: 33098
   type: tuic
@@ -755,7 +755,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Taiwan_Hsinchu_hy_7
+- name: Taiwan_Banqiao_hy_7
   type: hysteria
   server: www.dtku40.xyz
   port: 18091
@@ -841,27 +841,27 @@ proxy-groups:
   - DIRECT
   - None_None_vmess_01
   - United States_San Francisco_vmess_02
-  - None_None_vmess_03
+  - Canada_Ottawa_vmess_03
   - None_None_vmess_04
   - None_None_vmess_11
-  - None_None_vmess_12
+  - Canada_Ottawa_vmess_12
   - None_None_vmess_13
   - None_None_vmess_14
   - United States_Kansas City_vless_21
   - None_None_vmess_31
-  - None_None_vmess_32
+  - Canada_Ottawa_vmess_32
   - None_None_vmess_33
   - None_None_vmess_34
   - None_None_vmess_41
   - United States_None_vmess_42
-  - None_None_vmess_43
+  - Canada_Ottawa_vmess_43
   - None_None_vmess_44
   - None_None_vmess_51
-  - None_None_vmess_52
+  - Canada_Ottawa_vmess_52
   - None_None_vmess_53
   - None_None_vmess_54
   - None_None_vmess_61
-  - None_None_vmess_62
+  - Canada_Ottawa_vmess_62
   - United States_San Francisco_vmess_63
   - None_None_vmess_64
   - United States_Kansas City_ss_71
@@ -875,8 +875,8 @@ proxy-groups:
   - None_None_vmess_123
   - None_None_vmess_124
   - France_Paris_tuic_131
-  - Taiwan_Hsinchu_tuic_141
-  - Taiwan_Hsinchu_tuic_151
+  - Taiwan_Banqiao_tuic_141
+  - Taiwan_Banqiao_tuic_151
   - United States_Seattle_hysteria_161
   - Taiwan_New Taipei_hysteria_171
   - United States_Los Angeles_tuic_181
@@ -888,7 +888,7 @@ proxy-groups:
   - United States_Los Angeles_hy_4
   - United States_Seattle_hy_5
   - France_Paris_hy_6
-  - Taiwan_Hsinchu_hy_7
+  - Taiwan_Banqiao_hy_7
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
   - United States_Los Angeles_hy2_2
@@ -905,27 +905,27 @@ proxy-groups:
   proxies:
   - None_None_vmess_01
   - United States_San Francisco_vmess_02
-  - None_None_vmess_03
+  - Canada_Ottawa_vmess_03
   - None_None_vmess_04
   - None_None_vmess_11
-  - None_None_vmess_12
+  - Canada_Ottawa_vmess_12
   - None_None_vmess_13
   - None_None_vmess_14
   - United States_Kansas City_vless_21
   - None_None_vmess_31
-  - None_None_vmess_32
+  - Canada_Ottawa_vmess_32
   - None_None_vmess_33
   - None_None_vmess_34
   - None_None_vmess_41
   - United States_None_vmess_42
-  - None_None_vmess_43
+  - Canada_Ottawa_vmess_43
   - None_None_vmess_44
   - None_None_vmess_51
-  - None_None_vmess_52
+  - Canada_Ottawa_vmess_52
   - None_None_vmess_53
   - None_None_vmess_54
   - None_None_vmess_61
-  - None_None_vmess_62
+  - Canada_Ottawa_vmess_62
   - United States_San Francisco_vmess_63
   - None_None_vmess_64
   - United States_Kansas City_ss_71
@@ -939,8 +939,8 @@ proxy-groups:
   - None_None_vmess_123
   - None_None_vmess_124
   - France_Paris_tuic_131
-  - Taiwan_Hsinchu_tuic_141
-  - Taiwan_Hsinchu_tuic_151
+  - Taiwan_Banqiao_tuic_141
+  - Taiwan_Banqiao_tuic_151
   - United States_Seattle_hysteria_161
   - Taiwan_New Taipei_hysteria_171
   - United States_Los Angeles_tuic_181
@@ -952,7 +952,7 @@ proxy-groups:
   - United States_Los Angeles_hy_4
   - United States_Seattle_hy_5
   - France_Paris_hy_6
-  - Taiwan_Hsinchu_hy_7
+  - Taiwan_Banqiao_hy_7
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
   - United States_Los Angeles_hy2_2
