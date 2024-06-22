@@ -40,9 +40,9 @@ proxies:
     path: e9e3cc13-db48-4cc1-8c24-7626439a5339-vm
     headers:
       Host: ip11.freegradely.xyz
-- name: United States_San Francisco_vmess_02
+- name: None_None_vmess_02
   type: vmess
-  server: 172.64.169.160
+  server: 104.26.0.56
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
@@ -379,9 +379,9 @@ proxies:
     path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
     headers:
       Host: ip5-4.freegradely.xyz
-- name: United States_San Francisco_vmess_63
+- name: None_None_vmess_63
   type: vmess
-  server: 172.64.144.66
+  server: 104.26.0.50
   port: 2086
   uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
   alterId: 0
@@ -524,9 +524,9 @@ proxies:
     path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
     headers:
       Host: ip5-5.freegradely.xyz
-- name: United States_San Francisco_vmess_123
+- name: None_None_vmess_123
   type: vmess
-  server: 172.64.144.66
+  server: 104.26.0.46
   port: 2086
   uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
   alterId: 0
@@ -823,7 +823,7 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - None_None_vmess_01
-  - United States_San Francisco_vmess_02
+  - None_None_vmess_02
   - Canada_Ottawa_vmess_03
   - None_None_vmess_04
   - None_None_vmess_11
@@ -845,7 +845,7 @@ proxy-groups:
   - None_None_vmess_54
   - None_None_vmess_61
   - Canada_Ottawa_vmess_62
-  - United States_San Francisco_vmess_63
+  - None_None_vmess_63
   - None_None_vmess_64
   - United States_Kansas City_tuic_71
   - United States_Kansas City_tuic_81
@@ -855,7 +855,7 @@ proxy-groups:
   - Taiwan_New Taipei_tuic_112
   - None_None_vmess_121
   - Canada_Ottawa_vmess_122
-  - United States_San Francisco_vmess_123
+  - None_None_vmess_123
   - None_None_vmess_124
   - France_Paris_tuic_131
   - Taiwan_Banqiao_tuic_141
@@ -887,7 +887,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - None_None_vmess_01
-  - United States_San Francisco_vmess_02
+  - None_None_vmess_02
   - Canada_Ottawa_vmess_03
   - None_None_vmess_04
   - None_None_vmess_11
@@ -909,7 +909,7 @@ proxy-groups:
   - None_None_vmess_54
   - None_None_vmess_61
   - Canada_Ottawa_vmess_62
-  - United States_San Francisco_vmess_63
+  - None_None_vmess_63
   - None_None_vmess_64
   - United States_Kansas City_tuic_71
   - United States_Kansas City_tuic_81
@@ -919,7 +919,7 @@ proxy-groups:
   - Taiwan_New Taipei_tuic_112
   - None_None_vmess_121
   - Canada_Ottawa_vmess_122
-  - United States_San Francisco_vmess_123
+  - None_None_vmess_123
   - None_None_vmess_124
   - France_Paris_tuic_131
   - Taiwan_Banqiao_tuic_141
