@@ -37,7 +37,7 @@ proxies:
   network: ws
   servername: ip11.freegradely.xyz
   ws-opts:
-    path: e9e3cc13-db48-4cc1-8c24-7626439a5339-vm
+    path: github.com/Alvin9999
     headers:
       Host: ip11.freegradely.xyz
 - name: None_None_vmess_02
@@ -52,7 +52,7 @@ proxies:
   network: ws
   servername: ip11.freegradely.xyz
   ws-opts:
-    path: e9e3cc13-db48-4cc1-8c24-7626439a5339-vm
+    path: github.com/Alvin9999
     headers:
       Host: ip11.freegradely.xyz
 - name: Canada_Ottawa_vmess_03
@@ -67,7 +67,7 @@ proxies:
   network: ws
   servername: ip11.freegradely.xyz
   ws-opts:
-    path: e9e3cc13-db48-4cc1-8c24-7626439a5339-vm
+    path: github.com/Alvin9999
     headers:
       Host: ip11.freegradely.xyz
 - name: None_None_vmess_04
@@ -82,7 +82,7 @@ proxies:
   network: ws
   servername: ip11.freegradely.xyz
   ws-opts:
-    path: e9e3cc13-db48-4cc1-8c24-7626439a5339-vm
+    path: github.com/Alvin9999
     headers:
       Host: ip11.freegradely.xyz
 - name: None_None_vmess_11
@@ -97,7 +97,7 @@ proxies:
   network: ws
   servername: ip002-2.dtku47.xyz
   ws-opts:
-    path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
+    path: github.com/Alvin9999
     headers:
       Host: ip002-2.dtku47.xyz
 - name: Canada_Ottawa_vmess_12
@@ -112,7 +112,7 @@ proxies:
   network: ws
   servername: ip002-2.dtku47.xyz
   ws-opts:
-    path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
+    path: github.com/Alvin9999
     headers:
       Host: ip002-2.dtku47.xyz
 - name: None_None_vmess_13
@@ -127,7 +127,7 @@ proxies:
   network: ws
   servername: ip002-2.dtku47.xyz
   ws-opts:
-    path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
+    path: github.com/Alvin9999
     headers:
       Host: ip002-2.dtku47.xyz
 - name: None_None_vmess_14
@@ -142,7 +142,7 @@ proxies:
   network: ws
   servername: ip002-2.dtku47.xyz
   ws-opts:
-    path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
+    path: github.com/Alvin9999
     headers:
       Host: ip002-2.dtku47.xyz
 - name: United States_Kansas City_vless_21
@@ -181,7 +181,7 @@ proxies:
   network: ws
   servername: ip002.freegradely.xyz
   ws-opts:
-    path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
+    path: github.com/Alvin9999
     headers:
       Host: ip002.freegradely.xyz
 - name: Canada_Ottawa_vmess_32
@@ -196,7 +196,7 @@ proxies:
   network: ws
   servername: ip002.freegradely.xyz
   ws-opts:
-    path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
+    path: github.com/Alvin9999
     headers:
       Host: ip002.freegradely.xyz
 - name: None_None_vmess_33
@@ -211,7 +211,7 @@ proxies:
   network: ws
   servername: ip002.freegradely.xyz
   ws-opts:
-    path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
+    path: github.com/Alvin9999
     headers:
       Host: ip002.freegradely.xyz
 - name: None_None_vmess_34
@@ -226,7 +226,7 @@ proxies:
   network: ws
   servername: ip002.freegradely.xyz
   ws-opts:
-    path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
+    path: github.com/Alvin9999
     headers:
       Host: ip002.freegradely.xyz
 - name: None_None_vmess_41
@@ -241,7 +241,7 @@ proxies:
   network: ws
   servername: ip002-3.dtku47.xyz
   ws-opts:
-    path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
+    path: github.com/Alvin9999
     headers:
       Host: ip002-3.dtku47.xyz
 - name: Canada_Ottawa_vmess_42
@@ -256,7 +256,7 @@ proxies:
   network: ws
   servername: ip002-3.dtku47.xyz
   ws-opts:
-    path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
+    path: github.com/Alvin9999
     headers:
       Host: ip002-3.dtku47.xyz
 - name: None_None_vmess_43
@@ -271,7 +271,7 @@ proxies:
   network: ws
   servername: ip002-3.dtku47.xyz
   ws-opts:
-    path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
+    path: github.com/Alvin9999
     headers:
       Host: ip002-3.dtku47.xyz
 - name: None_None_vmess_44
@@ -286,7 +286,7 @@ proxies:
   network: ws
   servername: ip002-3.dtku47.xyz
   ws-opts:
-    path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
+    path: github.com/Alvin9999
     headers:
       Host: ip002-3.dtku47.xyz
 - name: None_None_vmess_51
@@ -301,7 +301,7 @@ proxies:
   network: ws
   servername: doctor-granny-openings-br.trycloudflare.com
   ws-opts:
-    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+    path: github.com/Alvin9999
     headers:
       Host: doctor-granny-openings-br.trycloudflare.com
 - name: Canada_Ottawa_vmess_52
@@ -316,7 +316,7 @@ proxies:
   network: ws
   servername: doctor-granny-openings-br.trycloudflare.com
   ws-opts:
-    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+    path: github.com/Alvin9999
     headers:
       Host: doctor-granny-openings-br.trycloudflare.com
 - name: None_None_vmess_53
@@ -331,7 +331,7 @@ proxies:
   network: ws
   servername: doctor-granny-openings-br.trycloudflare.com
   ws-opts:
-    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+    path: github.com/Alvin9999
     headers:
       Host: doctor-granny-openings-br.trycloudflare.com
 - name: None_None_vmess_54
@@ -346,7 +346,7 @@ proxies:
   network: ws
   servername: doctor-granny-openings-br.trycloudflare.com
   ws-opts:
-    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+    path: github.com/Alvin9999
     headers:
       Host: doctor-granny-openings-br.trycloudflare.com
 - name: None_None_vmess_61
@@ -361,7 +361,7 @@ proxies:
   network: ws
   servername: ip5-4.freegradely.xyz
   ws-opts:
-    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+    path: github.com/Alvin9999
     headers:
       Host: ip5-4.freegradely.xyz
 - name: Canada_Ottawa_vmess_62
@@ -376,7 +376,7 @@ proxies:
   network: ws
   servername: ip5-4.freegradely.xyz
   ws-opts:
-    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+    path: github.com/Alvin9999
     headers:
       Host: ip5-4.freegradely.xyz
 - name: None_None_vmess_63
@@ -391,7 +391,7 @@ proxies:
   network: ws
   servername: ip5-4.freegradely.xyz
   ws-opts:
-    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+    path: github.com/Alvin9999
     headers:
       Host: ip5-4.freegradely.xyz
 - name: None_None_vmess_64
@@ -406,7 +406,7 @@ proxies:
   network: ws
   servername: ip5-4.freegradely.xyz
   ws-opts:
-    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+    path: github.com/Alvin9999
     headers:
       Host: ip5-4.freegradely.xyz
 - name: United States_Kansas City_tuic_71
@@ -506,7 +506,7 @@ proxies:
   network: ws
   servername: ip5-5.freegradely.xyz
   ws-opts:
-    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+    path: github.com/Alvin9999
     headers:
       Host: ip5-5.freegradely.xyz
 - name: Canada_Ottawa_vmess_122
@@ -521,7 +521,7 @@ proxies:
   network: ws
   servername: ip5-5.freegradely.xyz
   ws-opts:
-    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+    path: github.com/Alvin9999
     headers:
       Host: ip5-5.freegradely.xyz
 - name: None_None_vmess_123
@@ -536,7 +536,7 @@ proxies:
   network: ws
   servername: ip5-5.freegradely.xyz
   ws-opts:
-    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+    path: github.com/Alvin9999
     headers:
       Host: ip5-5.freegradely.xyz
 - name: None_None_vmess_124
@@ -551,7 +551,7 @@ proxies:
   network: ws
   servername: ip5-5.freegradely.xyz
   ws-opts:
-    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+    path: github.com/Alvin9999
     headers:
       Host: ip5-5.freegradely.xyz
 - name: France_Paris_tuic_131
@@ -566,7 +566,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Taiwan_Banqiao_tuic_141
+- name: Taiwan_Taipei_tuic_141
   server: www.dtku40.xyz
   port: 33098
   type: tuic
@@ -578,7 +578,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Taiwan_Banqiao_tuic_151
+- name: Taiwan_Taipei_tuic_151
   server: www.dtku40.xyz
   port: 33098
   type: tuic
@@ -738,7 +738,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Taiwan_Banqiao_hy_7
+- name: Taiwan_Taipei_hy_7
   type: hysteria
   server: www.dtku40.xyz
   port: 18091
@@ -858,8 +858,8 @@ proxy-groups:
   - None_None_vmess_123
   - None_None_vmess_124
   - France_Paris_tuic_131
-  - Taiwan_Banqiao_tuic_141
-  - Taiwan_Banqiao_tuic_151
+  - Taiwan_Taipei_tuic_141
+  - Taiwan_Taipei_tuic_151
   - United States_Seattle_hysteria_161
   - Taiwan_New Taipei_hysteria_171
   - United States_Los Angeles_tuic_181
@@ -871,7 +871,7 @@ proxy-groups:
   - United States_Los Angeles_hy_4
   - United States_Seattle_hy_5
   - France_Paris_hy_6
-  - Taiwan_Banqiao_hy_7
+  - Taiwan_Taipei_hy_7
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
   - United States_Los Angeles_hy2_2
@@ -922,8 +922,8 @@ proxy-groups:
   - None_None_vmess_123
   - None_None_vmess_124
   - France_Paris_tuic_131
-  - Taiwan_Banqiao_tuic_141
-  - Taiwan_Banqiao_tuic_151
+  - Taiwan_Taipei_tuic_141
+  - Taiwan_Taipei_tuic_151
   - United States_Seattle_hysteria_161
   - Taiwan_New Taipei_hysteria_171
   - United States_Los Angeles_tuic_181
@@ -935,7 +935,7 @@ proxy-groups:
   - United States_Los Angeles_hy_4
   - United States_Seattle_hy_5
   - France_Paris_hy_6
-  - Taiwan_Banqiao_hy_7
+  - Taiwan_Taipei_hy_7
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
   - United States_Los Angeles_hy2_2
