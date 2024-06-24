@@ -696,64 +696,469 @@ proxies:
       Host: ip002-3.dtku47.xyz
 - name: None_None_vmess_51
   type: vmess
-  server: 104.19.38.10
-  port: 80
-  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+  server: 104.19.38.18
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
   alterId: 0
   cipher: auto
   udp: true
   tls: false
   network: ws
-  servername: doctor-granny-openings-br.trycloudflare.com
+  servername: cdn1.freegradely.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: doctor-granny-openings-br.trycloudflare.com
-- name: Canada_Ottawa_vmess_52
+      Host: cdn1.freegradely.xyz
+- name: None_None_vmess_52
   type: vmess
-  server: 23.227.38.3
-  port: 8880
-  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+  server: 104.26.0.66
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
   alterId: 0
   cipher: auto
   udp: true
   tls: false
   network: ws
-  servername: doctor-granny-openings-br.trycloudflare.com
+  servername: cdn1.freegradely.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: doctor-granny-openings-br.trycloudflare.com
-- name: None_None_vmess_53
+      Host: cdn1.freegradely.xyz
+- name: Canada_Ottawa_vmess_53
   type: vmess
-  server: 141.101.122.184
-  port: 80
-  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+  server: 23.227.38.13
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
   alterId: 0
   cipher: auto
   udp: true
   tls: false
   network: ws
-  servername: doctor-granny-openings-br.trycloudflare.com
+  servername: cdn1.freegradely.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: doctor-granny-openings-br.trycloudflare.com
+      Host: cdn1.freegradely.xyz
 - name: None_None_vmess_54
   type: vmess
-  server: 104.19.38.112
-  port: 8880
-  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+  server: 104.19.38.22
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
   alterId: 0
   cipher: auto
   udp: true
   tls: false
   network: ws
-  servername: doctor-granny-openings-br.trycloudflare.com
+  servername: cdn1.freegradely.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: doctor-granny-openings-br.trycloudflare.com
+      Host: cdn1.freegradely.xyz
+- name: United States_San Francisco_vmess_55
+  type: vmess
+  server: 172.64.175.98
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: cdn1.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: cdn1.freegradely.xyz
+- name: United States_None_vmess_56
+  type: vmess
+  server: 172.64.99.32
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: cdn1.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: cdn1.freegradely.xyz
+- name: None_None_vmess_57
+  type: vmess
+  server: 104.19.21.81
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: cdn1.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: cdn1.freegradely.xyz
+- name: United States_San Francisco_vmess_58
+  type: vmess
+  server: 172.64.175.223
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: cdn1.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: cdn1.freegradely.xyz
+- name: United States_None_vmess_59
+  type: vmess
+  server: 172.64.198.229
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: cdn1.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: cdn1.freegradely.xyz
+- name: United States_None_vmess_510
+  type: vmess
+  server: 172.64.194.96
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: cdn1.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: cdn1.freegradely.xyz
+- name: None_None_vmess_511
+  type: vmess
+  server: 104.19.21.73
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: cdn1.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: cdn1.freegradely.xyz
+- name: None_None_vmess_512
+  type: vmess
+  server: 104.19.123.31
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: cdn1.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: cdn1.freegradely.xyz
+- name: None_None_vmess_513
+  type: vmess
+  server: 104.18.57.121
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: cdn1.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: cdn1.freegradely.xyz
+- name: None_None_vmess_514
+  type: vmess
+  server: 104.19.21.240
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: cdn1.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: cdn1.freegradely.xyz
+- name: None_None_vmess_515
+  type: vmess
+  server: 104.19.21.220
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: cdn1.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: cdn1.freegradely.xyz
+- name: None_None_vmess_516
+  type: vmess
+  server: 104.19.46.123
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: cdn1.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: cdn1.freegradely.xyz
+- name: None_None_vmess_517
+  type: vmess
+  server: 104.19.32.226
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: cdn1.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: cdn1.freegradely.xyz
+- name: None_None_vmess_518
+  type: vmess
+  server: 104.19.47.75
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: cdn1.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: cdn1.freegradely.xyz
+- name: None_None_vmess_519
+  type: vmess
+  server: 104.19.58.185
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: cdn1.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: cdn1.freegradely.xyz
+- name: None_None_vmess_520
+  type: vmess
+  server: 104.19.55.79
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: cdn1.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: cdn1.freegradely.xyz
+- name: None_None_vmess_521
+  type: vmess
+  server: 104.19.42.79
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: cdn1.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: cdn1.freegradely.xyz
+- name: None_None_vmess_522
+  type: vmess
+  server: 104.17.106.171
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: cdn1.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: cdn1.freegradely.xyz
+- name: None_None_vmess_523
+  type: vmess
+  server: 104.19.57.24
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: cdn1.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: cdn1.freegradely.xyz
+- name: None_None_vmess_524
+  type: vmess
+  server: 104.19.59.99
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: cdn1.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: cdn1.freegradely.xyz
+- name: None_None_vmess_525
+  type: vmess
+  server: 104.20.17.196
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: cdn1.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: cdn1.freegradely.xyz
+- name: None_None_vmess_526
+  type: vmess
+  server: 104.20.25.166
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: cdn1.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: cdn1.freegradely.xyz
+- name: None_None_vmess_527
+  type: vmess
+  server: 104.20.25.176
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: cdn1.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: cdn1.freegradely.xyz
+- name: None_None_vmess_528
+  type: vmess
+  server: 104.26.7.152
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: cdn1.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: cdn1.freegradely.xyz
+- name: None_None_vmess_529
+  type: vmess
+  server: 104.20.25.166
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: cdn1.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: cdn1.freegradely.xyz
+- name: None_None_vmess_530
+  type: vmess
+  server: 104.20.17.196
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: cdn1.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: cdn1.freegradely.xyz
+- name: United States_None_vmess_531
+  type: vmess
+  server: 172.67.74.122
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: cdn1.freegradely.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: cdn1.freegradely.xyz
 - name: None_None_vmess_61
   type: vmess
   server: 104.19.32.88
@@ -971,7 +1376,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Taiwan_Taipei_tuic_141
+- name: Taiwan_Banqiao_tuic_141
   server: www.dtku40.xyz
   port: 33098
   type: tuic
@@ -983,7 +1388,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Taiwan_Taipei_tuic_151
+- name: Taiwan_Banqiao_tuic_151
   server: www.dtku40.xyz
   port: 33098
   type: tuic
@@ -1143,7 +1548,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Taiwan_Taipei_hy_7
+- name: Taiwan_Banqiao_hy_7
   type: hysteria
   server: www.dtku40.xyz
   port: 18091
@@ -1272,9 +1677,36 @@ proxy-groups:
   - None_None_vmess_43
   - None_None_vmess_44
   - None_None_vmess_51
-  - Canada_Ottawa_vmess_52
-  - None_None_vmess_53
+  - None_None_vmess_52
+  - Canada_Ottawa_vmess_53
   - None_None_vmess_54
+  - United States_San Francisco_vmess_55
+  - United States_None_vmess_56
+  - None_None_vmess_57
+  - United States_San Francisco_vmess_58
+  - United States_None_vmess_59
+  - United States_None_vmess_510
+  - None_None_vmess_511
+  - None_None_vmess_512
+  - None_None_vmess_513
+  - None_None_vmess_514
+  - None_None_vmess_515
+  - None_None_vmess_516
+  - None_None_vmess_517
+  - None_None_vmess_518
+  - None_None_vmess_519
+  - None_None_vmess_520
+  - None_None_vmess_521
+  - None_None_vmess_522
+  - None_None_vmess_523
+  - None_None_vmess_524
+  - None_None_vmess_525
+  - None_None_vmess_526
+  - None_None_vmess_527
+  - None_None_vmess_528
+  - None_None_vmess_529
+  - None_None_vmess_530
+  - United States_None_vmess_531
   - None_None_vmess_61
   - Canada_Ottawa_vmess_62
   - None_None_vmess_63
@@ -1290,8 +1722,8 @@ proxy-groups:
   - None_None_vmess_123
   - None_None_vmess_124
   - France_Paris_tuic_131
-  - Taiwan_Taipei_tuic_141
-  - Taiwan_Taipei_tuic_151
+  - Taiwan_Banqiao_tuic_141
+  - Taiwan_Banqiao_tuic_151
   - United States_Seattle_hysteria_161
   - Taiwan_New Taipei_hysteria_171
   - United States_Los Angeles_tuic_181
@@ -1303,7 +1735,7 @@ proxy-groups:
   - United States_Los Angeles_hy_4
   - United States_Seattle_hy_5
   - France_Paris_hy_6
-  - Taiwan_Taipei_hy_7
+  - Taiwan_Banqiao_hy_7
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
   - United States_Los Angeles_hy2_2
@@ -1363,9 +1795,36 @@ proxy-groups:
   - None_None_vmess_43
   - None_None_vmess_44
   - None_None_vmess_51
-  - Canada_Ottawa_vmess_52
-  - None_None_vmess_53
+  - None_None_vmess_52
+  - Canada_Ottawa_vmess_53
   - None_None_vmess_54
+  - United States_San Francisco_vmess_55
+  - United States_None_vmess_56
+  - None_None_vmess_57
+  - United States_San Francisco_vmess_58
+  - United States_None_vmess_59
+  - United States_None_vmess_510
+  - None_None_vmess_511
+  - None_None_vmess_512
+  - None_None_vmess_513
+  - None_None_vmess_514
+  - None_None_vmess_515
+  - None_None_vmess_516
+  - None_None_vmess_517
+  - None_None_vmess_518
+  - None_None_vmess_519
+  - None_None_vmess_520
+  - None_None_vmess_521
+  - None_None_vmess_522
+  - None_None_vmess_523
+  - None_None_vmess_524
+  - None_None_vmess_525
+  - None_None_vmess_526
+  - None_None_vmess_527
+  - None_None_vmess_528
+  - None_None_vmess_529
+  - None_None_vmess_530
+  - United States_None_vmess_531
   - None_None_vmess_61
   - Canada_Ottawa_vmess_62
   - None_None_vmess_63
@@ -1381,8 +1840,8 @@ proxy-groups:
   - None_None_vmess_123
   - None_None_vmess_124
   - France_Paris_tuic_131
-  - Taiwan_Taipei_tuic_141
-  - Taiwan_Taipei_tuic_151
+  - Taiwan_Banqiao_tuic_141
+  - Taiwan_Banqiao_tuic_151
   - United States_Seattle_hysteria_161
   - Taiwan_New Taipei_hysteria_171
   - United States_Los Angeles_tuic_181
@@ -1394,7 +1853,7 @@ proxy-groups:
   - United States_Los Angeles_hy_4
   - United States_Seattle_hy_5
   - France_Paris_hy_6
-  - Taiwan_Taipei_hy_7
+  - Taiwan_Banqiao_hy_7
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
   - United States_Los Angeles_hy2_2
