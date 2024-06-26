@@ -1438,18 +1438,19 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: France_Paris_tuic_191
-  server: 51.159.77.153
-  port: 44559
-  type: tuic
-  uuid: 2f8f3873-9edf-4c4e-9888-b8a8b2d9d809
-  password: dongtaiwang.com
+- name: Russia_Moscow_hysteria_191
+  type: hysteria
+  server: 46.29.163.85
+  port: 22334
+  sni: bing.com
+  skip-cert-verify: true
   alpn:
   - h3
-  disable-sni: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
+  protocol: udp
+  auth_str: dongtaiwang.com
+  up: 11
+  down: 55
+  hop_interval: 10
 - name: France_None_hy_0
   type: hysteria
   server: 62.210.243.131
@@ -1618,10 +1619,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: France_None_hy2_7
+- name: Russia_Moscow_hy2_7
   type: hysteria2
-  server: 62.210.103.0
-  port: 22483
+  server: 46.29.163.85
+  port: 50381
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -1727,7 +1728,7 @@ proxy-groups:
   - United States_Seattle_hysteria_161
   - Taiwan_New Taipei_hysteria_171
   - United States_Los Angeles_tuic_181
-  - France_Paris_tuic_191
+  - Russia_Moscow_hysteria_191
   - France_None_hy_0
   - France_None_hy_1
   - France_None_hy_2
@@ -1743,7 +1744,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_4
   - United States_Seattle_hy2_5
   - France_Paris_hy2_6
-  - France_None_hy2_7
+  - Russia_Moscow_hy2_7
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1845,7 +1846,7 @@ proxy-groups:
   - United States_Seattle_hysteria_161
   - Taiwan_New Taipei_hysteria_171
   - United States_Los Angeles_tuic_181
-  - France_Paris_tuic_191
+  - Russia_Moscow_hysteria_191
   - France_None_hy_0
   - France_None_hy_1
   - France_None_hy_2
@@ -1861,7 +1862,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_4
   - United States_Seattle_hy2_5
   - France_Paris_hy2_6
-  - France_None_hy2_7
+  - Russia_Moscow_hy2_7
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
