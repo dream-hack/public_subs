@@ -1800,7 +1800,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Taiwan_Taipei_tuic_141
+- name: Taiwan_New Taipei_tuic_141
   server: www.dtku40.xyz
   port: 33098
   type: tuic
@@ -1812,7 +1812,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Taiwan_Taipei_tuic_151
+- name: Taiwan_New Taipei_tuic_151
   server: www.dtku40.xyz
   port: 33098
   type: tuic
@@ -1828,6 +1828,19 @@ proxies:
   type: hysteria
   server: 62.204.54.81
   port: 34555
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  auth_str: dongtaiwang.com
+  up: 11
+  down: 55
+  hop_interval: 10
+- name: United States_Los Angeles_hysteria_162
+  type: hysteria
+  server: 104.192.224.139
+  port: 42113
   sni: bing.com
   skip-cert-verify: true
   alpn:
@@ -1973,7 +1986,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Taiwan_Taipei_hy_7
+- name: Taiwan_New Taipei_hy_7
   type: hysteria
   server: www.dtku40.xyz
   port: 18091
@@ -2177,9 +2190,10 @@ proxy-groups:
   - None_None_vmess_123
   - None_None_vmess_124
   - France_Paris_tuic_131
-  - Taiwan_Taipei_tuic_141
-  - Taiwan_Taipei_tuic_151
+  - Taiwan_New Taipei_tuic_141
+  - Taiwan_New Taipei_tuic_151
   - United States_Seattle_hysteria_161
+  - United States_Los Angeles_hysteria_162
   - Taiwan_New Taipei_hysteria_171
   - United States_Los Angeles_tuic_181
   - Russia_Moscow_hysteria_191
@@ -2190,7 +2204,7 @@ proxy-groups:
   - United States_Los Angeles_hy_4
   - United States_Seattle_hy_5
   - France_Paris_hy_6
-  - Taiwan_Taipei_hy_7
+  - Taiwan_New Taipei_hy_7
   - United States_None_hy2_0
   - United States_None_hy2_1
   - United States_None_hy2_2
@@ -2325,9 +2339,10 @@ proxy-groups:
   - None_None_vmess_123
   - None_None_vmess_124
   - France_Paris_tuic_131
-  - Taiwan_Taipei_tuic_141
-  - Taiwan_Taipei_tuic_151
+  - Taiwan_New Taipei_tuic_141
+  - Taiwan_New Taipei_tuic_151
   - United States_Seattle_hysteria_161
+  - United States_Los Angeles_hysteria_162
   - Taiwan_New Taipei_hysteria_171
   - United States_Los Angeles_tuic_181
   - Russia_Moscow_hysteria_191
@@ -2338,7 +2353,7 @@ proxy-groups:
   - United States_Los Angeles_hy_4
   - United States_Seattle_hy_5
   - France_Paris_hy_6
-  - Taiwan_Taipei_hy_7
+  - Taiwan_New Taipei_hy_7
   - United States_None_hy2_0
   - United States_None_hy2_1
   - United States_None_hy2_2
