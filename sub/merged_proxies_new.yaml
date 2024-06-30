@@ -1812,6 +1812,17 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
+- name: United States_Los Angeles_hysteria_142
+  type: hysteria
+  server: 104.192.224.139
+  port: 42113
+  auth_str: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
 - name: Taiwan_New Taipei_tuic_151
   server: www.dtku40.xyz
   port: 33098
@@ -1824,6 +1835,17 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
+- name: United States_Los Angeles_hysteria_152
+  type: hysteria
+  server: 104.192.224.139
+  port: 42113
+  auth_str: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
 - name: United States_Seattle_hysteria_161
   type: hysteria
   server: 62.204.54.81
@@ -1854,6 +1876,19 @@ proxies:
   type: hysteria
   server: www2.dtku48.xyz
   port: 33449
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  auth_str: dongtaiwang.com
+  up: 11
+  down: 55
+  hop_interval: 10
+- name: United States_Los Angeles_hysteria_172
+  type: hysteria
+  server: 104.192.224.139
+  port: 42113
   sni: bing.com
   skip-cert-verify: true
   alpn:
@@ -2191,10 +2226,13 @@ proxy-groups:
   - None_None_vmess_124
   - France_Paris_tuic_131
   - Taiwan_New Taipei_tuic_141
+  - United States_Los Angeles_hysteria_142
   - Taiwan_New Taipei_tuic_151
+  - United States_Los Angeles_hysteria_152
   - United States_Seattle_hysteria_161
   - United States_Los Angeles_hysteria_162
   - Taiwan_New Taipei_hysteria_171
+  - United States_Los Angeles_hysteria_172
   - United States_Los Angeles_tuic_181
   - Russia_Moscow_hysteria_191
   - France_None_hy_0
@@ -2340,10 +2378,13 @@ proxy-groups:
   - None_None_vmess_124
   - France_Paris_tuic_131
   - Taiwan_New Taipei_tuic_141
+  - United States_Los Angeles_hysteria_142
   - Taiwan_New Taipei_tuic_151
+  - United States_Los Angeles_hysteria_152
   - United States_Seattle_hysteria_161
   - United States_Los Angeles_hysteria_162
   - Taiwan_New Taipei_hysteria_171
+  - United States_Los Angeles_hysteria_172
   - United States_Los Angeles_tuic_181
   - Russia_Moscow_hysteria_191
   - France_None_hy_0
