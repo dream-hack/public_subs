@@ -2032,13 +2032,13 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_None_hy2_0
+- name: France_Paris_hy2_0
   type: hysteria2
-  server: 166.88.159.24
-  port: 40931
+  server: 51.159.2.179
+  port: 23499
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: bing.com
   skip-cert-verify: true
 - name: United States_None_hy2_1
   type: hysteria2
@@ -2240,7 +2240,7 @@ proxy-groups:
   - United States_Seattle_hy_5
   - France_Paris_hy_6
   - Taiwan_Taipei_hy_7
-  - United States_None_hy2_0
+  - France_Paris_hy2_0
   - United States_None_hy2_1
   - United States_None_hy2_2
   - United States_None_hy2_3
@@ -2392,7 +2392,7 @@ proxy-groups:
   - United States_Seattle_hy_5
   - France_Paris_hy_6
   - Taiwan_Taipei_hy_7
-  - United States_None_hy2_0
+  - France_Paris_hy2_0
   - United States_None_hy2_1
   - United States_None_hy2_2
   - United States_None_hy2_3
