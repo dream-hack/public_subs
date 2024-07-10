@@ -2250,7 +2250,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Taiwan_Taipei_tuic_141
+- name: Taiwan_Daan_tuic_141
   server: www.dtku40.xyz
   port: 33098
   type: tuic
@@ -2273,7 +2273,7 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: Taiwan_Taipei_tuic_151
+- name: Taiwan_Daan_tuic_151
   server: www.dtku40.xyz
   port: 33098
   type: tuic
@@ -2471,7 +2471,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Taiwan_Taipei_hy_7
+- name: Taiwan_Daan_hy_7
   type: hysteria
   server: www.dtku40.xyz
   port: 18091
@@ -2705,9 +2705,9 @@ proxy-groups:
   - None_None_vmess_123
   - None_None_vmess_124
   - France_Paris_tuic_131
-  - Taiwan_Taipei_tuic_141
+  - Taiwan_Daan_tuic_141
   - United States_Los Angeles_hysteria_142
-  - Taiwan_Taipei_tuic_151
+  - Taiwan_Daan_tuic_151
   - United States_Los Angeles_hysteria_152
   - United States_Seattle_hysteria_161
   - United States_Seattle_hysteria_162
@@ -2722,7 +2722,7 @@ proxy-groups:
   - United States_Los Angeles_hy_4
   - United States_Seattle_hy_5
   - France_Paris_hy_6
-  - Taiwan_Taipei_hy_7
+  - Taiwan_Daan_hy_7
   - France_Paris_hy2_0
   - United States_None_hy2_1
   - United States_None_hy2_2
@@ -2887,9 +2887,9 @@ proxy-groups:
   - None_None_vmess_123
   - None_None_vmess_124
   - France_Paris_tuic_131
-  - Taiwan_Taipei_tuic_141
+  - Taiwan_Daan_tuic_141
   - United States_Los Angeles_hysteria_142
-  - Taiwan_Taipei_tuic_151
+  - Taiwan_Daan_tuic_151
   - United States_Los Angeles_hysteria_152
   - United States_Seattle_hysteria_161
   - United States_Seattle_hysteria_162
@@ -2904,7 +2904,7 @@ proxy-groups:
   - United States_Los Angeles_hy_4
   - United States_Seattle_hy_5
   - France_Paris_hy_6
-  - Taiwan_Taipei_hy_7
+  - Taiwan_Daan_hy_7
   - France_Paris_hy2_0
   - United States_None_hy2_1
   - United States_None_hy2_2
