@@ -1420,7 +1420,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_094
+- name: United States_None_vmess_094
   type: vmess
   server: icook.tw
   port: 2086
@@ -1435,7 +1435,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_095
+- name: None_None_vmess_095
   type: vmess
   server: ip.sb
   port: 2086
@@ -1495,7 +1495,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_099
+- name: None_None_vmess_099
   type: vmess
   server: singapore.com
   port: 2086
@@ -1510,7 +1510,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_0100
+- name: None_None_vmess_0100
   type: vmess
   server: skk.moe
   port: 2086
@@ -2498,11 +2498,11 @@ proxies:
   up: 11
   down: 55
   hop_interval: 10
-- name: France_None_hy_0
+- name: United States_Los Angeles_hy_0
   type: hysteria
-  server: 62.210.243.131
-  port: 18702
-  ports: 18702
+  server: 104.192.224.139
+  port: 42113
+  ports: 42113
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -2512,11 +2512,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_None_hy_1
+- name: United States_Los Angeles_hy_1
   type: hysteria
-  server: 62.210.243.131
-  port: 18702
-  ports: 18702
+  server: 104.192.224.139
+  port: 42113
+  ports: 42113
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -2526,11 +2526,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_None_hy_2
+- name: United States_Los Angeles_hy_2
   type: hysteria
-  server: 62.210.243.131
-  port: 18702
-  ports: 18702
+  server: 104.192.224.139
+  port: 42113
+  ports: 42113
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -2540,11 +2540,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_None_hy_3
+- name: United States_Los Angeles_hy_3
   type: hysteria
-  server: 62.210.243.131
-  port: 18702
-  ports: 18702
+  server: 104.192.224.139
+  port: 42113
+  ports: 42113
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -2773,13 +2773,13 @@ proxy-groups:
   - United States_San Francisco_vmess_091
   - None_None_vmess_092
   - Canada_Ottawa_vmess_093
-  - None_None_vmess_094
-  - United States_None_vmess_095
+  - United States_None_vmess_094
+  - None_None_vmess_095
   - United States_None_vmess_096
   - None_None_vmess_097
   - None_None_vmess_098
-  - United States_None_vmess_099
-  - United States_None_vmess_0100
+  - None_None_vmess_099
+  - None_None_vmess_0100
   - None_None_vmess_0101
   - None_None_vmess_11
   - Canada_Ottawa_vmess_12
@@ -2848,10 +2848,10 @@ proxy-groups:
   - United States_Los Angeles_hysteria_171
   - United States_Los Angeles_tuic_181
   - Russia_Moscow_hysteria_191
-  - France_None_hy_0
-  - France_None_hy_1
-  - France_None_hy_2
-  - France_None_hy_3
+  - United States_Los Angeles_hy_0
+  - United States_Los Angeles_hy_1
+  - United States_Los Angeles_hy_2
+  - United States_Los Angeles_hy_3
   - United States_Los Angeles_hy_4
   - United States_Seattle_hy_5
   - France_Paris_hy_6
@@ -2963,13 +2963,13 @@ proxy-groups:
   - United States_San Francisco_vmess_091
   - None_None_vmess_092
   - Canada_Ottawa_vmess_093
-  - None_None_vmess_094
-  - United States_None_vmess_095
+  - United States_None_vmess_094
+  - None_None_vmess_095
   - United States_None_vmess_096
   - None_None_vmess_097
   - None_None_vmess_098
-  - United States_None_vmess_099
-  - United States_None_vmess_0100
+  - None_None_vmess_099
+  - None_None_vmess_0100
   - None_None_vmess_0101
   - None_None_vmess_11
   - Canada_Ottawa_vmess_12
@@ -3038,10 +3038,10 @@ proxy-groups:
   - United States_Los Angeles_hysteria_171
   - United States_Los Angeles_tuic_181
   - Russia_Moscow_hysteria_191
-  - France_None_hy_0
-  - France_None_hy_1
-  - France_None_hy_2
-  - France_None_hy_3
+  - United States_Los Angeles_hy_0
+  - United States_Los Angeles_hy_1
+  - United States_Los Angeles_hy_2
+  - United States_Los Angeles_hy_3
   - United States_Los Angeles_hy_4
   - United States_Seattle_hy_5
   - France_Paris_hy_6
