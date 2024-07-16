@@ -1480,7 +1480,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_098
+- name: United States_None_vmess_098
   type: vmess
   server: russia.com
   port: 2086
@@ -1510,7 +1510,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_0100
+- name: None_None_vmess_0100
   type: vmess
   server: skk.moe
   port: 2086
@@ -2294,7 +2294,7 @@ proxies:
   congestion-controller: bbr
 - name: United States_Seattle_hysteria_101
   type: hysteria
-  server: 64.42.176.181
+  server: 64.42.176.182
   port: 41604
   sni: bing.com
   skip-cert-verify: true
@@ -2305,11 +2305,11 @@ proxies:
   up: 11
   down: 55
   hop_interval: 10
-- name: United States_Seattle_tuic_111
-  server: 64.42.176.182
-  port: 61123
+- name: Taiwan_Taipei_tuic_111
+  server: www.dtku40.xyz
+  port: 33098
   type: tuic
-  uuid: de954fbf-b042-4043-98f1-3cad99dbbf0b
+  uuid: fef3d3c2-ab3e-4134-a2f3-0c2d83e0a76d
   password: dongtaiwang.com
   alpn:
   - h3
@@ -2377,19 +2377,18 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip5-9.freegradely.xyz
-- name: France_Paris_tuic_131
+- name: France_Paris_ss_131
+  type: ss
   server: 51.159.77.153
-  port: 44559
-  type: tuic
-  uuid: 2f8f3873-9edf-4c4e-9888-b8a8b2d9d809
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  disable-sni: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
-- name: Taiwan_Daan_tuic_141
+  port: 33550
+  cipher: 2022-blake3-chacha20-poly1305
+  password: /R1rG+tOLo4OUqL80BBO/KIDfjr3vY67HvGxw26r62Q=
+  plugin: shadow-tls
+  plugin-opts:
+    host: nijigen-works.jp
+    password: 77x594cU+vQKvymvOzuJqJHEMGKHnhtYR1m9mwFCEIQ=
+    version: 3
+- name: Taiwan_Taipei_tuic_141
   server: www.dtku40.xyz
   port: 33098
   type: tuic
@@ -2412,7 +2411,7 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: Taiwan_Daan_tuic_151
+- name: Taiwan_Taipei_tuic_151
   server: www.dtku40.xyz
   port: 33098
   type: tuic
@@ -2437,8 +2436,8 @@ proxies:
   down: 55 Mbps
 - name: United States_Seattle_hysteria_161
   type: hysteria
-  server: 64.42.176.181
-  port: 41604
+  server: 45.150.165.121
+  port: 11365
   sni: bing.com
   skip-cert-verify: true
   alpn:
@@ -2448,23 +2447,10 @@ proxies:
   up: 11
   down: 55
   hop_interval: 10
-- name: United States_Seattle_hysteria_162
+- name: United States_Seattle_hysteria_171
   type: hysteria
-  server: 62.204.54.81
-  port: 34555
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  auth_str: dongtaiwang.com
-  up: 11
-  down: 55
-  hop_interval: 10
-- name: United States_Los Angeles_hysteria_171
-  type: hysteria
-  server: 104.192.224.139
-  port: 42113
+  server: 45.150.165.121
+  port: 11365
   sni: bing.com
   skip-cert-verify: true
   alpn:
@@ -2486,10 +2472,10 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Russia_Moscow_hysteria_191
+- name: United States_Seattle_hysteria_191
   type: hysteria
-  server: 46.29.163.85
-  port: 22334
+  server: 45.150.165.121
+  port: 11365
   sni: bing.com
   skip-cert-verify: true
   alpn:
@@ -2597,7 +2583,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Taiwan_Daan_hy_7
+- name: Taiwan_Taipei_hy_7
   type: hysteria
   server: www.dtku40.xyz
   port: 18091
@@ -2778,9 +2764,9 @@ proxy-groups:
   - United States_None_vmess_095
   - None_None_vmess_096
   - None_None_vmess_097
-  - None_None_vmess_098
+  - United States_None_vmess_098
   - United States_None_vmess_099
-  - United States_None_vmess_0100
+  - None_None_vmess_0100
   - None_None_vmess_0101
   - None_None_vmess_11
   - Canada_Ottawa_vmess_12
@@ -2834,21 +2820,20 @@ proxy-groups:
   - United States_None_ss_81
   - Taiwan_Zhongli District_tuic_91
   - United States_Seattle_hysteria_101
-  - United States_Seattle_tuic_111
+  - Taiwan_Taipei_tuic_111
   - None_None_vmess_121
   - Canada_Ottawa_vmess_122
   - None_None_vmess_123
   - None_None_vmess_124
-  - France_Paris_tuic_131
-  - Taiwan_Daan_tuic_141
+  - France_Paris_ss_131
+  - Taiwan_Taipei_tuic_141
   - United States_Los Angeles_hysteria_142
-  - Taiwan_Daan_tuic_151
+  - Taiwan_Taipei_tuic_151
   - United States_Los Angeles_hysteria_152
   - United States_Seattle_hysteria_161
-  - United States_Seattle_hysteria_162
-  - United States_Los Angeles_hysteria_171
+  - United States_Seattle_hysteria_171
   - United States_Los Angeles_tuic_181
-  - Russia_Moscow_hysteria_191
+  - United States_Seattle_hysteria_191
   - United States_Los Angeles_hy_0
   - United States_Los Angeles_hy_1
   - United States_Los Angeles_hy_2
@@ -2856,7 +2841,7 @@ proxy-groups:
   - United States_Los Angeles_hy_4
   - United States_Seattle_hy_5
   - France_Paris_hy_6
-  - Taiwan_Daan_hy_7
+  - Taiwan_Taipei_hy_7
   - France_Paris_hy2_0
   - France_Paris_hy2_1
   - France_Paris_hy2_2
@@ -2968,9 +2953,9 @@ proxy-groups:
   - United States_None_vmess_095
   - None_None_vmess_096
   - None_None_vmess_097
-  - None_None_vmess_098
+  - United States_None_vmess_098
   - United States_None_vmess_099
-  - United States_None_vmess_0100
+  - None_None_vmess_0100
   - None_None_vmess_0101
   - None_None_vmess_11
   - Canada_Ottawa_vmess_12
@@ -3024,21 +3009,20 @@ proxy-groups:
   - United States_None_ss_81
   - Taiwan_Zhongli District_tuic_91
   - United States_Seattle_hysteria_101
-  - United States_Seattle_tuic_111
+  - Taiwan_Taipei_tuic_111
   - None_None_vmess_121
   - Canada_Ottawa_vmess_122
   - None_None_vmess_123
   - None_None_vmess_124
-  - France_Paris_tuic_131
-  - Taiwan_Daan_tuic_141
+  - France_Paris_ss_131
+  - Taiwan_Taipei_tuic_141
   - United States_Los Angeles_hysteria_142
-  - Taiwan_Daan_tuic_151
+  - Taiwan_Taipei_tuic_151
   - United States_Los Angeles_hysteria_152
   - United States_Seattle_hysteria_161
-  - United States_Seattle_hysteria_162
-  - United States_Los Angeles_hysteria_171
+  - United States_Seattle_hysteria_171
   - United States_Los Angeles_tuic_181
-  - Russia_Moscow_hysteria_191
+  - United States_Seattle_hysteria_191
   - United States_Los Angeles_hy_0
   - United States_Los Angeles_hy_1
   - United States_Los Angeles_hy_2
@@ -3046,7 +3030,7 @@ proxy-groups:
   - United States_Los Angeles_hy_4
   - United States_Seattle_hy_5
   - France_Paris_hy_6
-  - Taiwan_Daan_hy_7
+  - Taiwan_Taipei_hy_7
   - France_Paris_hy2_0
   - France_Paris_hy2_1
   - France_Paris_hy2_2
