@@ -1420,7 +1420,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_094
+- name: United States_None_vmess_094
   type: vmess
   server: icook.tw
   port: 2086
@@ -1450,7 +1450,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_096
+- name: None_None_vmess_096
   type: vmess
   server: japan.com
   port: 2086
@@ -1465,7 +1465,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_097
+- name: United States_None_vmess_097
   type: vmess
   server: malaysia.com
   port: 2086
@@ -1495,7 +1495,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_099
+- name: United States_None_vmess_099
   type: vmess
   server: singapore.com
   port: 2086
@@ -1510,7 +1510,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_0100
+- name: United States_None_vmess_0100
   type: vmess
   server: skk.moe
   port: 2086
@@ -3694,7 +3694,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1845781.xyz
-- name: United States_None_vmess_1095
+- name: None_None_vmess_1095
   type: vmess
   server: ip.sb
   port: 2086
@@ -3709,7 +3709,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1845781.xyz
-- name: United States_None_vmess_1096
+- name: None_None_vmess_1096
   type: vmess
   server: japan.com
   port: 2086
@@ -3754,7 +3754,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1845781.xyz
-- name: United States_None_vmess_1099
+- name: None_None_vmess_1099
   type: vmess
   server: singapore.com
   port: 2086
@@ -5346,7 +5346,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip2.1845781.xyz
-- name: United States_None_vmess_1697
+- name: None_None_vmess_1697
   type: vmess
   server: malaysia.com
   port: 2086
@@ -5446,19 +5446,20 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: United States_Seattle_hysteria_191
-  type: hysteria
-  server: 45.150.165.121
-  port: 11365
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  auth_str: dongtaiwang.com
-  up: 11
-  down: 55
-  hop_interval: 10
+- name: France_None_vless_191
+  type: vless
+  server: 62.210.100.235
+  port: 23357
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  network: tcp
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: U5hsLybYWhJrWAqqsTa052k-VeKt8bDFPxBh3CQk51M
+    short-id: 0b4badde
+  client-fingerprint: chrome
 - name: United States_None_hy_0
   type: hysteria
   server: 208.87.243.123
@@ -5611,10 +5612,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: United States_Los Angeles_hy2_5
+- name: United States_None_hy2_5
   type: hysteria2
-  server: 64.110.25.12
-  port: 20141
+  server: 208.87.243.187
+  port: 29620
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -5734,13 +5735,13 @@ proxy-groups:
   - United States_San Francisco_vmess_091
   - None_None_vmess_092
   - Canada_Ottawa_vmess_093
-  - None_None_vmess_094
+  - United States_None_vmess_094
   - United States_None_vmess_095
-  - United States_None_vmess_096
-  - None_None_vmess_097
+  - None_None_vmess_096
+  - United States_None_vmess_097
   - None_None_vmess_098
-  - None_None_vmess_099
-  - None_None_vmess_0100
+  - United States_None_vmess_099
+  - United States_None_vmess_0100
   - None_None_vmess_0101
   - None_None_vmess_11
   - Canada_Ottawa_vmess_12
@@ -5887,11 +5888,11 @@ proxy-groups:
   - None_None_vmess_1092
   - Canada_Ottawa_vmess_1093
   - None_None_vmess_1094
-  - United States_None_vmess_1095
-  - United States_None_vmess_1096
+  - None_None_vmess_1095
+  - None_None_vmess_1096
   - None_None_vmess_1097
   - United States_None_vmess_1098
-  - United States_None_vmess_1099
+  - None_None_vmess_1099
   - None_None_vmess_10100
   - None_None_vmess_10101
   - United States_Seattle_hysteria_111
@@ -5998,14 +5999,14 @@ proxy-groups:
   - None_None_vmess_1694
   - None_None_vmess_1695
   - None_None_vmess_1696
-  - United States_None_vmess_1697
+  - None_None_vmess_1697
   - None_None_vmess_1698
   - None_None_vmess_1699
   - None_None_vmess_16100
   - None_None_vmess_16101
   - United States_Seattle_hysteria_171
   - United States_Los Angeles_tuic_181
-  - United States_Seattle_hysteria_191
+  - France_None_vless_191
   - United States_None_hy_0
   - United States_None_hy_1
   - United States_None_hy_2
@@ -6019,7 +6020,7 @@ proxy-groups:
   - United States_None_hy2_2
   - United States_Los Angeles_hy2_3
   - United States_Los Angeles_hy2_4
-  - United States_Los Angeles_hy2_5
+  - United States_None_hy2_5
   - United States_Los Angeles_hy2_6
   - United States_Los Angeles_hy2_7
 - name: 自动选择
@@ -6121,13 +6122,13 @@ proxy-groups:
   - United States_San Francisco_vmess_091
   - None_None_vmess_092
   - Canada_Ottawa_vmess_093
-  - None_None_vmess_094
+  - United States_None_vmess_094
   - United States_None_vmess_095
-  - United States_None_vmess_096
-  - None_None_vmess_097
+  - None_None_vmess_096
+  - United States_None_vmess_097
   - None_None_vmess_098
-  - None_None_vmess_099
-  - None_None_vmess_0100
+  - United States_None_vmess_099
+  - United States_None_vmess_0100
   - None_None_vmess_0101
   - None_None_vmess_11
   - Canada_Ottawa_vmess_12
@@ -6274,11 +6275,11 @@ proxy-groups:
   - None_None_vmess_1092
   - Canada_Ottawa_vmess_1093
   - None_None_vmess_1094
-  - United States_None_vmess_1095
-  - United States_None_vmess_1096
+  - None_None_vmess_1095
+  - None_None_vmess_1096
   - None_None_vmess_1097
   - United States_None_vmess_1098
-  - United States_None_vmess_1099
+  - None_None_vmess_1099
   - None_None_vmess_10100
   - None_None_vmess_10101
   - United States_Seattle_hysteria_111
@@ -6385,14 +6386,14 @@ proxy-groups:
   - None_None_vmess_1694
   - None_None_vmess_1695
   - None_None_vmess_1696
-  - United States_None_vmess_1697
+  - None_None_vmess_1697
   - None_None_vmess_1698
   - None_None_vmess_1699
   - None_None_vmess_16100
   - None_None_vmess_16101
   - United States_Seattle_hysteria_171
   - United States_Los Angeles_tuic_181
-  - United States_Seattle_hysteria_191
+  - France_None_vless_191
   - United States_None_hy_0
   - United States_None_hy_1
   - United States_None_hy_2
@@ -6406,7 +6407,7 @@ proxy-groups:
   - United States_None_hy2_2
   - United States_Los Angeles_hy2_3
   - United States_Los Angeles_hy2_4
-  - United States_Los Angeles_hy2_5
+  - United States_None_hy2_5
   - United States_Los Angeles_hy2_6
   - United States_Los Angeles_hy2_7
 rules:
