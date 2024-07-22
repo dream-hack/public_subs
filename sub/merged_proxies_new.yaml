@@ -1420,7 +1420,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_094
+- name: United States_None_vmess_094
   type: vmess
   server: icook.tw
   port: 2086
@@ -1450,7 +1450,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_096
+- name: United States_None_vmess_096
   type: vmess
   server: japan.com
   port: 2086
@@ -1510,7 +1510,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_0100
+- name: United States_None_vmess_0100
   type: vmess
   server: skk.moe
   port: 2086
@@ -3794,7 +3794,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_1194
+- name: None_None_vmess_1194
   type: vmess
   server: icook.tw
   port: 2086
@@ -3824,7 +3824,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_1196
+- name: None_None_vmess_1196
   type: vmess
   server: japan.com
   port: 2086
@@ -3854,7 +3854,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: None_None_vmess_1198
+- name: United States_None_vmess_1198
   type: vmess
   server: russia.com
   port: 2086
@@ -3869,7 +3869,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_1199
+- name: None_None_vmess_1199
   type: vmess
   server: singapore.com
   port: 2086
@@ -3884,7 +3884,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_11100
+- name: None_None_vmess_11100
   type: vmess
   server: skk.moe
   port: 2086
@@ -3985,18 +3985,17 @@ proxies:
     host: nijigen-works.jp
     password: oF1DMhFO6YuXAnEuq0qTaORV9y0Yy+MSf7GqelSXy3E=
     version: 3
-- name: France_Paris_hysteria2_141
-  type: hysteria2
-  server: 51.159.34.216
-  port: 7571
-  ports: 20000-30000
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  sni: www.bing.com
-  skip-cert-verify: true
-  up: 11 Mbps
-  down: 55 Mbps
+- name: France_Paris_ss_141
+  type: ss
+  server: 51.159.77.153
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: CuNN8dpAplS3SzR/LtmNqAPwfjeFwnun4SWMuh98ANo=
+  plugin: shadow-tls
+  plugin-opts:
+    host: nijigen-works.jp
+    password: oF1DMhFO6YuXAnEuq0qTaORV9y0Yy+MSf7GqelSXy3E=
+    version: 3
 - name: France_None_vless_151
   type: vless
   server: 62.210.100.235
@@ -5522,7 +5521,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: None_None_vmess_18100
+- name: United States_None_vmess_18100
   type: vmess
   server: skk.moe
   port: 2086
@@ -5552,7 +5551,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: Taiwan_Banqiao_ss_191
+- name: Taiwan_Daan_ss_191
   server: www.dtku40.xyz
   type: ss
   port: 8080
@@ -5675,37 +5674,37 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Los Angeles_hy2_0
+- name: United States_Dallas_hy2_0
   type: hysteria2
-  server: 108.181.24.39
-  port: 60714
+  server: 173.234.31.99
+  port: 56549
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: ''
   skip-cert-verify: true
-- name: United States_Los Angeles_hy2_1
+- name: United States_Dallas_hy2_1
   type: hysteria2
-  server: 108.181.24.39
-  port: 60714
+  server: 173.234.31.99
+  port: 56549
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: ''
   skip-cert-verify: true
-- name: United States_Los Angeles_hy2_2
+- name: United States_Dallas_hy2_2
   type: hysteria2
-  server: 108.181.24.39
-  port: 60714
+  server: 173.234.31.99
+  port: 56549
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: ''
   skip-cert-verify: true
-- name: France_Paris_hy2_3
+- name: United States_Dallas_hy2_3
   type: hysteria2
-  server: 51.159.34.216
-  port: 7571
+  server: 173.234.31.99
+  port: 56549
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: ''
   skip-cert-verify: true
 - name: United States_Los Angeles_hy2_4
   type: hysteria2
@@ -5723,10 +5722,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: France_Paris_hy2_6
+- name: United States_None_hy2_6
   type: hysteria2
-  server: 51.159.34.216
-  port: 7571
+  server: 208.87.243.187
+  port: 29620
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -5852,13 +5851,13 @@ proxy-groups:
   - United States_San Francisco_vmess_091
   - None_None_vmess_092
   - Canada_Ottawa_vmess_093
-  - None_None_vmess_094
+  - United States_None_vmess_094
   - United States_None_vmess_095
-  - None_None_vmess_096
+  - United States_None_vmess_096
   - United States_None_vmess_097
   - United States_None_vmess_098
   - None_None_vmess_099
-  - None_None_vmess_0100
+  - United States_None_vmess_0100
   - None_None_vmess_0101
   - None_None_vmess_11
   - Canada_Ottawa_vmess_12
@@ -6011,20 +6010,20 @@ proxy-groups:
   - United States_San Francisco_vmess_1191
   - None_None_vmess_1192
   - Canada_Ottawa_vmess_1193
-  - United States_None_vmess_1194
+  - None_None_vmess_1194
   - United States_None_vmess_1195
-  - United States_None_vmess_1196
+  - None_None_vmess_1196
   - None_None_vmess_1197
-  - None_None_vmess_1198
-  - United States_None_vmess_1199
-  - United States_None_vmess_11100
+  - United States_None_vmess_1198
+  - None_None_vmess_1199
+  - None_None_vmess_11100
   - None_None_vmess_11101
   - None_None_vmess_121
   - Canada_Ottawa_vmess_122
   - None_None_vmess_123
   - None_None_vmess_124
   - France_Paris_ss_131
-  - France_Paris_hysteria2_141
+  - France_Paris_ss_141
   - France_None_vless_151
   - United States_Seattle_hysteria_161
   - United States_Seattle_vless_171
@@ -6127,9 +6126,9 @@ proxy-groups:
   - None_None_vmess_1897
   - None_None_vmess_1898
   - None_None_vmess_1899
-  - None_None_vmess_18100
+  - United States_None_vmess_18100
   - None_None_vmess_18101
-  - Taiwan_Banqiao_ss_191
+  - Taiwan_Daan_ss_191
   - United States_None_hy_0
   - United States_None_hy_1
   - United States_None_hy_2
@@ -6138,13 +6137,13 @@ proxy-groups:
   - France_Paris_hy_5
   - France_Paris_hy_6
   - United States_Los Angeles_hy_7
-  - United States_Los Angeles_hy2_0
-  - United States_Los Angeles_hy2_1
-  - United States_Los Angeles_hy2_2
-  - France_Paris_hy2_3
+  - United States_Dallas_hy2_0
+  - United States_Dallas_hy2_1
+  - United States_Dallas_hy2_2
+  - United States_Dallas_hy2_3
   - United States_Los Angeles_hy2_4
   - United States_None_hy2_5
-  - France_Paris_hy2_6
+  - United States_None_hy2_6
   - Taiwan_Zhubei_hy2_7
   - France_None_reality_0
 - name: 自动选择
@@ -6246,13 +6245,13 @@ proxy-groups:
   - United States_San Francisco_vmess_091
   - None_None_vmess_092
   - Canada_Ottawa_vmess_093
-  - None_None_vmess_094
+  - United States_None_vmess_094
   - United States_None_vmess_095
-  - None_None_vmess_096
+  - United States_None_vmess_096
   - United States_None_vmess_097
   - United States_None_vmess_098
   - None_None_vmess_099
-  - None_None_vmess_0100
+  - United States_None_vmess_0100
   - None_None_vmess_0101
   - None_None_vmess_11
   - Canada_Ottawa_vmess_12
@@ -6405,20 +6404,20 @@ proxy-groups:
   - United States_San Francisco_vmess_1191
   - None_None_vmess_1192
   - Canada_Ottawa_vmess_1193
-  - United States_None_vmess_1194
+  - None_None_vmess_1194
   - United States_None_vmess_1195
-  - United States_None_vmess_1196
+  - None_None_vmess_1196
   - None_None_vmess_1197
-  - None_None_vmess_1198
-  - United States_None_vmess_1199
-  - United States_None_vmess_11100
+  - United States_None_vmess_1198
+  - None_None_vmess_1199
+  - None_None_vmess_11100
   - None_None_vmess_11101
   - None_None_vmess_121
   - Canada_Ottawa_vmess_122
   - None_None_vmess_123
   - None_None_vmess_124
   - France_Paris_ss_131
-  - France_Paris_hysteria2_141
+  - France_Paris_ss_141
   - France_None_vless_151
   - United States_Seattle_hysteria_161
   - United States_Seattle_vless_171
@@ -6521,9 +6520,9 @@ proxy-groups:
   - None_None_vmess_1897
   - None_None_vmess_1898
   - None_None_vmess_1899
-  - None_None_vmess_18100
+  - United States_None_vmess_18100
   - None_None_vmess_18101
-  - Taiwan_Banqiao_ss_191
+  - Taiwan_Daan_ss_191
   - United States_None_hy_0
   - United States_None_hy_1
   - United States_None_hy_2
@@ -6532,13 +6531,13 @@ proxy-groups:
   - France_Paris_hy_5
   - France_Paris_hy_6
   - United States_Los Angeles_hy_7
-  - United States_Los Angeles_hy2_0
-  - United States_Los Angeles_hy2_1
-  - United States_Los Angeles_hy2_2
-  - France_Paris_hy2_3
+  - United States_Dallas_hy2_0
+  - United States_Dallas_hy2_1
+  - United States_Dallas_hy2_2
+  - United States_Dallas_hy2_3
   - United States_Los Angeles_hy2_4
   - United States_None_hy2_5
-  - France_Paris_hy2_6
+  - United States_None_hy2_6
   - Taiwan_Zhubei_hy2_7
   - France_None_reality_0
 rules:
