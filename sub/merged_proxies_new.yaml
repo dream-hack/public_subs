@@ -1420,7 +1420,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_094
+- name: None_None_vmess_094
   type: vmess
   server: icook.tw
   port: 2086
@@ -1450,7 +1450,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_096
+- name: None_None_vmess_096
   type: vmess
   server: japan.com
   port: 2086
@@ -1465,7 +1465,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_097
+- name: None_None_vmess_097
   type: vmess
   server: malaysia.com
   port: 2086
@@ -1480,7 +1480,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_098
+- name: None_None_vmess_098
   type: vmess
   server: russia.com
   port: 2086
@@ -3812,7 +3812,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_1096
+- name: None_None_vmess_1096
   type: vmess
   server: japan.com
   port: 2086
@@ -3872,7 +3872,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_10100
+- name: None_None_vmess_10100
   type: vmess
   server: skk.moe
   port: 2086
@@ -5440,7 +5440,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_1897
+- name: None_None_vmess_1897
   type: vmess
   server: malaysia.com
   port: 2086
@@ -5801,11 +5801,11 @@ proxy-groups:
   - United States_San Francisco_vmess_091
   - None_None_vmess_092
   - Canada_Ottawa_vmess_093
-  - United States_None_vmess_094
+  - None_None_vmess_094
   - United States_None_vmess_095
-  - United States_None_vmess_096
-  - United States_None_vmess_097
-  - United States_None_vmess_098
+  - None_None_vmess_096
+  - None_None_vmess_097
+  - None_None_vmess_098
   - None_None_vmess_099
   - None_None_vmess_0100
   - None_None_vmess_0101
@@ -5961,11 +5961,11 @@ proxy-groups:
   - Canada_Ottawa_vmess_1093
   - None_None_vmess_1094
   - None_None_vmess_1095
-  - United States_None_vmess_1096
+  - None_None_vmess_1096
   - None_None_vmess_1097
   - None_None_vmess_1098
   - None_None_vmess_1099
-  - United States_None_vmess_10100
+  - None_None_vmess_10100
   - None_None_vmess_10101
   - United States_Seattle_hysteria_111
   - Russia_Moscow_hysteria_121
@@ -6070,7 +6070,7 @@ proxy-groups:
   - None_None_vmess_1894
   - United States_None_vmess_1895
   - None_None_vmess_1896
-  - United States_None_vmess_1897
+  - None_None_vmess_1897
   - None_None_vmess_1898
   - None_None_vmess_1899
   - None_None_vmess_18100
@@ -6191,11 +6191,11 @@ proxy-groups:
   - United States_San Francisco_vmess_091
   - None_None_vmess_092
   - Canada_Ottawa_vmess_093
-  - United States_None_vmess_094
+  - None_None_vmess_094
   - United States_None_vmess_095
-  - United States_None_vmess_096
-  - United States_None_vmess_097
-  - United States_None_vmess_098
+  - None_None_vmess_096
+  - None_None_vmess_097
+  - None_None_vmess_098
   - None_None_vmess_099
   - None_None_vmess_0100
   - None_None_vmess_0101
@@ -6351,11 +6351,11 @@ proxy-groups:
   - Canada_Ottawa_vmess_1093
   - None_None_vmess_1094
   - None_None_vmess_1095
-  - United States_None_vmess_1096
+  - None_None_vmess_1096
   - None_None_vmess_1097
   - None_None_vmess_1098
   - None_None_vmess_1099
-  - United States_None_vmess_10100
+  - None_None_vmess_10100
   - None_None_vmess_10101
   - United States_Seattle_hysteria_111
   - Russia_Moscow_hysteria_121
@@ -6460,7 +6460,7 @@ proxy-groups:
   - None_None_vmess_1894
   - United States_None_vmess_1895
   - None_None_vmess_1896
-  - United States_None_vmess_1897
+  - None_None_vmess_1897
   - None_None_vmess_1898
   - None_None_vmess_1899
   - None_None_vmess_18100
