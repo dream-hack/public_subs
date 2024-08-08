@@ -1420,7 +1420,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_094
+- name: None_None_vmess_094
   type: vmess
   server: icook.tw
   port: 2086
@@ -1450,7 +1450,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_096
+- name: None_None_vmess_096
   type: vmess
   server: japan.com
   port: 2086
@@ -1480,7 +1480,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_098
+- name: United States_None_vmess_098
   type: vmess
   server: russia.com
   port: 2086
@@ -1495,7 +1495,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_099
+- name: United States_None_vmess_099
   type: vmess
   server: singapore.com
   port: 2086
@@ -2376,7 +2376,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip5-10.freegradely.xyz
-- name: Taiwan_Zhubei_ss_91
+- name: Taiwan_Hsinchu County_ss_91
   server: www2.dtku44.xyz
   type: ss
   port: 443
@@ -3797,7 +3797,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_1095
+- name: None_None_vmess_1095
   type: vmess
   server: ip.sb
   port: 2086
@@ -3857,7 +3857,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_1099
+- name: None_None_vmess_1099
   type: vmess
   server: singapore.com
   port: 2086
@@ -5425,7 +5425,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_1896
+- name: None_None_vmess_1896
   type: vmess
   server: japan.com
   port: 2086
@@ -5440,7 +5440,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_1897
+- name: None_None_vmess_1897
   type: vmess
   server: malaysia.com
   port: 2086
@@ -5470,7 +5470,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_1899
+- name: None_None_vmess_1899
   type: vmess
   server: singapore.com
   port: 2086
@@ -5485,7 +5485,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: None_None_vmess_18100
+- name: United States_None_vmess_18100
   type: vmess
   server: skk.moe
   port: 2086
@@ -5694,7 +5694,7 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: Taiwan_Zhubei_hy2_7
+- name: Taiwan_Hsinchu County_hy2_7
   type: hysteria2
   server: www2.dtku44.xyz
   port: 37783
@@ -5801,12 +5801,12 @@ proxy-groups:
   - United States_San Francisco_vmess_091
   - None_None_vmess_092
   - Canada_Ottawa_vmess_093
-  - United States_None_vmess_094
+  - None_None_vmess_094
   - United States_None_vmess_095
-  - United States_None_vmess_096
+  - None_None_vmess_096
   - None_None_vmess_097
-  - None_None_vmess_098
-  - None_None_vmess_099
+  - United States_None_vmess_098
+  - United States_None_vmess_099
   - None_None_vmess_0100
   - None_None_vmess_0101
   - None_None_vmess_11
@@ -5865,7 +5865,7 @@ proxy-groups:
   - Canada_Ottawa_vmess_82
   - None_None_vmess_83
   - None_None_vmess_84
-  - Taiwan_Zhubei_ss_91
+  - Taiwan_Hsinchu County_ss_91
   - None_None_vmess_101
   - None_None_vmess_102
   - Canada_Ottawa_vmess_103
@@ -5960,11 +5960,11 @@ proxy-groups:
   - None_None_vmess_1092
   - Canada_Ottawa_vmess_1093
   - None_None_vmess_1094
-  - United States_None_vmess_1095
+  - None_None_vmess_1095
   - None_None_vmess_1096
   - None_None_vmess_1097
   - None_None_vmess_1098
-  - United States_None_vmess_1099
+  - None_None_vmess_1099
   - None_None_vmess_10100
   - None_None_vmess_10101
   - United States_Seattle_hysteria_111
@@ -6069,11 +6069,11 @@ proxy-groups:
   - Canada_Ottawa_vmess_1893
   - None_None_vmess_1894
   - United States_None_vmess_1895
-  - United States_None_vmess_1896
-  - United States_None_vmess_1897
+  - None_None_vmess_1896
+  - None_None_vmess_1897
   - None_None_vmess_1898
-  - United States_None_vmess_1899
-  - None_None_vmess_18100
+  - None_None_vmess_1899
+  - United States_None_vmess_18100
   - None_None_vmess_18101
   - Taiwan_Shulin District_hysteria_191
   - United States_Los Angeles_hy_0
@@ -6091,7 +6091,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_4
   - United States_Los Angeles_hy2_5
   - United States_None_hy2_6
-  - Taiwan_Zhubei_hy2_7
+  - Taiwan_Hsinchu County_hy2_7
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -6191,12 +6191,12 @@ proxy-groups:
   - United States_San Francisco_vmess_091
   - None_None_vmess_092
   - Canada_Ottawa_vmess_093
-  - United States_None_vmess_094
+  - None_None_vmess_094
   - United States_None_vmess_095
-  - United States_None_vmess_096
+  - None_None_vmess_096
   - None_None_vmess_097
-  - None_None_vmess_098
-  - None_None_vmess_099
+  - United States_None_vmess_098
+  - United States_None_vmess_099
   - None_None_vmess_0100
   - None_None_vmess_0101
   - None_None_vmess_11
@@ -6255,7 +6255,7 @@ proxy-groups:
   - Canada_Ottawa_vmess_82
   - None_None_vmess_83
   - None_None_vmess_84
-  - Taiwan_Zhubei_ss_91
+  - Taiwan_Hsinchu County_ss_91
   - None_None_vmess_101
   - None_None_vmess_102
   - Canada_Ottawa_vmess_103
@@ -6350,11 +6350,11 @@ proxy-groups:
   - None_None_vmess_1092
   - Canada_Ottawa_vmess_1093
   - None_None_vmess_1094
-  - United States_None_vmess_1095
+  - None_None_vmess_1095
   - None_None_vmess_1096
   - None_None_vmess_1097
   - None_None_vmess_1098
-  - United States_None_vmess_1099
+  - None_None_vmess_1099
   - None_None_vmess_10100
   - None_None_vmess_10101
   - United States_Seattle_hysteria_111
@@ -6459,11 +6459,11 @@ proxy-groups:
   - Canada_Ottawa_vmess_1893
   - None_None_vmess_1894
   - United States_None_vmess_1895
-  - United States_None_vmess_1896
-  - United States_None_vmess_1897
+  - None_None_vmess_1896
+  - None_None_vmess_1897
   - None_None_vmess_1898
-  - United States_None_vmess_1899
-  - None_None_vmess_18100
+  - None_None_vmess_1899
+  - United States_None_vmess_18100
   - None_None_vmess_18101
   - Taiwan_Shulin District_hysteria_191
   - United States_Los Angeles_hy_0
@@ -6481,7 +6481,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_4
   - United States_Los Angeles_hy2_5
   - United States_None_hy2_6
-  - Taiwan_Zhubei_hy2_7
+  - Taiwan_Hsinchu County_hy2_7
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
