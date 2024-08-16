@@ -1888,11 +1888,11 @@ proxies:
       enabled: true
       up: 11
       down: 55
-- name: France_None_hysteria_141
+- name: Russia_Moscow_hysteria_141
   type: hysteria
-  server: 62.210.243.131
-  port: 47780
-  ports: 10000-20000
+  server: 46.29.166.206
+  port: 20427
+  ports: 30000-40000
   auth_str: dongtaiwang.com
   alpn:
   - h3
@@ -1900,15 +1900,15 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: France_None_hysteria_151
-  type: hysteria
-  server: 62.210.243.131
-  port: 47780
-  ports: 10000-20000
-  auth_str: dongtaiwang.com
+- name: Taiwan_Taipei_hysteria2_151
+  type: hysteria2
+  server: www2.dtku44.xyz
+  port: 37783
+  ports: 20000-30000
+  password: dongtaiwang.com
   alpn:
   - h3
-  sni: bing.com
+  sni: www.bing.com
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
@@ -2163,8 +2163,8 @@ proxy-groups:
   - United States_Seattle_hysteria_111
   - Russia_Moscow_hysteria_121
   - Russia_Moscow_vless_131
-  - France_None_hysteria_141
-  - France_None_hysteria_151
+  - Russia_Moscow_hysteria_141
+  - Taiwan_Taipei_hysteria2_151
   - United States_Seattle_vless_171
   - Taiwan_Taipei_hysteria_191
   - United States_Los Angeles_hy_0
@@ -2306,8 +2306,8 @@ proxy-groups:
   - United States_Seattle_hysteria_111
   - Russia_Moscow_hysteria_121
   - Russia_Moscow_vless_131
-  - France_None_hysteria_141
-  - France_None_hysteria_151
+  - Russia_Moscow_hysteria_141
+  - Taiwan_Taipei_hysteria2_151
   - United States_Seattle_vless_171
   - Taiwan_Taipei_hysteria_191
   - United States_Los Angeles_hy_0
