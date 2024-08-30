@@ -1991,11 +1991,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_None_hy_5
+- name: United States_Los Angeles_hy_5
   type: hysteria
-  server: 166.1.221.22
-  port: 17547
-  ports: 30000-40000
+  server: 104.192.224.138
+  port: 28850
+  ports: 20000-30000
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -2008,7 +2008,7 @@ proxies:
 - name: United States_None_hy2_0
   type: hysteria2
   server: 207.90.239.157
-  port: 15669
+  port: 3400
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -2023,8 +2023,8 @@ proxies:
   skip-cert-verify: true
 - name: United States_Los Angeles_hy2_5
   type: hysteria2
-  server: 91.149.239.189
-  port: 35970
+  server: 64.110.25.12
+  port: 50942
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -2182,7 +2182,7 @@ proxy-groups:
   - United States_Los Angeles_hy_0
   - United States_None_hy_3
   - United States_Los Angeles_hy_4
-  - United States_None_hy_5
+  - United States_Los Angeles_hy_5
   - United States_None_hy2_0
   - United States_Los Angeles_hy2_4
   - United States_Los Angeles_hy2_5
@@ -2325,7 +2325,7 @@ proxy-groups:
   - United States_Los Angeles_hy_0
   - United States_None_hy_3
   - United States_Los Angeles_hy_4
-  - United States_None_hy_5
+  - United States_Los Angeles_hy_5
   - United States_None_hy2_0
   - United States_Los Angeles_hy2_4
   - United States_Los Angeles_hy2_5
