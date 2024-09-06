@@ -1938,10 +1938,10 @@ proxies:
     public-key: cauu7I7nFMqzwMDdULVRJam0T04U4knX8koK0OG5dC8
     short-id: 40cb281a
   client-fingerprint: chrome
-- name: Taiwan_Taipei_hysteria_191
+- name: United States_Seattle_hysteria_191
   type: hysteria
-  server: www.dtku40.xyz
-  port: 44559
+  server: 64.42.176.180
+  port: 50011
   auth_str: dongtaiwang.com
   alpn:
   - h3
@@ -2178,7 +2178,7 @@ proxy-groups:
   - Russia_Moscow_hysteria_141
   - Russia_Moscow_vless_151
   - United States_Seattle_vless_171
-  - Taiwan_Taipei_hysteria_191
+  - United States_Seattle_hysteria_191
   - United States_Los Angeles_hy_0
   - United States_None_hy_3
   - United States_Los Angeles_hy_4
@@ -2321,7 +2321,7 @@ proxy-groups:
   - Russia_Moscow_hysteria_141
   - Russia_Moscow_vless_151
   - United States_Seattle_vless_171
-  - Taiwan_Taipei_hysteria_191
+  - United States_Seattle_hysteria_191
   - United States_Los Angeles_hy_0
   - United States_None_hy_3
   - United States_Los Angeles_hy_4
