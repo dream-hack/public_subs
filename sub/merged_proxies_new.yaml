@@ -1949,7 +1949,7 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_Los Angeles_0
+- name: United States_Los Angeles_hy_0
   type: hysteria
   server: 91.149.239.23
   port: 11223
@@ -1963,7 +1963,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_None_3
+- name: United States_None_hy_3
   type: hysteria
   server: 166.1.221.169
   port: 11223
@@ -1977,7 +1977,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Los Angeles_4
+- name: United States_Los Angeles_hy_4
   type: hysteria
   server: 104.192.224.138
   port: 28850
@@ -1991,7 +1991,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Los Angeles_5
+- name: United States_Los Angeles_hy_5
   type: hysteria
   server: 104.192.224.138
   port: 28850
@@ -2005,7 +2005,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_None_0
+- name: United States_None_hy2_0
   type: hysteria2
   server: 207.90.239.157
   port: 3400
@@ -2013,7 +2013,7 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: United States_Los Angeles_4
+- name: United States_Los Angeles_hy2_4
   type: hysteria2
   server: 64.110.25.12
   port: 50942
@@ -2021,7 +2021,7 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: United States_Los Angeles_5
+- name: United States_Los Angeles_hy2_5
   type: hysteria2
   server: 64.110.25.12
   port: 50942
@@ -2029,7 +2029,7 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: United States_None_6
+- name: United States_None_hy2_6
   type: hysteria2
   server: 208.87.243.187
   port: 29620
@@ -2037,7 +2037,7 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: United States_Los Angeles_7
+- name: United States_Los Angeles_hy2_7
   type: hysteria2
   server: 64.110.25.12
   port: 50942
@@ -2179,15 +2179,15 @@ proxy-groups:
   - Russia_Moscow_151
   - United States_Seattle_171
   - United States_Seattle_191
-  - United States_Los Angeles_0
-  - United States_None_3
-  - United States_Los Angeles_4
-  - United States_Los Angeles_5
-  - United States_None_0
-  - United States_Los Angeles_4
-  - United States_Los Angeles_5
-  - United States_None_6
-  - United States_Los Angeles_7
+  - United States_Los Angeles_hy_0
+  - United States_None_hy_3
+  - United States_Los Angeles_hy_4
+  - United States_Los Angeles_hy_5
+  - United States_None_hy2_0
+  - United States_Los Angeles_hy2_4
+  - United States_Los Angeles_hy2_5
+  - United States_None_hy2_6
+  - United States_Los Angeles_hy2_7
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -2322,15 +2322,15 @@ proxy-groups:
   - Russia_Moscow_151
   - United States_Seattle_171
   - United States_Seattle_191
-  - United States_Los Angeles_0
-  - United States_None_3
-  - United States_Los Angeles_4
-  - United States_Los Angeles_5
-  - United States_None_0
-  - United States_Los Angeles_4
-  - United States_Los Angeles_5
-  - United States_None_6
-  - United States_Los Angeles_7
+  - United States_Los Angeles_hy_0
+  - United States_None_hy_3
+  - United States_Los Angeles_hy_4
+  - United States_Los Angeles_hy_5
+  - United States_None_hy2_0
+  - United States_Los Angeles_hy2_4
+  - United States_Los Angeles_hy2_5
+  - United States_None_hy2_6
+  - United States_Los Angeles_hy2_7
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
