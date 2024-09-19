@@ -97,23 +97,23 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇺🇸 United States_hy_11",
-        "🇷🇺 Russia_hy_12",
-        "🇷🇺 Russia_vless_13",
-        "🇷🇺 Russia_hy_14",
-        "🇷🇺 Russia_vless_15",
-        "🇺🇸 United States_vless_17",
-        "🇺🇸 United States_hy_19",
-        "🇺🇸 United States_hysteria_0",
-        "🇺🇸 United States_hysteria_3",
-        "🇺🇸 United States_hysteria_4",
-        "🇺🇸 United States_hysteria_5",
-        "🇺🇸 United States_hysteria2_0",
-        "🇺🇸 United States_hysteria2_4",
-        "🇺🇸 United States_hysteria2_5",
-        "🇺🇸 United States_hysteria2_6",
-        "🇺🇸 United States_hysteria2_7",
-        "🇺🇸 United States_vless_7"
+        "🇺🇸 United States_Seattle_hy_11",
+        "🇷🇺 Russia_Moscow_hy_12",
+        "🇷🇺 Russia_Moscow_vless_13",
+        "🇷🇺 Russia_Moscow_hy_14",
+        "🇷🇺 Russia_Moscow_vless_15",
+        "🇺🇸 United States_Seattle_vless_17",
+        "🇺🇸 United States_Seattle_hy_19",
+        "🇺🇸 United States_Los Angeles_hysteria_0",
+        "🇺🇸 United States_None_hysteria_3",
+        "🇺🇸 United States_Los Angeles_hysteria_4",
+        "🇺🇸 United States_Los Angeles_hysteria_5",
+        "🇺🇸 United States_None_hysteria2_0",
+        "🇺🇸 United States_Los Angeles_hysteria2_4",
+        "🇺🇸 United States_Los Angeles_hysteria2_5",
+        "🇺🇸 United States_None_hysteria2_6",
+        "🇺🇸 United States_Los Angeles_hysteria2_7",
+        "🇺🇸 United States_Seattle_vless_7"
       ]
     },
     {
@@ -354,23 +354,23 @@
       "tag": "America",
       "type": "selector",
       "outbounds": [
-        "🇺🇸 United States_hy_11",
-        "🇷🇺 Russia_hy_12",
-        "🇷🇺 Russia_vless_13",
-        "🇷🇺 Russia_hy_14",
-        "🇷🇺 Russia_vless_15",
-        "🇺🇸 United States_vless_17",
-        "🇺🇸 United States_hy_19",
-        "🇺🇸 United States_hysteria_0",
-        "🇺🇸 United States_hysteria_3",
-        "🇺🇸 United States_hysteria_4",
-        "🇺🇸 United States_hysteria_5",
-        "🇺🇸 United States_hysteria2_0",
-        "🇺🇸 United States_hysteria2_4",
-        "🇺🇸 United States_hysteria2_5",
-        "🇺🇸 United States_hysteria2_6",
-        "🇺🇸 United States_hysteria2_7",
-        "🇺🇸 United States_vless_7"
+        "🇺🇸 United States_Seattle_hy_11",
+        "🇷🇺 Russia_Moscow_hy_12",
+        "🇷🇺 Russia_Moscow_vless_13",
+        "🇷🇺 Russia_Moscow_hy_14",
+        "🇷🇺 Russia_Moscow_vless_15",
+        "🇺🇸 United States_Seattle_vless_17",
+        "🇺🇸 United States_Seattle_hy_19",
+        "🇺🇸 United States_Los Angeles_hysteria_0",
+        "🇺🇸 United States_None_hysteria_3",
+        "🇺🇸 United States_Los Angeles_hysteria_4",
+        "🇺🇸 United States_Los Angeles_hysteria_5",
+        "🇺🇸 United States_None_hysteria2_0",
+        "🇺🇸 United States_Los Angeles_hysteria2_4",
+        "🇺🇸 United States_Los Angeles_hysteria2_5",
+        "🇺🇸 United States_None_hysteria2_6",
+        "🇺🇸 United States_Los Angeles_hysteria2_7",
+        "🇺🇸 United States_Seattle_vless_7"
       ]
     },
     {
@@ -384,23 +384,23 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇺🇸 United States_hy_11",
-        "🇷🇺 Russia_hy_12",
-        "🇷🇺 Russia_vless_13",
-        "🇷🇺 Russia_hy_14",
-        "🇷🇺 Russia_vless_15",
-        "🇺🇸 United States_vless_17",
-        "🇺🇸 United States_hy_19",
-        "🇺🇸 United States_hysteria_0",
-        "🇺🇸 United States_hysteria_3",
-        "🇺🇸 United States_hysteria_4",
-        "🇺🇸 United States_hysteria_5",
-        "🇺🇸 United States_hysteria2_0",
-        "🇺🇸 United States_hysteria2_4",
-        "🇺🇸 United States_hysteria2_5",
-        "🇺🇸 United States_hysteria2_6",
-        "🇺🇸 United States_hysteria2_7",
-        "🇺🇸 United States_vless_7"
+        "🇺🇸 United States_Seattle_hy_11",
+        "🇷🇺 Russia_Moscow_hy_12",
+        "🇷🇺 Russia_Moscow_vless_13",
+        "🇷🇺 Russia_Moscow_hy_14",
+        "🇷🇺 Russia_Moscow_vless_15",
+        "🇺🇸 United States_Seattle_vless_17",
+        "🇺🇸 United States_Seattle_hy_19",
+        "🇺🇸 United States_Los Angeles_hysteria_0",
+        "🇺🇸 United States_None_hysteria_3",
+        "🇺🇸 United States_Los Angeles_hysteria_4",
+        "🇺🇸 United States_Los Angeles_hysteria_5",
+        "🇺🇸 United States_None_hysteria2_0",
+        "🇺🇸 United States_Los Angeles_hysteria2_4",
+        "🇺🇸 United States_Los Angeles_hysteria2_5",
+        "🇺🇸 United States_None_hysteria2_6",
+        "🇺🇸 United States_Los Angeles_hysteria2_7",
+        "🇺🇸 United States_Seattle_vless_7"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -419,7 +419,7 @@
       "tag": "block"
     },
     {
-      "tag": "🇺🇸 United States_hy_11",
+      "tag": "🇺🇸 United States_Seattle_hy_11",
       "type": "hysteria",
       "server": "64.42.176.179",
       "server_port": 19513,
@@ -436,7 +436,7 @@
       }
     },
     {
-      "tag": "🇷🇺 Russia_hy_12",
+      "tag": "🇷🇺 Russia_Moscow_hy_12",
       "type": "hysteria",
       "server": "46.29.166.206",
       "server_port": 20427,
@@ -453,7 +453,7 @@
       }
     },
     {
-      "tag": "🇷🇺 Russia_vless_13",
+      "tag": "🇷🇺 Russia_Moscow_vless_13",
       "type": "vless",
       "server": "46.29.163.85",
       "server_port": 18903,
@@ -476,7 +476,7 @@
       }
     },
     {
-      "tag": "🇷🇺 Russia_hy_14",
+      "tag": "🇷🇺 Russia_Moscow_hy_14",
       "type": "hysteria",
       "server": "46.29.166.206",
       "server_port": 20427,
@@ -493,7 +493,7 @@
       }
     },
     {
-      "tag": "🇷🇺 Russia_vless_15",
+      "tag": "🇷🇺 Russia_Moscow_vless_15",
       "type": "vless",
       "server": "46.29.163.85",
       "server_port": 18903,
@@ -516,7 +516,7 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_vless_17",
+      "tag": "🇺🇸 United States_Seattle_vless_17",
       "type": "vless",
       "server": "45.150.165.121",
       "server_port": 7885,
@@ -539,7 +539,7 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_hy_19",
+      "tag": "🇺🇸 United States_Seattle_hy_19",
       "type": "hysteria",
       "server": "64.42.176.180",
       "server_port": 50011,
@@ -556,7 +556,7 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_hysteria_0",
+      "tag": "🇺🇸 United States_Los Angeles_hysteria_0",
       "type": "hysteria",
       "server": "91.149.239.23",
       "server_port": 11223,
@@ -574,7 +574,7 @@
       "obfs": "dongtaiwang.com"
     },
     {
-      "tag": "🇺🇸 United States_hysteria_3",
+      "tag": "🇺🇸 United States_None_hysteria_3",
       "type": "hysteria",
       "server": "166.1.221.169",
       "server_port": 11223,
@@ -592,7 +592,7 @@
       "obfs": "dongtaiwang.com"
     },
     {
-      "tag": "🇺🇸 United States_hysteria_4",
+      "tag": "🇺🇸 United States_Los Angeles_hysteria_4",
       "type": "hysteria",
       "server": "104.192.224.138",
       "server_port": 28850,
@@ -609,7 +609,7 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_hysteria_5",
+      "tag": "🇺🇸 United States_Los Angeles_hysteria_5",
       "type": "hysteria",
       "server": "104.192.224.138",
       "server_port": 28850,
@@ -626,7 +626,7 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_hysteria2_0",
+      "tag": "🇺🇸 United States_None_hysteria2_0",
       "type": "hysteria2",
       "server": "207.90.239.157",
       "server_port": 3400,
@@ -643,7 +643,7 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_hysteria2_4",
+      "tag": "🇺🇸 United States_Los Angeles_hysteria2_4",
       "type": "hysteria2",
       "server": "64.110.25.12",
       "server_port": 50942,
@@ -660,7 +660,7 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_hysteria2_5",
+      "tag": "🇺🇸 United States_Los Angeles_hysteria2_5",
       "type": "hysteria2",
       "server": "64.110.25.12",
       "server_port": 50942,
@@ -677,7 +677,7 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_hysteria2_6",
+      "tag": "🇺🇸 United States_None_hysteria2_6",
       "type": "hysteria2",
       "server": "208.87.243.187",
       "server_port": 29620,
@@ -694,7 +694,7 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_hysteria2_7",
+      "tag": "🇺🇸 United States_Los Angeles_hysteria2_7",
       "type": "hysteria2",
       "server": "64.110.25.12",
       "server_port": 50942,
@@ -711,7 +711,7 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_vless_7",
+      "tag": "🇺🇸 United States_Seattle_vless_7",
       "type": "vless",
       "server": "172.83.156.160",
       "server_port": 456,
