@@ -30,7 +30,7 @@ def process_clash(data, index):
     proxies = content.get("proxies", [])
     for i, proxy in enumerate(proxies):
         location = get_physical_location(proxy["server"])
-        proxy["name"] = f"{location}_{proxy['type']}_{index}{i+1}"
+        proxy["name"] = f"{location}_{index}{i+1}"
     merged_proxies.extend(proxies)
 
 
