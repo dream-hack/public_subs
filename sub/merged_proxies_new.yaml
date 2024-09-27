@@ -3380,17 +3380,19 @@ proxies:
     headers:
       Host: ip1.2413762.xyz
 - name: Russia_Moscow_141
-  type: hysteria
+  type: vless
   server: 46.29.166.206
-  port: 20427
-  ports: 30000-40000
-  auth_str: dongtaiwang.com
-  alpn:
-  - h3
-  sni: bing.com
-  skip-cert-verify: true
-  up: 11 Mbps
-  down: 55 Mbps
+  port: 54491
+  uuid: e5ea22f9-2e13-4aa4-a57a-73805c7dfe48
+  network: tcp
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: O57ybvboLKcwCRHHlv9UOu5nM9JI-pew2vcwG-7dAE4
+    short-id: 50662bd4
+  client-fingerprint: chrome
 - name: None_None_151
   type: vmess
   server: 104.21.238.70
