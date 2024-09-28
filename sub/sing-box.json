@@ -99,7 +99,7 @@
         "direct",
         "🇺🇸 United States_Seattle_hy_11",
         "🇷🇺 Russia_Moscow_hy_12",
-        "🇷🇺 Russia_Moscow_hy_14",
+        "🇷🇺 Russia_Moscow_vless_14",
         "🇺🇸 United States_Seattle_vless_17",
         "🇺🇸 United States_Seattle_hy_19",
         "🇺🇸 United States_Los Angeles_hysteria_0",
@@ -353,7 +353,7 @@
       "outbounds": [
         "🇺🇸 United States_Seattle_hy_11",
         "🇷🇺 Russia_Moscow_hy_12",
-        "🇷🇺 Russia_Moscow_hy_14",
+        "🇷🇺 Russia_Moscow_vless_14",
         "🇺🇸 United States_Seattle_vless_17",
         "🇺🇸 United States_Seattle_hy_19",
         "🇺🇸 United States_Los Angeles_hysteria_0",
@@ -380,7 +380,7 @@
       "outbounds": [
         "🇺🇸 United States_Seattle_hy_11",
         "🇷🇺 Russia_Moscow_hy_12",
-        "🇷🇺 Russia_Moscow_hy_14",
+        "🇷🇺 Russia_Moscow_vless_14",
         "🇺🇸 United States_Seattle_vless_17",
         "🇺🇸 United States_Seattle_hy_19",
         "🇺🇸 United States_Los Angeles_hysteria_0",
@@ -444,20 +444,26 @@
       }
     },
     {
-      "tag": "🇷🇺 Russia_Moscow_hy_14",
-      "type": "hysteria",
+      "tag": "🇷🇺 Russia_Moscow_vless_14",
+      "type": "vless",
       "server": "46.29.166.206",
-      "server_port": 20427,
-      "up_mbps": 50,
-      "down_mbps": 80,
-      "auth_str": "",
+      "server_port": 54491,
+      "uuid": "e5ea22f9-2e13-4aa4-a57a-73805c7dfe48",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "bing.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
+        "insecure": false,
+        "server_name": "www.yahoo.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "O57ybvboLKcwCRHHlv9UOu5nM9JI-pew2vcwG-7dAE4",
+          "short_id": "50662bd4"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
