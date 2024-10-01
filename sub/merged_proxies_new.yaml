@@ -5018,6 +5018,48 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
+- name: United States_None_reality_4
+  type: vless
+  server: 166.1.221.22
+  port: 35933
+  uuid: f3d3f306-87e8-42ce-90b4-8b333fcfa1b2
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: addons.mozilla.org
+  reality-opts:
+    public-key: dtLQotOntHw_ULRf7spOS8tdqvJn4kdLlJrywjubYFE
+    short-id: ''
+- name: United States_None_reality_5
+  type: vless
+  server: 166.1.221.22
+  port: 35933
+  uuid: f3d3f306-87e8-42ce-90b4-8b333fcfa1b2
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: addons.mozilla.org
+  reality-opts:
+    public-key: dtLQotOntHw_ULRf7spOS8tdqvJn4kdLlJrywjubYFE
+    short-id: ''
+- name: United States_None_reality_6
+  type: vless
+  server: 166.1.221.22
+  port: 35933
+  uuid: f3d3f306-87e8-42ce-90b4-8b333fcfa1b2
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: addons.mozilla.org
+  reality-opts:
+    public-key: dtLQotOntHw_ULRf7spOS8tdqvJn4kdLlJrywjubYFE
+    short-id: ''
 proxy-groups:
 - name: 节点选择
   type: select
@@ -5360,6 +5402,9 @@ proxy-groups:
   - United States_Los Angeles_B5
   - United States_None_B6
   - United States_Los Angeles_B7
+  - United States_None_reality_4
+  - United States_None_reality_5
+  - United States_None_reality_6
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -5702,6 +5747,9 @@ proxy-groups:
   - United States_Los Angeles_B5
   - United States_None_B6
   - United States_Los Angeles_B7
+  - United States_None_reality_4
+  - United States_None_reality_5
+  - United States_None_reality_6
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
