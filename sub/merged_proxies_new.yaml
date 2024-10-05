@@ -15175,18 +15175,21 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip3.8084726.xyz
-- name: Russia_Moscow_101
-  type: hysteria
-  server: 176.32.35.107
-  port: 21155
-  ports: 30000-40000
-  auth_str: dongtaiwang.com
-  alpn:
-  - h3
-  sni: www.bing.com
-  skip-cert-verify: true
-  up: 11 Mbps
-  down: 55 Mbps
+- name: None_None_101
+  type: vmess
+  server: 104.21.238.201
+  port: 8880
+  uuid: 57d2d9f2-f1d3-490c-acc5-108e8a8e17ca
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip3.9375943.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip3.9375943.xyz
 - name: United States_Seattle_111
   type: hysteria
   server: 64.42.176.179
@@ -15199,18 +15202,21 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: Russia_Moscow_121
-  type: hysteria
-  server: 46.29.166.206
-  port: 20427
-  ports: 30000-40000
-  auth_str: dongtaiwang.com
-  alpn:
-  - h3
-  sni: bing.com
-  skip-cert-verify: true
-  up: 11 Mbps
-  down: 55 Mbps
+- name: None_None_121
+  type: vmess
+  server: 104.21.238.205
+  port: 2095
+  uuid: 8ce8196e-28fe-4154-b33d-76e237b1e1e8
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip3.9290254.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip3.9290254.xyz
 - name: None_None_131
   type: vmess
   server: 104.21.238.200
@@ -15226,20 +15232,21 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip3.9290254.xyz
-- name: Russia_Moscow_141
-  type: vless
-  server: 46.29.166.206
-  port: 54491
-  uuid: e5ea22f9-2e13-4aa4-a57a-73805c7dfe48
-  network: tcp
+- name: None_None_141
+  type: vmess
+  server: 104.21.238.203
+  port: 2095
+  uuid: 8ce8196e-28fe-4154-b33d-76e237b1e1e8
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: www.yahoo.com
-  reality-opts:
-    public-key: O57ybvboLKcwCRHHlv9UOu5nM9JI-pew2vcwG-7dAE4
-    short-id: 50662bd4
-  client-fingerprint: chrome
+  tls: false
+  network: ws
+  servername: ip3.9290254.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip3.9290254.xyz
 - name: None_None_151
   type: vmess
   server: 104.21.238.200
@@ -15456,8 +15463,8 @@ proxies:
   skip-cert-verify: true
 - name: United States_None_B4
   type: hysteria2
-  server: 207.90.239.157
-  port: 3400
+  server: 208.87.243.187
+  port: 29620
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -15478,10 +15485,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: United States_Los Angeles_B7
+- name: United States_None_B7
   type: hysteria2
-  server: 64.110.25.12
-  port: 50942
+  server: 207.90.239.157
+  port: 3400
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -16544,11 +16551,11 @@ proxy-groups:
   - None_None_999
   - None_None_9100
   - None_None_9101
-  - Russia_Moscow_101
+  - None_None_101
   - United States_Seattle_111
-  - Russia_Moscow_121
+  - None_None_121
   - None_None_131
-  - Russia_Moscow_141
+  - None_None_141
   - None_None_151
   - United States_Seattle_161
   - United States_Seattle_171
@@ -16569,7 +16576,7 @@ proxy-groups:
   - United States_None_B4
   - United States_Los Angeles_B5
   - United States_None_B6
-  - United States_Los Angeles_B7
+  - United States_None_B7
   - United States_Los Angeles_reality_4
   - United States_None_reality_5
   - United States_Los Angeles_reality_6
@@ -17589,11 +17596,11 @@ proxy-groups:
   - None_None_999
   - None_None_9100
   - None_None_9101
-  - Russia_Moscow_101
+  - None_None_101
   - United States_Seattle_111
-  - Russia_Moscow_121
+  - None_None_121
   - None_None_131
-  - Russia_Moscow_141
+  - None_None_141
   - None_None_151
   - United States_Seattle_161
   - United States_Seattle_171
@@ -17614,7 +17621,7 @@ proxy-groups:
   - United States_None_B4
   - United States_Los Angeles_B5
   - United States_None_B6
-  - United States_Los Angeles_B7
+  - United States_None_B7
   - United States_Los Angeles_reality_4
   - United States_None_reality_5
   - United States_Los Angeles_reality_6
