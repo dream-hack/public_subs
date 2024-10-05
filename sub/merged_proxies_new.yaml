@@ -9139,20 +9139,21 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_Seattle_131
-  type: vless
-  server: 64.42.176.179
-  port: 44008
-  uuid: 7c90a89e-63b3-4d40-90c6-1b5f1aa14e38
-  network: tcp
+- name: None_None_131
+  type: vmess
+  server: 104.21.238.200
+  port: 2095
+  uuid: 8ce8196e-28fe-4154-b33d-76e237b1e1e8
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: nijigen-works.jp
-  reality-opts:
-    public-key: EdE36arx2ZEamAp3e60zvwSdcrCr4CU9HI5bFTvh9W0
-    short-id: fada62ff6504c59a
-  client-fingerprint: chrome
+  tls: false
+  network: ws
+  servername: ip3.9290254.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip3.9290254.xyz
 - name: Russia_Moscow_141
   type: vless
   server: 46.29.166.206
@@ -9167,20 +9168,21 @@ proxies:
     public-key: O57ybvboLKcwCRHHlv9UOu5nM9JI-pew2vcwG-7dAE4
     short-id: 50662bd4
   client-fingerprint: chrome
-- name: United States_Seattle_151
-  type: vless
-  server: 64.42.176.179
-  port: 44008
-  uuid: 7c90a89e-63b3-4d40-90c6-1b5f1aa14e38
-  network: tcp
+- name: None_None_151
+  type: vmess
+  server: 104.21.238.200
+  port: 2095
+  uuid: 8ce8196e-28fe-4154-b33d-76e237b1e1e8
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: nijigen-works.jp
-  reality-opts:
-    public-key: EdE36arx2ZEamAp3e60zvwSdcrCr4CU9HI5bFTvh9W0
-    short-id: fada62ff6504c59a
-  client-fingerprint: chrome
+  tls: false
+  network: ws
+  servername: ip3.9290254.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip3.9290254.xyz
 - name: United States_Seattle_171
   type: vless
   server: 45.150.165.121
@@ -9211,9 +9213,9 @@ proxies:
   client-fingerprint: chrome
 - name: United States_Los Angeles_A0
   type: hysteria
-  server: 91.149.239.23
-  port: 11223
-  ports: 11223
+  server: 104.192.224.138
+  port: 28850
+  ports: 20000-30000
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -9239,9 +9241,9 @@ proxies:
   - h3
 - name: United States_Los Angeles_A4
   type: hysteria
-  server: 104.192.224.138
-  port: 28850
-  ports: 20000-30000
+  server: 91.149.239.23
+  port: 11223
+  ports: 11223
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -9251,18 +9253,18 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_None_B0
+- name: United States_Los Angeles_B0
   type: hysteria2
-  server: 207.90.239.157
-  port: 3400
+  server: 64.110.25.12
+  port: 50942
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: United States_Los Angeles_B4
+- name: United States_None_B4
   type: hysteria2
-  server: 64.110.25.12
-  port: 50942
+  server: 207.90.239.157
+  port: 3400
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -9947,16 +9949,16 @@ proxy-groups:
   - None_None_8101
   - United States_Seattle_111
   - Russia_Moscow_121
-  - United States_Seattle_131
+  - None_None_131
   - Russia_Moscow_141
-  - United States_Seattle_151
+  - None_None_151
   - United States_Seattle_171
   - United States_Seattle_191
   - United States_Los Angeles_A0
   - United States_None_A3
   - United States_Los Angeles_A4
-  - United States_None_B0
-  - United States_Los Angeles_B4
+  - United States_Los Angeles_B0
+  - United States_None_B4
   - United States_Los Angeles_B5
   - United States_None_B6
   - United States_Los Angeles_B7
@@ -10577,16 +10579,16 @@ proxy-groups:
   - None_None_8101
   - United States_Seattle_111
   - Russia_Moscow_121
-  - United States_Seattle_131
+  - None_None_131
   - Russia_Moscow_141
-  - United States_Seattle_151
+  - None_None_151
   - United States_Seattle_171
   - United States_Seattle_191
   - United States_Los Angeles_A0
   - United States_None_A3
   - United States_Los Angeles_A4
-  - United States_None_B0
-  - United States_Los Angeles_B4
+  - United States_Los Angeles_B0
+  - United States_None_B4
   - United States_Los Angeles_B5
   - United States_None_B6
   - United States_Los Angeles_B7
