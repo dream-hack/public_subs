@@ -100,8 +100,7 @@
         "🇺🇸 United States_Seattle_hy_11",
         "🇺🇸 United States_Seattle_hy_16",
         "🇺🇸 United States_Seattle_vless_17",
-        "🇺🇸 United States_Seattle_vless_19",
-        "🇺🇸 United States_Los Angeles_hysteria_0",
+        "🇺🇸 United States_None_hysteria_0",
         "🇺🇸 United States_None_hysteria_1",
         "🇺🇸 United States_None_hysteria_2",
         "🇺🇸 United States_None_hysteria_3",
@@ -109,7 +108,7 @@
         "🇺🇸 United States_Los Angeles_hysteria_5",
         "🇺🇸 United States_Los Angeles_hysteria_6",
         "🇺🇸 United States_Los Angeles_hysteria_7",
-        "🇺🇸 United States_Los Angeles_hysteria2_0",
+        "🇺🇸 United States_None_hysteria2_0",
         "🇺🇸 United States_None_hysteria2_1",
         "🇺🇸 United States_None_hysteria2_2",
         "🇺🇸 United States_None_hysteria2_3",
@@ -364,8 +363,7 @@
         "🇺🇸 United States_Seattle_hy_11",
         "🇺🇸 United States_Seattle_hy_16",
         "🇺🇸 United States_Seattle_vless_17",
-        "🇺🇸 United States_Seattle_vless_19",
-        "🇺🇸 United States_Los Angeles_hysteria_0",
+        "🇺🇸 United States_None_hysteria_0",
         "🇺🇸 United States_None_hysteria_1",
         "🇺🇸 United States_None_hysteria_2",
         "🇺🇸 United States_None_hysteria_3",
@@ -373,7 +371,7 @@
         "🇺🇸 United States_Los Angeles_hysteria_5",
         "🇺🇸 United States_Los Angeles_hysteria_6",
         "🇺🇸 United States_Los Angeles_hysteria_7",
-        "🇺🇸 United States_Los Angeles_hysteria2_0",
+        "🇺🇸 United States_None_hysteria2_0",
         "🇺🇸 United States_None_hysteria2_1",
         "🇺🇸 United States_None_hysteria2_2",
         "🇺🇸 United States_None_hysteria2_3",
@@ -401,8 +399,7 @@
         "🇺🇸 United States_Seattle_hy_11",
         "🇺🇸 United States_Seattle_hy_16",
         "🇺🇸 United States_Seattle_vless_17",
-        "🇺🇸 United States_Seattle_vless_19",
-        "🇺🇸 United States_Los Angeles_hysteria_0",
+        "🇺🇸 United States_None_hysteria_0",
         "🇺🇸 United States_None_hysteria_1",
         "🇺🇸 United States_None_hysteria_2",
         "🇺🇸 United States_None_hysteria_3",
@@ -410,7 +407,7 @@
         "🇺🇸 United States_Los Angeles_hysteria_5",
         "🇺🇸 United States_Los Angeles_hysteria_6",
         "🇺🇸 United States_Los Angeles_hysteria_7",
-        "🇺🇸 United States_Los Angeles_hysteria2_0",
+        "🇺🇸 United States_None_hysteria2_0",
         "🇺🇸 United States_None_hysteria2_1",
         "🇺🇸 United States_None_hysteria2_2",
         "🇺🇸 United States_None_hysteria2_3",
@@ -497,33 +494,10 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_Seattle_vless_19",
-      "type": "vless",
-      "server": "64.42.176.180",
-      "server_port": 44008,
-      "uuid": "7c90a89e-63b3-4d40-90c6-1b5f1aa14e38",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "nijigen-works.jp",
-        "reality": {
-          "enabled": true,
-          "public_key": "EdE36arx2ZEamAp3e60zvwSdcrCr4CU9HI5bFTvh9W0",
-          "short_id": "fada62ff6504c59a"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 United States_Los Angeles_hysteria_0",
+      "tag": "🇺🇸 United States_None_hysteria_0",
       "type": "hysteria",
-      "server": "104.192.224.138",
-      "server_port": 28850,
+      "server": "166.1.221.169",
+      "server_port": 11223,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
@@ -534,7 +508,8 @@
         "alpn": [
           "h3"
         ]
-      }
+      },
+      "obfs": "dongtaiwang.com"
     },
     {
       "tag": "🇺🇸 United States_None_hysteria_1",
@@ -593,8 +568,8 @@
     {
       "tag": "🇺🇸 United States_Los Angeles_hysteria_4",
       "type": "hysteria",
-      "server": "91.149.239.23",
-      "server_port": 11223,
+      "server": "108.181.24.77",
+      "server_port": 35862,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
@@ -605,8 +580,7 @@
         "alpn": [
           "h3"
         ]
-      },
-      "obfs": "dongtaiwang.com"
+      }
     },
     {
       "tag": "🇺🇸 United States_Los Angeles_hysteria_5",
@@ -660,10 +634,10 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_Los Angeles_hysteria2_0",
+      "tag": "🇺🇸 United States_None_hysteria2_0",
       "type": "hysteria2",
-      "server": "64.110.25.12",
-      "server_port": 50942,
+      "server": "207.90.239.157",
+      "server_port": 3400,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
