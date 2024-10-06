@@ -15303,25 +15303,26 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip3.9290254.xyz
-- name: United States_Seattle_191
-  type: vless
-  server: 64.42.176.180
-  port: 44008
-  uuid: 7c90a89e-63b3-4d40-90c6-1b5f1aa14e38
-  network: tcp
+- name: None_None_191
+  type: vmess
+  server: 104.21.238.210
+  port: 2095
+  uuid: 8ce8196e-28fe-4154-b33d-76e237b1e1e8
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: nijigen-works.jp
-  reality-opts:
-    public-key: EdE36arx2ZEamAp3e60zvwSdcrCr4CU9HI5bFTvh9W0
-    short-id: fada62ff6504c59a
-  client-fingerprint: chrome
-- name: United States_Los Angeles_A0
+  tls: false
+  network: ws
+  servername: ip3.9290254.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip3.9290254.xyz
+- name: United States_None_A0
   type: hysteria
-  server: 104.192.224.138
-  port: 28850
-  ports: 20000-30000
+  server: 166.1.221.169
+  port: 11223
+  ports: 11223
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -15375,9 +15376,9 @@ proxies:
   - h3
 - name: United States_Los Angeles_A4
   type: hysteria
-  server: 91.149.239.23
-  port: 11223
-  ports: 11223
+  server: 108.181.24.77
+  port: 35862
+  ports: 40000-50000
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -15429,10 +15430,10 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Los Angeles_B0
+- name: United States_None_B0
   type: hysteria2
-  server: 64.110.25.12
-  port: 50942
+  server: 207.90.239.157
+  port: 3400
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -16560,8 +16561,8 @@ proxy-groups:
   - United States_Seattle_161
   - United States_Seattle_171
   - None_None_181
-  - United States_Seattle_191
-  - United States_Los Angeles_A0
+  - None_None_191
+  - United States_None_A0
   - United States_None_A1
   - United States_None_A2
   - United States_None_A3
@@ -16569,7 +16570,7 @@ proxy-groups:
   - United States_Los Angeles_A5
   - United States_Los Angeles_A6
   - United States_Los Angeles_A7
-  - United States_Los Angeles_B0
+  - United States_None_B0
   - United States_None_B1
   - United States_None_B2
   - United States_None_B3
@@ -17605,8 +17606,8 @@ proxy-groups:
   - United States_Seattle_161
   - United States_Seattle_171
   - None_None_181
-  - United States_Seattle_191
-  - United States_Los Angeles_A0
+  - None_None_191
+  - United States_None_A0
   - United States_None_A1
   - United States_None_A2
   - United States_None_A3
@@ -17614,7 +17615,7 @@ proxy-groups:
   - United States_Los Angeles_A5
   - United States_Los Angeles_A6
   - United States_Los Angeles_A7
-  - United States_Los Angeles_B0
+  - United States_None_B0
   - United States_None_B1
   - United States_None_B2
   - United States_None_B3
