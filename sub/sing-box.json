@@ -97,14 +97,17 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇺🇸 United States_Kansas City_hy_10",
         "🇺🇸 United States_Seattle_hy_11",
+        "🇺🇸 United States_Los Angeles_vless_12",
+        "🇺🇸 United States_Los Angeles_vless_13",
         "🇺🇸 United States_Seattle_hy_16",
         "🇺🇸 United States_Seattle_vless_17",
         "🇺🇸 United States_None_hysteria_0",
         "🇺🇸 United States_None_hysteria_1",
         "🇺🇸 United States_None_hysteria_2",
         "🇺🇸 United States_None_hysteria_3",
-        "🇺🇸 United States_Los Angeles_hysteria_4",
+        "🇺🇸 United States_Seattle_hysteria_4",
         "🇺🇸 United States_Los Angeles_hysteria_5",
         "🇺🇸 United States_Los Angeles_hysteria_6",
         "🇺🇸 United States_Los Angeles_hysteria_7",
@@ -112,7 +115,7 @@
         "🇺🇸 United States_None_hysteria2_1",
         "🇺🇸 United States_None_hysteria2_2",
         "🇺🇸 United States_None_hysteria2_3",
-        "🇺🇸 United States_None_hysteria2_4",
+        "🇺🇸 United States_Los Angeles_hysteria2_4",
         "🇺🇸 United States_Los Angeles_hysteria2_5",
         "🇺🇸 United States_None_hysteria2_6",
         "🇺🇸 United States_Los Angeles_hysteria2_7",
@@ -360,14 +363,17 @@
       "tag": "America",
       "type": "selector",
       "outbounds": [
+        "🇺🇸 United States_Kansas City_hy_10",
         "🇺🇸 United States_Seattle_hy_11",
+        "🇺🇸 United States_Los Angeles_vless_12",
+        "🇺🇸 United States_Los Angeles_vless_13",
         "🇺🇸 United States_Seattle_hy_16",
         "🇺🇸 United States_Seattle_vless_17",
         "🇺🇸 United States_None_hysteria_0",
         "🇺🇸 United States_None_hysteria_1",
         "🇺🇸 United States_None_hysteria_2",
         "🇺🇸 United States_None_hysteria_3",
-        "🇺🇸 United States_Los Angeles_hysteria_4",
+        "🇺🇸 United States_Seattle_hysteria_4",
         "🇺🇸 United States_Los Angeles_hysteria_5",
         "🇺🇸 United States_Los Angeles_hysteria_6",
         "🇺🇸 United States_Los Angeles_hysteria_7",
@@ -375,7 +381,7 @@
         "🇺🇸 United States_None_hysteria2_1",
         "🇺🇸 United States_None_hysteria2_2",
         "🇺🇸 United States_None_hysteria2_3",
-        "🇺🇸 United States_None_hysteria2_4",
+        "🇺🇸 United States_Los Angeles_hysteria2_4",
         "🇺🇸 United States_Los Angeles_hysteria2_5",
         "🇺🇸 United States_None_hysteria2_6",
         "🇺🇸 United States_Los Angeles_hysteria2_7",
@@ -396,14 +402,17 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
+        "🇺🇸 United States_Kansas City_hy_10",
         "🇺🇸 United States_Seattle_hy_11",
+        "🇺🇸 United States_Los Angeles_vless_12",
+        "🇺🇸 United States_Los Angeles_vless_13",
         "🇺🇸 United States_Seattle_hy_16",
         "🇺🇸 United States_Seattle_vless_17",
         "🇺🇸 United States_None_hysteria_0",
         "🇺🇸 United States_None_hysteria_1",
         "🇺🇸 United States_None_hysteria_2",
         "🇺🇸 United States_None_hysteria_3",
-        "🇺🇸 United States_Los Angeles_hysteria_4",
+        "🇺🇸 United States_Seattle_hysteria_4",
         "🇺🇸 United States_Los Angeles_hysteria_5",
         "🇺🇸 United States_Los Angeles_hysteria_6",
         "🇺🇸 United States_Los Angeles_hysteria_7",
@@ -411,7 +420,7 @@
         "🇺🇸 United States_None_hysteria2_1",
         "🇺🇸 United States_None_hysteria2_2",
         "🇺🇸 United States_None_hysteria2_3",
-        "🇺🇸 United States_None_hysteria2_4",
+        "🇺🇸 United States_Los Angeles_hysteria2_4",
         "🇺🇸 United States_Los Angeles_hysteria2_5",
         "🇺🇸 United States_None_hysteria2_6",
         "🇺🇸 United States_Los Angeles_hysteria2_7",
@@ -437,6 +446,23 @@
       "tag": "block"
     },
     {
+      "tag": "🇺🇸 United States_Kansas City_hy_10",
+      "type": "hysteria",
+      "server": "109.104.152.251",
+      "server_port": 22577,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
       "tag": "🇺🇸 United States_Seattle_hy_11",
       "type": "hysteria",
       "server": "64.42.176.179",
@@ -454,10 +480,59 @@
       }
     },
     {
+      "tag": "🇺🇸 United States_Los Angeles_vless_12",
+      "type": "vless",
+      "server": "108.181.23.41",
+      "server_port": 65289,
+      "uuid": "d473881b-6ea7-4e32-aeb1-4ca78e29b63a",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "www.yahoo.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "COPC6FtgEtofYW84xoShRYzFK8TTgdGkA0UafZiji3Y",
+          "short_id": "9fa47a63"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 United States_Los Angeles_vless_13",
+      "type": "vless",
+      "server": "108.181.22.213",
+      "server_port": 13675,
+      "uuid": "e0c7d644-2377-4d90-b012-215f89444c54",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "addons.mozilla.org",
+        "reality": {
+          "enabled": true,
+          "public_key": "oKW5-LN1F4tbrSCdUH-ySdp4cgDlBiAn4_5GbqpPOgE"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc"
+      }
+    },
+    {
       "tag": "🇺🇸 United States_Seattle_hy_16",
       "type": "hysteria",
-      "server": "64.42.176.179",
-      "server_port": 19513,
+      "server": "64.42.176.180",
+      "server_port": 12345,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "",
@@ -566,10 +641,10 @@
       "obfs": "dongtaiwang.com"
     },
     {
-      "tag": "🇺🇸 United States_Los Angeles_hysteria_4",
+      "tag": "🇺🇸 United States_Seattle_hysteria_4",
       "type": "hysteria",
-      "server": "108.181.24.77",
-      "server_port": 35862,
+      "server": "64.42.176.180",
+      "server_port": 12345,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
@@ -702,9 +777,9 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_None_hysteria2_4",
+      "tag": "🇺🇸 United States_Los Angeles_hysteria2_4",
       "type": "hysteria2",
-      "server": "208.87.243.187",
+      "server": "173.234.25.51",
       "server_port": 22222,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
@@ -773,8 +848,8 @@
       "tag": "🇺🇸 United States_Los Angeles_vless_4",
       "type": "vless",
       "server": "108.181.23.41",
-      "server_port": 57252,
-      "uuid": "25d1b318-87e8-4c1e-a784-69783be4b30a",
+      "server_port": 65289,
+      "uuid": "d473881b-6ea7-4e32-aeb1-4ca78e29b63a",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -783,8 +858,8 @@
         "server_name": "www.yahoo.com",
         "reality": {
           "enabled": true,
-          "public_key": "OArr7bhbdqsdhd1RT_lm0-OSrtcgje4kEXiQ-QMHmm8",
-          "short_id": "5bfc684c"
+          "public_key": "COPC6FtgEtofYW84xoShRYzFK8TTgdGkA0UafZiji3Y",
+          "short_id": "9fa47a63"
         },
         "utls": {
           "enabled": true,
@@ -817,24 +892,26 @@
     {
       "tag": "🇺🇸 United States_Los Angeles_vless_6",
       "type": "vless",
-      "server": "108.181.23.41",
-      "server_port": 57252,
-      "uuid": "25d1b318-87e8-4c1e-a784-69783be4b30a",
+      "server": "108.181.22.213",
+      "server_port": 13675,
+      "uuid": "e0c7d644-2377-4d90-b012-215f89444c54",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "www.yahoo.com",
+        "server_name": "addons.mozilla.org",
         "reality": {
           "enabled": true,
-          "public_key": "OArr7bhbdqsdhd1RT_lm0-OSrtcgje4kEXiQ-QMHmm8",
-          "short_id": "5bfc684c"
+          "public_key": "oKW5-LN1F4tbrSCdUH-ySdp4cgDlBiAn4_5GbqpPOgE"
         },
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc"
       }
     },
     {

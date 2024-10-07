@@ -15238,11 +15238,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip3.9290254.xyz
+  servername: ip4.9290254.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip3.9290254.xyz
+      Host: ip4.9290254.xyz
 - name: None_None_151
   type: vmess
   server: 104.21.238.200
@@ -15253,11 +15253,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip3.9290254.xyz
+  servername: ip4.9290254.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip3.9290254.xyz
+      Host: ip4.9290254.xyz
 - name: United States_Seattle_161
   type: hysteria
   server: 64.42.176.180
@@ -15293,11 +15293,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip3.9290254.xyz
+  servername: ip4.9290254.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip3.9290254.xyz
+      Host: ip4.9290254.xyz
 - name: None_None_191
   type: vmess
   server: 104.21.238.210
@@ -15308,11 +15308,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip3.9290254.xyz
+  servername: ip4.9290254.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip3.9290254.xyz
+      Host: ip4.9290254.xyz
 - name: United States_None_A0
   type: hysteria
   server: 166.1.221.169
