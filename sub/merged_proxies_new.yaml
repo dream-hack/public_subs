@@ -15390,7 +15390,7 @@ proxies:
   - h3
 - name: United States_Los Angeles_A5
   type: hysteria
-  server: 104.192.224.138
+  server: 104.192.224.139
   port: 28850
   ports: 20000-30000
   auth_str: dongtaiwang.com
@@ -15404,9 +15404,9 @@ proxies:
   - h3
 - name: United States_Los Angeles_A6
   type: hysteria
-  server: 104.192.224.138
-  port: 28850
-  ports: 20000-30000
+  server: 108.181.24.77
+  port: 35862
+  ports: 40000-50000
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -15418,7 +15418,7 @@ proxies:
   - h3
 - name: United States_Los Angeles_A7
   type: hysteria
-  server: 104.192.224.138
+  server: 104.192.224.139
   port: 28850
   ports: 20000-30000
   auth_str: dongtaiwang.com
@@ -15470,10 +15470,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: United States_None_B5
+- name: United States_Los Angeles_B5
   type: hysteria2
-  server: 208.87.243.187
-  port: 22222
+  server: 64.110.25.14
+  port: 38267
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -15486,10 +15486,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: United States_None_B7
+- name: United States_Los Angeles_B7
   type: hysteria2
-  server: 208.87.243.187
-  port: 22222
+  server: 64.110.25.14
+  port: 38267
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -16575,9 +16575,9 @@ proxy-groups:
   - United States_None_B2
   - United States_None_B3
   - United States_None_B4
-  - United States_None_B5
+  - United States_Los Angeles_B5
   - United States_None_B6
-  - United States_None_B7
+  - United States_Los Angeles_B7
   - United States_Los Angeles_reality_4
   - United States_None_reality_5
   - United States_Los Angeles_reality_6
@@ -17620,9 +17620,9 @@ proxy-groups:
   - United States_None_B2
   - United States_None_B3
   - United States_None_B4
-  - United States_None_B5
+  - United States_Los Angeles_B5
   - United States_None_B6
-  - United States_None_B7
+  - United States_Los Angeles_B7
   - United States_Los Angeles_reality_4
   - United States_None_reality_5
   - United States_Los Angeles_reality_6
