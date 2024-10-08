@@ -547,7 +547,7 @@
       "tag": "🇺🇸 United States_None_hysteria_0",
       "type": "hysteria",
       "server": "166.1.221.169",
-      "server_port": 11223,
+      "server_port": 55555,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
@@ -558,14 +558,13 @@
         "alpn": [
           "h3"
         ]
-      },
-      "obfs": "dongtaiwang.com"
+      }
     },
     {
       "tag": "🇺🇸 United States_None_hysteria_1",
       "type": "hysteria",
       "server": "166.1.221.169",
-      "server_port": 11223,
+      "server_port": 55555,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
@@ -576,14 +575,13 @@
         "alpn": [
           "h3"
         ]
-      },
-      "obfs": "dongtaiwang.com"
+      }
     },
     {
       "tag": "🇺🇸 United States_None_hysteria_2",
       "type": "hysteria",
       "server": "166.1.221.169",
-      "server_port": 11223,
+      "server_port": 55555,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
@@ -594,14 +592,13 @@
         "alpn": [
           "h3"
         ]
-      },
-      "obfs": "dongtaiwang.com"
+      }
     },
     {
       "tag": "🇺🇸 United States_None_hysteria_3",
       "type": "hysteria",
       "server": "166.1.221.169",
-      "server_port": 11223,
+      "server_port": 55555,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
@@ -612,8 +609,7 @@
         "alpn": [
           "h3"
         ]
-      },
-      "obfs": "dongtaiwang.com"
+      }
     },
     {
       "tag": "🇺🇸 United States_Seattle_hysteria_4",
@@ -687,7 +683,7 @@
       "tag": "🇺🇸 United States_None_hysteria2_0",
       "type": "hysteria2",
       "server": "207.90.239.157",
-      "server_port": 3400,
+      "server_port": 11111,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
@@ -704,7 +700,7 @@
       "tag": "🇺🇸 United States_None_hysteria2_1",
       "type": "hysteria2",
       "server": "207.90.239.157",
-      "server_port": 3400,
+      "server_port": 11111,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
@@ -721,7 +717,7 @@
       "tag": "🇺🇸 United States_None_hysteria2_2",
       "type": "hysteria2",
       "server": "207.90.239.157",
-      "server_port": 3400,
+      "server_port": 11111,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
@@ -738,7 +734,7 @@
       "tag": "🇺🇸 United States_None_hysteria2_3",
       "type": "hysteria2",
       "server": "207.90.239.157",
-      "server_port": 3400,
+      "server_port": 11111,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
