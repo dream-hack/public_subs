@@ -100,6 +100,7 @@
         "🇷🇺 Russia_Moscow_hy_6",
         "🇺🇸 United States_Kansas City_hy_10",
         "🇺🇸 United States_Seattle_hy_11",
+        "🇹🇼 Taiwan_Taipei_hy_12",
         "🇺🇸 United States_Seattle_hy_16",
         "🇺🇸 United States_Seattle_vless_17",
         "🇹🇼 Taiwan_Taipei_hy_18",
@@ -340,6 +341,7 @@
       "tag": "TaiWan",
       "type": "selector",
       "outbounds": [
+        "🇹🇼 Taiwan_Taipei_hy_12",
         "🇹🇼 Taiwan_Taipei_hy_18"
       ]
     },
@@ -400,6 +402,7 @@
         "🇷🇺 Russia_Moscow_hy_6",
         "🇺🇸 United States_Kansas City_hy_10",
         "🇺🇸 United States_Seattle_hy_11",
+        "🇹🇼 Taiwan_Taipei_hy_12",
         "🇺🇸 United States_Seattle_hy_16",
         "🇺🇸 United States_Seattle_vless_17",
         "🇹🇼 Taiwan_Taipei_hy_18",
@@ -477,6 +480,23 @@
       "type": "hysteria",
       "server": "64.42.176.179",
       "server_port": 19513,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇹🇼 Taiwan_Taipei_hy_12",
+      "type": "hysteria",
+      "server": "1.0035961.xyz",
+      "server_port": 11111,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "",
