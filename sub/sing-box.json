@@ -101,6 +101,9 @@
         "🇺🇸 United States_Kansas City_hy_10",
         "🇺🇸 United States_Seattle_hy_11",
         "🇹🇼 Taiwan_Taipei_hy_12",
+        "🇺🇸 United States_Los Angeles_hy_13",
+        "🇹🇼 Taiwan_Taipei_hy_14",
+        "🇹🇼 Taiwan_Taipei_hy_15",
         "🇺🇸 United States_Seattle_hy_16",
         "🇺🇸 United States_Seattle_vless_17",
         "🇹🇼 Taiwan_Taipei_hy_18",
@@ -342,6 +345,8 @@
       "type": "selector",
       "outbounds": [
         "🇹🇼 Taiwan_Taipei_hy_12",
+        "🇹🇼 Taiwan_Taipei_hy_14",
+        "🇹🇼 Taiwan_Taipei_hy_15",
         "🇹🇼 Taiwan_Taipei_hy_18"
       ]
     },
@@ -366,6 +371,7 @@
         "🇷🇺 Russia_Moscow_hy_6",
         "🇺🇸 United States_Kansas City_hy_10",
         "🇺🇸 United States_Seattle_hy_11",
+        "🇺🇸 United States_Los Angeles_hy_13",
         "🇺🇸 United States_Seattle_hy_16",
         "🇺🇸 United States_Seattle_vless_17",
         "🇺🇸 United States_Los Angeles_hy_19",
@@ -403,6 +409,9 @@
         "🇺🇸 United States_Kansas City_hy_10",
         "🇺🇸 United States_Seattle_hy_11",
         "🇹🇼 Taiwan_Taipei_hy_12",
+        "🇺🇸 United States_Los Angeles_hy_13",
+        "🇹🇼 Taiwan_Taipei_hy_14",
+        "🇹🇼 Taiwan_Taipei_hy_15",
         "🇺🇸 United States_Seattle_hy_16",
         "🇺🇸 United States_Seattle_vless_17",
         "🇹🇼 Taiwan_Taipei_hy_18",
@@ -494,6 +503,58 @@
     },
     {
       "tag": "🇹🇼 Taiwan_Taipei_hy_12",
+      "type": "hysteria",
+      "server": "1.0035961.xyz",
+      "server_port": 11111,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇺🇸 United States_Los Angeles_hy_13",
+      "type": "hysteria",
+      "server": "154.21.193.246",
+      "server_port": 33333,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      },
+      "obfs": "dongtaiwang.com"
+    },
+    {
+      "tag": "🇹🇼 Taiwan_Taipei_hy_14",
+      "type": "hysteria",
+      "server": "1.0035961.xyz",
+      "server_port": 11111,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇹🇼 Taiwan_Taipei_hy_15",
       "type": "hysteria",
       "server": "1.0035961.xyz",
       "server_port": 11111,
