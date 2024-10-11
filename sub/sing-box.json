@@ -105,9 +105,9 @@
         "🇹🇼 Taiwan_Taipei_hy_14",
         "🇹🇼 Taiwan_Taipei_hy_15",
         "🇺🇸 United States_Seattle_hy_16",
-        "🇺🇸 United States_Seattle_vless_17",
+        "🇺🇸 United States_Los Angeles_hy_17",
         "🇹🇼 Taiwan_Taipei_hy_18",
-        "🇺🇸 United States_Los Angeles_hy_19",
+        "🇺🇸 United States_Seattle_vless_19",
         "🇷🇺 Russia_Moscow_hysteria_0",
         "🇷🇺 Russia_Moscow_hysteria_1",
         "🇷🇺 Russia_Moscow_hysteria_2",
@@ -373,8 +373,8 @@
         "🇺🇸 United States_Seattle_hy_11",
         "🇺🇸 United States_Los Angeles_hy_13",
         "🇺🇸 United States_Seattle_hy_16",
-        "🇺🇸 United States_Seattle_vless_17",
-        "🇺🇸 United States_Los Angeles_hy_19",
+        "🇺🇸 United States_Los Angeles_hy_17",
+        "🇺🇸 United States_Seattle_vless_19",
         "🇷🇺 Russia_Moscow_hysteria_0",
         "🇷🇺 Russia_Moscow_hysteria_1",
         "🇷🇺 Russia_Moscow_hysteria_2",
@@ -413,9 +413,9 @@
         "🇹🇼 Taiwan_Taipei_hy_14",
         "🇹🇼 Taiwan_Taipei_hy_15",
         "🇺🇸 United States_Seattle_hy_16",
-        "🇺🇸 United States_Seattle_vless_17",
+        "🇺🇸 United States_Los Angeles_hy_17",
         "🇹🇼 Taiwan_Taipei_hy_18",
-        "🇺🇸 United States_Los Angeles_hy_19",
+        "🇺🇸 United States_Seattle_vless_19",
         "🇷🇺 Russia_Moscow_hysteria_0",
         "🇷🇺 Russia_Moscow_hysteria_1",
         "🇷🇺 Russia_Moscow_hysteria_2",
@@ -454,7 +454,7 @@
       "tag": "🇷🇺 Russia_Moscow_hy_6",
       "type": "hysteria",
       "server": "46.29.166.206",
-      "server_port": 22222,
+      "server_port": 100,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "",
@@ -504,8 +504,8 @@
     {
       "tag": "🇹🇼 Taiwan_Taipei_hy_12",
       "type": "hysteria",
-      "server": "1.0035961.xyz",
-      "server_port": 11111,
+      "server": "2.0035961.xyz",
+      "server_port": 400,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "",
@@ -516,13 +516,14 @@
         "alpn": [
           "h3"
         ]
-      }
+      },
+      "obfs": "dongtaiwang.com"
     },
     {
       "tag": "🇺🇸 United States_Los Angeles_hy_13",
       "type": "hysteria",
       "server": "154.21.193.246",
-      "server_port": 33333,
+      "server_port": 100,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "",
@@ -540,7 +541,7 @@
       "tag": "🇹🇼 Taiwan_Taipei_hy_14",
       "type": "hysteria",
       "server": "1.0035961.xyz",
-      "server_port": 11111,
+      "server_port": 100,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "",
@@ -557,7 +558,7 @@
       "tag": "🇹🇼 Taiwan_Taipei_hy_15",
       "type": "hysteria",
       "server": "1.0035961.xyz",
-      "server_port": 11111,
+      "server_port": 100,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "",
@@ -588,7 +589,42 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_Seattle_vless_17",
+      "tag": "🇺🇸 United States_Los Angeles_hy_17",
+      "type": "hysteria",
+      "server": "154.21.193.246",
+      "server_port": 33333,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      },
+      "obfs": "dongtaiwang.com"
+    },
+    {
+      "tag": "🇹🇼 Taiwan_Taipei_hy_18",
+      "type": "hysteria",
+      "server": "1.0035961.xyz",
+      "server_port": 100,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇺🇸 United States_Seattle_vless_19",
       "type": "vless",
       "server": "45.150.165.121",
       "server_port": 7885,
@@ -609,41 +645,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇹🇼 Taiwan_Taipei_hy_18",
-      "type": "hysteria",
-      "server": "1.0035961.xyz",
-      "server_port": 11111,
-      "up_mbps": 50,
-      "down_mbps": 80,
-      "auth_str": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
-    },
-    {
-      "tag": "🇺🇸 United States_Los Angeles_hy_19",
-      "type": "hysteria",
-      "server": "154.21.193.246",
-      "server_port": 33333,
-      "up_mbps": 50,
-      "down_mbps": 80,
-      "auth_str": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      },
-      "obfs": "dongtaiwang.com"
     },
     {
       "tag": "🇷🇺 Russia_Moscow_hysteria_0",
@@ -875,8 +876,8 @@
     {
       "tag": "🇺🇸 United States_Los Angeles_hysteria2_5",
       "type": "hysteria2",
-      "server": "64.110.25.14",
-      "server_port": 38267,
+      "server": "173.234.25.51",
+      "server_port": 22222,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
@@ -909,8 +910,8 @@
     {
       "tag": "🇺🇸 United States_Los Angeles_hysteria2_7",
       "type": "hysteria2",
-      "server": "64.110.25.14",
-      "server_port": 38267,
+      "server": "173.234.25.51",
+      "server_port": 22222,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
