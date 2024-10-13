@@ -9170,11 +9170,11 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_Seattle_111
+- name: France_None_111
   type: hysteria
-  server: 64.42.176.179
-  port: 19513
-  ports: 20000-30000
+  server: 51.15.10.149
+  port: 36474
+  ports: 40000-50000
   auth_str: dongtaiwang.com
   alpn:
   - h3
@@ -9455,32 +9455,32 @@ proxies:
   skip-cert-verify: true
 - name: United States_Los Angeles_reality_4
   type: vless
-  server: 154.64.243.6
-  port: 100
-  uuid: ee420fda-efb7-48a8-9249-8987e36ebd9e
+  server: 108.181.3.67
+  port: 52562
+  uuid: 47b8b611-9e64-4d59-a1ef-b51b3ffc0cae
   network: tcp
   tls: true
   udp: true
   flow: xtls-rprx-vision
   client-fingerprint: chrome
-  servername: www.yahoo.com
+  servername: www.amazon.com
   reality-opts:
-    public-key: Xev91qiyfdEKc828i_-D-lWBYiiTb7VMsFN-RE8LUE4
-    short-id: adc1bbc8
+    public-key: qvdphcXh7EkRcfJ7XXB5v0KH9e2RqZQhL2QNyLQdsm8
+    short-id: ''
 - name: United States_Los Angeles_reality_5
   type: vless
   server: 154.64.243.6
-  port: 100
-  uuid: ee420fda-efb7-48a8-9249-8987e36ebd9e
+  port: 400
+  uuid: ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2
   network: tcp
   tls: true
   udp: true
   flow: xtls-rprx-vision
   client-fingerprint: chrome
-  servername: www.yahoo.com
+  servername: www.paypal.com
   reality-opts:
-    public-key: Xev91qiyfdEKc828i_-D-lWBYiiTb7VMsFN-RE8LUE4
-    short-id: adc1bbc8
+    public-key: bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI
+    short-id: ''
 proxy-groups:
 - name: 节点选择
   type: select
@@ -10098,7 +10098,7 @@ proxy-groups:
   - Russia_Moscow_81
   - Russia_Moscow_91
   - United States_Kansas City_101
-  - United States_Seattle_111
+  - France_None_111
   - Taiwan_Taipei_121
   - United States_Los Angeles_131
   - Taiwan_Taipei_141
@@ -10742,7 +10742,7 @@ proxy-groups:
   - Russia_Moscow_81
   - Russia_Moscow_91
   - United States_Kansas City_101
-  - United States_Seattle_111
+  - France_None_111
   - Taiwan_Taipei_121
   - United States_Los Angeles_131
   - Taiwan_Taipei_141

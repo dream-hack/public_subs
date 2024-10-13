@@ -127,6 +127,8 @@
         "🇺🇸 United States_Los Angeles_hysteria2_5",
         "🇺🇸 United States_None_hysteria2_6",
         "🇺🇸 United States_Los Angeles_hysteria2_7",
+        "🇺🇸 United States_Los Angeles_vless_4",
+        "🇺🇸 United States_Los Angeles_vless_5",
         "🇺🇸 United States_Seattle_vless_7"
       ]
     },
@@ -397,6 +399,8 @@
         "🇺🇸 United States_Los Angeles_hysteria2_5",
         "🇺🇸 United States_None_hysteria2_6",
         "🇺🇸 United States_Los Angeles_hysteria2_7",
+        "🇺🇸 United States_Los Angeles_vless_4",
+        "🇺🇸 United States_Los Angeles_vless_5",
         "🇺🇸 United States_Seattle_vless_7"
       ]
     },
@@ -441,6 +445,8 @@
         "🇺🇸 United States_Los Angeles_hysteria2_5",
         "🇺🇸 United States_None_hysteria2_6",
         "🇺🇸 United States_Los Angeles_hysteria2_7",
+        "🇺🇸 United States_Los Angeles_vless_4",
+        "🇺🇸 United States_Los Angeles_vless_5",
         "🇺🇸 United States_Seattle_vless_7"
       ],
       "url": "http://www.gstatic.com/generate_204",
@@ -983,6 +989,52 @@
         "alpn": [
           "h3"
         ]
+      }
+    },
+    {
+      "tag": "🇺🇸 United States_Los Angeles_vless_4",
+      "type": "vless",
+      "server": "154.64.243.6",
+      "server_port": 100,
+      "uuid": "ee420fda-efb7-48a8-9249-8987e36ebd9e",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "www.yahoo.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "Xev91qiyfdEKc828i_-D-lWBYiiTb7VMsFN-RE8LUE4",
+          "short_id": "adc1bbc8"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 United States_Los Angeles_vless_5",
+      "type": "vless",
+      "server": "154.64.243.6",
+      "server_port": 100,
+      "uuid": "ee420fda-efb7-48a8-9249-8987e36ebd9e",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "www.yahoo.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "Xev91qiyfdEKc828i_-D-lWBYiiTb7VMsFN-RE8LUE4",
+          "short_id": "adc1bbc8"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
