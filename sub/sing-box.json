@@ -129,6 +129,7 @@
         "🇺🇸 United States_Los Angeles_hysteria2_7",
         "🇺🇸 United States_Los Angeles_vless_4",
         "🇺🇸 United States_Los Angeles_vless_5",
+        "🇺🇸 United States_Los Angeles_vless_6",
         "🇺🇸 United States_Seattle_vless_7"
       ]
     },
@@ -400,6 +401,7 @@
         "🇺🇸 United States_Los Angeles_hysteria2_7",
         "🇺🇸 United States_Los Angeles_vless_4",
         "🇺🇸 United States_Los Angeles_vless_5",
+        "🇺🇸 United States_Los Angeles_vless_6",
         "🇺🇸 United States_Seattle_vless_7"
       ]
     },
@@ -446,6 +448,7 @@
         "🇺🇸 United States_Los Angeles_hysteria2_7",
         "🇺🇸 United States_Los Angeles_vless_4",
         "🇺🇸 United States_Los Angeles_vless_5",
+        "🇺🇸 United States_Los Angeles_vless_6",
         "🇺🇸 United States_Seattle_vless_7"
       ],
       "url": "http://www.gstatic.com/generate_204",
@@ -1027,6 +1030,28 @@
         "reality": {
           "enabled": true,
           "public_key": "bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 United States_Los Angeles_vless_6",
+      "type": "vless",
+      "server": "108.181.3.67",
+      "server_port": 52562,
+      "uuid": "47b8b611-9e64-4d59-a1ef-b51b3ffc0cae",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "www.amazon.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "qvdphcXh7EkRcfJ7XXB5v0KH9e2RqZQhL2QNyLQdsm8"
         },
         "utls": {
           "enabled": true,
