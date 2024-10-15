@@ -127,6 +127,8 @@
         "🇺🇸 United States_Los Angeles_hysteria2_5",
         "🇺🇸 United States_None_hysteria2_6",
         "🇺🇸 United States_Los Angeles_hysteria2_7",
+        "🇺🇸 United States_Los Angeles_vless_0",
+        "🇺🇸 United States_Los Angeles_vless_3",
         "🇺🇸 United States_Los Angeles_vless_4",
         "🇺🇸 United States_Los Angeles_vless_5",
         "🇺🇸 United States_Los Angeles_vless_6",
@@ -399,6 +401,8 @@
         "🇺🇸 United States_Los Angeles_hysteria2_5",
         "🇺🇸 United States_None_hysteria2_6",
         "🇺🇸 United States_Los Angeles_hysteria2_7",
+        "🇺🇸 United States_Los Angeles_vless_0",
+        "🇺🇸 United States_Los Angeles_vless_3",
         "🇺🇸 United States_Los Angeles_vless_4",
         "🇺🇸 United States_Los Angeles_vless_5",
         "🇺🇸 United States_Los Angeles_vless_6",
@@ -446,6 +450,8 @@
         "🇺🇸 United States_Los Angeles_hysteria2_5",
         "🇺🇸 United States_None_hysteria2_6",
         "🇺🇸 United States_Los Angeles_hysteria2_7",
+        "🇺🇸 United States_Los Angeles_vless_0",
+        "🇺🇸 United States_Los Angeles_vless_3",
         "🇺🇸 United States_Los Angeles_vless_4",
         "🇺🇸 United States_Los Angeles_vless_5",
         "🇺🇸 United States_Los Angeles_vless_6",
@@ -701,7 +707,7 @@
       "tag": "🇺🇸 United States_Los Angeles_hy_19",
       "type": "hysteria",
       "server": "154.21.193.246",
-      "server_port": 33333,
+      "server_port": 100,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "",
@@ -991,6 +997,50 @@
         "alpn": [
           "h3"
         ]
+      }
+    },
+    {
+      "tag": "🇺🇸 United States_Los Angeles_vless_0",
+      "type": "vless",
+      "server": "108.181.3.68",
+      "server_port": 52562,
+      "uuid": "47b8b611-9e64-4d59-a1ef-b51b3ffc0cae",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "www.amazon.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "qvdphcXh7EkRcfJ7XXB5v0KH9e2RqZQhL2QNyLQdsm8"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 United States_Los Angeles_vless_3",
+      "type": "vless",
+      "server": "108.181.3.68",
+      "server_port": 52562,
+      "uuid": "47b8b611-9e64-4d59-a1ef-b51b3ffc0cae",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "www.amazon.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "qvdphcXh7EkRcfJ7XXB5v0KH9e2RqZQhL2QNyLQdsm8"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
