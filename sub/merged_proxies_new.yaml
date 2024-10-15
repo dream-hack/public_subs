@@ -9268,7 +9268,7 @@ proxies:
 - name: United States_Los Angeles_191
   type: hysteria
   server: 154.21.193.246
-  port: 33333
+  port: 100
   auth_str: dongtaiwang.com
   obfs: dongtaiwang.com
   alpn:
@@ -9453,6 +9453,34 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
+- name: United States_Los Angeles_reality_0
+  type: vless
+  server: 108.181.3.68
+  port: 52562
+  uuid: 47b8b611-9e64-4d59-a1ef-b51b3ffc0cae
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.amazon.com
+  reality-opts:
+    public-key: qvdphcXh7EkRcfJ7XXB5v0KH9e2RqZQhL2QNyLQdsm8
+    short-id: ''
+- name: United States_Los Angeles_reality_3
+  type: vless
+  server: 108.181.3.68
+  port: 52562
+  uuid: 47b8b611-9e64-4d59-a1ef-b51b3ffc0cae
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.amazon.com
+  reality-opts:
+    public-key: qvdphcXh7EkRcfJ7XXB5v0KH9e2RqZQhL2QNyLQdsm8
+    short-id: ''
 - name: United States_Los Angeles_reality_4
   type: vless
   server: 108.181.3.67
@@ -10137,6 +10165,8 @@ proxy-groups:
   - United States_Los Angeles_B5
   - United States_None_B6
   - United States_Los Angeles_B7
+  - United States_Los Angeles_reality_0
+  - United States_Los Angeles_reality_3
   - United States_Los Angeles_reality_4
   - United States_Los Angeles_reality_5
   - United States_Los Angeles_reality_6
@@ -10782,6 +10812,8 @@ proxy-groups:
   - United States_Los Angeles_B5
   - United States_None_B6
   - United States_Los Angeles_B7
+  - United States_Los Angeles_reality_0
+  - United States_Los Angeles_reality_3
   - United States_Los Angeles_reality_4
   - United States_Los Angeles_reality_5
   - United States_Los Angeles_reality_6
