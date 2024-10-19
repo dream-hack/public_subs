@@ -3446,17 +3446,24 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_Los Angeles_141
-  type: ss
-  server: 91.149.239.179
-  port: 12345
-  cipher: 2022-blake3-chacha20-poly1305
-  password: ASXmhqODZasnV777P2m33eQ9mCU5KXY86dXJQTuWFW8=
-  plugin: shadow-tls
-  plugin-opts:
-    host: nijigen-works.jp
-    password: YEudERP9ZstwNZpOWytH3Ds4sSEgj8GVZk7OQEGDEpo=
-    version: 3
+- name: None_None_141
+  type: vmess
+  server: 104.21.238.100
+  port: 443
+  uuid: 2c15ec31-54f6-4cc7-aa9b-e906c6889bab
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: xray2.6016725.xyz
+  network: ws
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: xray2.6016725.xyz
+    early-data-header-name: Sec-WebSocket-Protocol
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
 - name: Taiwan_Taipei_151
   type: hysteria
   server: 1.0035961.xyz
@@ -3953,7 +3960,7 @@ proxy-groups:
   - France_None_111
   - Taiwan_Taipei_121
   - United States_Los Angeles_131
-  - United States_Los Angeles_141
+  - None_None_141
   - Taiwan_Taipei_151
   - United States_Seattle_161
   - United States_Seattle_171
@@ -4209,7 +4216,7 @@ proxy-groups:
   - France_None_111
   - Taiwan_Taipei_121
   - United States_Los Angeles_131
-  - United States_Los Angeles_141
+  - None_None_141
   - Taiwan_Taipei_151
   - United States_Seattle_161
   - United States_Seattle_171
