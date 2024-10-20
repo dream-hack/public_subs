@@ -3636,10 +3636,10 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: The Netherlands_Amsterdam_B0
+- name: Russia_Moscow_B0
   type: hysteria2
-  server: 163.172.220.28
-  port: 11622
+  server: 185.22.152.93
+  port: 47382
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -3974,7 +3974,7 @@ proxy-groups:
   - United States_Los Angeles_A5
   - United States_Los Angeles_A6
   - United States_Los Angeles_A7
-  - The Netherlands_Amsterdam_B0
+  - Russia_Moscow_B0
   - Russia_Moscow_B1
   - Russia_Moscow_B2
   - Russia_Moscow_B3
@@ -4230,7 +4230,7 @@ proxy-groups:
   - United States_Los Angeles_A5
   - United States_Los Angeles_A6
   - United States_Los Angeles_A7
-  - The Netherlands_Amsterdam_B0
+  - Russia_Moscow_B0
   - Russia_Moscow_B1
   - Russia_Moscow_B2
   - Russia_Moscow_B3
