@@ -3527,8 +3527,8 @@ proxies:
 - name: Russia_Moscow_A0
   type: hysteria
   server: 46.17.43.223
-  port: 12311
-  ports: 12311
+  port: 23142
+  ports: 23142
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -3541,8 +3541,8 @@ proxies:
 - name: Russia_Moscow_A1
   type: hysteria
   server: 46.17.43.223
-  port: 12311
-  ports: 12311
+  port: 23142
+  ports: 23142
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -3555,8 +3555,8 @@ proxies:
 - name: Russia_Moscow_A2
   type: hysteria
   server: 46.17.43.223
-  port: 12311
-  ports: 12311
+  port: 23142
+  ports: 23142
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -3569,8 +3569,8 @@ proxies:
 - name: Russia_Moscow_A3
   type: hysteria
   server: 46.17.43.223
-  port: 12311
-  ports: 12311
+  port: 23142
+  ports: 23142
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
