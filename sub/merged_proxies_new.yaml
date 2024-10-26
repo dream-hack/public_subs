@@ -3422,7 +3422,7 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: Taiwan_Xizhi District_121
+- name: Taiwan_Taipei_121
   type: hysteria
   server: 2.0035961.xyz
   port: 400
@@ -3500,7 +3500,7 @@ proxies:
     public-key: cauu7I7nFMqzwMDdULVRJam0T04U4knX8koK0OG5dC8
     short-id: 40cb281a
   client-fingerprint: chrome
-- name: Taiwan_Xizhi District_181
+- name: Taiwan_Taipei_181
   type: hysteria
   server: 2.0035961.xyz
   port: 400
@@ -3958,13 +3958,13 @@ proxy-groups:
   - Russia_Moscow_91
   - United States_Kansas City_101
   - France_None_111
-  - Taiwan_Xizhi District_121
+  - Taiwan_Taipei_121
   - United States_Los Angeles_131
   - None_None_141
   - Taiwan_Taipei_151
   - France_None_161
   - United States_Seattle_171
-  - Taiwan_Xizhi District_181
+  - Taiwan_Taipei_181
   - United States_Los Angeles_191
   - Russia_Moscow_A0
   - Russia_Moscow_A1
@@ -4214,13 +4214,13 @@ proxy-groups:
   - Russia_Moscow_91
   - United States_Kansas City_101
   - France_None_111
-  - Taiwan_Xizhi District_121
+  - Taiwan_Taipei_121
   - United States_Los Angeles_131
   - None_None_141
   - Taiwan_Taipei_151
   - France_None_161
   - United States_Seattle_171
-  - Taiwan_Xizhi District_181
+  - Taiwan_Taipei_181
   - United States_Los Angeles_191
   - Russia_Moscow_A0
   - Russia_Moscow_A1
