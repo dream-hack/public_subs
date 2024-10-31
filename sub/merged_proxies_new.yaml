@@ -3464,7 +3464,7 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     v2ray-http-upgrade: true
     v2ray-http-upgrade-fast-open: true
-- name: Taiwan_Taipei_151
+- name: Taiwan_Xizhi District_151
   type: hysteria
   server: 1.0035961.xyz
   port: 100
@@ -3716,7 +3716,7 @@ proxies:
     short-id: ''
 - name: United States_Los Angeles_reality_5
   type: vless
-  server: 154.64.243.6
+  server: 154.29.159.166
   port: 400
   uuid: ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2
   network: tcp
@@ -3961,7 +3961,7 @@ proxy-groups:
   - Taiwan_Taipei_121
   - United States_Los Angeles_131
   - None_None_141
-  - Taiwan_Taipei_151
+  - Taiwan_Xizhi District_151
   - France_None_161
   - United States_Seattle_171
   - Taiwan_Taipei_181
@@ -4217,7 +4217,7 @@ proxy-groups:
   - Taiwan_Taipei_121
   - United States_Los Angeles_131
   - None_None_141
-  - Taiwan_Taipei_151
+  - Taiwan_Xizhi District_151
   - France_None_161
   - United States_Seattle_171
   - Taiwan_Taipei_181
