@@ -105,7 +105,7 @@
         "🇫🇷 France_None_hy_11",
         "🇹🇼 Taiwan_Taipei_hy_12",
         "🇺🇸 United States_Los Angeles_hy_13",
-        "🇹🇼 Taiwan_Taipei_hy_15",
+        "🇹🇼 Taiwan_Xizhi District_hy_15",
         "🇺🇸 United States_Seattle_hy_16",
         "🇺🇸 United States_Seattle_vless_17",
         "🇹🇼 Taiwan_Taipei_hy_18",
@@ -349,7 +349,7 @@
       "type": "selector",
       "outbounds": [
         "🇹🇼 Taiwan_Taipei_hy_12",
-        "🇹🇼 Taiwan_Taipei_hy_15",
+        "🇹🇼 Taiwan_Xizhi District_hy_15",
         "🇹🇼 Taiwan_Taipei_hy_18"
       ]
     },
@@ -420,7 +420,7 @@
         "🇫🇷 France_None_hy_11",
         "🇹🇼 Taiwan_Taipei_hy_12",
         "🇺🇸 United States_Los Angeles_hy_13",
-        "🇹🇼 Taiwan_Taipei_hy_15",
+        "🇹🇼 Taiwan_Xizhi District_hy_15",
         "🇺🇸 United States_Seattle_hy_16",
         "🇺🇸 United States_Seattle_vless_17",
         "🇹🇼 Taiwan_Taipei_hy_18",
@@ -604,7 +604,7 @@
     {
       "tag": "🇺🇸 United States_Los Angeles_hy_13",
       "type": "hysteria",
-      "server": "154.21.193.246",
+      "server": "154.29.159.137",
       "server_port": 100,
       "up_mbps": 50,
       "down_mbps": 80,
@@ -620,7 +620,7 @@
       "obfs": "dongtaiwang.com"
     },
     {
-      "tag": "🇹🇼 Taiwan_Taipei_hy_15",
+      "tag": "🇹🇼 Taiwan_Xizhi District_hy_15",
       "type": "hysteria",
       "server": "1.0035961.xyz",
       "server_port": 100,
@@ -697,7 +697,7 @@
     {
       "tag": "🇺🇸 United States_Los Angeles_hy_19",
       "type": "hysteria",
-      "server": "154.21.193.246",
+      "server": "154.29.159.137",
       "server_port": 100,
       "up_mbps": 50,
       "down_mbps": 80,
