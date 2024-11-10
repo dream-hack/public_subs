@@ -3399,9 +3399,9 @@ proxies:
     public-key: bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI
     short-id: ''
   client-fingerprint: chrome
-- name: United States_Los Angeles_101
+- name: United States_Seattle_101
   type: hysteria
-  server: 154.44.6.68
+  server: 64.42.176.180
   port: 12345
   auth_str: dongtaiwang.com
   alpn:
@@ -3475,9 +3475,9 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_Los Angeles_161
+- name: United States_Seattle_161
   type: hysteria
-  server: 154.44.6.68
+  server: 64.42.176.180
   port: 12345
   auth_str: dongtaiwang.com
   alpn:
@@ -3956,13 +3956,13 @@ proxy-groups:
   - Russia_Moscow_71
   - Russia_Moscow_81
   - Russia_Moscow_91
-  - United States_Los Angeles_101
+  - United States_Seattle_101
   - France_None_111
   - Taiwan_Taipei_121
   - United States_Los Angeles_131
   - None_None_141
   - Taiwan_Xizhi District_151
-  - United States_Los Angeles_161
+  - United States_Seattle_161
   - United States_Seattle_171
   - Taiwan_Taipei_181
   - United States_Los Angeles_191
@@ -4212,13 +4212,13 @@ proxy-groups:
   - Russia_Moscow_71
   - Russia_Moscow_81
   - Russia_Moscow_91
-  - United States_Los Angeles_101
+  - United States_Seattle_101
   - France_None_111
   - Taiwan_Taipei_121
   - United States_Los Angeles_131
   - None_None_141
   - Taiwan_Xizhi District_151
-  - United States_Los Angeles_161
+  - United States_Seattle_161
   - United States_Seattle_171
   - Taiwan_Taipei_181
   - United States_Los Angeles_191
