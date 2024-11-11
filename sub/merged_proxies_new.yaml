@@ -3399,10 +3399,10 @@ proxies:
     public-key: bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI
     short-id: ''
   client-fingerprint: chrome
-- name: United States_Seattle_101
+- name: France_None_101
   type: hysteria
-  server: 64.42.176.180
-  port: 12345
+  server: 195.154.200.40
+  port: 2345
   auth_str: dongtaiwang.com
   alpn:
   - h3
@@ -3422,7 +3422,7 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: Taiwan_Taipei_121
+- name: Taiwan_Xizhi District_121
   type: hysteria
   server: 2.0035961.xyz
   port: 400
@@ -3475,10 +3475,10 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_Seattle_161
+- name: France_None_161
   type: hysteria
-  server: 64.42.176.180
-  port: 12345
+  server: 195.154.200.40
+  port: 2345
   auth_str: dongtaiwang.com
   alpn:
   - h3
@@ -3500,7 +3500,7 @@ proxies:
     public-key: cauu7I7nFMqzwMDdULVRJam0T04U4knX8koK0OG5dC8
     short-id: 40cb281a
   client-fingerprint: chrome
-- name: Taiwan_Taipei_181
+- name: Taiwan_Xizhi District_181
   type: hysteria
   server: 2.0035961.xyz
   port: 400
@@ -3956,15 +3956,15 @@ proxy-groups:
   - Russia_Moscow_71
   - Russia_Moscow_81
   - Russia_Moscow_91
-  - United States_Seattle_101
+  - France_None_101
   - France_None_111
-  - Taiwan_Taipei_121
+  - Taiwan_Xizhi District_121
   - United States_Los Angeles_131
   - None_None_141
   - Taiwan_Xizhi District_151
-  - United States_Seattle_161
+  - France_None_161
   - United States_Seattle_171
-  - Taiwan_Taipei_181
+  - Taiwan_Xizhi District_181
   - United States_Los Angeles_191
   - Russia_Moscow_A0
   - Russia_Moscow_A1
@@ -4212,15 +4212,15 @@ proxy-groups:
   - Russia_Moscow_71
   - Russia_Moscow_81
   - Russia_Moscow_91
-  - United States_Seattle_101
+  - France_None_101
   - France_None_111
-  - Taiwan_Taipei_121
+  - Taiwan_Xizhi District_121
   - United States_Los Angeles_131
   - None_None_141
   - Taiwan_Xizhi District_151
-  - United States_Seattle_161
+  - France_None_161
   - United States_Seattle_171
-  - Taiwan_Taipei_181
+  - Taiwan_Xizhi District_181
   - United States_Los Angeles_191
   - Russia_Moscow_A0
   - Russia_Moscow_A1
