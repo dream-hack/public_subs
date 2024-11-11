@@ -101,14 +101,14 @@
         "🇷🇺 Russia_Moscow_vless_7",
         "🇷🇺 Russia_Moscow_vless_8",
         "🇷🇺 Russia_Moscow_vless_9",
-        "🇺🇸 United States_Seattle_hy_10",
+        "🇫🇷 France_None_hy_10",
         "🇫🇷 France_None_hy_11",
-        "🇹🇼 Taiwan_Taipei_hy_12",
+        "🇹🇼 Taiwan_Xizhi District_hy_12",
         "🇺🇸 United States_Los Angeles_hy_13",
         "🇹🇼 Taiwan_Xizhi District_hy_15",
-        "🇺🇸 United States_Seattle_hy_16",
+        "🇫🇷 France_None_hy_16",
         "🇺🇸 United States_Seattle_vless_17",
-        "🇹🇼 Taiwan_Taipei_hy_18",
+        "🇹🇼 Taiwan_Xizhi District_hy_18",
         "🇺🇸 United States_Los Angeles_hy_19",
         "🇷🇺 Russia_Moscow_hysteria_0",
         "🇷🇺 Russia_Moscow_hysteria_1",
@@ -348,9 +348,9 @@
       "tag": "TaiWan",
       "type": "selector",
       "outbounds": [
-        "🇹🇼 Taiwan_Taipei_hy_12",
+        "🇹🇼 Taiwan_Xizhi District_hy_12",
         "🇹🇼 Taiwan_Xizhi District_hy_15",
-        "🇹🇼 Taiwan_Taipei_hy_18"
+        "🇹🇼 Taiwan_Xizhi District_hy_18"
       ]
     },
     {
@@ -375,9 +375,7 @@
         "🇷🇺 Russia_Moscow_vless_7",
         "🇷🇺 Russia_Moscow_vless_8",
         "🇷🇺 Russia_Moscow_vless_9",
-        "🇺🇸 United States_Seattle_hy_10",
         "🇺🇸 United States_Los Angeles_hy_13",
-        "🇺🇸 United States_Seattle_hy_16",
         "🇺🇸 United States_Seattle_vless_17",
         "🇺🇸 United States_Los Angeles_hy_19",
         "🇷🇺 Russia_Moscow_hysteria_0",
@@ -403,7 +401,9 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
+        "🇫🇷 France_None_hy_10",
         "🇫🇷 France_None_hy_11",
+        "🇫🇷 France_None_hy_16",
         "🇫🇷 France_None_hysteria_4",
         "🇫🇷 France_None_hysteria2_4"
       ]
@@ -416,14 +416,14 @@
         "🇷🇺 Russia_Moscow_vless_7",
         "🇷🇺 Russia_Moscow_vless_8",
         "🇷🇺 Russia_Moscow_vless_9",
-        "🇺🇸 United States_Seattle_hy_10",
+        "🇫🇷 France_None_hy_10",
         "🇫🇷 France_None_hy_11",
-        "🇹🇼 Taiwan_Taipei_hy_12",
+        "🇹🇼 Taiwan_Xizhi District_hy_12",
         "🇺🇸 United States_Los Angeles_hy_13",
         "🇹🇼 Taiwan_Xizhi District_hy_15",
-        "🇺🇸 United States_Seattle_hy_16",
+        "🇫🇷 France_None_hy_16",
         "🇺🇸 United States_Seattle_vless_17",
-        "🇹🇼 Taiwan_Taipei_hy_18",
+        "🇹🇼 Taiwan_Xizhi District_hy_18",
         "🇺🇸 United States_Los Angeles_hy_19",
         "🇷🇺 Russia_Moscow_hysteria_0",
         "🇷🇺 Russia_Moscow_hysteria_1",
@@ -550,10 +550,10 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_Seattle_hy_10",
+      "tag": "🇫🇷 France_None_hy_10",
       "type": "hysteria",
-      "server": "64.42.176.180",
-      "server_port": 12345,
+      "server": "195.154.200.40",
+      "server_port": 2345,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "",
@@ -584,7 +584,7 @@
       }
     },
     {
-      "tag": "🇹🇼 Taiwan_Taipei_hy_12",
+      "tag": "🇹🇼 Taiwan_Xizhi District_hy_12",
       "type": "hysteria",
       "server": "2.0035961.xyz",
       "server_port": 400,
@@ -637,10 +637,10 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_Seattle_hy_16",
+      "tag": "🇫🇷 France_None_hy_16",
       "type": "hysteria",
-      "server": "64.42.176.180",
-      "server_port": 12345,
+      "server": "195.154.200.40",
+      "server_port": 2345,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "",
@@ -677,7 +677,7 @@
       }
     },
     {
-      "tag": "🇹🇼 Taiwan_Taipei_hy_18",
+      "tag": "🇹🇼 Taiwan_Xizhi District_hy_18",
       "type": "hysteria",
       "server": "2.0035961.xyz",
       "server_port": 400,
