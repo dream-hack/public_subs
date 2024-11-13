@@ -3399,10 +3399,10 @@ proxies:
     public-key: bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI
     short-id: ''
   client-fingerprint: chrome
-- name: United States_Seattle_101
+- name: France_None_101
   type: hysteria
-  server: 64.42.176.180
-  port: 12345
+  server: 195.154.200.40
+  port: 2345
   auth_str: dongtaiwang.com
   alpn:
   - h3
@@ -3684,10 +3684,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: United States_None_B6
+- name: France_Paris_B6
   type: hysteria2
-  server: 208.87.243.187
-  port: 22222
+  server: 195.154.33.70
+  port: 42259
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -3956,7 +3956,7 @@ proxy-groups:
   - Russia_Moscow_71
   - Russia_Moscow_81
   - Russia_Moscow_91
-  - United States_Seattle_101
+  - France_None_101
   - France_None_111
   - Taiwan_Xizhi District_121
   - United States_Los Angeles_131
@@ -3980,7 +3980,7 @@ proxy-groups:
   - Russia_Moscow_B3
   - France_None_B4
   - United States_Los Angeles_B5
-  - United States_None_B6
+  - France_Paris_B6
   - United States_Los Angeles_B7
   - United States_Los Angeles_reality_4
   - United States_Los Angeles_reality_5
@@ -4212,7 +4212,7 @@ proxy-groups:
   - Russia_Moscow_71
   - Russia_Moscow_81
   - Russia_Moscow_91
-  - United States_Seattle_101
+  - France_None_101
   - France_None_111
   - Taiwan_Xizhi District_121
   - United States_Los Angeles_131
@@ -4236,7 +4236,7 @@ proxy-groups:
   - Russia_Moscow_B3
   - France_None_B4
   - United States_Los Angeles_B5
-  - United States_None_B6
+  - France_Paris_B6
   - United States_Los Angeles_B7
   - United States_Los Angeles_reality_4
   - United States_Los Angeles_reality_5
