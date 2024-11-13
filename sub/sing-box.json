@@ -101,7 +101,7 @@
         "🇷🇺 Russia_Moscow_vless_7",
         "🇷🇺 Russia_Moscow_vless_8",
         "🇷🇺 Russia_Moscow_vless_9",
-        "🇺🇸 United States_Seattle_hy_10",
+        "🇫🇷 France_None_hy_10",
         "🇫🇷 France_None_hy_11",
         "🇹🇼 Taiwan_Xizhi District_hy_12",
         "🇺🇸 United States_Los Angeles_hy_13",
@@ -124,7 +124,7 @@
         "🇷🇺 Russia_Moscow_hysteria2_3",
         "🇫🇷 France_None_hysteria2_4",
         "🇺🇸 United States_Los Angeles_hysteria2_5",
-        "🇺🇸 United States_None_hysteria2_6",
+        "🇫🇷 France_Paris_hysteria2_6",
         "🇺🇸 United States_Los Angeles_hysteria2_7",
         "🇺🇸 United States_Los Angeles_vless_4",
         "🇺🇸 United States_Los Angeles_vless_5",
@@ -375,7 +375,6 @@
         "🇷🇺 Russia_Moscow_vless_7",
         "🇷🇺 Russia_Moscow_vless_8",
         "🇷🇺 Russia_Moscow_vless_9",
-        "🇺🇸 United States_Seattle_hy_10",
         "🇺🇸 United States_Los Angeles_hy_13",
         "🇺🇸 United States_Seattle_vless_17",
         "🇺🇸 United States_Los Angeles_hy_19",
@@ -391,7 +390,6 @@
         "🇷🇺 Russia_Moscow_hysteria2_2",
         "🇷🇺 Russia_Moscow_hysteria2_3",
         "🇺🇸 United States_Los Angeles_hysteria2_5",
-        "🇺🇸 United States_None_hysteria2_6",
         "🇺🇸 United States_Los Angeles_hysteria2_7",
         "🇺🇸 United States_Los Angeles_vless_4",
         "🇺🇸 United States_Los Angeles_vless_5",
@@ -402,10 +400,12 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
+        "🇫🇷 France_None_hy_10",
         "🇫🇷 France_None_hy_11",
         "🇫🇷 France_None_hy_16",
         "🇫🇷 France_None_hysteria_4",
-        "🇫🇷 France_None_hysteria2_4"
+        "🇫🇷 France_None_hysteria2_4",
+        "🇫🇷 France_Paris_hysteria2_6"
       ]
     },
     {
@@ -416,7 +416,7 @@
         "🇷🇺 Russia_Moscow_vless_7",
         "🇷🇺 Russia_Moscow_vless_8",
         "🇷🇺 Russia_Moscow_vless_9",
-        "🇺🇸 United States_Seattle_hy_10",
+        "🇫🇷 France_None_hy_10",
         "🇫🇷 France_None_hy_11",
         "🇹🇼 Taiwan_Xizhi District_hy_12",
         "🇺🇸 United States_Los Angeles_hy_13",
@@ -439,7 +439,7 @@
         "🇷🇺 Russia_Moscow_hysteria2_3",
         "🇫🇷 France_None_hysteria2_4",
         "🇺🇸 United States_Los Angeles_hysteria2_5",
-        "🇺🇸 United States_None_hysteria2_6",
+        "🇫🇷 France_Paris_hysteria2_6",
         "🇺🇸 United States_Los Angeles_hysteria2_7",
         "🇺🇸 United States_Los Angeles_vless_4",
         "🇺🇸 United States_Los Angeles_vless_5",
@@ -550,10 +550,10 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_Seattle_hy_10",
+      "tag": "🇫🇷 France_None_hy_10",
       "type": "hysteria",
-      "server": "64.42.176.180",
-      "server_port": 12345,
+      "server": "195.154.200.40",
+      "server_port": 2345,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "",
@@ -957,10 +957,10 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_None_hysteria2_6",
+      "tag": "🇫🇷 France_Paris_hysteria2_6",
       "type": "hysteria2",
-      "server": "208.87.243.187",
-      "server_port": 22222,
+      "server": "195.154.33.70",
+      "server_port": 42259,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
