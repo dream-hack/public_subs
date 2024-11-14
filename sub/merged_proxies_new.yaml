@@ -3346,57 +3346,57 @@ proxies:
 - name: Russia_Moscow_61
   type: vless
   server: 46.29.166.206
-  port: 400
-  uuid: ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2
+  port: 49887
+  uuid: ef6706c2-ac66-4c39-bf16-208effa86922
   network: tcp
   udp: true
   tls: true
   flow: xtls-rprx-vision
   servername: www.paypal.com
   reality-opts:
-    public-key: bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI
+    public-key: bBX2IBet-d-kWJ7sb_49zVaem3iTAw5jIwQL4JGDuEg
     short-id: ''
   client-fingerprint: chrome
 - name: Russia_Moscow_71
   type: vless
   server: 46.29.166.206
-  port: 400
-  uuid: ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2
+  port: 49887
+  uuid: ef6706c2-ac66-4c39-bf16-208effa86922
   network: tcp
   udp: true
   tls: true
   flow: xtls-rprx-vision
   servername: www.paypal.com
   reality-opts:
-    public-key: bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI
+    public-key: bBX2IBet-d-kWJ7sb_49zVaem3iTAw5jIwQL4JGDuEg
     short-id: ''
   client-fingerprint: chrome
 - name: Russia_Moscow_81
   type: vless
   server: 46.29.166.206
-  port: 400
-  uuid: ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2
+  port: 49887
+  uuid: ef6706c2-ac66-4c39-bf16-208effa86922
   network: tcp
   udp: true
   tls: true
   flow: xtls-rprx-vision
   servername: www.paypal.com
   reality-opts:
-    public-key: bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI
+    public-key: bBX2IBet-d-kWJ7sb_49zVaem3iTAw5jIwQL4JGDuEg
     short-id: ''
   client-fingerprint: chrome
 - name: Russia_Moscow_91
   type: vless
   server: 46.29.166.206
-  port: 400
-  uuid: ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2
+  port: 49887
+  uuid: ef6706c2-ac66-4c39-bf16-208effa86922
   network: tcp
   udp: true
   tls: true
   flow: xtls-rprx-vision
   servername: www.paypal.com
   reality-opts:
-    public-key: bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI
+    public-key: bBX2IBet-d-kWJ7sb_49zVaem3iTAw5jIwQL4JGDuEg
     short-id: ''
   client-fingerprint: chrome
 - name: France_None_101
@@ -3422,7 +3422,7 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: Taiwan_Xizhi District_121
+- name: Taiwan_Taipei_121
   type: hysteria
   server: 2.0035961.xyz
   port: 400
@@ -3464,7 +3464,7 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     v2ray-http-upgrade: true
     v2ray-http-upgrade-fast-open: true
-- name: Taiwan_Xizhi District_151
+- name: Taiwan_Taipei_151
   type: hysteria
   server: 1.0035961.xyz
   port: 100
@@ -3500,7 +3500,7 @@ proxies:
     public-key: cauu7I7nFMqzwMDdULVRJam0T04U4knX8koK0OG5dC8
     short-id: 40cb281a
   client-fingerprint: chrome
-- name: Taiwan_Xizhi District_181
+- name: Taiwan_Taipei_181
   type: hysteria
   server: 2.0035961.xyz
   port: 19627
@@ -3511,7 +3511,7 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: Taiwan_Xizhi District_191
+- name: Taiwan_Taipei_191
   type: hysteria
   server: 1.0035961.xyz
   port: 15806
@@ -3956,14 +3956,14 @@ proxy-groups:
   - Russia_Moscow_91
   - France_None_101
   - France_None_111
-  - Taiwan_Xizhi District_121
+  - Taiwan_Taipei_121
   - United States_Los Angeles_131
   - None_None_141
-  - Taiwan_Xizhi District_151
+  - Taiwan_Taipei_151
   - France_None_161
   - United States_Seattle_171
-  - Taiwan_Xizhi District_181
-  - Taiwan_Xizhi District_191
+  - Taiwan_Taipei_181
+  - Taiwan_Taipei_191
   - Russia_Moscow_A0
   - Russia_Moscow_A1
   - Russia_Moscow_A2
@@ -4212,14 +4212,14 @@ proxy-groups:
   - Russia_Moscow_91
   - France_None_101
   - France_None_111
-  - Taiwan_Xizhi District_121
+  - Taiwan_Taipei_121
   - United States_Los Angeles_131
   - None_None_141
-  - Taiwan_Xizhi District_151
+  - Taiwan_Taipei_151
   - France_None_161
   - United States_Seattle_171
-  - Taiwan_Xizhi District_181
-  - Taiwan_Xizhi District_191
+  - Taiwan_Taipei_181
+  - Taiwan_Taipei_191
   - Russia_Moscow_A0
   - Russia_Moscow_A1
   - Russia_Moscow_A2
