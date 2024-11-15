@@ -103,13 +103,13 @@
         "🇷🇺 Russia_Moscow_vless_9",
         "🇫🇷 France_None_hy_10",
         "🇫🇷 France_None_hy_11",
-        "🇹🇼 Taiwan_Xizhi District_hy_12",
+        "🇹🇼 Taiwan_Taipei_hy_12",
         "🇺🇸 United States_Los Angeles_hy_13",
-        "🇹🇼 Taiwan_Xizhi District_hy_15",
+        "🇹🇼 Taiwan_Taipei_hy_15",
         "🇫🇷 France_None_hy_16",
         "🇺🇸 United States_Seattle_vless_17",
-        "🇹🇼 Taiwan_Xizhi District_hy_18",
-        "🇹🇼 Taiwan_Xizhi District_hy_19",
+        "🇹🇼 Taiwan_Taipei_hy_18",
+        "🇹🇼 Taiwan_Taipei_hy_19",
         "🇷🇺 Russia_Moscow_hysteria_0",
         "🇷🇺 Russia_Moscow_hysteria_1",
         "🇷🇺 Russia_Moscow_hysteria_2",
@@ -347,10 +347,10 @@
       "tag": "TaiWan",
       "type": "selector",
       "outbounds": [
-        "🇹🇼 Taiwan_Xizhi District_hy_12",
-        "🇹🇼 Taiwan_Xizhi District_hy_15",
-        "🇹🇼 Taiwan_Xizhi District_hy_18",
-        "🇹🇼 Taiwan_Xizhi District_hy_19"
+        "🇹🇼 Taiwan_Taipei_hy_12",
+        "🇹🇼 Taiwan_Taipei_hy_15",
+        "🇹🇼 Taiwan_Taipei_hy_18",
+        "🇹🇼 Taiwan_Taipei_hy_19"
       ]
     },
     {
@@ -416,13 +416,13 @@
         "🇷🇺 Russia_Moscow_vless_9",
         "🇫🇷 France_None_hy_10",
         "🇫🇷 France_None_hy_11",
-        "🇹🇼 Taiwan_Xizhi District_hy_12",
+        "🇹🇼 Taiwan_Taipei_hy_12",
         "🇺🇸 United States_Los Angeles_hy_13",
-        "🇹🇼 Taiwan_Xizhi District_hy_15",
+        "🇹🇼 Taiwan_Taipei_hy_15",
         "🇫🇷 France_None_hy_16",
         "🇺🇸 United States_Seattle_vless_17",
-        "🇹🇼 Taiwan_Xizhi District_hy_18",
-        "🇹🇼 Taiwan_Xizhi District_hy_19",
+        "🇹🇼 Taiwan_Taipei_hy_18",
+        "🇹🇼 Taiwan_Taipei_hy_19",
         "🇷🇺 Russia_Moscow_hysteria_0",
         "🇷🇺 Russia_Moscow_hysteria_1",
         "🇷🇺 Russia_Moscow_hysteria_2",
@@ -462,8 +462,8 @@
       "tag": "🇷🇺 Russia_Moscow_vless_6",
       "type": "vless",
       "server": "46.29.166.206",
-      "server_port": 400,
-      "uuid": "ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2",
+      "server_port": 49887,
+      "uuid": "ef6706c2-ac66-4c39-bf16-208effa86922",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -472,7 +472,7 @@
         "server_name": "www.paypal.com",
         "reality": {
           "enabled": true,
-          "public_key": "bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI"
+          "public_key": "bBX2IBet-d-kWJ7sb_49zVaem3iTAw5jIwQL4JGDuEg"
         },
         "utls": {
           "enabled": true,
@@ -484,8 +484,8 @@
       "tag": "🇷🇺 Russia_Moscow_vless_7",
       "type": "vless",
       "server": "46.29.166.206",
-      "server_port": 400,
-      "uuid": "ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2",
+      "server_port": 49887,
+      "uuid": "ef6706c2-ac66-4c39-bf16-208effa86922",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -494,7 +494,7 @@
         "server_name": "www.paypal.com",
         "reality": {
           "enabled": true,
-          "public_key": "bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI"
+          "public_key": "bBX2IBet-d-kWJ7sb_49zVaem3iTAw5jIwQL4JGDuEg"
         },
         "utls": {
           "enabled": true,
@@ -506,8 +506,8 @@
       "tag": "🇷🇺 Russia_Moscow_vless_8",
       "type": "vless",
       "server": "46.29.166.206",
-      "server_port": 400,
-      "uuid": "ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2",
+      "server_port": 49887,
+      "uuid": "ef6706c2-ac66-4c39-bf16-208effa86922",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -516,7 +516,7 @@
         "server_name": "www.paypal.com",
         "reality": {
           "enabled": true,
-          "public_key": "bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI"
+          "public_key": "bBX2IBet-d-kWJ7sb_49zVaem3iTAw5jIwQL4JGDuEg"
         },
         "utls": {
           "enabled": true,
@@ -528,8 +528,8 @@
       "tag": "🇷🇺 Russia_Moscow_vless_9",
       "type": "vless",
       "server": "46.29.166.206",
-      "server_port": 400,
-      "uuid": "ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2",
+      "server_port": 49887,
+      "uuid": "ef6706c2-ac66-4c39-bf16-208effa86922",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -538,7 +538,7 @@
         "server_name": "www.paypal.com",
         "reality": {
           "enabled": true,
-          "public_key": "bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI"
+          "public_key": "bBX2IBet-d-kWJ7sb_49zVaem3iTAw5jIwQL4JGDuEg"
         },
         "utls": {
           "enabled": true,
@@ -581,7 +581,7 @@
       }
     },
     {
-      "tag": "🇹🇼 Taiwan_Xizhi District_hy_12",
+      "tag": "🇹🇼 Taiwan_Taipei_hy_12",
       "type": "hysteria",
       "server": "2.0035961.xyz",
       "server_port": 400,
@@ -617,7 +617,7 @@
       "obfs": "dongtaiwang.com"
     },
     {
-      "tag": "🇹🇼 Taiwan_Xizhi District_hy_15",
+      "tag": "🇹🇼 Taiwan_Taipei_hy_15",
       "type": "hysteria",
       "server": "1.0035961.xyz",
       "server_port": 100,
@@ -674,7 +674,7 @@
       }
     },
     {
-      "tag": "🇹🇼 Taiwan_Xizhi District_hy_18",
+      "tag": "🇹🇼 Taiwan_Taipei_hy_18",
       "type": "hysteria",
       "server": "2.0035961.xyz",
       "server_port": 19627,
@@ -691,7 +691,7 @@
       }
     },
     {
-      "tag": "🇹🇼 Taiwan_Xizhi District_hy_19",
+      "tag": "🇹🇼 Taiwan_Taipei_hy_19",
       "type": "hysteria",
       "server": "1.0035961.xyz",
       "server_port": 15806,
