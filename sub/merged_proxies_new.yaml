@@ -3464,7 +3464,7 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     v2ray-http-upgrade: true
     v2ray-http-upgrade-fast-open: true
-- name: Taiwan_Taipei_151
+- name: Taiwan_Xizhi District_151
   type: hysteria
   server: 1.0035961.xyz
   port: 100
@@ -3511,7 +3511,7 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: Taiwan_Taipei_191
+- name: Taiwan_Xizhi District_191
   type: hysteria
   server: 1.0035961.xyz
   port: 15806
@@ -3959,11 +3959,11 @@ proxy-groups:
   - Taiwan_Taipei_121
   - United States_Los Angeles_131
   - None_None_141
-  - Taiwan_Taipei_151
+  - Taiwan_Xizhi District_151
   - France_None_161
   - United States_Seattle_171
   - Taiwan_Taipei_181
-  - Taiwan_Taipei_191
+  - Taiwan_Xizhi District_191
   - Russia_Moscow_A0
   - Russia_Moscow_A1
   - Russia_Moscow_A2
@@ -4215,11 +4215,11 @@ proxy-groups:
   - Taiwan_Taipei_121
   - United States_Los Angeles_131
   - None_None_141
-  - Taiwan_Taipei_151
+  - Taiwan_Xizhi District_151
   - France_None_161
   - United States_Seattle_171
   - Taiwan_Taipei_181
-  - Taiwan_Taipei_191
+  - Taiwan_Xizhi District_191
   - Russia_Moscow_A0
   - Russia_Moscow_A1
   - Russia_Moscow_A2
