@@ -104,7 +104,7 @@
         "🇫🇷 France_None_hy_10",
         "🇫🇷 France_None_hy_11",
         "🇹🇼 Taiwan_Taipei_hy_12",
-        "🇺🇸 United States_Los Angeles_hy_13",
+        "🇹🇼 Taiwan_Xizhi District_hy_13",
         "🇹🇼 Taiwan_Xizhi District_hy_15",
         "🇫🇷 France_None_hy_16",
         "🇺🇸 United States_Seattle_vless_17",
@@ -126,8 +126,7 @@
         "🇺🇸 United States_Los Angeles_hysteria2_5",
         "🇫🇷 France_Paris_hysteria2_6",
         "🇺🇸 United States_Los Angeles_hysteria2_7",
-        "🇺🇸 United States_Los Angeles_vless_4",
-        "🇺🇸 United States_Los Angeles_vless_5"
+        "🇺🇸 United States_Los Angeles_vless_4"
       ]
     },
     {
@@ -348,6 +347,7 @@
       "type": "selector",
       "outbounds": [
         "🇹🇼 Taiwan_Taipei_hy_12",
+        "🇹🇼 Taiwan_Xizhi District_hy_13",
         "🇹🇼 Taiwan_Xizhi District_hy_15",
         "🇹🇼 Taiwan_Taipei_hy_18",
         "🇹🇼 Taiwan_Xizhi District_hy_19"
@@ -375,7 +375,6 @@
         "🇷🇺 Russia_Moscow_vless_7",
         "🇷🇺 Russia_Moscow_vless_8",
         "🇷🇺 Russia_Moscow_vless_9",
-        "🇺🇸 United States_Los Angeles_hy_13",
         "🇺🇸 United States_Seattle_vless_17",
         "🇷🇺 Russia_Moscow_hysteria_0",
         "🇷🇺 Russia_Moscow_hysteria_1",
@@ -390,8 +389,7 @@
         "🇷🇺 Russia_Moscow_hysteria2_3",
         "🇺🇸 United States_Los Angeles_hysteria2_5",
         "🇺🇸 United States_Los Angeles_hysteria2_7",
-        "🇺🇸 United States_Los Angeles_vless_4",
-        "🇺🇸 United States_Los Angeles_vless_5"
+        "🇺🇸 United States_Los Angeles_vless_4"
       ]
     },
     {
@@ -417,7 +415,7 @@
         "🇫🇷 France_None_hy_10",
         "🇫🇷 France_None_hy_11",
         "🇹🇼 Taiwan_Taipei_hy_12",
-        "🇺🇸 United States_Los Angeles_hy_13",
+        "🇹🇼 Taiwan_Xizhi District_hy_13",
         "🇹🇼 Taiwan_Xizhi District_hy_15",
         "🇫🇷 France_None_hy_16",
         "🇺🇸 United States_Seattle_vless_17",
@@ -439,8 +437,7 @@
         "🇺🇸 United States_Los Angeles_hysteria2_5",
         "🇫🇷 France_Paris_hysteria2_6",
         "🇺🇸 United States_Los Angeles_hysteria2_7",
-        "🇺🇸 United States_Los Angeles_vless_4",
-        "🇺🇸 United States_Los Angeles_vless_5"
+        "🇺🇸 United States_Los Angeles_vless_4"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -584,7 +581,7 @@
       "tag": "🇹🇼 Taiwan_Taipei_hy_12",
       "type": "hysteria",
       "server": "2.0035961.xyz",
-      "server_port": 400,
+      "server_port": 19627,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "",
@@ -595,14 +592,13 @@
         "alpn": [
           "h3"
         ]
-      },
-      "obfs": "dongtaiwang.com"
+      }
     },
     {
-      "tag": "🇺🇸 United States_Los Angeles_hy_13",
+      "tag": "🇹🇼 Taiwan_Xizhi District_hy_13",
       "type": "hysteria",
-      "server": "154.29.159.137",
-      "server_port": 100,
+      "server": "1.0035961.xyz",
+      "server_port": 15806,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "",
@@ -613,14 +609,13 @@
         "alpn": [
           "h3"
         ]
-      },
-      "obfs": "dongtaiwang.com"
+      }
     },
     {
       "tag": "🇹🇼 Taiwan_Xizhi District_hy_15",
       "type": "hysteria",
       "server": "1.0035961.xyz",
-      "server_port": 100,
+      "server_port": 15806,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "",
@@ -986,9 +981,9 @@
     {
       "tag": "🇺🇸 United States_Los Angeles_vless_4",
       "type": "vless",
-      "server": "154.29.159.166",
-      "server_port": 23834,
-      "uuid": "bb3b7497-0b55-4db9-97fe-864ee935927c",
+      "server": "91.149.239.179",
+      "server_port": 59424,
+      "uuid": "3ec3a638-80fb-4225-8713-cc731ce08968",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -997,30 +992,8 @@
         "server_name": "www.yahoo.com",
         "reality": {
           "enabled": true,
-          "public_key": "ebaPx4G9szFAKvm8945SScBUF4noBZ6L0q1_oCsy_0g",
-          "short_id": "5a29caea"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 United States_Los Angeles_vless_5",
-      "type": "vless",
-      "server": "154.29.159.166",
-      "server_port": 400,
-      "uuid": "ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "www.paypal.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI"
+          "public_key": "W9FYHpIedqwgpXAhALRJ2-aM8txrAZP4VpVavsYwPV4",
+          "short_id": "4bf309d3"
         },
         "utls": {
           "enabled": true,
