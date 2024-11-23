@@ -3696,11 +3696,11 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: United States_Los Angeles_reality_4
+- name: Russia_Moscow_reality_4
   type: vless
-  server: 91.149.239.179
-  port: 59424
-  uuid: 3ec3a638-80fb-4225-8713-cc731ce08968
+  server: 185.22.153.75
+  port: 21315
+  uuid: 095ad0e3-9ed9-4346-9108-58b40e664f5c
   network: tcp
   tls: true
   udp: true
@@ -3708,8 +3708,8 @@ proxies:
   client-fingerprint: chrome
   servername: www.yahoo.com
   reality-opts:
-    public-key: W9FYHpIedqwgpXAhALRJ2-aM8txrAZP4VpVavsYwPV4
-    short-id: 4bf309d3
+    public-key: YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8
+    short-id: d019a9ad
 proxy-groups:
 - name: 节点选择
   type: select
@@ -3964,7 +3964,7 @@ proxy-groups:
   - United States_Los Angeles_B5
   - France_Paris_B6
   - United States_Los Angeles_B7
-  - United States_Los Angeles_reality_4
+  - Russia_Moscow_reality_4
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -4219,7 +4219,7 @@ proxy-groups:
   - United States_Los Angeles_B5
   - France_Paris_B6
   - United States_Los Angeles_B7
-  - United States_Los Angeles_reality_4
+  - Russia_Moscow_reality_4
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
