@@ -126,7 +126,7 @@
         "🇺🇸 United States_Los Angeles_hysteria2_5",
         "🇫🇷 France_Paris_hysteria2_6",
         "🇺🇸 United States_Los Angeles_hysteria2_7",
-        "🇺🇸 United States_Los Angeles_vless_4"
+        "🇷🇺 Russia_Moscow_vless_4"
       ]
     },
     {
@@ -389,7 +389,7 @@
         "🇷🇺 Russia_Moscow_hysteria2_3",
         "🇺🇸 United States_Los Angeles_hysteria2_5",
         "🇺🇸 United States_Los Angeles_hysteria2_7",
-        "🇺🇸 United States_Los Angeles_vless_4"
+        "🇷🇺 Russia_Moscow_vless_4"
       ]
     },
     {
@@ -437,7 +437,7 @@
         "🇺🇸 United States_Los Angeles_hysteria2_5",
         "🇫🇷 France_Paris_hysteria2_6",
         "🇺🇸 United States_Los Angeles_hysteria2_7",
-        "🇺🇸 United States_Los Angeles_vless_4"
+        "🇷🇺 Russia_Moscow_vless_4"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -979,11 +979,11 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_Los Angeles_vless_4",
+      "tag": "🇷🇺 Russia_Moscow_vless_4",
       "type": "vless",
-      "server": "91.149.239.179",
-      "server_port": 59424,
-      "uuid": "3ec3a638-80fb-4225-8713-cc731ce08968",
+      "server": "185.22.153.75",
+      "server_port": 21315,
+      "uuid": "095ad0e3-9ed9-4346-9108-58b40e664f5c",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -992,8 +992,8 @@
         "server_name": "www.yahoo.com",
         "reality": {
           "enabled": true,
-          "public_key": "W9FYHpIedqwgpXAhALRJ2-aM8txrAZP4VpVavsYwPV4",
-          "short_id": "4bf309d3"
+          "public_key": "YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8",
+          "short_id": "d019a9ad"
         },
         "utls": {
           "enabled": true,
