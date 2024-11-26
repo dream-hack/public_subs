@@ -3440,12 +3440,12 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_None_141
+- name: United States_Los Angeles_141
   type: hysteria
-  server: 195.154.200.178
-  port: 10312
+  server: 108.181.24.77
+  port: 35862
+  ports: 40000-50000
   auth-str: dongtaiwang.com
-  obfs: dongtaiwang.com
   sni: bing.com
   skip-cert-verify: true
   alpn:
@@ -3453,12 +3453,12 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_None_151
+- name: United States_Los Angeles_151
   type: hysteria
-  server: 195.154.200.178
-  port: 10312
+  server: 108.181.24.77
+  port: 35862
+  ports: 40000-50000
   auth-str: dongtaiwang.com
-  obfs: dongtaiwang.com
   sni: bing.com
   skip-cert-verify: true
   alpn:
@@ -3562,12 +3562,12 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_None_241
+- name: United States_Los Angeles_241
   type: hysteria
-  server: 195.154.200.178
-  port: 10312
+  server: 108.181.24.77
+  port: 35862
+  ports: 40000-50000
   auth-str: dongtaiwang.com
-  obfs: dongtaiwang.com
   sni: bing.com
   skip-cert-verify: true
   alpn:
@@ -3575,12 +3575,12 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_None_251
+- name: United States_Los Angeles_251
   type: hysteria
-  server: 195.154.200.178
-  port: 10312
+  server: 108.181.24.77
+  port: 35862
+  ports: 40000-50000
   auth-str: dongtaiwang.com
-  obfs: dongtaiwang.com
   sni: bing.com
   skip-cert-verify: true
   alpn:
@@ -4145,8 +4145,8 @@ proxy-groups:
   - France_None_111
   - France_None_121
   - France_None_131
-  - France_None_141
-  - France_None_151
+  - United States_Los Angeles_141
+  - United States_Los Angeles_151
   - France_None_161
   - United States_Seattle_171
   - Taiwan_Xizhi District_181
@@ -4155,8 +4155,8 @@ proxy-groups:
   - France_None_211
   - France_None_221
   - France_None_231
-  - France_None_241
-  - France_None_251
+  - United States_Los Angeles_241
+  - United States_Los Angeles_251
   - France_None_261
   - United States_Seattle_271
   - Taiwan_Xizhi District_281
@@ -4418,8 +4418,8 @@ proxy-groups:
   - France_None_111
   - France_None_121
   - France_None_131
-  - France_None_141
-  - France_None_151
+  - United States_Los Angeles_141
+  - United States_Los Angeles_151
   - France_None_161
   - United States_Seattle_171
   - Taiwan_Xizhi District_181
@@ -4428,8 +4428,8 @@ proxy-groups:
   - France_None_211
   - France_None_221
   - France_None_231
-  - France_None_241
-  - France_None_251
+  - United States_Los Angeles_241
+  - United States_Los Angeles_251
   - France_None_261
   - United States_Seattle_271
   - Taiwan_Xizhi District_281
