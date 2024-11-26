@@ -2,3 +2,5 @@ https://github.com/Alvin9999/PAC/raw/master/naiveproxy/1/config.json
 https://github.com/Alvin9999/PAC/raw/master/naiveproxy/config.json
 https://github.com/Alvin9999/PAC/raw/master/backup/img/1/2/ip/naiveproxy/1/config.json
 https://github.com/Alvin9999/PAC/raw/master/backup/img/1/2/ip/naiveproxy/2/config.json
+https://github.com/Alvin9999/PAC/raw/master/backup/img/1/2/ipp/naiveproxy/1/config.json
+https://github.com/Alvin9999/PAC/raw/master/backup/img/1/2/ipp/naiveproxy/2/config.json

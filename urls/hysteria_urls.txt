@@ -6,3 +6,7 @@ https://github.com/Alvin9999/PAC/raw/master/backup/img/1/2/ip/hysteria/1/config.
 https://github.com/Alvin9999/PAC/raw/master/backup/img/1/2/ip/hysteria/2/config.json
 https://github.com/Alvin9999/PAC/raw/master/backup/img/1/2/ip/hysteria/3/config.json
 https://github.com/Alvin9999/PAC/raw/master/backup/img/1/2/ip/hysteria/4/config.json
+https://github.com/Alvin9999/PAC/raw/master/backup/img/1/2/ipp/hysteria/1/config.json
+https://github.com/Alvin9999/PAC/raw/master/backup/img/1/2/ipp/hysteria/2/config.json
+https://github.com/Alvin9999/PAC/raw/master/backup/img/1/2/ipp/hysteria/3/config.json
+https://github.com/Alvin9999/PAC/raw/master/backup/img/1/2/ipp/hysteria/4/config.json

@@ -4,3 +4,7 @@ https://github.com/Alvin9999/PAC/raw/master/backup/img/1/2/ip/singbox/1/config.j
 https://github.com/Alvin9999/PAC/raw/master/backup/img/1/2/ip/singbox/2/config.json
 https://github.com/Alvin9999/PAC/raw/master/backup/img/1/2/ip/singbox/3/config.json
 https://github.com/Alvin9999/PAC/raw/master/backup/img/1/2/ip/singbox/4/config.json
+https://github.com/Alvin9999/PAC/raw/master/backup/img/1/2/ipp/singbox/1/config.json
+https://github.com/Alvin9999/PAC/raw/master/backup/img/1/2/ipp/singbox/2/config.json
+https://github.com/Alvin9999/PAC/raw/master/backup/img/1/2/ipp/singbox/3/config.json
+https://github.com/Alvin9999/PAC/raw/master/backup/img/1/2/ipp/singbox/4/config.json

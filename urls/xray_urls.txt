@@ -6,3 +6,7 @@ https://github.com/Alvin9999/PAC/raw/master/backup/img/1/2/ip/xray/1/config.json
 https://github.com/Alvin9999/PAC/raw/master/backup/img/1/2/ip/xray/2/config.json
 https://github.com/Alvin9999/PAC/raw/master/backup/img/1/2/ip/xray/3/config.json
 https://github.com/Alvin9999/PAC/raw/master/backup/img/1/2/ip/xray/4/config.json
+https://github.com/Alvin9999/PAC/raw/master/backup/img/1/2/ipp/xray/1/config.json
+https://github.com/Alvin9999/PAC/raw/master/backup/img/1/2/ipp/xray/2/config.json
+https://github.com/Alvin9999/PAC/raw/master/backup/img/1/2/ipp/xray/3/config.json
+https://github.com/Alvin9999/PAC/raw/master/backup/img/1/2/ipp/xray/4/config.json
