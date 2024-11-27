@@ -105,8 +105,8 @@
         "🇫🇷 France_None_hy_11",
         "🇫🇷 France_None_hy_12",
         "🇫🇷 France_None_hy_13",
-        "🇫🇷 France_None_hy_14",
-        "🇫🇷 France_None_hy_15",
+        "🇺🇸 United States_Los Angeles_hy_14",
+        "🇺🇸 United States_Los Angeles_hy_15",
         "🇫🇷 France_None_hy_16",
         "🇺🇸 United States_Seattle_vless_17",
         "🇹🇼 Taiwan_Xizhi District_hy_18",
@@ -115,8 +115,8 @@
         "🇫🇷 France_None_hy_21",
         "🇫🇷 France_None_hy_22",
         "🇫🇷 France_None_hy_23",
-        "🇫🇷 France_None_hy_24",
-        "🇫🇷 France_None_hy_25",
+        "🇺🇸 United States_Los Angeles_hy_24",
+        "🇺🇸 United States_Los Angeles_hy_25",
         "🇫🇷 France_None_hy_26",
         "🇺🇸 United States_Seattle_vless_27",
         "🇹🇼 Taiwan_Xizhi District_hy_28",
@@ -392,7 +392,11 @@
       "outbounds": [
         "🇺🇸 United States_Wilmington_hy_6",
         "🇺🇸 United States_Wilmington_hy_9",
+        "🇺🇸 United States_Los Angeles_hy_14",
+        "🇺🇸 United States_Los Angeles_hy_15",
         "🇺🇸 United States_Seattle_vless_17",
+        "🇺🇸 United States_Los Angeles_hy_24",
+        "🇺🇸 United States_Los Angeles_hy_25",
         "🇺🇸 United States_Seattle_vless_27",
         "🇷🇺 Russia_Moscow_hysteria_0",
         "🇷🇺 Russia_Moscow_hysteria_1",
@@ -425,15 +429,11 @@
         "🇫🇷 France_None_hy_11",
         "🇫🇷 France_None_hy_12",
         "🇫🇷 France_None_hy_13",
-        "🇫🇷 France_None_hy_14",
-        "🇫🇷 France_None_hy_15",
         "🇫🇷 France_None_hy_16",
         "🇫🇷 France_None_hy_20",
         "🇫🇷 France_None_hy_21",
         "🇫🇷 France_None_hy_22",
         "🇫🇷 France_None_hy_23",
-        "🇫🇷 France_None_hy_24",
-        "🇫🇷 France_None_hy_25",
         "🇫🇷 France_None_hy_26",
         "🇫🇷 France_None_hysteria_4",
         "🇫🇷 France_None_hysteria_8",
@@ -456,8 +456,8 @@
         "🇫🇷 France_None_hy_11",
         "🇫🇷 France_None_hy_12",
         "🇫🇷 France_None_hy_13",
-        "🇫🇷 France_None_hy_14",
-        "🇫🇷 France_None_hy_15",
+        "🇺🇸 United States_Los Angeles_hy_14",
+        "🇺🇸 United States_Los Angeles_hy_15",
         "🇫🇷 France_None_hy_16",
         "🇺🇸 United States_Seattle_vless_17",
         "🇹🇼 Taiwan_Xizhi District_hy_18",
@@ -466,8 +466,8 @@
         "🇫🇷 France_None_hy_21",
         "🇫🇷 France_None_hy_22",
         "🇫🇷 France_None_hy_23",
-        "🇫🇷 France_None_hy_24",
-        "🇫🇷 France_None_hy_25",
+        "🇺🇸 United States_Los Angeles_hy_24",
+        "🇺🇸 United States_Los Angeles_hy_25",
         "🇫🇷 France_None_hy_26",
         "🇺🇸 United States_Seattle_vless_27",
         "🇹🇼 Taiwan_Xizhi District_hy_28",
@@ -654,10 +654,10 @@
       "obfs": "dongtaiwang.com"
     },
     {
-      "tag": "🇫🇷 France_None_hy_14",
+      "tag": "🇺🇸 United States_Los Angeles_hy_14",
       "type": "hysteria",
-      "server": "195.154.200.178",
-      "server_port": 10312,
+      "server": "108.181.24.77",
+      "server_port": 35862,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "dongtaiwang.com",
@@ -668,14 +668,13 @@
         "alpn": [
           "h3"
         ]
-      },
-      "obfs": "dongtaiwang.com"
+      }
     },
     {
-      "tag": "🇫🇷 France_None_hy_15",
+      "tag": "🇺🇸 United States_Los Angeles_hy_15",
       "type": "hysteria",
-      "server": "195.154.200.178",
-      "server_port": 10312,
+      "server": "108.181.24.77",
+      "server_port": 35862,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "dongtaiwang.com",
@@ -686,8 +685,7 @@
         "alpn": [
           "h3"
         ]
-      },
-      "obfs": "dongtaiwang.com"
+      }
     },
     {
       "tag": "🇫🇷 France_None_hy_16",
@@ -834,10 +832,10 @@
       "obfs": "dongtaiwang.com"
     },
     {
-      "tag": "🇫🇷 France_None_hy_24",
+      "tag": "🇺🇸 United States_Los Angeles_hy_24",
       "type": "hysteria",
-      "server": "195.154.200.178",
-      "server_port": 10312,
+      "server": "108.181.24.77",
+      "server_port": 35862,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "dongtaiwang.com",
@@ -848,14 +846,13 @@
         "alpn": [
           "h3"
         ]
-      },
-      "obfs": "dongtaiwang.com"
+      }
     },
     {
-      "tag": "🇫🇷 France_None_hy_25",
+      "tag": "🇺🇸 United States_Los Angeles_hy_25",
       "type": "hysteria",
-      "server": "195.154.200.178",
-      "server_port": 10312,
+      "server": "108.181.24.77",
+      "server_port": 35862,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "dongtaiwang.com",
@@ -866,8 +863,7 @@
         "alpn": [
           "h3"
         ]
-      },
-      "obfs": "dongtaiwang.com"
+      }
     },
     {
       "tag": "🇫🇷 France_None_hy_26",
