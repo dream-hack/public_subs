@@ -75245,7 +75245,7 @@ proxies:
     public-key: cauu7I7nFMqzwMDdULVRJam0T04U4knX8koK0OG5dC8
     short-id: 40cb281a
   client-fingerprint: chrome
-- name: Taiwan_Xizhi District_181
+- name: Taiwan_Taipei_181
   type: hysteria
   server: 2.0035961.xyz
   port: 19627
@@ -75367,7 +75367,7 @@ proxies:
     public-key: cauu7I7nFMqzwMDdULVRJam0T04U4knX8koK0OG5dC8
     short-id: 40cb281a
   client-fingerprint: chrome
-- name: Taiwan_Xizhi District_281
+- name: Taiwan_Taipei_281
   type: hysteria
   server: 2.0035961.xyz
   port: 19627
@@ -80689,7 +80689,7 @@ proxy-groups:
   - United States_Los Angeles_151
   - France_None_161
   - United States_Seattle_171
-  - Taiwan_Xizhi District_181
+  - Taiwan_Taipei_181
   - Taiwan_Xizhi District_191
   - France_None_201
   - France_None_211
@@ -80699,7 +80699,7 @@ proxy-groups:
   - United States_Los Angeles_251
   - France_None_261
   - United States_Seattle_271
-  - Taiwan_Xizhi District_281
+  - Taiwan_Taipei_281
   - Taiwan_Xizhi District_291
   - Russia_Moscow_A0
   - Russia_Moscow_A1
@@ -85748,7 +85748,7 @@ proxy-groups:
   - United States_Los Angeles_151
   - France_None_161
   - United States_Seattle_171
-  - Taiwan_Xizhi District_181
+  - Taiwan_Taipei_181
   - Taiwan_Xizhi District_191
   - France_None_201
   - France_None_211
@@ -85758,7 +85758,7 @@ proxy-groups:
   - United States_Los Angeles_251
   - France_None_261
   - United States_Seattle_271
-  - Taiwan_Xizhi District_281
+  - Taiwan_Taipei_281
   - Taiwan_Xizhi District_291
   - Russia_Moscow_A0
   - Russia_Moscow_A1
