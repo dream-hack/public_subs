@@ -109,7 +109,7 @@
         "🇺🇸 United States_Los Angeles_hy_15",
         "🇫🇷 France_None_hy_16",
         "🇺🇸 United States_Seattle_vless_17",
-        "🇹🇼 Taiwan_Xizhi District_hy_18",
+        "🇹🇼 Taiwan_Taipei_hy_18",
         "🇹🇼 Taiwan_Xizhi District_hy_19",
         "🇫🇷 France_None_hy_20",
         "🇫🇷 France_None_hy_21",
@@ -119,7 +119,7 @@
         "🇺🇸 United States_Los Angeles_hy_25",
         "🇫🇷 France_None_hy_26",
         "🇺🇸 United States_Seattle_vless_27",
-        "🇹🇼 Taiwan_Xizhi District_hy_28",
+        "🇹🇼 Taiwan_Taipei_hy_28",
         "🇹🇼 Taiwan_Xizhi District_hy_29",
         "🇷🇺 Russia_Moscow_hysteria_0",
         "🇷🇺 Russia_Moscow_hysteria_1",
@@ -366,9 +366,9 @@
       "tag": "TaiWan",
       "type": "selector",
       "outbounds": [
-        "🇹🇼 Taiwan_Xizhi District_hy_18",
+        "🇹🇼 Taiwan_Taipei_hy_18",
         "🇹🇼 Taiwan_Xizhi District_hy_19",
-        "🇹🇼 Taiwan_Xizhi District_hy_28",
+        "🇹🇼 Taiwan_Taipei_hy_28",
         "🇹🇼 Taiwan_Xizhi District_hy_29"
       ]
     },
@@ -460,7 +460,7 @@
         "🇺🇸 United States_Los Angeles_hy_15",
         "🇫🇷 France_None_hy_16",
         "🇺🇸 United States_Seattle_vless_17",
-        "🇹🇼 Taiwan_Xizhi District_hy_18",
+        "🇹🇼 Taiwan_Taipei_hy_18",
         "🇹🇼 Taiwan_Xizhi District_hy_19",
         "🇫🇷 France_None_hy_20",
         "🇫🇷 France_None_hy_21",
@@ -470,7 +470,7 @@
         "🇺🇸 United States_Los Angeles_hy_25",
         "🇫🇷 France_None_hy_26",
         "🇺🇸 United States_Seattle_vless_27",
-        "🇹🇼 Taiwan_Xizhi District_hy_28",
+        "🇹🇼 Taiwan_Taipei_hy_28",
         "🇹🇼 Taiwan_Xizhi District_hy_29",
         "🇷🇺 Russia_Moscow_hysteria_0",
         "🇷🇺 Russia_Moscow_hysteria_1",
@@ -728,7 +728,7 @@
       }
     },
     {
-      "tag": "🇹🇼 Taiwan_Xizhi District_hy_18",
+      "tag": "🇹🇼 Taiwan_Taipei_hy_18",
       "type": "hysteria",
       "server": "2.0035961.xyz",
       "server_port": 19627,
@@ -906,7 +906,7 @@
       }
     },
     {
-      "tag": "🇹🇼 Taiwan_Xizhi District_hy_28",
+      "tag": "🇹🇼 Taiwan_Taipei_hy_28",
       "type": "hysteria",
       "server": "2.0035961.xyz",
       "server_port": 19627,
