@@ -97,10 +97,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇺🇸 United States_Wilmington_hy_6",
+        "🇫🇷 France_None_hy_6",
         "🇩🇪 Germany_None_hy_7",
         "🇩🇪 Germany_None_hy_8",
-        "🇺🇸 United States_Wilmington_hy_9",
+        "🇫🇷 France_None_hy_9",
         "🇫🇷 France_None_hy_10",
         "🇫🇷 France_None_hy_11",
         "🇫🇷 France_None_hy_12",
@@ -390,8 +390,6 @@
       "tag": "America",
       "type": "selector",
       "outbounds": [
-        "🇺🇸 United States_Wilmington_hy_6",
-        "🇺🇸 United States_Wilmington_hy_9",
         "🇺🇸 United States_Los Angeles_hy_14",
         "🇺🇸 United States_Los Angeles_hy_15",
         "🇺🇸 United States_Seattle_vless_17",
@@ -423,8 +421,10 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
+        "🇫🇷 France_None_hy_6",
         "🇩🇪 Germany_None_hy_7",
         "🇩🇪 Germany_None_hy_8",
+        "🇫🇷 France_None_hy_9",
         "🇫🇷 France_None_hy_10",
         "🇫🇷 France_None_hy_11",
         "🇫🇷 France_None_hy_12",
@@ -448,10 +448,10 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇺🇸 United States_Wilmington_hy_6",
+        "🇫🇷 France_None_hy_6",
         "🇩🇪 Germany_None_hy_7",
         "🇩🇪 Germany_None_hy_8",
-        "🇺🇸 United States_Wilmington_hy_9",
+        "🇫🇷 France_None_hy_9",
         "🇫🇷 France_None_hy_10",
         "🇫🇷 France_None_hy_11",
         "🇫🇷 France_None_hy_12",
@@ -516,10 +516,10 @@
       "tag": "block"
     },
     {
-      "tag": "🇺🇸 United States_Wilmington_hy_6",
+      "tag": "🇫🇷 France_None_hy_6",
       "type": "hysteria",
-      "server": "166.1.18.42",
-      "server_port": 37950,
+      "server": "195.154.184.5",
+      "server_port": 22787,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "",
@@ -567,10 +567,10 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_Wilmington_hy_9",
+      "tag": "🇫🇷 France_None_hy_9",
       "type": "hysteria",
-      "server": "166.1.18.42",
-      "server_port": 37950,
+      "server": "195.154.184.5",
+      "server_port": 22787,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "",
