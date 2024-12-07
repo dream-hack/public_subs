@@ -75256,14 +75256,15 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: Taiwan_Xizhi District_191
+- name: Russia_Moscow_191
   type: hysteria
-  server: 1.0035961.xyz
-  port: 15806
+  server: 45.140.169.187
+  port: 47213
+  ports: 20000-30000
   auth_str: dongtaiwang.com
   alpn:
   - h3
-  sni: www.bing.com
+  sni: bing.com
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
@@ -75378,14 +75379,15 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: Taiwan_Xizhi District_291
+- name: Russia_Moscow_291
   type: hysteria
-  server: 1.0035961.xyz
-  port: 15806
+  server: 45.140.169.187
+  port: 47213
+  ports: 20000-30000
   auth_str: dongtaiwang.com
   alpn:
   - h3
-  sni: www.bing.com
+  sni: bing.com
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
@@ -80690,7 +80692,7 @@ proxy-groups:
   - France_None_161
   - United States_Seattle_171
   - Taiwan_Taipei_181
-  - Taiwan_Xizhi District_191
+  - Russia_Moscow_191
   - France_None_201
   - France_None_211
   - France_None_221
@@ -80700,7 +80702,7 @@ proxy-groups:
   - France_None_261
   - United States_Seattle_271
   - Taiwan_Taipei_281
-  - Taiwan_Xizhi District_291
+  - Russia_Moscow_291
   - Russia_Moscow_A0
   - Russia_Moscow_A1
   - Russia_Moscow_A2
@@ -85749,7 +85751,7 @@ proxy-groups:
   - France_None_161
   - United States_Seattle_171
   - Taiwan_Taipei_181
-  - Taiwan_Xizhi District_191
+  - Russia_Moscow_191
   - France_None_201
   - France_None_211
   - France_None_221
@@ -85759,7 +85761,7 @@ proxy-groups:
   - France_None_261
   - United States_Seattle_271
   - Taiwan_Taipei_281
-  - Taiwan_Xizhi District_291
+  - Russia_Moscow_291
   - Russia_Moscow_A0
   - Russia_Moscow_A1
   - Russia_Moscow_A2
