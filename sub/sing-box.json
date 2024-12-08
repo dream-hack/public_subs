@@ -110,7 +110,7 @@
         "🇫🇷 France_None_hy_16",
         "🇺🇸 United States_Seattle_vless_17",
         "🇹🇼 Taiwan_Taipei_hy_18",
-        "🇹🇼 Taiwan_Xizhi District_hy_19",
+        "🇷🇺 Russia_Moscow_hy_19",
         "🇫🇷 France_None_hy_20",
         "🇫🇷 France_None_hy_21",
         "🇫🇷 France_None_hy_22",
@@ -120,7 +120,7 @@
         "🇫🇷 France_None_hy_26",
         "🇺🇸 United States_Seattle_vless_27",
         "🇹🇼 Taiwan_Taipei_hy_28",
-        "🇹🇼 Taiwan_Xizhi District_hy_29",
+        "🇷🇺 Russia_Moscow_hy_29",
         "🇷🇺 Russia_Moscow_hysteria_0",
         "🇷🇺 Russia_Moscow_hysteria_1",
         "🇷🇺 Russia_Moscow_hysteria_2",
@@ -367,9 +367,7 @@
       "type": "selector",
       "outbounds": [
         "🇹🇼 Taiwan_Taipei_hy_18",
-        "🇹🇼 Taiwan_Xizhi District_hy_19",
-        "🇹🇼 Taiwan_Taipei_hy_28",
-        "🇹🇼 Taiwan_Xizhi District_hy_29"
+        "🇹🇼 Taiwan_Taipei_hy_28"
       ]
     },
     {
@@ -393,9 +391,11 @@
         "🇺🇸 United States_Los Angeles_hy_14",
         "🇺🇸 United States_Los Angeles_hy_15",
         "🇺🇸 United States_Seattle_vless_17",
+        "🇷🇺 Russia_Moscow_hy_19",
         "🇺🇸 United States_Los Angeles_hy_24",
         "🇺🇸 United States_Los Angeles_hy_25",
         "🇺🇸 United States_Seattle_vless_27",
+        "🇷🇺 Russia_Moscow_hy_29",
         "🇷🇺 Russia_Moscow_hysteria_0",
         "🇷🇺 Russia_Moscow_hysteria_1",
         "🇷🇺 Russia_Moscow_hysteria_2",
@@ -461,7 +461,7 @@
         "🇫🇷 France_None_hy_16",
         "🇺🇸 United States_Seattle_vless_17",
         "🇹🇼 Taiwan_Taipei_hy_18",
-        "🇹🇼 Taiwan_Xizhi District_hy_19",
+        "🇷🇺 Russia_Moscow_hy_19",
         "🇫🇷 France_None_hy_20",
         "🇫🇷 France_None_hy_21",
         "🇫🇷 France_None_hy_22",
@@ -471,7 +471,7 @@
         "🇫🇷 France_None_hy_26",
         "🇺🇸 United States_Seattle_vless_27",
         "🇹🇼 Taiwan_Taipei_hy_28",
-        "🇹🇼 Taiwan_Xizhi District_hy_29",
+        "🇷🇺 Russia_Moscow_hy_29",
         "🇷🇺 Russia_Moscow_hysteria_0",
         "🇷🇺 Russia_Moscow_hysteria_1",
         "🇷🇺 Russia_Moscow_hysteria_2",
@@ -745,16 +745,16 @@
       }
     },
     {
-      "tag": "🇹🇼 Taiwan_Xizhi District_hy_19",
+      "tag": "🇷🇺 Russia_Moscow_hy_19",
       "type": "hysteria",
-      "server": "1.0035961.xyz",
-      "server_port": 15806,
+      "server": "45.140.169.187",
+      "server_port": 47213,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.bing.com",
+        "server_name": "bing.com",
         "insecure": true,
         "alpn": [
           "h3"
@@ -923,16 +923,16 @@
       }
     },
     {
-      "tag": "🇹🇼 Taiwan_Xizhi District_hy_29",
+      "tag": "🇷🇺 Russia_Moscow_hy_29",
       "type": "hysteria",
-      "server": "1.0035961.xyz",
-      "server_port": 15806,
+      "server": "45.140.169.187",
+      "server_port": 47213,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.bing.com",
+        "server_name": "bing.com",
         "insecure": true,
         "alpn": [
           "h3"
