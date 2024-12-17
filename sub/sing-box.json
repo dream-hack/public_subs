@@ -97,6 +97,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇹🇼 Taiwan_Taipei_hy_0",
         "🇫🇷 France_None_hy_6",
         "🇩🇪 Germany_None_hy_7",
         "🇩🇪 Germany_None_hy_8",
@@ -371,6 +372,7 @@
       "tag": "TaiWan",
       "type": "selector",
       "outbounds": [
+        "🇹🇼 Taiwan_Taipei_hy_0",
         "🇹🇼 Taiwan_Taipei_hy_18",
         "🇹🇼 Taiwan_Taipei_hy_28"
       ]
@@ -458,6 +460,7 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
+        "🇹🇼 Taiwan_Taipei_hy_0",
         "🇫🇷 France_None_hy_6",
         "🇩🇪 Germany_None_hy_7",
         "🇩🇪 Germany_None_hy_8",
@@ -529,6 +532,23 @@
     {
       "type": "block",
       "tag": "block"
+    },
+    {
+      "tag": "🇹🇼 Taiwan_Taipei_hy_0",
+      "type": "hysteria",
+      "server": "1.162.11.157",
+      "server_port": 10045,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
     },
     {
       "tag": "🇫🇷 France_None_hy_6",
@@ -746,7 +766,7 @@
       "tag": "🇹🇼 Taiwan_Taipei_hy_18",
       "type": "hysteria",
       "server": "2.0035961.xyz",
-      "server_port": 19627,
+      "server_port": 10045,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "",
@@ -924,7 +944,7 @@
       "tag": "🇹🇼 Taiwan_Taipei_hy_28",
       "type": "hysteria",
       "server": "2.0035961.xyz",
-      "server_port": 19627,
+      "server_port": 10045,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "",
