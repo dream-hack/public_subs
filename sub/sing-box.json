@@ -97,10 +97,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇺🇸 United States_None_hy2_0",
-        "🇺🇸 United States_None_hy2_1",
-        "🇺🇸 United States_None_hy2_3",
-        "🇺🇸 United States_Los Angeles_hy2_5",
         "🇫🇷 France_None_hy_6",
         "🇩🇪 Germany_None_hy_7",
         "🇩🇪 Germany_None_hy_8",
@@ -153,7 +149,6 @@
         "🇷🇺 Russia_None_vless_6",
         "🇷🇺 Russia_None_vless_7",
         "🇷🇺 Russia_Moscow_vless_8",
-        "None_None_vless_9",
         "🇷🇺 Russia_None_vless_10",
         "🇷🇺 Russia_None_vless_11"
       ]
@@ -397,10 +392,6 @@
       "tag": "America",
       "type": "selector",
       "outbounds": [
-        "🇺🇸 United States_None_hy2_0",
-        "🇺🇸 United States_None_hy2_1",
-        "🇺🇸 United States_None_hy2_3",
-        "🇺🇸 United States_Los Angeles_hy2_5",
         "🇺🇸 United States_Atlanta_hy_11",
         "🇺🇸 United States_Los Angeles_hy_14",
         "🇺🇸 United States_Los Angeles_hy_15",
@@ -458,18 +449,13 @@
         "🇫🇷 France_Paris_hysteria2_4",
         "🇫🇷 France_Paris_hysteria2_6",
         "🇫🇷 France_Paris_hysteria2_8",
-        "🇫🇷 France_Paris_hysteria2_10",
-        "None_None_vless_9"
+        "🇫🇷 France_Paris_hysteria2_10"
       ]
     },
     {
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇺🇸 United States_None_hy2_0",
-        "🇺🇸 United States_None_hy2_1",
-        "🇺🇸 United States_None_hy2_3",
-        "🇺🇸 United States_Los Angeles_hy2_5",
         "🇫🇷 France_None_hy_6",
         "🇩🇪 Germany_None_hy_7",
         "🇩🇪 Germany_None_hy_8",
@@ -522,7 +508,6 @@
         "🇷🇺 Russia_None_vless_6",
         "🇷🇺 Russia_None_vless_7",
         "🇷🇺 Russia_Moscow_vless_8",
-        "None_None_vless_9",
         "🇷🇺 Russia_None_vless_10",
         "🇷🇺 Russia_None_vless_11"
       ],
@@ -541,74 +526,6 @@
     {
       "type": "block",
       "tag": "block"
-    },
-    {
-      "tag": "🇺🇸 United States_None_hy2_0",
-      "type": "hysteria2",
-      "server": "166.1.190.83",
-      "server_port": 61677,
-      "password": "github.com/Alvin9999",
-      "up_mbps": 10,
-      "down_mbps": 100,
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
-    },
-    {
-      "tag": "🇺🇸 United States_None_hy2_1",
-      "type": "hysteria2",
-      "server": "166.1.190.83",
-      "server_port": 61677,
-      "password": "github.com/Alvin9999",
-      "up_mbps": 10,
-      "down_mbps": 100,
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
-    },
-    {
-      "tag": "🇺🇸 United States_None_hy2_3",
-      "type": "hysteria2",
-      "server": "166.1.190.83",
-      "server_port": 61677,
-      "password": "github.com/Alvin9999",
-      "up_mbps": 10,
-      "down_mbps": 100,
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
-    },
-    {
-      "tag": "🇺🇸 United States_Los Angeles_hy2_5",
-      "type": "hysteria2",
-      "server": "108.181.5.131",
-      "server_port": 7329,
-      "password": "dongtaiwang.com",
-      "up_mbps": 10,
-      "down_mbps": 100,
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
     },
     {
       "tag": "🇫🇷 France_None_hy_6",
@@ -1534,19 +1451,6 @@
           "enabled": true,
           "fingerprint": "chrome"
         }
-      }
-    },
-    {
-      "tag": "None_None_vless_9",
-      "type": "vless",
-      "server": "104.18.114.3",
-      "server_port": 8443,
-      "uuid": "01c07ba2-892a-4951-9e09-e84d99db4a43",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "split3.8084726.xyz"
       }
     },
     {
