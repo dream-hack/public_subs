@@ -145,10 +145,16 @@
         "🇺🇸 United States_Los Angeles_hysteria2_9",
         "🇫🇷 France_Paris_hysteria2_10",
         "🇺🇸 United States_Los Angeles_hysteria2_11",
+        "🇹🇼 Taiwan_Taipei_vless_0",
+        "🇹🇼 Taiwan_Taipei_vless_1",
+        "🇹🇼 Taiwan_Taipei_vless_2",
+        "🇹🇼 Taiwan_Taipei_vless_3",
         "🇷🇺 Russia_Moscow_vless_4",
+        "🇹🇼 Taiwan_Taipei_vless_5",
         "🇷🇺 Russia_None_vless_6",
         "🇷🇺 Russia_None_vless_7",
         "🇷🇺 Russia_Moscow_vless_8",
+        "🇹🇼 Taiwan_Taipei_vless_9",
         "🇷🇺 Russia_None_vless_10",
         "🇷🇺 Russia_None_vless_11"
       ]
@@ -373,7 +379,13 @@
         "🇹🇼 Taiwan_Taipei_hy_17",
         "🇹🇼 Taiwan_Taipei_hy_18",
         "🇹🇼 Taiwan_Taipei_hy_27",
-        "🇹🇼 Taiwan_Taipei_hy_28"
+        "🇹🇼 Taiwan_Taipei_hy_28",
+        "🇹🇼 Taiwan_Taipei_vless_0",
+        "🇹🇼 Taiwan_Taipei_vless_1",
+        "🇹🇼 Taiwan_Taipei_vless_2",
+        "🇹🇼 Taiwan_Taipei_vless_3",
+        "🇹🇼 Taiwan_Taipei_vless_5",
+        "🇹🇼 Taiwan_Taipei_vless_9"
       ]
     },
     {
@@ -504,10 +516,16 @@
         "🇺🇸 United States_Los Angeles_hysteria2_9",
         "🇫🇷 France_Paris_hysteria2_10",
         "🇺🇸 United States_Los Angeles_hysteria2_11",
+        "🇹🇼 Taiwan_Taipei_vless_0",
+        "🇹🇼 Taiwan_Taipei_vless_1",
+        "🇹🇼 Taiwan_Taipei_vless_2",
+        "🇹🇼 Taiwan_Taipei_vless_3",
         "🇷🇺 Russia_Moscow_vless_4",
+        "🇹🇼 Taiwan_Taipei_vless_5",
         "🇷🇺 Russia_None_vless_6",
         "🇷🇺 Russia_None_vless_7",
         "🇷🇺 Russia_Moscow_vless_8",
+        "🇹🇼 Taiwan_Taipei_vless_9",
         "🇷🇺 Russia_None_vless_10",
         "🇷🇺 Russia_None_vless_11"
       ],
@@ -1352,6 +1370,98 @@
       }
     },
     {
+      "tag": "🇹🇼 Taiwan_Taipei_vless_0",
+      "type": "vless",
+      "server": "36.226.252.19",
+      "server_port": 56870,
+      "uuid": "7c4efc45-42f7-48d8-a741-6093cd2886a7",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "www.yahoo.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA",
+          "short_id": "239c3cef"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇼 Taiwan_Taipei_vless_1",
+      "type": "vless",
+      "server": "36.226.252.19",
+      "server_port": 56870,
+      "uuid": "7c4efc45-42f7-48d8-a741-6093cd2886a7",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "www.yahoo.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA",
+          "short_id": "239c3cef"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇼 Taiwan_Taipei_vless_2",
+      "type": "vless",
+      "server": "36.226.252.19",
+      "server_port": 56870,
+      "uuid": "7c4efc45-42f7-48d8-a741-6093cd2886a7",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "www.yahoo.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA",
+          "short_id": "239c3cef"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇼 Taiwan_Taipei_vless_3",
+      "type": "vless",
+      "server": "36.226.252.19",
+      "server_port": 56870,
+      "uuid": "7c4efc45-42f7-48d8-a741-6093cd2886a7",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "www.yahoo.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA",
+          "short_id": "239c3cef"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇷🇺 Russia_Moscow_vless_4",
       "type": "vless",
       "server": "185.22.153.75",
@@ -1367,6 +1477,29 @@
           "enabled": true,
           "public_key": "YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8",
           "short_id": "d019a9ad"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇼 Taiwan_Taipei_vless_5",
+      "type": "vless",
+      "server": "36.226.252.19",
+      "server_port": 56870,
+      "uuid": "7c4efc45-42f7-48d8-a741-6093cd2886a7",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "www.yahoo.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA",
+          "short_id": "239c3cef"
         },
         "utls": {
           "enabled": true,
@@ -1434,6 +1567,29 @@
           "enabled": true,
           "public_key": "YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8",
           "short_id": "d019a9ad"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇼 Taiwan_Taipei_vless_9",
+      "type": "vless",
+      "server": "36.226.252.19",
+      "server_port": 56870,
+      "uuid": "7c4efc45-42f7-48d8-a741-6093cd2886a7",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "www.yahoo.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA",
+          "short_id": "239c3cef"
         },
         "utls": {
           "enabled": true,
