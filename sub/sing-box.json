@@ -1180,7 +1180,10 @@
         "alpn": [
           "h3"
         ]
-      }
+      },
+      "server_ports": [
+        "30000-40000"
+      ]
     },
     {
       "tag": "🇷🇺 Russia_Moscow_hysteria2_1",
@@ -1197,7 +1200,10 @@
         "alpn": [
           "h3"
         ]
-      }
+      },
+      "server_ports": [
+        "30000-40000"
+      ]
     },
     {
       "tag": "🇷🇺 Russia_Moscow_hysteria2_2",
@@ -1214,7 +1220,10 @@
         "alpn": [
           "h3"
         ]
-      }
+      },
+      "server_ports": [
+        "30000-40000"
+      ]
     },
     {
       "tag": "🇷🇺 Russia_Moscow_hysteria2_3",
@@ -1231,7 +1240,10 @@
         "alpn": [
           "h3"
         ]
-      }
+      },
+      "server_ports": [
+        "30000-40000"
+      ]
     },
     {
       "tag": "🇫🇷 France_Paris_hysteria2_4",
@@ -1248,7 +1260,10 @@
         "alpn": [
           "h3"
         ]
-      }
+      },
+      "server_ports": [
+        "20000-30000"
+      ]
     },
     {
       "tag": "🇺🇸 United States_Los Angeles_hysteria2_5",
@@ -1265,7 +1280,10 @@
         "alpn": [
           "h3"
         ]
-      }
+      },
+      "server_ports": [
+        "20000-30000"
+      ]
     },
     {
       "tag": "🇫🇷 France_Paris_hysteria2_6",
@@ -1282,7 +1300,10 @@
         "alpn": [
           "h3"
         ]
-      }
+      },
+      "server_ports": [
+        "20000-30000"
+      ]
     },
     {
       "tag": "🇺🇸 United States_Los Angeles_hysteria2_7",
@@ -1299,7 +1320,10 @@
         "alpn": [
           "h3"
         ]
-      }
+      },
+      "server_ports": [
+        "20000-30000"
+      ]
     },
     {
       "tag": "🇫🇷 France_Paris_hysteria2_8",
@@ -1316,7 +1340,10 @@
         "alpn": [
           "h3"
         ]
-      }
+      },
+      "server_ports": [
+        "20000-30000"
+      ]
     },
     {
       "tag": "🇺🇸 United States_Los Angeles_hysteria2_9",
@@ -1333,7 +1360,10 @@
         "alpn": [
           "h3"
         ]
-      }
+      },
+      "server_ports": [
+        "20000-30000"
+      ]
     },
     {
       "tag": "🇫🇷 France_Paris_hysteria2_10",
@@ -1350,7 +1380,10 @@
         "alpn": [
           "h3"
         ]
-      }
+      },
+      "server_ports": [
+        "20000-30000"
+      ]
     },
     {
       "tag": "🇺🇸 United States_Los Angeles_hysteria2_11",
@@ -1367,7 +1400,10 @@
         "alpn": [
           "h3"
         ]
-      }
+      },
+      "server_ports": [
+        "20000-30000"
+      ]
     },
     {
       "tag": "🇹🇼 Taiwan_Taipei_vless_0",
