@@ -145,10 +145,10 @@
         "🇺🇸 United States_Los Angeles_hysteria2_9",
         "🇫🇷 France_Paris_hysteria2_10",
         "🇺🇸 United States_Los Angeles_hysteria2_11",
-        "🇹🇼 Taiwan_Taipei_vless_0",
-        "🇹🇼 Taiwan_Taipei_vless_1",
-        "🇹🇼 Taiwan_Taipei_vless_2",
-        "🇹🇼 Taiwan_Taipei_vless_3",
+        "🇹🇼 Taiwan_Xizhi District_vless_0",
+        "🇹🇼 Taiwan_Xizhi District_vless_1",
+        "🇹🇼 Taiwan_Xizhi District_vless_2",
+        "🇹🇼 Taiwan_Xizhi District_vless_3",
         "🇷🇺 Russia_Moscow_vless_4",
         "🇹🇼 Taiwan_Taipei_vless_5",
         "🇷🇺 Russia_None_vless_6",
@@ -377,10 +377,10 @@
       "type": "selector",
       "outbounds": [
         "🇹🇼 Taiwan_Xizhi District_hy_18",
-        "🇹🇼 Taiwan_Taipei_vless_0",
-        "🇹🇼 Taiwan_Taipei_vless_1",
-        "🇹🇼 Taiwan_Taipei_vless_2",
-        "🇹🇼 Taiwan_Taipei_vless_3",
+        "🇹🇼 Taiwan_Xizhi District_vless_0",
+        "🇹🇼 Taiwan_Xizhi District_vless_1",
+        "🇹🇼 Taiwan_Xizhi District_vless_2",
+        "🇹🇼 Taiwan_Xizhi District_vless_3",
         "🇹🇼 Taiwan_Taipei_vless_5",
         "🇹🇼 Taiwan_Taipei_vless_9"
       ]
@@ -516,10 +516,10 @@
         "🇺🇸 United States_Los Angeles_hysteria2_9",
         "🇫🇷 France_Paris_hysteria2_10",
         "🇺🇸 United States_Los Angeles_hysteria2_11",
-        "🇹🇼 Taiwan_Taipei_vless_0",
-        "🇹🇼 Taiwan_Taipei_vless_1",
-        "🇹🇼 Taiwan_Taipei_vless_2",
-        "🇹🇼 Taiwan_Taipei_vless_3",
+        "🇹🇼 Taiwan_Xizhi District_vless_0",
+        "🇹🇼 Taiwan_Xizhi District_vless_1",
+        "🇹🇼 Taiwan_Xizhi District_vless_2",
+        "🇹🇼 Taiwan_Xizhi District_vless_3",
         "🇷🇺 Russia_Moscow_vless_4",
         "🇹🇼 Taiwan_Taipei_vless_5",
         "🇷🇺 Russia_None_vless_6",
@@ -1406,11 +1406,11 @@
       ]
     },
     {
-      "tag": "🇹🇼 Taiwan_Taipei_vless_0",
+      "tag": "🇹🇼 Taiwan_Xizhi District_vless_0",
       "type": "vless",
-      "server": "36.226.244.225",
-      "server_port": 56870,
-      "uuid": "7c4efc45-42f7-48d8-a741-6093cd2886a7",
+      "server": "1.162.18.226",
+      "server_port": 37898,
+      "uuid": "ec302de4-6b3d-4f03-a228-3c6d303ed370",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -1419,8 +1419,8 @@
         "server_name": "www.yahoo.com",
         "reality": {
           "enabled": true,
-          "public_key": "9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA",
-          "short_id": "239c3cef"
+          "public_key": "v6uWJJmVGFPd0K040QK3PJHCbPc74kXFoQmAhpu30jQ",
+          "short_id": "e12d7fdb"
         },
         "utls": {
           "enabled": true,
@@ -1429,11 +1429,11 @@
       }
     },
     {
-      "tag": "🇹🇼 Taiwan_Taipei_vless_1",
+      "tag": "🇹🇼 Taiwan_Xizhi District_vless_1",
       "type": "vless",
-      "server": "36.226.244.225",
-      "server_port": 56870,
-      "uuid": "7c4efc45-42f7-48d8-a741-6093cd2886a7",
+      "server": "1.162.18.226",
+      "server_port": 37898,
+      "uuid": "ec302de4-6b3d-4f03-a228-3c6d303ed370",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -1442,8 +1442,8 @@
         "server_name": "www.yahoo.com",
         "reality": {
           "enabled": true,
-          "public_key": "9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA",
-          "short_id": "239c3cef"
+          "public_key": "v6uWJJmVGFPd0K040QK3PJHCbPc74kXFoQmAhpu30jQ",
+          "short_id": "e12d7fdb"
         },
         "utls": {
           "enabled": true,
@@ -1452,11 +1452,11 @@
       }
     },
     {
-      "tag": "🇹🇼 Taiwan_Taipei_vless_2",
+      "tag": "🇹🇼 Taiwan_Xizhi District_vless_2",
       "type": "vless",
-      "server": "36.226.244.225",
-      "server_port": 56870,
-      "uuid": "7c4efc45-42f7-48d8-a741-6093cd2886a7",
+      "server": "1.162.18.226",
+      "server_port": 37898,
+      "uuid": "ec302de4-6b3d-4f03-a228-3c6d303ed370",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -1465,8 +1465,8 @@
         "server_name": "www.yahoo.com",
         "reality": {
           "enabled": true,
-          "public_key": "9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA",
-          "short_id": "239c3cef"
+          "public_key": "v6uWJJmVGFPd0K040QK3PJHCbPc74kXFoQmAhpu30jQ",
+          "short_id": "e12d7fdb"
         },
         "utls": {
           "enabled": true,
@@ -1475,11 +1475,11 @@
       }
     },
     {
-      "tag": "🇹🇼 Taiwan_Taipei_vless_3",
+      "tag": "🇹🇼 Taiwan_Xizhi District_vless_3",
       "type": "vless",
-      "server": "36.226.244.225",
-      "server_port": 56870,
-      "uuid": "7c4efc45-42f7-48d8-a741-6093cd2886a7",
+      "server": "1.162.18.226",
+      "server_port": 37898,
+      "uuid": "ec302de4-6b3d-4f03-a228-3c6d303ed370",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -1488,8 +1488,8 @@
         "server_name": "www.yahoo.com",
         "reality": {
           "enabled": true,
-          "public_key": "9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA",
-          "short_id": "239c3cef"
+          "public_key": "v6uWJJmVGFPd0K040QK3PJHCbPc74kXFoQmAhpu30jQ",
+          "short_id": "e12d7fdb"
         },
         "utls": {
           "enabled": true,
