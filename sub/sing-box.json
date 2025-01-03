@@ -101,7 +101,7 @@
         "🇺🇸 United States_None_hy_7",
         "🇺🇸 United States_None_hy_8",
         "🇫🇷 France_None_hy_9",
-        "🇺🇸 United States_Seattle_vless_10",
+        "🇫🇷 France_None_hy_10",
         "🇺🇸 United States_Atlanta_hy_11",
         "🇫🇷 France_None_hy_12",
         "🇫🇷 France_None_hy_13",
@@ -111,15 +111,15 @@
         "🇺🇸 United States_Seattle_hy_17",
         "🇺🇸 United States_Seattle_vless_18",
         "🇺🇸 United States_None_hy_19",
-        "🇺🇸 United States_Seattle_vless_20",
+        "🇫🇷 France_None_hy_20",
         "🇺🇸 United States_Atlanta_hy_21",
         "🇫🇷 France_None_hy_22",
         "🇫🇷 France_None_hy_23",
         "🇺🇸 United States_Los Angeles_hy_24",
         "🇺🇸 United States_Los Angeles_hy_25",
         "🇫🇷 France_None_hy_26",
-        "🇺🇸 United States_Seattle_vless_27",
-        "🇺🇸 United States_Seattle_vless_28",
+        "🇺🇸 United States_Seattle_hy2_27",
+        "🇺🇸 United States_Seattle_hy2_28",
         "🇺🇸 United States_None_hy_29",
         "🇷🇺 Russia_Moscow_hysteria_0",
         "🇷🇺 Russia_Moscow_hysteria_1",
@@ -404,19 +404,17 @@
       "outbounds": [
         "🇺🇸 United States_None_hy_7",
         "🇺🇸 United States_None_hy_8",
-        "🇺🇸 United States_Seattle_vless_10",
         "🇺🇸 United States_Atlanta_hy_11",
         "🇺🇸 United States_Los Angeles_hy_14",
         "🇺🇸 United States_Los Angeles_hy_15",
         "🇺🇸 United States_Seattle_hy_17",
         "🇺🇸 United States_Seattle_vless_18",
         "🇺🇸 United States_None_hy_19",
-        "🇺🇸 United States_Seattle_vless_20",
         "🇺🇸 United States_Atlanta_hy_21",
         "🇺🇸 United States_Los Angeles_hy_24",
         "🇺🇸 United States_Los Angeles_hy_25",
-        "🇺🇸 United States_Seattle_vless_27",
-        "🇺🇸 United States_Seattle_vless_28",
+        "🇺🇸 United States_Seattle_hy2_27",
+        "🇺🇸 United States_Seattle_hy2_28",
         "🇺🇸 United States_None_hy_29",
         "🇷🇺 Russia_Moscow_hysteria_0",
         "🇷🇺 Russia_Moscow_hysteria_1",
@@ -451,9 +449,11 @@
       "outbounds": [
         "🇫🇷 France_None_hy_6",
         "🇫🇷 France_None_hy_9",
+        "🇫🇷 France_None_hy_10",
         "🇫🇷 France_None_hy_12",
         "🇫🇷 France_None_hy_13",
         "🇫🇷 France_None_hy_16",
+        "🇫🇷 France_None_hy_20",
         "🇫🇷 France_None_hy_22",
         "🇫🇷 France_None_hy_23",
         "🇫🇷 France_None_hy_26",
@@ -472,7 +472,7 @@
         "🇺🇸 United States_None_hy_7",
         "🇺🇸 United States_None_hy_8",
         "🇫🇷 France_None_hy_9",
-        "🇺🇸 United States_Seattle_vless_10",
+        "🇫🇷 France_None_hy_10",
         "🇺🇸 United States_Atlanta_hy_11",
         "🇫🇷 France_None_hy_12",
         "🇫🇷 France_None_hy_13",
@@ -482,15 +482,15 @@
         "🇺🇸 United States_Seattle_hy_17",
         "🇺🇸 United States_Seattle_vless_18",
         "🇺🇸 United States_None_hy_19",
-        "🇺🇸 United States_Seattle_vless_20",
+        "🇫🇷 France_None_hy_20",
         "🇺🇸 United States_Atlanta_hy_21",
         "🇫🇷 France_None_hy_22",
         "🇫🇷 France_None_hy_23",
         "🇺🇸 United States_Los Angeles_hy_24",
         "🇺🇸 United States_Los Angeles_hy_25",
         "🇫🇷 France_None_hy_26",
-        "🇺🇸 United States_Seattle_vless_27",
-        "🇺🇸 United States_Seattle_vless_28",
+        "🇺🇸 United States_Seattle_hy2_27",
+        "🇺🇸 United States_Seattle_hy2_28",
         "🇺🇸 United States_None_hy_29",
         "🇷🇺 Russia_Moscow_hysteria_0",
         "🇷🇺 Russia_Moscow_hysteria_1",
@@ -614,25 +614,20 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_Seattle_vless_10",
-      "type": "vless",
-      "server": "202.5.31.3",
-      "server_port": 62040,
-      "uuid": "1f6cd5c6-72bf-49ed-83c2-45927917d61c",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇫🇷 France_None_hy_10",
+      "type": "hysteria",
+      "server": "195.154.200.40",
+      "server_port": 2345,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "",
       "tls": {
         "enabled": true,
-        "insecure": false,
-        "server_name": "aws.amazon.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "KHT5S9-5o09n62WtNLu1Amep9371kIi0rYHnnVgCPVY"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "www.bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
       }
     },
     {
@@ -796,25 +791,20 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_Seattle_vless_20",
-      "type": "vless",
-      "server": "202.5.31.3",
-      "server_port": 62040,
-      "uuid": "1f6cd5c6-72bf-49ed-83c2-45927917d61c",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇫🇷 France_None_hy_20",
+      "type": "hysteria",
+      "server": "195.154.200.40",
+      "server_port": 2345,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "",
       "tls": {
         "enabled": true,
-        "insecure": false,
-        "server_name": "aws.amazon.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "KHT5S9-5o09n62WtNLu1Amep9371kIi0rYHnnVgCPVY"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "www.bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
       }
     },
     {
@@ -922,47 +912,37 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_Seattle_vless_27",
-      "type": "vless",
+      "tag": "🇺🇸 United States_Seattle_hy2_27",
+      "type": "hysteria2",
       "server": "202.5.31.3",
-      "server_port": 62040,
-      "uuid": "1f6cd5c6-72bf-49ed-83c2-45927917d61c",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
+      "server_port": 38654,
+      "password": "dongtaiwang.com",
+      "up_mbps": 10,
+      "down_mbps": 100,
       "tls": {
         "enabled": true,
-        "insecure": false,
-        "server_name": "aws.amazon.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "KHT5S9-5o09n62WtNLu1Amep9371kIi0rYHnnVgCPVY"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "www.bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
       }
     },
     {
-      "tag": "🇺🇸 United States_Seattle_vless_28",
-      "type": "vless",
+      "tag": "🇺🇸 United States_Seattle_hy2_28",
+      "type": "hysteria2",
       "server": "202.5.31.3",
-      "server_port": 62040,
-      "uuid": "1f6cd5c6-72bf-49ed-83c2-45927917d61c",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
+      "server_port": 38654,
+      "password": "dongtaiwang.com",
+      "up_mbps": 10,
+      "down_mbps": 100,
       "tls": {
         "enabled": true,
-        "insecure": false,
-        "server_name": "aws.amazon.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "KHT5S9-5o09n62WtNLu1Amep9371kIi0rYHnnVgCPVY"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "www.bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
       }
     },
     {
