@@ -90073,19 +90073,17 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_Seattle_101
-  type: vless
-  server: 202.5.31.3
-  port: 62040
-  uuid: 1f6cd5c6-72bf-49ed-83c2-45927917d61c
-  network: tcp
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: aws.amazon.com
-  reality-opts:
-    public-key: KHT5S9-5o09n62WtNLu1Amep9371kIi0rYHnnVgCPVY
-  client-fingerprint: chrome
+- name: France_None_101
+  type: hysteria
+  server: 195.154.200.40
+  port: 2345
+  auth_str: dongtaiwang.com
+  alpn:
+  - h3
+  sni: www.bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
 - name: United States_Atlanta_111
   type: hysteria
   server: 207.174.28.39
@@ -90198,19 +90196,17 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_Seattle_201
-  type: vless
-  server: 202.5.31.3
-  port: 62040
-  uuid: 1f6cd5c6-72bf-49ed-83c2-45927917d61c
-  network: tcp
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: aws.amazon.com
-  reality-opts:
-    public-key: KHT5S9-5o09n62WtNLu1Amep9371kIi0rYHnnVgCPVY
-  client-fingerprint: chrome
+- name: France_None_201
+  type: hysteria
+  server: 195.154.200.40
+  port: 2345
+  auth_str: dongtaiwang.com
+  alpn:
+  - h3
+  sni: www.bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
 - name: United States_Atlanta_211
   type: hysteria
   server: 207.174.28.39
@@ -90287,31 +90283,29 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
 - name: United States_Seattle_271
-  type: vless
+  type: hysteria2
   server: 202.5.31.3
-  port: 62040
-  uuid: 1f6cd5c6-72bf-49ed-83c2-45927917d61c
-  network: tcp
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: aws.amazon.com
-  reality-opts:
-    public-key: KHT5S9-5o09n62WtNLu1Amep9371kIi0rYHnnVgCPVY
-  client-fingerprint: chrome
+  port: 38654
+  ports: 10000-20000
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: www.bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
 - name: United States_Seattle_281
-  type: vless
+  type: hysteria2
   server: 202.5.31.3
-  port: 62040
-  uuid: 1f6cd5c6-72bf-49ed-83c2-45927917d61c
-  network: tcp
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: aws.amazon.com
-  reality-opts:
-    public-key: KHT5S9-5o09n62WtNLu1Amep9371kIi0rYHnnVgCPVY
-  client-fingerprint: chrome
+  port: 38654
+  ports: 10000-20000
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: www.bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
 - name: United States_None_291
   type: hysteria
   server: 208.87.243.151
@@ -96766,7 +96760,7 @@ proxy-groups:
   - United States_None_71
   - United States_None_81
   - France_None_91
-  - United States_Seattle_101
+  - France_None_101
   - United States_Atlanta_111
   - France_None_121
   - France_None_131
@@ -96776,7 +96770,7 @@ proxy-groups:
   - United States_Seattle_171
   - United States_Seattle_181
   - United States_None_191
-  - United States_Seattle_201
+  - France_None_201
   - United States_Atlanta_211
   - France_None_221
   - France_None_231
@@ -102832,7 +102826,7 @@ proxy-groups:
   - United States_None_71
   - United States_None_81
   - France_None_91
-  - United States_Seattle_101
+  - France_None_101
   - United States_Atlanta_111
   - France_None_121
   - France_None_131
@@ -102842,7 +102836,7 @@ proxy-groups:
   - United States_Seattle_171
   - United States_Seattle_181
   - United States_None_191
-  - United States_Seattle_201
+  - France_None_201
   - United States_Atlanta_211
   - France_None_221
   - France_None_231
