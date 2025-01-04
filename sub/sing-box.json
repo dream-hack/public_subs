@@ -1505,19 +1505,18 @@
     {
       "tag": "🇺🇸 United States_Seattle_vless_4",
       "type": "vless",
-      "server": "202.5.31.18",
-      "server_port": 53586,
-      "uuid": "e73082c3-b2d2-47dd-9697-8302c85d6757",
+      "server": "202.5.31.3",
+      "server_port": 9160,
+      "uuid": "86b79227-7943-4a4e-aead-03f7537f5215",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "www.yahoo.com",
+        "server_name": "dash.cloudflare.com",
         "reality": {
           "enabled": true,
-          "public_key": "bjlWtBteD6xktxtts7aVQeNQQE2PuYbI42D5bYT7o0U",
-          "short_id": "8ea966a1"
+          "public_key": "fdZm7k4wrEvoWimsdcS7IJvMA_8GHHXZokgfmpodx0s"
         },
         "utls": {
           "enabled": true,
@@ -1595,19 +1594,18 @@
     {
       "tag": "🇺🇸 United States_Seattle_vless_8",
       "type": "vless",
-      "server": "202.5.31.18",
-      "server_port": 53586,
-      "uuid": "e73082c3-b2d2-47dd-9697-8302c85d6757",
+      "server": "202.5.31.3",
+      "server_port": 9160,
+      "uuid": "86b79227-7943-4a4e-aead-03f7537f5215",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "www.yahoo.com",
+        "server_name": "dash.cloudflare.com",
         "reality": {
           "enabled": true,
-          "public_key": "bjlWtBteD6xktxtts7aVQeNQQE2PuYbI42D5bYT7o0U",
-          "short_id": "8ea966a1"
+          "public_key": "fdZm7k4wrEvoWimsdcS7IJvMA_8GHHXZokgfmpodx0s"
         },
         "utls": {
           "enabled": true,
