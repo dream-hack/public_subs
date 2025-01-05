@@ -145,10 +145,10 @@
         "🇺🇸 United States_Los Angeles_hysteria2_9",
         "🇫🇷 France_Paris_hysteria2_10",
         "🇺🇸 United States_Los Angeles_hysteria2_11",
-        "🇹🇼 Taiwan_Xizhi District_vless_0",
-        "🇹🇼 Taiwan_Xizhi District_vless_1",
-        "🇹🇼 Taiwan_Xizhi District_vless_2",
-        "🇹🇼 Taiwan_Xizhi District_vless_3",
+        "🇹🇼 Taiwan_Taipei_vless_0",
+        "🇹🇼 Taiwan_Taipei_vless_1",
+        "🇹🇼 Taiwan_Taipei_vless_2",
+        "🇹🇼 Taiwan_Taipei_vless_3",
         "🇺🇸 United States_Seattle_vless_4",
         "🇹🇼 Taiwan_Taipei_vless_5",
         "🇷🇺 Russia_None_vless_6",
@@ -376,10 +376,10 @@
       "tag": "TaiWan",
       "type": "selector",
       "outbounds": [
-        "🇹🇼 Taiwan_Xizhi District_vless_0",
-        "🇹🇼 Taiwan_Xizhi District_vless_1",
-        "🇹🇼 Taiwan_Xizhi District_vless_2",
-        "🇹🇼 Taiwan_Xizhi District_vless_3",
+        "🇹🇼 Taiwan_Taipei_vless_0",
+        "🇹🇼 Taiwan_Taipei_vless_1",
+        "🇹🇼 Taiwan_Taipei_vless_2",
+        "🇹🇼 Taiwan_Taipei_vless_3",
         "🇹🇼 Taiwan_Taipei_vless_5",
         "🇹🇼 Taiwan_Taipei_vless_9"
       ]
@@ -516,10 +516,10 @@
         "🇺🇸 United States_Los Angeles_hysteria2_9",
         "🇫🇷 France_Paris_hysteria2_10",
         "🇺🇸 United States_Los Angeles_hysteria2_11",
-        "🇹🇼 Taiwan_Xizhi District_vless_0",
-        "🇹🇼 Taiwan_Xizhi District_vless_1",
-        "🇹🇼 Taiwan_Xizhi District_vless_2",
-        "🇹🇼 Taiwan_Xizhi District_vless_3",
+        "🇹🇼 Taiwan_Taipei_vless_0",
+        "🇹🇼 Taiwan_Taipei_vless_1",
+        "🇹🇼 Taiwan_Taipei_vless_2",
+        "🇹🇼 Taiwan_Taipei_vless_3",
         "🇺🇸 United States_Seattle_vless_4",
         "🇹🇼 Taiwan_Taipei_vless_5",
         "🇷🇺 Russia_None_vless_6",
@@ -1411,9 +1411,9 @@
       ]
     },
     {
-      "tag": "🇹🇼 Taiwan_Xizhi District_vless_0",
+      "tag": "🇹🇼 Taiwan_Taipei_vless_0",
       "type": "vless",
-      "server": "1.162.18.226",
+      "server": "1.162.51.106",
       "server_port": 37898,
       "uuid": "ec302de4-6b3d-4f03-a228-3c6d303ed370",
       "packet_encoding": "xudp",
@@ -1434,9 +1434,9 @@
       }
     },
     {
-      "tag": "🇹🇼 Taiwan_Xizhi District_vless_1",
+      "tag": "🇹🇼 Taiwan_Taipei_vless_1",
       "type": "vless",
-      "server": "1.162.18.226",
+      "server": "1.162.51.106",
       "server_port": 37898,
       "uuid": "ec302de4-6b3d-4f03-a228-3c6d303ed370",
       "packet_encoding": "xudp",
@@ -1457,9 +1457,9 @@
       }
     },
     {
-      "tag": "🇹🇼 Taiwan_Xizhi District_vless_2",
+      "tag": "🇹🇼 Taiwan_Taipei_vless_2",
       "type": "vless",
-      "server": "1.162.18.226",
+      "server": "1.162.51.106",
       "server_port": 37898,
       "uuid": "ec302de4-6b3d-4f03-a228-3c6d303ed370",
       "packet_encoding": "xudp",
@@ -1480,9 +1480,9 @@
       }
     },
     {
-      "tag": "🇹🇼 Taiwan_Xizhi District_vless_3",
+      "tag": "🇹🇼 Taiwan_Taipei_vless_3",
       "type": "vless",
-      "server": "1.162.18.226",
+      "server": "1.162.51.106",
       "server_port": 37898,
       "uuid": "ec302de4-6b3d-4f03-a228-3c6d303ed370",
       "packet_encoding": "xudp",
