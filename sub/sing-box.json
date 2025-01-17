@@ -111,15 +111,13 @@
         "🇺🇸 United States_None_hy_17",
         "🇺🇸 United States_None_hy_18",
         "🇺🇸 United States_None_hy_19",
-        "🇫🇷 France_None_vless_20",
-        "🇫🇷 France_None_hy_20",
+        "🇫🇷 France_None_hy2_20",
         "🇺🇸 United States_Los Angeles_hy_21",
         "🇫🇷 France_None_hy_22",
         "🇫🇷 France_None_hy_23",
         "🇺🇸 United States_Los Angeles_hy_24",
         "🇺🇸 United States_Los Angeles_hy_25",
-        "🇫🇷 France_None_vless_26",
-        "🇫🇷 France_None_hy_26",
+        "🇫🇷 France_None_hy2_26",
         "🇺🇸 United States_None_hy_27",
         "🇺🇸 United States_None_hy_28",
         "🇺🇸 United States_None_hy_29",
@@ -455,12 +453,10 @@
         "🇫🇷 France_None_hy_12",
         "🇫🇷 France_None_hy_13",
         "🇫🇷 France_None_hy_16",
-        "🇫🇷 France_None_vless_20",
-        "🇫🇷 France_None_hy_20",
+        "🇫🇷 France_None_hy2_20",
         "🇫🇷 France_None_hy_22",
         "🇫🇷 France_None_hy_23",
-        "🇫🇷 France_None_vless_26",
-        "🇫🇷 France_None_hy_26",
+        "🇫🇷 France_None_hy2_26",
         "🇫🇷 France_None_hysteria_4",
         "🇫🇷 France_None_hysteria_8",
         "🇫🇷 France_Paris_hysteria2_6",
@@ -486,15 +482,13 @@
         "🇺🇸 United States_None_hy_17",
         "🇺🇸 United States_None_hy_18",
         "🇺🇸 United States_None_hy_19",
-        "🇫🇷 France_None_vless_20",
-        "🇫🇷 France_None_hy_20",
+        "🇫🇷 France_None_hy2_20",
         "🇺🇸 United States_Los Angeles_hy_21",
         "🇫🇷 France_None_hy_22",
         "🇫🇷 France_None_hy_23",
         "🇺🇸 United States_Los Angeles_hy_24",
         "🇺🇸 United States_Los Angeles_hy_25",
-        "🇫🇷 France_None_vless_26",
-        "🇫🇷 France_None_hy_26",
+        "🇫🇷 France_None_hy2_26",
         "🇺🇸 United States_None_hy_27",
         "🇺🇸 United States_None_hy_28",
         "🇺🇸 United States_None_hy_29",
@@ -622,11 +616,11 @@
     {
       "tag": "🇫🇷 France_None_hy_10",
       "type": "hysteria",
-      "server": "195.154.200.178",
-      "server_port": 10312,
+      "server": "195.154.184.5",
+      "server_port": 22787,
       "up_mbps": 50,
       "down_mbps": 80,
-      "auth_str": "dongtaiwang.com",
+      "auth_str": "",
       "tls": {
         "enabled": true,
         "server_name": "bing.com",
@@ -634,8 +628,7 @@
         "alpn": [
           "h3"
         ]
-      },
-      "obfs": "dongtaiwang.com"
+      }
     },
     {
       "tag": "🇺🇸 United States_Los Angeles_hy_11",
@@ -727,11 +720,11 @@
     {
       "tag": "🇫🇷 France_None_hy_16",
       "type": "hysteria",
-      "server": "195.154.200.178",
-      "server_port": 10312,
+      "server": "195.154.184.5",
+      "server_port": 22787,
       "up_mbps": 50,
       "down_mbps": 80,
-      "auth_str": "dongtaiwang.com",
+      "auth_str": "",
       "tls": {
         "enabled": true,
         "server_name": "bing.com",
@@ -739,8 +732,7 @@
         "alpn": [
           "h3"
         ]
-      },
-      "obfs": "dongtaiwang.com"
+      }
     },
     {
       "tag": "🇺🇸 United States_None_hy_17",
@@ -794,45 +786,21 @@
       }
     },
     {
-      "tag": "🇫🇷 France_None_vless_20",
-      "type": "vless",
+      "tag": "🇫🇷 France_None_hy2_20",
+      "type": "hysteria2",
       "server": "195.154.200.40",
-      "server_port": 47980,
-      "uuid": "53044dba-93ee-43d5-b944-be34271a209e",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
+      "server_port": 42259,
+      "password": "dongtaiwang.com",
+      "up_mbps": 10,
+      "down_mbps": 100,
       "tls": {
         "enabled": true,
-        "insecure": false,
-        "server_name": "www.ebay.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "IEvQvREKzPsLnipyFxjHjc7ayJpQIZwrqTtwLi2LgHI",
-          "short_id": "None"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 France_None_hy_20",
-      "type": "hysteria",
-      "server": "195.154.200.178",
-      "server_port": 10312,
-      "up_mbps": 50,
-      "down_mbps": 80,
-      "auth_str": "dongtaiwang.com",
-      "tls": {
-        "enabled": true,
-        "server_name": "bing.com",
+        "server_name": "www.bing.com",
         "insecure": true,
         "alpn": [
           "h3"
         ]
-      },
-      "obfs": "dongtaiwang.com"
+      }
     },
     {
       "tag": "🇺🇸 United States_Los Angeles_hy_21",
@@ -922,45 +890,21 @@
       }
     },
     {
-      "tag": "🇫🇷 France_None_vless_26",
-      "type": "vless",
+      "tag": "🇫🇷 France_None_hy2_26",
+      "type": "hysteria2",
       "server": "195.154.200.40",
-      "server_port": 47980,
-      "uuid": "53044dba-93ee-43d5-b944-be34271a209e",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
+      "server_port": 42259,
+      "password": "dongtaiwang.com",
+      "up_mbps": 10,
+      "down_mbps": 100,
       "tls": {
         "enabled": true,
-        "insecure": false,
-        "server_name": "www.ebay.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "IEvQvREKzPsLnipyFxjHjc7ayJpQIZwrqTtwLi2LgHI",
-          "short_id": "None"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 France_None_hy_26",
-      "type": "hysteria",
-      "server": "195.154.200.178",
-      "server_port": 10312,
-      "up_mbps": 50,
-      "down_mbps": 80,
-      "auth_str": "dongtaiwang.com",
-      "tls": {
-        "enabled": true,
-        "server_name": "bing.com",
+        "server_name": "www.bing.com",
         "insecure": true,
         "alpn": [
           "h3"
         ]
-      },
-      "obfs": "dongtaiwang.com"
+      }
     },
     {
       "tag": "🇺🇸 United States_None_hy_27",
