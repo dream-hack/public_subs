@@ -1553,17 +1553,18 @@
       "tag": "🇷🇺 Russia_None_vless_6",
       "type": "vless",
       "server": "185.22.155.105",
-      "server_port": 34077,
-      "uuid": "2349e5ae-2f2e-41bb-a169-a0b4c9dcd3e9",
+      "server_port": 42632,
+      "uuid": "f3ba3679-f2f4-465f-92a5-de320b775a88",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "aws.amazon.com",
+        "server_name": "www.yahoo.com",
         "reality": {
           "enabled": true,
-          "public_key": "XENnre8gNAN68H0IBlu_G33iCGC4IIO2nHnxV90kdE0"
+          "public_key": "qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA",
+          "short_id": "1f8b5201"
         },
         "utls": {
           "enabled": true,
@@ -1575,17 +1576,18 @@
       "tag": "🇷🇺 Russia_None_vless_7",
       "type": "vless",
       "server": "185.22.155.105",
-      "server_port": 34077,
-      "uuid": "2349e5ae-2f2e-41bb-a169-a0b4c9dcd3e9",
+      "server_port": 42632,
+      "uuid": "f3ba3679-f2f4-465f-92a5-de320b775a88",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "aws.amazon.com",
+        "server_name": "www.yahoo.com",
         "reality": {
           "enabled": true,
-          "public_key": "XENnre8gNAN68H0IBlu_G33iCGC4IIO2nHnxV90kdE0"
+          "public_key": "qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA",
+          "short_id": "1f8b5201"
         },
         "utls": {
           "enabled": true,
@@ -1643,17 +1645,18 @@
       "tag": "🇷🇺 Russia_None_vless_10",
       "type": "vless",
       "server": "185.22.155.105",
-      "server_port": 34077,
-      "uuid": "2349e5ae-2f2e-41bb-a169-a0b4c9dcd3e9",
+      "server_port": 42632,
+      "uuid": "f3ba3679-f2f4-465f-92a5-de320b775a88",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "aws.amazon.com",
+        "server_name": "www.yahoo.com",
         "reality": {
           "enabled": true,
-          "public_key": "XENnre8gNAN68H0IBlu_G33iCGC4IIO2nHnxV90kdE0"
+          "public_key": "qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA",
+          "short_id": "1f8b5201"
         },
         "utls": {
           "enabled": true,
@@ -1665,17 +1668,18 @@
       "tag": "🇷🇺 Russia_None_vless_11",
       "type": "vless",
       "server": "185.22.155.105",
-      "server_port": 34077,
-      "uuid": "2349e5ae-2f2e-41bb-a169-a0b4c9dcd3e9",
+      "server_port": 42632,
+      "uuid": "f3ba3679-f2f4-465f-92a5-de320b775a88",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "aws.amazon.com",
+        "server_name": "www.yahoo.com",
         "reality": {
           "enabled": true,
-          "public_key": "XENnre8gNAN68H0IBlu_G33iCGC4IIO2nHnxV90kdE0"
+          "public_key": "qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA",
+          "short_id": "1f8b5201"
         },
         "utls": {
           "enabled": true,
