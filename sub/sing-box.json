@@ -101,9 +101,9 @@
         "🇳🇱 The Netherlands_Amsterdam_hy_10",
         "🇺🇸 United States_Los Angeles_hy_11",
         "🇫🇷 France_None_hy_12",
-        "🇫🇷 France_None_hy_13",
+        "🇷🇺 Russia_Moscow_tuic_13",
         "🇺🇸 United States_Los Angeles_hy_14",
-        "🇺🇸 United States_Los Angeles_hy_15",
+        "🇷🇺 Russia_Moscow_tuic_15",
         "🇫🇷 France_None_hy_16",
         "🇺🇸 United States_None_hy_17",
         "🇷🇺 Russia_None_vless_18",
@@ -111,9 +111,9 @@
         "🇳🇱 The Netherlands_Amsterdam_hy_20",
         "🇺🇸 United States_Los Angeles_hy_21",
         "🇫🇷 France_None_hy_22",
-        "🇫🇷 France_None_hy_23",
+        "🇷🇺 Russia_Moscow_tuic_23",
         "🇺🇸 United States_Los Angeles_hy_24",
-        "🇺🇸 United States_Los Angeles_hy_25",
+        "🇷🇺 Russia_Moscow_tuic_25",
         "🇫🇷 France_None_hy_26",
         "🇺🇸 United States_None_hy_27",
         "🇷🇺 Russia_None_vless_28",
@@ -394,13 +394,15 @@
         "🇺🇸 United States_None_hy_8",
         "🇷🇺 Russia_None_hy_9",
         "🇺🇸 United States_Los Angeles_hy_11",
+        "🇷🇺 Russia_Moscow_tuic_13",
         "🇺🇸 United States_Los Angeles_hy_14",
-        "🇺🇸 United States_Los Angeles_hy_15",
+        "🇷🇺 Russia_Moscow_tuic_15",
         "🇺🇸 United States_None_hy_17",
         "🇷🇺 Russia_None_vless_18",
         "🇺🇸 United States_Los Angeles_hy_21",
+        "🇷🇺 Russia_Moscow_tuic_23",
         "🇺🇸 United States_Los Angeles_hy_24",
-        "🇺🇸 United States_Los Angeles_hy_25",
+        "🇷🇺 Russia_Moscow_tuic_25",
         "🇺🇸 United States_None_hy_27",
         "🇷🇺 Russia_None_vless_28",
         "🇷🇺 Russia_None_hysteria_0",
@@ -435,12 +437,10 @@
       "outbounds": [
         "🇳🇱 The Netherlands_Amsterdam_hy_10",
         "🇫🇷 France_None_hy_12",
-        "🇫🇷 France_None_hy_13",
         "🇫🇷 France_None_hy_16",
         "🇫🇷 France_Paris_vless_19",
         "🇳🇱 The Netherlands_Amsterdam_hy_20",
         "🇫🇷 France_None_hy_22",
-        "🇫🇷 France_None_hy_23",
         "🇫🇷 France_None_hy_26",
         "🇫🇷 France_Paris_vless_29",
         "🇫🇷 France_None_hysteria_4",
@@ -464,9 +464,9 @@
         "🇳🇱 The Netherlands_Amsterdam_hy_10",
         "🇺🇸 United States_Los Angeles_hy_11",
         "🇫🇷 France_None_hy_12",
-        "🇫🇷 France_None_hy_13",
+        "🇷🇺 Russia_Moscow_tuic_13",
         "🇺🇸 United States_Los Angeles_hy_14",
-        "🇺🇸 United States_Los Angeles_hy_15",
+        "🇷🇺 Russia_Moscow_tuic_15",
         "🇫🇷 France_None_hy_16",
         "🇺🇸 United States_None_hy_17",
         "🇷🇺 Russia_None_vless_18",
@@ -474,9 +474,9 @@
         "🇳🇱 The Netherlands_Amsterdam_hy_20",
         "🇺🇸 United States_Los Angeles_hy_21",
         "🇫🇷 France_None_hy_22",
-        "🇫🇷 France_None_hy_23",
+        "🇷🇺 Russia_Moscow_tuic_23",
         "🇺🇸 United States_Los Angeles_hy_24",
-        "🇺🇸 United States_Los Angeles_hy_25",
+        "🇷🇺 Russia_Moscow_tuic_25",
         "🇫🇷 France_None_hy_26",
         "🇺🇸 United States_None_hy_27",
         "🇷🇺 Russia_None_vless_28",
@@ -649,22 +649,23 @@
       "obfs": "dongtaiwang.com"
     },
     {
-      "tag": "🇫🇷 France_None_hy_13",
-      "type": "hysteria",
-      "server": "195.154.200.178",
-      "server_port": 34911,
-      "up_mbps": 50,
-      "down_mbps": 80,
-      "auth_str": "dongtaiwang.com",
+      "tag": "🇷🇺 Russia_Moscow_tuic_13",
+      "type": "tuic",
+      "server": "185.22.152.125",
+      "server_port": 59728,
+      "uuid": "074f49ce-e698-4eca-9a7f-25b480737c5d",
+      "password": "074f49ce-e698-4eca-9a7f-25b480737c5d",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
-        "insecure": true,
         "alpn": [
           "h3"
-        ]
-      },
-      "obfs": "dongtaiwang.com"
+        ],
+        "insecure": false
+      }
     },
     {
       "tag": "🇺🇸 United States_Los Angeles_hy_14",
@@ -684,20 +685,22 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_Los Angeles_hy_15",
-      "type": "hysteria",
-      "server": "108.181.24.77",
-      "server_port": 11512,
-      "up_mbps": 50,
-      "down_mbps": 80,
-      "auth_str": "dongtaiwang.com",
+      "tag": "🇷🇺 Russia_Moscow_tuic_15",
+      "type": "tuic",
+      "server": "185.22.152.125",
+      "server_port": 59728,
+      "uuid": "074f49ce-e698-4eca-9a7f-25b480737c5d",
+      "password": "074f49ce-e698-4eca-9a7f-25b480737c5d",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
-        "insecure": true,
         "alpn": [
           "h3"
-        ]
+        ],
+        "insecure": false
       }
     },
     {
@@ -832,22 +835,23 @@
       "obfs": "dongtaiwang.com"
     },
     {
-      "tag": "🇫🇷 France_None_hy_23",
-      "type": "hysteria",
-      "server": "195.154.200.178",
-      "server_port": 34911,
-      "up_mbps": 50,
-      "down_mbps": 80,
-      "auth_str": "dongtaiwang.com",
+      "tag": "🇷🇺 Russia_Moscow_tuic_23",
+      "type": "tuic",
+      "server": "185.22.152.125",
+      "server_port": 59728,
+      "uuid": "074f49ce-e698-4eca-9a7f-25b480737c5d",
+      "password": "074f49ce-e698-4eca-9a7f-25b480737c5d",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
-        "insecure": true,
         "alpn": [
           "h3"
-        ]
-      },
-      "obfs": "dongtaiwang.com"
+        ],
+        "insecure": false
+      }
     },
     {
       "tag": "🇺🇸 United States_Los Angeles_hy_24",
@@ -867,20 +871,22 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_Los Angeles_hy_25",
-      "type": "hysteria",
-      "server": "108.181.24.77",
-      "server_port": 11512,
-      "up_mbps": 50,
-      "down_mbps": 80,
-      "auth_str": "dongtaiwang.com",
+      "tag": "🇷🇺 Russia_Moscow_tuic_25",
+      "type": "tuic",
+      "server": "185.22.152.125",
+      "server_port": 59728,
+      "uuid": "074f49ce-e698-4eca-9a7f-25b480737c5d",
+      "password": "074f49ce-e698-4eca-9a7f-25b480737c5d",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
-        "insecure": true,
         "alpn": [
           "h3"
-        ]
+        ],
+        "insecure": false
       }
     },
     {
