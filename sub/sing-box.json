@@ -140,7 +140,7 @@
         "🇹🇼 Taiwan_Taipei_vless_1",
         "🇹🇼 Taiwan_Taipei_vless_2",
         "🇹🇼 Taiwan_Taipei_vless_3",
-        "🇫🇷 France_Villeneuve-le-Roi_vless_4",
+        "🇫🇷 France_Paris_vless_4",
         "🇷🇺 Russia_Moscow_vless_5",
         "🇷🇺 Russia_None_vless_6",
         "🇷🇺 Russia_None_vless_7",
@@ -443,7 +443,7 @@
         "🇫🇷 France_Paris_hysteria2_6",
         "🇫🇷 France_Paris_hysteria2_8",
         "🇫🇷 France_Paris_hysteria2_10",
-        "🇫🇷 France_Villeneuve-le-Roi_vless_4",
+        "🇫🇷 France_Paris_vless_4",
         "🇫🇷 France_Villeneuve-le-Roi_vless_8"
       ]
     },
@@ -503,7 +503,7 @@
         "🇹🇼 Taiwan_Taipei_vless_1",
         "🇹🇼 Taiwan_Taipei_vless_2",
         "🇹🇼 Taiwan_Taipei_vless_3",
-        "🇫🇷 France_Villeneuve-le-Roi_vless_4",
+        "🇫🇷 France_Paris_vless_4",
         "🇷🇺 Russia_Moscow_vless_5",
         "🇷🇺 Russia_None_vless_6",
         "🇷🇺 Russia_None_vless_7",
@@ -1493,21 +1493,20 @@
       }
     },
     {
-      "tag": "🇫🇷 France_Villeneuve-le-Roi_vless_4",
+      "tag": "🇫🇷 France_Paris_vless_4",
       "type": "vless",
-      "server": "62.210.125.97",
-      "server_port": 65280,
-      "uuid": "5bf1ced2-27ad-4908-83db-0b1f9a4f6047",
+      "server": "195.154.33.15",
+      "server_port": 62075,
+      "uuid": "1384ac29-65d3-488f-9b7c-e964b777f206",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "www.yahoo.com",
+        "server_name": "dash.cloudflare.com",
         "reality": {
           "enabled": true,
-          "public_key": "7NC6hW-P41pciUEhAylbleVf4a2ZStJVuJpjmZgp7iQ",
-          "short_id": "5628b8f0"
+          "public_key": "MLKLAxXqG39LBE6FFf1PEKkCM_L7suV8YelyLFvm4yg"
         },
         "utls": {
           "enabled": true,
