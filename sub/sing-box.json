@@ -110,6 +110,7 @@
         "🇷🇺 Russia_Moscow_tuic_25",
         "🇳🇱 The Netherlands_Amsterdam_tuic_26",
         "🇺🇸 United States_None_hy_27",
+        "🇷🇺 Russia_None_tuic_28",
         "🇫🇷 France_Paris_vless_29",
         "🇷🇺 Russia_None_hysteria_0",
         "🇷🇺 Russia_None_hysteria_1",
@@ -397,6 +398,7 @@
         "🇺🇸 United States_Los Angeles_hy_24",
         "🇷🇺 Russia_Moscow_tuic_25",
         "🇺🇸 United States_None_hy_27",
+        "🇷🇺 Russia_None_tuic_28",
         "🇷🇺 Russia_None_hysteria_0",
         "🇷🇺 Russia_None_hysteria_1",
         "🇷🇺 Russia_None_hysteria_2",
@@ -471,6 +473,7 @@
         "🇷🇺 Russia_Moscow_tuic_25",
         "🇳🇱 The Netherlands_Amsterdam_tuic_26",
         "🇺🇸 United States_None_hy_27",
+        "🇷🇺 Russia_None_tuic_28",
         "🇫🇷 France_Paris_vless_29",
         "🇷🇺 Russia_None_hysteria_0",
         "🇷🇺 Russia_None_hysteria_1",
@@ -925,6 +928,26 @@
         "alpn": [
           "h3"
         ]
+      }
+    },
+    {
+      "tag": "🇷🇺 Russia_None_tuic_28",
+      "type": "tuic",
+      "server": "185.22.155.105",
+      "server_port": 43516,
+      "uuid": "f3ba3679-f2f4-465f-92a5-de320b775a88",
+      "password": "f3ba3679-f2f4-465f-92a5-de320b775a88",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
+      "tls": {
+        "enabled": true,
+        "alpn": [
+          "h3"
+        ],
+        "insecure": true,
+        "server_name": "www.bing.com"
       }
     },
     {
