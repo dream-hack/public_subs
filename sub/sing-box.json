@@ -91,6 +91,7 @@
         "🇷🇺 Russia_None_hy_6",
         "🇺🇸 United States_None_hy_7",
         "🇺🇸 United States_None_hy_8",
+        "🇷🇺 Russia_None_hy_9",
         "🇳🇱 The Netherlands_Amsterdam_hy_10",
         "🇺🇸 United States_Los Angeles_tuic_11",
         "🇫🇷 France_None_hy_12",
@@ -385,6 +386,7 @@
         "🇷🇺 Russia_None_hy_6",
         "🇺🇸 United States_None_hy_7",
         "🇺🇸 United States_None_hy_8",
+        "🇷🇺 Russia_None_hy_9",
         "🇺🇸 United States_Los Angeles_tuic_11",
         "🇷🇺 Russia_Moscow_tuic_13",
         "🇺🇸 United States_Los Angeles_hy_14",
@@ -452,6 +454,7 @@
         "🇷🇺 Russia_None_hy_6",
         "🇺🇸 United States_None_hy_7",
         "🇺🇸 United States_None_hy_8",
+        "🇷🇺 Russia_None_hy_9",
         "🇳🇱 The Netherlands_Amsterdam_hy_10",
         "🇺🇸 United States_Los Angeles_tuic_11",
         "🇫🇷 France_None_hy_12",
@@ -568,6 +571,24 @@
           "h3"
         ]
       }
+    },
+    {
+      "tag": "🇷🇺 Russia_None_hy_9",
+      "type": "hysteria",
+      "server": "185.22.155.71",
+      "server_port": 63717,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      },
+      "obfs": "dongtaiwang.com"
     },
     {
       "tag": "🇳🇱 The Netherlands_Amsterdam_hy_10",
