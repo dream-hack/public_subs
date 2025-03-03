@@ -649,9 +649,9 @@
       "tag": "🇷🇺 Russia_Moscow_tuic_13",
       "type": "tuic",
       "server": "185.22.152.125",
-      "server_port": 59728,
-      "uuid": "074f49ce-e698-4eca-9a7f-25b480737c5d",
-      "password": "074f49ce-e698-4eca-9a7f-25b480737c5d",
+      "server_port": 56119,
+      "uuid": "7f372919-7d0c-414e-9da8-999f35326713",
+      "password": "dongtaiwang.com",
       "congestion_control": "bbr",
       "udp_relay_mode": "native",
       "zero_rtt_handshake": false,
@@ -662,7 +662,7 @@
           "h3"
         ],
         "insecure": true,
-        "server_name": "www.bing.com"
+        "server_name": "bing.com"
       }
     },
     {
@@ -706,9 +706,9 @@
       "tag": "🇳🇱 The Netherlands_Amsterdam_tuic_16",
       "type": "tuic",
       "server": "62.210.10.113",
-      "server_port": 58487,
-      "uuid": "5bf1ced2-27ad-4908-83db-0b1f9a4f6047",
-      "password": "5bf1ced2-27ad-4908-83db-0b1f9a4f6047",
+      "server_port": 22457,
+      "uuid": "083c4304-78e8-4702-b2ff-7dc899f74d90",
+      "password": "dongtaiwang.com",
       "congestion_control": "bbr",
       "udp_relay_mode": "native",
       "zero_rtt_handshake": false,
@@ -719,7 +719,7 @@
           "h3"
         ],
         "insecure": true,
-        "server_name": "www.bing.com"
+        "server_name": "bing.com"
       }
     },
     {
@@ -884,9 +884,9 @@
       "tag": "🇷🇺 Russia_Moscow_tuic_25",
       "type": "tuic",
       "server": "185.22.152.125",
-      "server_port": 59728,
-      "uuid": "074f49ce-e698-4eca-9a7f-25b480737c5d",
-      "password": "074f49ce-e698-4eca-9a7f-25b480737c5d",
+      "server_port": 56119,
+      "uuid": "7f372919-7d0c-414e-9da8-999f35326713",
+      "password": "dongtaiwang.com",
       "congestion_control": "bbr",
       "udp_relay_mode": "native",
       "zero_rtt_handshake": false,
@@ -897,16 +897,16 @@
           "h3"
         ],
         "insecure": true,
-        "server_name": "www.bing.com"
+        "server_name": "bing.com"
       }
     },
     {
       "tag": "🇳🇱 The Netherlands_Amsterdam_tuic_26",
       "type": "tuic",
       "server": "62.210.10.113",
-      "server_port": 58487,
-      "uuid": "5bf1ced2-27ad-4908-83db-0b1f9a4f6047",
-      "password": "5bf1ced2-27ad-4908-83db-0b1f9a4f6047",
+      "server_port": 22457,
+      "uuid": "083c4304-78e8-4702-b2ff-7dc899f74d90",
+      "password": "dongtaiwang.com",
       "congestion_control": "bbr",
       "udp_relay_mode": "native",
       "zero_rtt_handshake": false,
@@ -917,7 +917,7 @@
           "h3"
         ],
         "insecure": true,
-        "server_name": "www.bing.com"
+        "server_name": "bing.com"
       }
     },
     {
