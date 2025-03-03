@@ -594,7 +594,7 @@
       "tag": "🇳🇱 The Netherlands_Amsterdam_hy_10",
       "type": "hysteria",
       "server": "62.210.10.113",
-      "server_port": 11503,
+      "server_port": 55690,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "dongtaiwang.com",
@@ -631,7 +631,7 @@
       "tag": "🇫🇷 France_None_hy_12",
       "type": "hysteria",
       "server": "195.154.200.178",
-      "server_port": 34911,
+      "server_port": 44557,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "dongtaiwang.com",
@@ -642,15 +642,14 @@
         "alpn": [
           "h3"
         ]
-      },
-      "obfs": "dongtaiwang.com"
+      }
     },
     {
       "tag": "🇷🇺 Russia_Moscow_tuic_13",
       "type": "tuic",
       "server": "185.22.152.125",
-      "server_port": 56119,
-      "uuid": "7f372919-7d0c-414e-9da8-999f35326713",
+      "server_port": 13457,
+      "uuid": "3d6ce949-101b-4e5d-8be8-a631481a9ebd",
       "password": "dongtaiwang.com",
       "congestion_control": "bbr",
       "udp_relay_mode": "native",
@@ -686,9 +685,9 @@
       "tag": "🇷🇺 Russia_Moscow_tuic_15",
       "type": "tuic",
       "server": "185.22.152.125",
-      "server_port": 59728,
-      "uuid": "074f49ce-e698-4eca-9a7f-25b480737c5d",
-      "password": "074f49ce-e698-4eca-9a7f-25b480737c5d",
+      "server_port": 13457,
+      "uuid": "3d6ce949-101b-4e5d-8be8-a631481a9ebd",
+      "password": "dongtaiwang.com",
       "congestion_control": "bbr",
       "udp_relay_mode": "native",
       "zero_rtt_handshake": false,
@@ -699,7 +698,7 @@
           "h3"
         ],
         "insecure": true,
-        "server_name": "www.bing.com"
+        "server_name": "bing.com"
       }
     },
     {
@@ -792,7 +791,7 @@
       "tag": "🇳🇱 The Netherlands_Amsterdam_hy_20",
       "type": "hysteria",
       "server": "62.210.10.113",
-      "server_port": 11503,
+      "server_port": 55690,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "dongtaiwang.com",
@@ -829,7 +828,7 @@
       "tag": "🇫🇷 France_None_hy_22",
       "type": "hysteria",
       "server": "195.154.200.178",
-      "server_port": 34911,
+      "server_port": 44557,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "dongtaiwang.com",
@@ -840,16 +839,15 @@
         "alpn": [
           "h3"
         ]
-      },
-      "obfs": "dongtaiwang.com"
+      }
     },
     {
       "tag": "🇷🇺 Russia_Moscow_tuic_23",
       "type": "tuic",
       "server": "185.22.152.125",
-      "server_port": 59728,
-      "uuid": "074f49ce-e698-4eca-9a7f-25b480737c5d",
-      "password": "074f49ce-e698-4eca-9a7f-25b480737c5d",
+      "server_port": 13457,
+      "uuid": "3d6ce949-101b-4e5d-8be8-a631481a9ebd",
+      "password": "dongtaiwang.com",
       "congestion_control": "bbr",
       "udp_relay_mode": "native",
       "zero_rtt_handshake": false,
@@ -860,7 +858,7 @@
           "h3"
         ],
         "insecure": true,
-        "server_name": "www.bing.com"
+        "server_name": "bing.com"
       }
     },
     {
@@ -884,8 +882,8 @@
       "tag": "🇷🇺 Russia_Moscow_tuic_25",
       "type": "tuic",
       "server": "185.22.152.125",
-      "server_port": 56119,
-      "uuid": "7f372919-7d0c-414e-9da8-999f35326713",
+      "server_port": 13457,
+      "uuid": "3d6ce949-101b-4e5d-8be8-a631481a9ebd",
       "password": "dongtaiwang.com",
       "congestion_control": "bbr",
       "udp_relay_mode": "native",
