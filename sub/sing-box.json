@@ -524,7 +524,7 @@
       "tag": "🇷🇺 Russia_None_hy_6",
       "type": "hysteria",
       "server": "185.22.155.71",
-      "server_port": 63717,
+      "server_port": 24342,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "",
@@ -535,8 +535,7 @@
         "alpn": [
           "h3"
         ]
-      },
-      "obfs": "dongtaiwang.com"
+      }
     },
     {
       "tag": "🇺🇸 United States_None_hy_7",
@@ -576,7 +575,7 @@
       "tag": "🇷🇺 Russia_None_hy_9",
       "type": "hysteria",
       "server": "185.22.155.71",
-      "server_port": 63717,
+      "server_port": 24342,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "",
@@ -587,8 +586,7 @@
         "alpn": [
           "h3"
         ]
-      },
-      "obfs": "dongtaiwang.com"
+      }
     },
     {
       "tag": "🇳🇱 The Netherlands_Amsterdam_hy_10",
@@ -988,7 +986,7 @@
       "tag": "🇷🇺 Russia_None_hysteria_0",
       "type": "hysteria",
       "server": "185.22.155.71",
-      "server_port": 63717,
+      "server_port": 24342,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
@@ -999,14 +997,13 @@
         "alpn": [
           "h3"
         ]
-      },
-      "obfs": "dongtaiwang.com"
+      }
     },
     {
       "tag": "🇷🇺 Russia_None_hysteria_1",
       "type": "hysteria",
       "server": "185.22.155.71",
-      "server_port": 63717,
+      "server_port": 24342,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
@@ -1017,14 +1014,13 @@
         "alpn": [
           "h3"
         ]
-      },
-      "obfs": "dongtaiwang.com"
+      }
     },
     {
       "tag": "🇷🇺 Russia_None_hysteria_2",
       "type": "hysteria",
       "server": "185.22.155.71",
-      "server_port": 63717,
+      "server_port": 24342,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
@@ -1035,14 +1031,13 @@
         "alpn": [
           "h3"
         ]
-      },
-      "obfs": "dongtaiwang.com"
+      }
     },
     {
       "tag": "🇷🇺 Russia_None_hysteria_3",
       "type": "hysteria",
       "server": "185.22.155.71",
-      "server_port": 63717,
+      "server_port": 24342,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
@@ -1053,8 +1048,7 @@
         "alpn": [
           "h3"
         ]
-      },
-      "obfs": "dongtaiwang.com"
+      }
     },
     {
       "tag": "🇫🇷 France_None_hysteria_4",
@@ -1077,7 +1071,7 @@
       "tag": "🇷🇺 Russia_None_hysteria_5",
       "type": "hysteria",
       "server": "185.22.155.71",
-      "server_port": 63717,
+      "server_port": 24342,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
@@ -1088,8 +1082,7 @@
         "alpn": [
           "h3"
         ]
-      },
-      "obfs": "dongtaiwang.com"
+      }
     },
     {
       "tag": "🇫🇷 France_Paris_hysteria_6",
@@ -1146,7 +1139,7 @@
       "tag": "🇷🇺 Russia_None_hysteria_9",
       "type": "hysteria",
       "server": "185.22.155.71",
-      "server_port": 63717,
+      "server_port": 24342,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
@@ -1157,8 +1150,7 @@
         "alpn": [
           "h3"
         ]
-      },
-      "obfs": "dongtaiwang.com"
+      }
     },
     {
       "tag": "🇫🇷 France_Paris_hysteria_10",
