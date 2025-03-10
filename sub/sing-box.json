@@ -117,11 +117,11 @@
         "🇷🇺 Russia_None_hysteria_2",
         "🇷🇺 Russia_None_hysteria_3",
         "🇫🇷 France_None_hysteria_4",
-        "🇷🇺 Russia_None_hysteria_5",
+        "🇫🇷 France_Paris_hysteria_5",
         "🇫🇷 France_Paris_hysteria_6",
         "🇺🇸 United States_None_hysteria_7",
         "🇫🇷 France_None_hysteria_8",
-        "🇷🇺 Russia_None_hysteria_9",
+        "🇫🇷 France_Paris_hysteria_9",
         "🇫🇷 France_Paris_hysteria_10",
         "🇷🇺 Russia_Moscow_hysteria_11",
         "🇷🇺 Russia_Moscow_hysteria2_0",
@@ -140,12 +140,12 @@
         "🇹🇼 Taiwan_Taipei_vless_1",
         "🇹🇼 Taiwan_Taipei_vless_2",
         "🇹🇼 Taiwan_Taipei_vless_3",
-        "🇷🇺 Russia_Moscow_vless_4",
-        "🇷🇺 Russia_Moscow_vless_5",
+        "🇺🇸 United States_Los Angeles_vless_4",
+        "🇺🇸 United States_Los Angeles_vless_5",
         "🇷🇺 Russia_None_vless_6",
         "🇷🇺 Russia_None_vless_7",
-        "🇷🇺 Russia_Moscow_vless_8",
-        "🇷🇺 Russia_Moscow_vless_9",
+        "🇺🇸 United States_Los Angeles_vless_8",
+        "🇺🇸 United States_Los Angeles_vless_9",
         "🇷🇺 Russia_None_vless_10",
         "🇷🇺 Russia_None_vless_11"
       ]
@@ -405,9 +405,7 @@
         "🇷🇺 Russia_None_hysteria_1",
         "🇷🇺 Russia_None_hysteria_2",
         "🇷🇺 Russia_None_hysteria_3",
-        "🇷🇺 Russia_None_hysteria_5",
         "🇺🇸 United States_None_hysteria_7",
-        "🇷🇺 Russia_None_hysteria_9",
         "🇷🇺 Russia_Moscow_hysteria_11",
         "🇷🇺 Russia_Moscow_hysteria2_0",
         "🇷🇺 Russia_Moscow_hysteria2_1",
@@ -417,12 +415,12 @@
         "🇷🇺 Russia_Moscow_hysteria2_7",
         "🇺🇸 United States_Los Angeles_hysteria2_9",
         "🇺🇸 United States_Los Angeles_hysteria2_11",
-        "🇷🇺 Russia_Moscow_vless_4",
-        "🇷🇺 Russia_Moscow_vless_5",
+        "🇺🇸 United States_Los Angeles_vless_4",
+        "🇺🇸 United States_Los Angeles_vless_5",
         "🇷🇺 Russia_None_vless_6",
         "🇷🇺 Russia_None_vless_7",
-        "🇷🇺 Russia_Moscow_vless_8",
-        "🇷🇺 Russia_Moscow_vless_9",
+        "🇺🇸 United States_Los Angeles_vless_8",
+        "🇺🇸 United States_Los Angeles_vless_9",
         "🇷🇺 Russia_None_vless_10",
         "🇷🇺 Russia_None_vless_11"
       ]
@@ -438,8 +436,10 @@
         "🇫🇷 France_None_hy_22",
         "🇳🇱 The Netherlands_Amsterdam_tuic_26",
         "🇫🇷 France_None_hysteria_4",
+        "🇫🇷 France_Paris_hysteria_5",
         "🇫🇷 France_Paris_hysteria_6",
         "🇫🇷 France_None_hysteria_8",
+        "🇫🇷 France_Paris_hysteria_9",
         "🇫🇷 France_Paris_hysteria_10",
         "🇫🇷 France_Paris_hysteria2_4",
         "🇫🇷 France_Paris_hysteria2_6",
@@ -480,11 +480,11 @@
         "🇷🇺 Russia_None_hysteria_2",
         "🇷🇺 Russia_None_hysteria_3",
         "🇫🇷 France_None_hysteria_4",
-        "🇷🇺 Russia_None_hysteria_5",
+        "🇫🇷 France_Paris_hysteria_5",
         "🇫🇷 France_Paris_hysteria_6",
         "🇺🇸 United States_None_hysteria_7",
         "🇫🇷 France_None_hysteria_8",
-        "🇷🇺 Russia_None_hysteria_9",
+        "🇫🇷 France_Paris_hysteria_9",
         "🇫🇷 France_Paris_hysteria_10",
         "🇷🇺 Russia_Moscow_hysteria_11",
         "🇷🇺 Russia_Moscow_hysteria2_0",
@@ -503,12 +503,12 @@
         "🇹🇼 Taiwan_Taipei_vless_1",
         "🇹🇼 Taiwan_Taipei_vless_2",
         "🇹🇼 Taiwan_Taipei_vless_3",
-        "🇷🇺 Russia_Moscow_vless_4",
-        "🇷🇺 Russia_Moscow_vless_5",
+        "🇺🇸 United States_Los Angeles_vless_4",
+        "🇺🇸 United States_Los Angeles_vless_5",
         "🇷🇺 Russia_None_vless_6",
         "🇷🇺 Russia_None_vless_7",
-        "🇷🇺 Russia_Moscow_vless_8",
-        "🇷🇺 Russia_Moscow_vless_9",
+        "🇺🇸 United States_Los Angeles_vless_8",
+        "🇺🇸 United States_Los Angeles_vless_9",
         "🇷🇺 Russia_None_vless_10",
         "🇷🇺 Russia_None_vless_11"
       ],
@@ -575,7 +575,7 @@
       "tag": "🇷🇺 Russia_None_hy_9",
       "type": "hysteria",
       "server": "185.22.155.71",
-      "server_port": 24342,
+      "server_port": 10803,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "",
@@ -986,7 +986,7 @@
       "tag": "🇷🇺 Russia_None_hysteria_0",
       "type": "hysteria",
       "server": "185.22.155.71",
-      "server_port": 24342,
+      "server_port": 10803,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
@@ -1003,7 +1003,7 @@
       "tag": "🇷🇺 Russia_None_hysteria_1",
       "type": "hysteria",
       "server": "185.22.155.71",
-      "server_port": 24342,
+      "server_port": 10803,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
@@ -1020,7 +1020,7 @@
       "tag": "🇷🇺 Russia_None_hysteria_2",
       "type": "hysteria",
       "server": "185.22.155.71",
-      "server_port": 24342,
+      "server_port": 10803,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
@@ -1037,7 +1037,7 @@
       "tag": "🇷🇺 Russia_None_hysteria_3",
       "type": "hysteria",
       "server": "185.22.155.71",
-      "server_port": 24342,
+      "server_port": 10803,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
@@ -1068,10 +1068,10 @@
       }
     },
     {
-      "tag": "🇷🇺 Russia_None_hysteria_5",
+      "tag": "🇫🇷 France_Paris_hysteria_5",
       "type": "hysteria",
-      "server": "185.22.155.71",
-      "server_port": 24342,
+      "server": "51.159.226.1",
+      "server_port": 14241,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
@@ -1136,10 +1136,10 @@
       }
     },
     {
-      "tag": "🇷🇺 Russia_None_hysteria_9",
+      "tag": "🇫🇷 France_Paris_hysteria_9",
       "type": "hysteria",
-      "server": "185.22.155.71",
-      "server_port": 24342,
+      "server": "51.159.226.1",
+      "server_port": 14241,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
@@ -1492,11 +1492,11 @@
       }
     },
     {
-      "tag": "🇷🇺 Russia_Moscow_vless_4",
+      "tag": "🇺🇸 United States_Los Angeles_vless_4",
       "type": "vless",
-      "server": "185.22.153.75",
-      "server_port": 21315,
-      "uuid": "095ad0e3-9ed9-4346-9108-58b40e664f5c",
+      "server": "108.181.3.68",
+      "server_port": 19873,
+      "uuid": "288eab91-a2a9-4099-bcfd-ae057ec0d56e",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -1505,8 +1505,8 @@
         "server_name": "www.yahoo.com",
         "reality": {
           "enabled": true,
-          "public_key": "YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8",
-          "short_id": "d019a9ad"
+          "public_key": "CORDH3FlQivimoVRhU_ZEUFzI-mT3Ko9CqTr7_CPtXw",
+          "short_id": "694212ed"
         },
         "utls": {
           "enabled": true,
@@ -1515,11 +1515,11 @@
       }
     },
     {
-      "tag": "🇷🇺 Russia_Moscow_vless_5",
+      "tag": "🇺🇸 United States_Los Angeles_vless_5",
       "type": "vless",
-      "server": "185.22.153.75",
-      "server_port": 21315,
-      "uuid": "095ad0e3-9ed9-4346-9108-58b40e664f5c",
+      "server": "108.181.3.68",
+      "server_port": 19873,
+      "uuid": "288eab91-a2a9-4099-bcfd-ae057ec0d56e",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -1528,8 +1528,8 @@
         "server_name": "www.yahoo.com",
         "reality": {
           "enabled": true,
-          "public_key": "YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8",
-          "short_id": "d019a9ad"
+          "public_key": "CORDH3FlQivimoVRhU_ZEUFzI-mT3Ko9CqTr7_CPtXw",
+          "short_id": "694212ed"
         },
         "utls": {
           "enabled": true,
@@ -1584,11 +1584,11 @@
       }
     },
     {
-      "tag": "🇷🇺 Russia_Moscow_vless_8",
+      "tag": "🇺🇸 United States_Los Angeles_vless_8",
       "type": "vless",
-      "server": "185.22.153.75",
-      "server_port": 21315,
-      "uuid": "095ad0e3-9ed9-4346-9108-58b40e664f5c",
+      "server": "108.181.3.68",
+      "server_port": 19873,
+      "uuid": "288eab91-a2a9-4099-bcfd-ae057ec0d56e",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -1597,8 +1597,8 @@
         "server_name": "www.yahoo.com",
         "reality": {
           "enabled": true,
-          "public_key": "YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8",
-          "short_id": "d019a9ad"
+          "public_key": "CORDH3FlQivimoVRhU_ZEUFzI-mT3Ko9CqTr7_CPtXw",
+          "short_id": "694212ed"
         },
         "utls": {
           "enabled": true,
@@ -1607,11 +1607,11 @@
       }
     },
     {
-      "tag": "🇷🇺 Russia_Moscow_vless_9",
+      "tag": "🇺🇸 United States_Los Angeles_vless_9",
       "type": "vless",
-      "server": "185.22.153.75",
-      "server_port": 21315,
-      "uuid": "095ad0e3-9ed9-4346-9108-58b40e664f5c",
+      "server": "108.181.3.68",
+      "server_port": 19873,
+      "uuid": "288eab91-a2a9-4099-bcfd-ae057ec0d56e",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -1620,8 +1620,8 @@
         "server_name": "www.yahoo.com",
         "reality": {
           "enabled": true,
-          "public_key": "YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8",
-          "short_id": "d019a9ad"
+          "public_key": "CORDH3FlQivimoVRhU_ZEUFzI-mT3Ko9CqTr7_CPtXw",
+          "short_id": "694212ed"
         },
         "utls": {
           "enabled": true,
