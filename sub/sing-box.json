@@ -645,9 +645,9 @@
     {
       "tag": "🇷🇺 Russia_Moscow_tuic_13",
       "type": "tuic",
-      "server": "185.22.152.125",
-      "server_port": 13457,
-      "uuid": "3d6ce949-101b-4e5d-8be8-a631481a9ebd",
+      "server": "46.29.166.207",
+      "server_port": 19988,
+      "uuid": "c2028608-6993-46eb-8b58-0426c813a7ac",
       "password": "dongtaiwang.com",
       "congestion_control": "bbr",
       "udp_relay_mode": "native",
@@ -659,7 +659,7 @@
           "h3"
         ],
         "insecure": true,
-        "server_name": "bing.com"
+        "server_name": "apple.com"
       }
     },
     {
@@ -682,9 +682,9 @@
     {
       "tag": "🇷🇺 Russia_Moscow_tuic_15",
       "type": "tuic",
-      "server": "185.22.152.125",
-      "server_port": 13457,
-      "uuid": "3d6ce949-101b-4e5d-8be8-a631481a9ebd",
+      "server": "46.29.166.207",
+      "server_port": 19988,
+      "uuid": "c2028608-6993-46eb-8b58-0426c813a7ac",
       "password": "dongtaiwang.com",
       "congestion_control": "bbr",
       "udp_relay_mode": "native",
@@ -696,7 +696,7 @@
           "h3"
         ],
         "insecure": true,
-        "server_name": "bing.com"
+        "server_name": "apple.com"
       }
     },
     {
@@ -842,9 +842,9 @@
     {
       "tag": "🇷🇺 Russia_Moscow_tuic_23",
       "type": "tuic",
-      "server": "185.22.152.125",
-      "server_port": 13457,
-      "uuid": "3d6ce949-101b-4e5d-8be8-a631481a9ebd",
+      "server": "46.29.166.207",
+      "server_port": 19988,
+      "uuid": "c2028608-6993-46eb-8b58-0426c813a7ac",
       "password": "dongtaiwang.com",
       "congestion_control": "bbr",
       "udp_relay_mode": "native",
@@ -856,7 +856,7 @@
           "h3"
         ],
         "insecure": true,
-        "server_name": "bing.com"
+        "server_name": "apple.com"
       }
     },
     {
@@ -879,9 +879,9 @@
     {
       "tag": "🇷🇺 Russia_Moscow_tuic_25",
       "type": "tuic",
-      "server": "185.22.152.125",
-      "server_port": 13457,
-      "uuid": "3d6ce949-101b-4e5d-8be8-a631481a9ebd",
+      "server": "46.29.166.207",
+      "server_port": 19988,
+      "uuid": "c2028608-6993-46eb-8b58-0426c813a7ac",
       "password": "dongtaiwang.com",
       "congestion_control": "bbr",
       "udp_relay_mode": "native",
@@ -893,7 +893,7 @@
           "h3"
         ],
         "insecure": true,
-        "server_name": "bing.com"
+        "server_name": "apple.com"
       }
     },
     {
