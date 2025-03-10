@@ -142,12 +142,12 @@
         "🇹🇼 Taiwan_Taipei_vless_3",
         "🇺🇸 United States_Los Angeles_vless_4",
         "🇺🇸 United States_Los Angeles_vless_5",
-        "🇷🇺 Russia_None_vless_6",
-        "🇷🇺 Russia_None_vless_7",
+        "🇩🇪 Germany_Frankfurt am Main_vless_6",
+        "🇩🇪 Germany_Frankfurt am Main_vless_7",
         "🇺🇸 United States_Los Angeles_vless_8",
         "🇺🇸 United States_Los Angeles_vless_9",
-        "🇷🇺 Russia_None_vless_10",
-        "🇷🇺 Russia_None_vless_11"
+        "🇩🇪 Germany_Frankfurt am Main_vless_10",
+        "🇩🇪 Germany_Frankfurt am Main_vless_11"
       ]
     },
     {
@@ -417,12 +417,8 @@
         "🇺🇸 United States_Los Angeles_hysteria2_11",
         "🇺🇸 United States_Los Angeles_vless_4",
         "🇺🇸 United States_Los Angeles_vless_5",
-        "🇷🇺 Russia_None_vless_6",
-        "🇷🇺 Russia_None_vless_7",
         "🇺🇸 United States_Los Angeles_vless_8",
-        "🇺🇸 United States_Los Angeles_vless_9",
-        "🇷🇺 Russia_None_vless_10",
-        "🇷🇺 Russia_None_vless_11"
+        "🇺🇸 United States_Los Angeles_vless_9"
       ]
     },
     {
@@ -444,7 +440,11 @@
         "🇫🇷 France_Paris_hysteria2_4",
         "🇫🇷 France_Paris_hysteria2_6",
         "🇫🇷 France_Paris_hysteria2_8",
-        "🇫🇷 France_Paris_hysteria2_10"
+        "🇫🇷 France_Paris_hysteria2_10",
+        "🇩🇪 Germany_Frankfurt am Main_vless_6",
+        "🇩🇪 Germany_Frankfurt am Main_vless_7",
+        "🇩🇪 Germany_Frankfurt am Main_vless_10",
+        "🇩🇪 Germany_Frankfurt am Main_vless_11"
       ]
     },
     {
@@ -505,12 +505,12 @@
         "🇹🇼 Taiwan_Taipei_vless_3",
         "🇺🇸 United States_Los Angeles_vless_4",
         "🇺🇸 United States_Los Angeles_vless_5",
-        "🇷🇺 Russia_None_vless_6",
-        "🇷🇺 Russia_None_vless_7",
+        "🇩🇪 Germany_Frankfurt am Main_vless_6",
+        "🇩🇪 Germany_Frankfurt am Main_vless_7",
         "🇺🇸 United States_Los Angeles_vless_8",
         "🇺🇸 United States_Los Angeles_vless_9",
-        "🇷🇺 Russia_None_vless_10",
-        "🇷🇺 Russia_None_vless_11"
+        "🇩🇪 Germany_Frankfurt am Main_vless_10",
+        "🇩🇪 Germany_Frankfurt am Main_vless_11"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -1538,11 +1538,11 @@
       }
     },
     {
-      "tag": "🇷🇺 Russia_None_vless_6",
+      "tag": "🇩🇪 Germany_Frankfurt am Main_vless_6",
       "type": "vless",
-      "server": "185.22.155.105",
-      "server_port": 42632,
-      "uuid": "f3ba3679-f2f4-465f-92a5-de320b775a88",
+      "server": "38.135.55.202",
+      "server_port": 37375,
+      "uuid": "b1be3720-e235-4529-b91f-a79d80f0ce63",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -1551,8 +1551,8 @@
         "server_name": "www.yahoo.com",
         "reality": {
           "enabled": true,
-          "public_key": "qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA",
-          "short_id": "1f8b5201"
+          "public_key": "0HXzoGZ2vM-Lqo0szgCx_wdXSLmg2Fuv_XRkLOCRIyE",
+          "short_id": "4797387b"
         },
         "utls": {
           "enabled": true,
@@ -1561,11 +1561,11 @@
       }
     },
     {
-      "tag": "🇷🇺 Russia_None_vless_7",
+      "tag": "🇩🇪 Germany_Frankfurt am Main_vless_7",
       "type": "vless",
-      "server": "185.22.155.105",
-      "server_port": 42632,
-      "uuid": "f3ba3679-f2f4-465f-92a5-de320b775a88",
+      "server": "38.135.55.202",
+      "server_port": 37375,
+      "uuid": "b1be3720-e235-4529-b91f-a79d80f0ce63",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -1574,8 +1574,8 @@
         "server_name": "www.yahoo.com",
         "reality": {
           "enabled": true,
-          "public_key": "qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA",
-          "short_id": "1f8b5201"
+          "public_key": "0HXzoGZ2vM-Lqo0szgCx_wdXSLmg2Fuv_XRkLOCRIyE",
+          "short_id": "4797387b"
         },
         "utls": {
           "enabled": true,
@@ -1630,11 +1630,11 @@
       }
     },
     {
-      "tag": "🇷🇺 Russia_None_vless_10",
+      "tag": "🇩🇪 Germany_Frankfurt am Main_vless_10",
       "type": "vless",
-      "server": "185.22.155.105",
-      "server_port": 42632,
-      "uuid": "f3ba3679-f2f4-465f-92a5-de320b775a88",
+      "server": "38.135.55.202",
+      "server_port": 37375,
+      "uuid": "b1be3720-e235-4529-b91f-a79d80f0ce63",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -1643,8 +1643,8 @@
         "server_name": "www.yahoo.com",
         "reality": {
           "enabled": true,
-          "public_key": "qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA",
-          "short_id": "1f8b5201"
+          "public_key": "0HXzoGZ2vM-Lqo0szgCx_wdXSLmg2Fuv_XRkLOCRIyE",
+          "short_id": "4797387b"
         },
         "utls": {
           "enabled": true,
@@ -1653,11 +1653,11 @@
       }
     },
     {
-      "tag": "🇷🇺 Russia_None_vless_11",
+      "tag": "🇩🇪 Germany_Frankfurt am Main_vless_11",
       "type": "vless",
-      "server": "185.22.155.105",
-      "server_port": 42632,
-      "uuid": "f3ba3679-f2f4-465f-92a5-de320b775a88",
+      "server": "38.135.55.202",
+      "server_port": 37375,
+      "uuid": "b1be3720-e235-4529-b91f-a79d80f0ce63",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -1666,8 +1666,8 @@
         "server_name": "www.yahoo.com",
         "reality": {
           "enabled": true,
-          "public_key": "qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA",
-          "short_id": "1f8b5201"
+          "public_key": "0HXzoGZ2vM-Lqo0szgCx_wdXSLmg2Fuv_XRkLOCRIyE",
+          "short_id": "4797387b"
         },
         "utls": {
           "enabled": true,
