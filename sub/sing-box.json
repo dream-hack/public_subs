@@ -99,9 +99,9 @@
         "🇺🇸 United States_Los Angeles_hy_14",
         "🇺🇸 United States_Los Angeles_hy_15",
         "🇳🇱 The Netherlands_Amsterdam_tuic_16",
-        "🇫🇷 France_Paris_hy_17",
+        "🇭🇰 Hong Kong_None_vless_17",
         "🇫🇷 France_Paris_hy_18",
-        "🇺🇸 United States_None_vless_19",
+        "🇫🇷 France_Paris_hy_19",
         "🇳🇱 The Netherlands_Amsterdam_hy_20",
         "🇺🇸 United States_Los Angeles_tuic_21",
         "🇫🇷 France_None_hy_22",
@@ -109,9 +109,9 @@
         "🇺🇸 United States_Los Angeles_hy_24",
         "🇺🇸 United States_Los Angeles_hy_25",
         "🇳🇱 The Netherlands_Amsterdam_tuic_26",
-        "🇫🇷 France_Paris_hy_27",
+        "🇭🇰 Hong Kong_None_vless_27",
         "🇫🇷 France_Paris_hy_28",
-        "🇺🇸 United States_None_vless_29",
+        "🇫🇷 France_Paris_hy_29",
         "🇷🇺 Russia_None_hysteria_0",
         "🇷🇺 Russia_None_hysteria_1",
         "🇷🇺 Russia_Moscow_hysteria_2",
@@ -352,7 +352,8 @@
       "tag": "HongKong",
       "type": "selector",
       "outbounds": [
-        "Proxy"
+        "🇭🇰 Hong Kong_None_vless_17",
+        "🇭🇰 Hong Kong_None_vless_27"
       ]
     },
     {
@@ -391,12 +392,10 @@
         "🇺🇸 United States_Los Angeles_hy_13",
         "🇺🇸 United States_Los Angeles_hy_14",
         "🇺🇸 United States_Los Angeles_hy_15",
-        "🇺🇸 United States_None_vless_19",
         "🇺🇸 United States_Los Angeles_tuic_21",
         "🇺🇸 United States_Los Angeles_hy_23",
         "🇺🇸 United States_Los Angeles_hy_24",
         "🇺🇸 United States_Los Angeles_hy_25",
-        "🇺🇸 United States_None_vless_29",
         "🇷🇺 Russia_None_hysteria_0",
         "🇷🇺 Russia_None_hysteria_1",
         "🇷🇺 Russia_Moscow_hysteria_2",
@@ -426,13 +425,13 @@
         "🇳🇱 The Netherlands_Amsterdam_hy_10",
         "🇫🇷 France_None_hy_12",
         "🇳🇱 The Netherlands_Amsterdam_tuic_16",
-        "🇫🇷 France_Paris_hy_17",
         "🇫🇷 France_Paris_hy_18",
+        "🇫🇷 France_Paris_hy_19",
         "🇳🇱 The Netherlands_Amsterdam_hy_20",
         "🇫🇷 France_None_hy_22",
         "🇳🇱 The Netherlands_Amsterdam_tuic_26",
-        "🇫🇷 France_Paris_hy_27",
         "🇫🇷 France_Paris_hy_28",
+        "🇫🇷 France_Paris_hy_29",
         "🇫🇷 France_None_hysteria_4",
         "🇫🇷 France_Paris_hysteria_5",
         "🇫🇷 France_Paris_hysteria_6",
@@ -462,9 +461,9 @@
         "🇺🇸 United States_Los Angeles_hy_14",
         "🇺🇸 United States_Los Angeles_hy_15",
         "🇳🇱 The Netherlands_Amsterdam_tuic_16",
-        "🇫🇷 France_Paris_hy_17",
+        "🇭🇰 Hong Kong_None_vless_17",
         "🇫🇷 France_Paris_hy_18",
-        "🇺🇸 United States_None_vless_19",
+        "🇫🇷 France_Paris_hy_19",
         "🇳🇱 The Netherlands_Amsterdam_hy_20",
         "🇺🇸 United States_Los Angeles_tuic_21",
         "🇫🇷 France_None_hy_22",
@@ -472,9 +471,9 @@
         "🇺🇸 United States_Los Angeles_hy_24",
         "🇺🇸 United States_Los Angeles_hy_25",
         "🇳🇱 The Netherlands_Amsterdam_tuic_26",
-        "🇫🇷 France_Paris_hy_27",
+        "🇭🇰 Hong Kong_None_vless_27",
         "🇫🇷 France_Paris_hy_28",
-        "🇺🇸 United States_None_vless_29",
+        "🇫🇷 France_Paris_hy_29",
         "🇷🇺 Russia_None_hysteria_0",
         "🇷🇺 Russia_None_hysteria_1",
         "🇷🇺 Russia_Moscow_hysteria_2",
@@ -714,20 +713,26 @@
       }
     },
     {
-      "tag": "🇫🇷 France_Paris_hy_17",
-      "type": "hysteria",
-      "server": "51.158.205.126",
-      "server_port": 36194,
-      "up_mbps": 50,
-      "down_mbps": 80,
-      "auth_str": "dongtaiwang.com",
+      "tag": "🇭🇰 Hong Kong_None_vless_17",
+      "type": "vless",
+      "server": "156.225.81.102",
+      "server_port": 16113,
+      "uuid": "9b04495c-caf6-4ece-895f-402f12a270a5",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
+        "insecure": false,
+        "server_name": "www.yahoo.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "gLFqVMVuAmp_TQJJyz0eEhh2jGiUY3973cOSEKG3cxc",
+          "short_id": "f3e00baf"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -748,26 +753,20 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_None_vless_19",
-      "type": "vless",
-      "server": "207.170.66.147",
-      "server_port": 51399,
-      "uuid": "46d0a6f0-80a2-4a13-848f-7dee1fca12fe",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇫🇷 France_Paris_hy_19",
+      "type": "hysteria",
+      "server": "51.158.205.126",
+      "server_port": 36194,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "dongtaiwang.com",
       "tls": {
         "enabled": true,
-        "insecure": false,
-        "server_name": "www.yahoo.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "DwCRezTZrOCjW_NE3Vlk4G2BH9oOap3hAbw-boIwkUQ",
-          "short_id": "9cbe8451"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "apple.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
       }
     },
     {
@@ -896,20 +895,26 @@
       }
     },
     {
-      "tag": "🇫🇷 France_Paris_hy_27",
-      "type": "hysteria",
-      "server": "51.158.205.126",
-      "server_port": 36194,
-      "up_mbps": 50,
-      "down_mbps": 80,
-      "auth_str": "dongtaiwang.com",
+      "tag": "🇭🇰 Hong Kong_None_vless_27",
+      "type": "vless",
+      "server": "156.225.81.102",
+      "server_port": 16113,
+      "uuid": "9b04495c-caf6-4ece-895f-402f12a270a5",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
+        "insecure": false,
+        "server_name": "www.yahoo.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "gLFqVMVuAmp_TQJJyz0eEhh2jGiUY3973cOSEKG3cxc",
+          "short_id": "f3e00baf"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -930,26 +935,20 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_None_vless_29",
-      "type": "vless",
-      "server": "207.170.66.147",
-      "server_port": 51399,
-      "uuid": "46d0a6f0-80a2-4a13-848f-7dee1fca12fe",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇫🇷 France_Paris_hy_29",
+      "type": "hysteria",
+      "server": "51.158.205.126",
+      "server_port": 36194,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "dongtaiwang.com",
       "tls": {
         "enabled": true,
-        "insecure": false,
-        "server_name": "www.yahoo.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "DwCRezTZrOCjW_NE3Vlk4G2BH9oOap3hAbw-boIwkUQ",
-          "short_id": "9cbe8451"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "apple.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
       }
     },
     {
