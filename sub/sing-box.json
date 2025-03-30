@@ -99,7 +99,7 @@
         "🇺🇸 United States_Los Angeles_hy_14",
         "🇺🇸 United States_Los Angeles_hy_15",
         "🇳🇱 The Netherlands_Amsterdam_tuic_16",
-        "🇭🇰 Hong Kong_None_hy_17",
+        "🇭🇰 Hong Kong_None_vless_17",
         "🇫🇷 France_Paris_hy_18",
         "🇫🇷 France_Paris_hy_19",
         "🇳🇱 The Netherlands_Amsterdam_hy_20",
@@ -109,7 +109,7 @@
         "🇺🇸 United States_Los Angeles_hy_24",
         "🇺🇸 United States_Los Angeles_hy_25",
         "🇳🇱 The Netherlands_Amsterdam_tuic_26",
-        "🇭🇰 Hong Kong_None_hy_27",
+        "🇭🇰 Hong Kong_None_vless_27",
         "🇫🇷 France_Paris_hy_28",
         "🇫🇷 France_Paris_hy_29",
         "🇷🇺 Russia_None_hysteria_0",
@@ -142,11 +142,11 @@
         "🇹🇼 Taiwan_Taipei_vless_3",
         "🇺🇸 United States_Los Angeles_vless_4",
         "🇫🇷 France_Paris_vless_5",
-        "🇺🇸 United States_Salt Lake City_vless_6",
+        "🇭🇰 Hong Kong_None_vless_6",
         "🇷🇺 Russia_None_vless_7",
         "🇺🇸 United States_Los Angeles_vless_8",
         "🇫🇷 France_Paris_vless_9",
-        "🇺🇸 United States_Salt Lake City_vless_10",
+        "🇭🇰 Hong Kong_None_vless_10",
         "🇷🇺 Russia_None_vless_11"
       ]
     },
@@ -352,8 +352,10 @@
       "tag": "HongKong",
       "type": "selector",
       "outbounds": [
-        "🇭🇰 Hong Kong_None_hy_17",
-        "🇭🇰 Hong Kong_None_hy_27"
+        "🇭🇰 Hong Kong_None_vless_17",
+        "🇭🇰 Hong Kong_None_vless_27",
+        "🇭🇰 Hong Kong_None_vless_6",
+        "🇭🇰 Hong Kong_None_vless_10"
       ]
     },
     {
@@ -411,10 +413,8 @@
         "🇺🇸 United States_Los Angeles_hysteria2_9",
         "🇺🇸 United States_Los Angeles_hysteria2_11",
         "🇺🇸 United States_Los Angeles_vless_4",
-        "🇺🇸 United States_Salt Lake City_vless_6",
         "🇷🇺 Russia_None_vless_7",
         "🇺🇸 United States_Los Angeles_vless_8",
-        "🇺🇸 United States_Salt Lake City_vless_10",
         "🇷🇺 Russia_None_vless_11"
       ]
     },
@@ -461,7 +461,7 @@
         "🇺🇸 United States_Los Angeles_hy_14",
         "🇺🇸 United States_Los Angeles_hy_15",
         "🇳🇱 The Netherlands_Amsterdam_tuic_16",
-        "🇭🇰 Hong Kong_None_hy_17",
+        "🇭🇰 Hong Kong_None_vless_17",
         "🇫🇷 France_Paris_hy_18",
         "🇫🇷 France_Paris_hy_19",
         "🇳🇱 The Netherlands_Amsterdam_hy_20",
@@ -471,7 +471,7 @@
         "🇺🇸 United States_Los Angeles_hy_24",
         "🇺🇸 United States_Los Angeles_hy_25",
         "🇳🇱 The Netherlands_Amsterdam_tuic_26",
-        "🇭🇰 Hong Kong_None_hy_27",
+        "🇭🇰 Hong Kong_None_vless_27",
         "🇫🇷 France_Paris_hy_28",
         "🇫🇷 France_Paris_hy_29",
         "🇷🇺 Russia_None_hysteria_0",
@@ -504,11 +504,11 @@
         "🇹🇼 Taiwan_Taipei_vless_3",
         "🇺🇸 United States_Los Angeles_vless_4",
         "🇫🇷 France_Paris_vless_5",
-        "🇺🇸 United States_Salt Lake City_vless_6",
+        "🇭🇰 Hong Kong_None_vless_6",
         "🇷🇺 Russia_None_vless_7",
         "🇺🇸 United States_Los Angeles_vless_8",
         "🇫🇷 France_Paris_vless_9",
-        "🇺🇸 United States_Salt Lake City_vless_10",
+        "🇭🇰 Hong Kong_None_vless_10",
         "🇷🇺 Russia_None_vless_11"
       ],
       "url": "http://www.gstatic.com/generate_204",
@@ -713,20 +713,26 @@
       }
     },
     {
-      "tag": "🇭🇰 Hong Kong_None_hy_17",
-      "type": "hysteria",
+      "tag": "🇭🇰 Hong Kong_None_vless_17",
+      "type": "vless",
       "server": "156.225.81.102",
-      "server_port": 22011,
-      "up_mbps": 50,
-      "down_mbps": 80,
-      "auth_str": "dongtaiwang.com",
+      "server_port": 16113,
+      "uuid": "9b04495c-caf6-4ece-895f-402f12a270a5",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
+        "insecure": false,
+        "server_name": "www.yahoo.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "gLFqVMVuAmp_TQJJyz0eEhh2jGiUY3973cOSEKG3cxc",
+          "short_id": "f3e00baf"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -889,20 +895,26 @@
       }
     },
     {
-      "tag": "🇭🇰 Hong Kong_None_hy_27",
-      "type": "hysteria",
+      "tag": "🇭🇰 Hong Kong_None_vless_27",
+      "type": "vless",
       "server": "156.225.81.102",
-      "server_port": 22011,
-      "up_mbps": 50,
-      "down_mbps": 80,
-      "auth_str": "dongtaiwang.com",
+      "server_port": 16113,
+      "uuid": "9b04495c-caf6-4ece-895f-402f12a270a5",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
+        "insecure": false,
+        "server_name": "www.yahoo.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "gLFqVMVuAmp_TQJJyz0eEhh2jGiUY3973cOSEKG3cxc",
+          "short_id": "f3e00baf"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -1483,11 +1495,11 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_Salt Lake City_vless_6",
+      "tag": "🇭🇰 Hong Kong_None_vless_6",
       "type": "vless",
-      "server": "208.115.249.104",
-      "server_port": 63067,
-      "uuid": "cc2272a3-0ddd-4c5a-bbb7-9a2079ac650d",
+      "server": "156.225.81.102",
+      "server_port": 16113,
+      "uuid": "9b04495c-caf6-4ece-895f-402f12a270a5",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -1496,8 +1508,8 @@
         "server_name": "www.yahoo.com",
         "reality": {
           "enabled": true,
-          "public_key": "jqXZMbA5yqqAOQJa_7GAOOGK7qb_BUBXgG702ItdZRc",
-          "short_id": "cb2c9c63"
+          "public_key": "gLFqVMVuAmp_TQJJyz0eEhh2jGiUY3973cOSEKG3cxc",
+          "short_id": "f3e00baf"
         },
         "utls": {
           "enabled": true,
@@ -1575,11 +1587,11 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_Salt Lake City_vless_10",
+      "tag": "🇭🇰 Hong Kong_None_vless_10",
       "type": "vless",
-      "server": "208.115.249.104",
-      "server_port": 63067,
-      "uuid": "cc2272a3-0ddd-4c5a-bbb7-9a2079ac650d",
+      "server": "156.225.81.102",
+      "server_port": 16113,
+      "uuid": "9b04495c-caf6-4ece-895f-402f12a270a5",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -1588,8 +1600,8 @@
         "server_name": "www.yahoo.com",
         "reality": {
           "enabled": true,
-          "public_key": "jqXZMbA5yqqAOQJa_7GAOOGK7qb_BUBXgG702ItdZRc",
-          "short_id": "cb2c9c63"
+          "public_key": "gLFqVMVuAmp_TQJJyz0eEhh2jGiUY3973cOSEKG3cxc",
+          "short_id": "f3e00baf"
         },
         "utls": {
           "enabled": true,
