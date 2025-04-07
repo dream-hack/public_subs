@@ -104,7 +104,6 @@
         "🇫🇷 France_Paris_hy_19",
         "🇳🇱 The Netherlands_Amsterdam_hy_20",
         "🇺🇸 United States_Los Angeles_tuic_21",
-        "🇫🇷 France_None_hy_22",
         "🇺🇸 United States_Los Angeles_hy_23",
         "🇺🇸 United States_Los Angeles_hy_24",
         "🇺🇸 United States_Los Angeles_hy_25",
@@ -424,7 +423,6 @@
         "🇫🇷 France_Paris_hy_18",
         "🇫🇷 France_Paris_hy_19",
         "🇳🇱 The Netherlands_Amsterdam_hy_20",
-        "🇫🇷 France_None_hy_22",
         "🇳🇱 The Netherlands_Amsterdam_tuic_26",
         "🇫🇷 France_Paris_hy_28",
         "🇫🇷 France_Paris_hy_29",
@@ -464,7 +462,6 @@
         "🇫🇷 France_Paris_hy_19",
         "🇳🇱 The Netherlands_Amsterdam_hy_20",
         "🇺🇸 United States_Los Angeles_tuic_21",
-        "🇫🇷 France_None_hy_22",
         "🇺🇸 United States_Los Angeles_hy_23",
         "🇺🇸 United States_Los Angeles_hy_24",
         "🇺🇸 United States_Los Angeles_hy_25",
@@ -801,23 +798,6 @@
         ],
         "insecure": true,
         "server_name": "bing.com"
-      }
-    },
-    {
-      "tag": "🇫🇷 France_None_hy_22",
-      "type": "hysteria",
-      "server": "195.154.200.178",
-      "server_port": 46938,
-      "up_mbps": 50,
-      "down_mbps": 80,
-      "auth_str": "dongtaiwang.com",
-      "tls": {
-        "enabled": true,
-        "server_name": "apple.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
       }
     },
     {
