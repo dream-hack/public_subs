@@ -103,7 +103,6 @@
         "🇫🇷 France_Paris_hy_18",
         "🇫🇷 France_Paris_hy_19",
         "🇳🇱 The Netherlands_Amsterdam_hy_20",
-        "🇺🇸 United States_Los Angeles_tuic_21",
         "🇺🇸 United States_Los Angeles_hy_24",
         "🇺🇸 United States_Los Angeles_hy_25",
         "🇳🇱 The Netherlands_Amsterdam_tuic_26",
@@ -388,7 +387,6 @@
         "🇺🇸 United States_Los Angeles_hy_13",
         "🇺🇸 United States_Los Angeles_hy_14",
         "🇺🇸 United States_Los Angeles_hy_15",
-        "🇺🇸 United States_Los Angeles_tuic_21",
         "🇺🇸 United States_Los Angeles_hy_24",
         "🇺🇸 United States_Los Angeles_hy_25",
         "🇷🇺 Russia_None_hysteria_0",
@@ -459,7 +457,6 @@
         "🇫🇷 France_Paris_hy_18",
         "🇫🇷 France_Paris_hy_19",
         "🇳🇱 The Netherlands_Amsterdam_hy_20",
-        "🇺🇸 United States_Los Angeles_tuic_21",
         "🇺🇸 United States_Los Angeles_hy_24",
         "🇺🇸 United States_Los Angeles_hy_25",
         "🇳🇱 The Netherlands_Amsterdam_tuic_26",
@@ -775,26 +772,6 @@
         "alpn": [
           "h3"
         ]
-      }
-    },
-    {
-      "tag": "🇺🇸 United States_Los Angeles_tuic_21",
-      "type": "tuic",
-      "server": "108.181.5.131",
-      "server_port": 34008,
-      "uuid": "f84c91a4-0125-4495-82f3-732cd0a0bba8",
-      "password": "dongtaiwang.com",
-      "congestion_control": "bbr",
-      "udp_relay_mode": "native",
-      "zero_rtt_handshake": false,
-      "heartbeat": "10s",
-      "tls": {
-        "enabled": true,
-        "alpn": [
-          "h3"
-        ],
-        "insecure": true,
-        "server_name": "bing.com"
       }
     },
     {
