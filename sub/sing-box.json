@@ -1160,8 +1160,8 @@
     {
       "tag": "🇫🇷 France_Paris_hysteria2_4",
       "type": "hysteria2",
-      "server": "195.154.33.70",
-      "server_port": 23587,
+      "server": "hy2-1.694463.xyz",
+      "server_port": 4489,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
@@ -1228,8 +1228,8 @@
     {
       "tag": "🇫🇷 France_Paris_hysteria2_8",
       "type": "hysteria2",
-      "server": "195.154.33.70",
-      "server_port": 23587,
+      "server": "hy2-1.694463.xyz",
+      "server_port": 4489,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
