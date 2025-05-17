@@ -98,7 +98,6 @@
         "🇺🇸 United States_Los Angeles_hy_13",
         "🇺🇸 United States_Los Angeles_hy_14",
         "🇺🇸 United States_Los Angeles_hy_15",
-        "🇳🇱 The Netherlands_Amsterdam_tuic_16",
         "🇻🇳 Vietnam_None_hy_17",
         "🇫🇷 France_Paris_hy_18",
         "🇫🇷 France_Paris_hy_19",
@@ -125,7 +124,6 @@
         "🇷🇺 Russia_Moscow_hysteria2_0",
         "🇷🇺 Russia_Moscow_hysteria2_1",
         "🇷🇺 Russia_Moscow_hysteria2_2",
-        "🇷🇺 Russia_Moscow_hysteria2_3",
         "🇫🇷 France_Paris_hysteria2_4",
         "🇫🇷 France_Paris_hysteria2_5",
         "🇺🇸 United States_Los Angeles_hysteria2_6",
@@ -400,7 +398,6 @@
         "🇷🇺 Russia_Moscow_hysteria2_0",
         "🇷🇺 Russia_Moscow_hysteria2_1",
         "🇷🇺 Russia_Moscow_hysteria2_2",
-        "🇷🇺 Russia_Moscow_hysteria2_3",
         "🇺🇸 United States_Los Angeles_hysteria2_6",
         "🇷🇺 Russia_Moscow_hysteria2_7",
         "🇺🇸 United States_Los Angeles_hysteria2_10",
@@ -419,7 +416,6 @@
       "outbounds": [
         "🇳🇱 The Netherlands_Amsterdam_hy_10",
         "🇫🇷 France_None_hy_12",
-        "🇳🇱 The Netherlands_Amsterdam_tuic_16",
         "🇻🇳 Vietnam_None_hy_17",
         "🇫🇷 France_Paris_hy_18",
         "🇫🇷 France_Paris_hy_19",
@@ -457,7 +453,6 @@
         "🇺🇸 United States_Los Angeles_hy_13",
         "🇺🇸 United States_Los Angeles_hy_14",
         "🇺🇸 United States_Los Angeles_hy_15",
-        "🇳🇱 The Netherlands_Amsterdam_tuic_16",
         "🇻🇳 Vietnam_None_hy_17",
         "🇫🇷 France_Paris_hy_18",
         "🇫🇷 France_Paris_hy_19",
@@ -484,7 +479,6 @@
         "🇷🇺 Russia_Moscow_hysteria2_0",
         "🇷🇺 Russia_Moscow_hysteria2_1",
         "🇷🇺 Russia_Moscow_hysteria2_2",
-        "🇷🇺 Russia_Moscow_hysteria2_3",
         "🇫🇷 France_Paris_hysteria2_4",
         "🇫🇷 France_Paris_hysteria2_5",
         "🇺🇸 United States_Los Angeles_hysteria2_6",
@@ -685,26 +679,6 @@
         "alpn": [
           "h3"
         ]
-      }
-    },
-    {
-      "tag": "🇳🇱 The Netherlands_Amsterdam_tuic_16",
-      "type": "tuic",
-      "server": "62.210.10.113",
-      "server_port": 22457,
-      "uuid": "083c4304-78e8-4702-b2ff-7dc899f74d90",
-      "password": "dongtaiwang.com",
-      "congestion_control": "bbr",
-      "udp_relay_mode": "native",
-      "zero_rtt_handshake": false,
-      "heartbeat": "10s",
-      "tls": {
-        "enabled": true,
-        "alpn": [
-          "h3"
-        ],
-        "insecure": true,
-        "server_name": "bing.com"
       }
     },
     {
@@ -1140,23 +1114,6 @@
     },
     {
       "tag": "🇷🇺 Russia_Moscow_hysteria2_2",
-      "type": "hysteria2",
-      "server": "hy2.694463.xyz",
-      "server_port": 10011,
-      "password": "dongtaiwang.com",
-      "up_mbps": 10,
-      "down_mbps": 100,
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
-    },
-    {
-      "tag": "🇷🇺 Russia_Moscow_hysteria2_3",
       "type": "hysteria2",
       "server": "hy2.694463.xyz",
       "server_port": 10011,
