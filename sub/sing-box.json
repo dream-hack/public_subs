@@ -93,6 +93,7 @@
         "🇺🇸 United States_None_hy_8",
         "🇷🇺 Russia_None_hy_9",
         "🇳🇱 The Netherlands_Amsterdam_hy_10",
+        "🇺🇸 United States_Los Angeles_tuic_11",
         "🇫🇷 France_None_hy_12",
         "🇺🇸 United States_Los Angeles_hy_13",
         "🇺🇸 United States_Los Angeles_hy_14",
@@ -100,7 +101,9 @@
         "🇳🇱 The Netherlands_Amsterdam_tuic_16",
         "🇻🇳 Vietnam_None_hy_17",
         "🇫🇷 France_Paris_hy_18",
+        "🇫🇷 France_Paris_hy_19",
         "🇳🇱 The Netherlands_Amsterdam_hy_20",
+        "🇺🇸 United States_Los Angeles_tuic_21",
         "🇺🇸 United States_Los Angeles_hy_24",
         "🇺🇸 United States_Los Angeles_hy_25",
         "🇳🇱 The Netherlands_Amsterdam_tuic_26",
@@ -140,6 +143,7 @@
         "🇷🇺 Russia_None_vless_6",
         "🇺🇸 United States_Los Angeles_vless_7",
         "🇫🇷 France_Paris_vless_8",
+        "🇺🇸 United States_Los Angeles_vless_9",
         "🇷🇺 Russia_None_vless_10",
         "🇺🇸 United States_Los Angeles_vless_11"
       ]
@@ -381,9 +385,11 @@
         "🇺🇸 United States_None_hy_7",
         "🇺🇸 United States_None_hy_8",
         "🇷🇺 Russia_None_hy_9",
+        "🇺🇸 United States_Los Angeles_tuic_11",
         "🇺🇸 United States_Los Angeles_hy_13",
         "🇺🇸 United States_Los Angeles_hy_14",
         "🇺🇸 United States_Los Angeles_hy_15",
+        "🇺🇸 United States_Los Angeles_tuic_21",
         "🇺🇸 United States_Los Angeles_hy_24",
         "🇺🇸 United States_Los Angeles_hy_25",
         "🇷🇺 Russia_None_hysteria_0",
@@ -402,6 +408,7 @@
         "🇺🇸 United States_Los Angeles_vless_5",
         "🇷🇺 Russia_None_vless_6",
         "🇺🇸 United States_Los Angeles_vless_7",
+        "🇺🇸 United States_Los Angeles_vless_9",
         "🇷🇺 Russia_None_vless_10",
         "🇺🇸 United States_Los Angeles_vless_11"
       ]
@@ -415,6 +422,7 @@
         "🇳🇱 The Netherlands_Amsterdam_tuic_16",
         "🇻🇳 Vietnam_None_hy_17",
         "🇫🇷 France_Paris_hy_18",
+        "🇫🇷 France_Paris_hy_19",
         "🇳🇱 The Netherlands_Amsterdam_hy_20",
         "🇳🇱 The Netherlands_Amsterdam_tuic_26",
         "🇻🇳 Vietnam_None_hy_27",
@@ -444,6 +452,7 @@
         "🇺🇸 United States_None_hy_8",
         "🇷🇺 Russia_None_hy_9",
         "🇳🇱 The Netherlands_Amsterdam_hy_10",
+        "🇺🇸 United States_Los Angeles_tuic_11",
         "🇫🇷 France_None_hy_12",
         "🇺🇸 United States_Los Angeles_hy_13",
         "🇺🇸 United States_Los Angeles_hy_14",
@@ -451,7 +460,9 @@
         "🇳🇱 The Netherlands_Amsterdam_tuic_16",
         "🇻🇳 Vietnam_None_hy_17",
         "🇫🇷 France_Paris_hy_18",
+        "🇫🇷 France_Paris_hy_19",
         "🇳🇱 The Netherlands_Amsterdam_hy_20",
+        "🇺🇸 United States_Los Angeles_tuic_21",
         "🇺🇸 United States_Los Angeles_hy_24",
         "🇺🇸 United States_Los Angeles_hy_25",
         "🇳🇱 The Netherlands_Amsterdam_tuic_26",
@@ -491,6 +502,7 @@
         "🇷🇺 Russia_None_vless_6",
         "🇺🇸 United States_Los Angeles_vless_7",
         "🇫🇷 France_Paris_vless_8",
+        "🇺🇸 United States_Los Angeles_vless_9",
         "🇷🇺 Russia_None_vless_10",
         "🇺🇸 United States_Los Angeles_vless_11"
       ],
@@ -585,6 +597,26 @@
         "alpn": [
           "h3"
         ]
+      }
+    },
+    {
+      "tag": "🇺🇸 United States_Los Angeles_tuic_11",
+      "type": "tuic",
+      "server": "108.181.5.131",
+      "server_port": 34008,
+      "uuid": "f84c91a4-0125-4495-82f3-732cd0a0bba8",
+      "password": "dongtaiwang.com",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
+      "tls": {
+        "enabled": true,
+        "alpn": [
+          "h3"
+        ],
+        "insecure": true,
+        "server_name": "bing.com"
       }
     },
     {
@@ -710,6 +742,23 @@
       }
     },
     {
+      "tag": "🇫🇷 France_Paris_hy_19",
+      "type": "hysteria",
+      "server": "51.158.205.126",
+      "server_port": 36194,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
       "tag": "🇳🇱 The Netherlands_Amsterdam_hy_20",
       "type": "hysteria",
       "server": "62.210.10.113",
@@ -724,6 +773,26 @@
         "alpn": [
           "h3"
         ]
+      }
+    },
+    {
+      "tag": "🇺🇸 United States_Los Angeles_tuic_21",
+      "type": "tuic",
+      "server": "108.181.5.131",
+      "server_port": 34008,
+      "uuid": "f84c91a4-0125-4495-82f3-732cd0a0bba8",
+      "password": "dongtaiwang.com",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
+      "tls": {
+        "enabled": true,
+        "alpn": [
+          "h3"
+        ],
+        "insecure": true,
+        "server_name": "bing.com"
       }
     },
     {
@@ -1439,6 +1508,29 @@
           "enabled": true,
           "public_key": "Ok7Mg4VmHT4Typ9HydPSmHI55BgLONFk5ppLGiL8n1A",
           "short_id": "4b4d9d72"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 United States_Los Angeles_vless_9",
+      "type": "vless",
+      "server": "108.181.3.68",
+      "server_port": 19873,
+      "uuid": "288eab91-a2a9-4099-bcfd-ae057ec0d56e",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "www.yahoo.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "CORDH3FlQivimoVRhU_ZEUFzI-mT3Ko9CqTr7_CPtXw",
+          "short_id": "694212ed"
         },
         "utls": {
           "enabled": true,
