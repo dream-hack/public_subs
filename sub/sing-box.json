@@ -95,6 +95,7 @@
         "🇳🇱 The Netherlands_Amsterdam_hy_10",
         "🇺🇸 United States_Los Angeles_tuic_11",
         "🇫🇷 France_None_hy_12",
+        "🇺🇸 United States_Los Angeles_hy_13",
         "🇺🇸 United States_Los Angeles_hy_14",
         "🇺🇸 United States_Los Angeles_hy_15",
         "🇳🇱 The Netherlands_Amsterdam_tuic_16",
@@ -385,6 +386,7 @@
         "🇺🇸 United States_None_hy_8",
         "🇷🇺 Russia_None_hy_9",
         "🇺🇸 United States_Los Angeles_tuic_11",
+        "🇺🇸 United States_Los Angeles_hy_13",
         "🇺🇸 United States_Los Angeles_hy_14",
         "🇺🇸 United States_Los Angeles_hy_15",
         "🇺🇸 United States_Los Angeles_tuic_21",
@@ -452,6 +454,7 @@
         "🇳🇱 The Netherlands_Amsterdam_hy_10",
         "🇺🇸 United States_Los Angeles_tuic_11",
         "🇫🇷 France_None_hy_12",
+        "🇺🇸 United States_Los Angeles_hy_13",
         "🇺🇸 United States_Los Angeles_hy_14",
         "🇺🇸 United States_Los Angeles_hy_15",
         "🇳🇱 The Netherlands_Amsterdam_tuic_16",
@@ -621,6 +624,23 @@
       "type": "hysteria",
       "server": "195.154.200.178",
       "server_port": 46938,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇺🇸 United States_Los Angeles_hy_13",
+      "type": "hysteria",
+      "server": "108.181.24.77",
+      "server_port": 11512,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "dongtaiwang.com",
