@@ -90332,20 +90332,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Russia_None_A2
-  type: hysteria
-  server: 185.22.155.71
-  port: 10803
-  ports: 10803
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: Russia_None_A3
   type: hysteria
   server: 185.22.155.71
@@ -96768,7 +96754,6 @@ proxy-groups:
   - France_Paris_291
   - Russia_None_A0
   - Russia_None_A1
-  - Russia_None_A2
   - Russia_None_A3
   - France_None_A4
   - France_Paris_A5
@@ -102834,7 +102819,6 @@ proxy-groups:
   - France_Paris_291
   - Russia_None_A0
   - Russia_None_A1
-  - Russia_None_A2
   - Russia_None_A3
   - France_None_A4
   - France_Paris_A5
