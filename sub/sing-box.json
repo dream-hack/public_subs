@@ -727,7 +727,7 @@
     {
       "tag": "🇫🇷 France_Paris_hy_18",
       "type": "hysteria",
-      "server": "51.158.205.126",
+      "server": "51.158.213.119",
       "server_port": 36194,
       "up_mbps": 50,
       "down_mbps": 80,
@@ -744,7 +744,7 @@
     {
       "tag": "🇫🇷 France_Paris_hy_19",
       "type": "hysteria",
-      "server": "51.158.205.126",
+      "server": "51.158.213.119",
       "server_port": 36194,
       "up_mbps": 50,
       "down_mbps": 80,
@@ -869,7 +869,7 @@
     {
       "tag": "🇫🇷 France_Paris_hy_28",
       "type": "hysteria",
-      "server": "51.158.205.126",
+      "server": "51.158.213.119",
       "server_port": 36194,
       "up_mbps": 50,
       "down_mbps": 80,
@@ -886,7 +886,7 @@
     {
       "tag": "🇫🇷 France_Paris_hy_29",
       "type": "hysteria",
-      "server": "51.158.205.126",
+      "server": "51.158.213.119",
       "server_port": 36194,
       "up_mbps": 50,
       "down_mbps": 80,
@@ -1495,7 +1495,7 @@
     {
       "tag": "🇫🇷 France_Paris_vless_8",
       "type": "vless",
-      "server": "51.158.205.126",
+      "server": "51.158.213.119",
       "server_port": 24957,
       "uuid": "ef1fdecb-e56f-4996-9b6a-da7ddb7f7c8d",
       "packet_encoding": "xudp",
