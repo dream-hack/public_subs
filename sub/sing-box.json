@@ -144,7 +144,6 @@
         "🇺🇸 United States_Los Angeles_vless_7",
         "🇫🇷 France_Paris_vless_8",
         "🇺🇸 United States_Los Angeles_vless_9",
-        "🇷🇺 Russia_None_vless_10",
         "🇺🇸 United States_Los Angeles_vless_11"
       ]
     },
@@ -409,7 +408,6 @@
         "🇷🇺 Russia_None_vless_6",
         "🇺🇸 United States_Los Angeles_vless_7",
         "🇺🇸 United States_Los Angeles_vless_9",
-        "🇷🇺 Russia_None_vless_10",
         "🇺🇸 United States_Los Angeles_vless_11"
       ]
     },
@@ -503,7 +501,6 @@
         "🇺🇸 United States_Los Angeles_vless_7",
         "🇫🇷 France_Paris_vless_8",
         "🇺🇸 United States_Los Angeles_vless_9",
-        "🇷🇺 Russia_None_vless_10",
         "🇺🇸 United States_Los Angeles_vless_11"
       ],
       "url": "http://www.gstatic.com/generate_204",
@@ -1531,29 +1528,6 @@
           "enabled": true,
           "public_key": "CORDH3FlQivimoVRhU_ZEUFzI-mT3Ko9CqTr7_CPtXw",
           "short_id": "694212ed"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 Russia_None_vless_10",
-      "type": "vless",
-      "server": "185.22.155.105",
-      "server_port": 42632,
-      "uuid": "f3ba3679-f2f4-465f-92a5-de320b775a88",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "www.yahoo.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA",
-          "short_id": "1f8b5201"
         },
         "utls": {
           "enabled": true,
