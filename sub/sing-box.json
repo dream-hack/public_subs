@@ -1427,18 +1427,17 @@
       "tag": "🇺🇸 United States_Los Angeles_vless_5",
       "type": "vless",
       "server": "108.181.3.68",
-      "server_port": 19873,
-      "uuid": "288eab91-a2a9-4099-bcfd-ae057ec0d56e",
+      "server_port": 51499,
+      "uuid": "c643de0a-9678-4c18-9f55-58620425bac0",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "www.yahoo.com",
+        "server_name": "aws.amazon.com",
         "reality": {
           "enabled": true,
-          "public_key": "CORDH3FlQivimoVRhU_ZEUFzI-mT3Ko9CqTr7_CPtXw",
-          "short_id": "694212ed"
+          "public_key": "S4-VtlwDUlz7CbSlpf8mqD4ejRWFOISwCXqdtm3JCww"
         },
         "utls": {
           "enabled": true,
@@ -1450,18 +1449,17 @@
       "tag": "🇷🇺 Russia_None_vless_6",
       "type": "vless",
       "server": "185.22.155.105",
-      "server_port": 42632,
-      "uuid": "f3ba3679-f2f4-465f-92a5-de320b775a88",
+      "server_port": 62750,
+      "uuid": "fdd2d176-2602-46f2-b694-ce247de88b22",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "www.yahoo.com",
+        "server_name": "www.paypal.com",
         "reality": {
           "enabled": true,
-          "public_key": "qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA",
-          "short_id": "1f8b5201"
+          "public_key": "_E_YXE_gOkDrffe4t6gcajtnjFZAJ3g7ZwTJbL3IOHA"
         },
         "utls": {
           "enabled": true,
@@ -1473,18 +1471,17 @@
       "tag": "🇺🇸 United States_Los Angeles_vless_7",
       "type": "vless",
       "server": "108.181.3.68",
-      "server_port": 19873,
-      "uuid": "288eab91-a2a9-4099-bcfd-ae057ec0d56e",
+      "server_port": 51499,
+      "uuid": "c643de0a-9678-4c18-9f55-58620425bac0",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "www.yahoo.com",
+        "server_name": "aws.amazon.com",
         "reality": {
           "enabled": true,
-          "public_key": "CORDH3FlQivimoVRhU_ZEUFzI-mT3Ko9CqTr7_CPtXw",
-          "short_id": "694212ed"
+          "public_key": "S4-VtlwDUlz7CbSlpf8mqD4ejRWFOISwCXqdtm3JCww"
         },
         "utls": {
           "enabled": true,
@@ -1519,18 +1516,17 @@
       "tag": "🇺🇸 United States_Los Angeles_vless_9",
       "type": "vless",
       "server": "108.181.3.68",
-      "server_port": 19873,
-      "uuid": "288eab91-a2a9-4099-bcfd-ae057ec0d56e",
+      "server_port": 51499,
+      "uuid": "c643de0a-9678-4c18-9f55-58620425bac0",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "www.yahoo.com",
+        "server_name": "aws.amazon.com",
         "reality": {
           "enabled": true,
-          "public_key": "CORDH3FlQivimoVRhU_ZEUFzI-mT3Ko9CqTr7_CPtXw",
-          "short_id": "694212ed"
+          "public_key": "S4-VtlwDUlz7CbSlpf8mqD4ejRWFOISwCXqdtm3JCww"
         },
         "utls": {
           "enabled": true,
@@ -1542,18 +1538,17 @@
       "tag": "🇷🇺 Russia_None_vless_10",
       "type": "vless",
       "server": "185.22.155.105",
-      "server_port": 42632,
-      "uuid": "f3ba3679-f2f4-465f-92a5-de320b775a88",
+      "server_port": 62750,
+      "uuid": "fdd2d176-2602-46f2-b694-ce247de88b22",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "www.yahoo.com",
+        "server_name": "www.paypal.com",
         "reality": {
           "enabled": true,
-          "public_key": "qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA",
-          "short_id": "1f8b5201"
+          "public_key": "_E_YXE_gOkDrffe4t6gcajtnjFZAJ3g7ZwTJbL3IOHA"
         },
         "utls": {
           "enabled": true,
@@ -1565,18 +1560,17 @@
       "tag": "🇺🇸 United States_Los Angeles_vless_11",
       "type": "vless",
       "server": "108.181.3.68",
-      "server_port": 19873,
-      "uuid": "288eab91-a2a9-4099-bcfd-ae057ec0d56e",
+      "server_port": 51499,
+      "uuid": "c643de0a-9678-4c18-9f55-58620425bac0",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "www.yahoo.com",
+        "server_name": "aws.amazon.com",
         "reality": {
           "enabled": true,
-          "public_key": "CORDH3FlQivimoVRhU_ZEUFzI-mT3Ko9CqTr7_CPtXw",
-          "short_id": "694212ed"
+          "public_key": "S4-VtlwDUlz7CbSlpf8mqD4ejRWFOISwCXqdtm3JCww"
         },
         "utls": {
           "enabled": true,
