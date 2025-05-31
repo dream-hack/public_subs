@@ -115,7 +115,6 @@
         "🇷🇺 Russia_None_hysteria_2",
         "🇷🇺 Russia_None_hysteria_3",
         "🇫🇷 France_None_hysteria_4",
-        "🇺🇸 United States_None_hysteria_5",
         "🇫🇷 France_Paris_hysteria_6",
         "🇺🇸 United States_None_hysteria_7",
         "🇫🇷 France_None_hysteria_8",
@@ -400,7 +399,6 @@
         "🇷🇺 Russia_None_hysteria_1",
         "🇷🇺 Russia_None_hysteria_2",
         "🇷🇺 Russia_None_hysteria_3",
-        "🇺🇸 United States_None_hysteria_5",
         "🇺🇸 United States_None_hysteria_7",
         "🇺🇸 United States_None_hysteria_9",
         "🇷🇺 Russia_Moscow_hysteria2_0",
@@ -474,7 +472,6 @@
         "🇷🇺 Russia_None_hysteria_2",
         "🇷🇺 Russia_None_hysteria_3",
         "🇫🇷 France_None_hysteria_4",
-        "🇺🇸 United States_None_hysteria_5",
         "🇫🇷 France_Paris_hysteria_6",
         "🇺🇸 United States_None_hysteria_7",
         "🇫🇷 France_None_hysteria_8",
@@ -973,23 +970,6 @@
       "type": "hysteria",
       "server": "195.154.200.40",
       "server_port": 15010,
-      "up_mbps": 11,
-      "down_mbps": 55,
-      "auth_str": "dongtaiwang.com",
-      "tls": {
-        "enabled": true,
-        "server_name": "apple.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
-    },
-    {
-      "tag": "🇺🇸 United States_None_hysteria_5",
-      "type": "hysteria",
-      "server": "198.40.52.27",
-      "server_port": 36194,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
