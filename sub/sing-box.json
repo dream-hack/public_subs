@@ -100,8 +100,8 @@
         "🇺🇸 United States_Los Angeles_hy_15",
         "🇳🇱 The Netherlands_Amsterdam_tuic_16",
         "🇳🇱 The Netherlands_Amsterdam_hy_17",
-        "🇺🇸 United States_None_hy_18",
-        "🇺🇸 United States_None_hy_19",
+        "🇫🇷 France_Paris_hy_18",
+        "🇫🇷 France_Paris_hy_19",
         "🇳🇱 The Netherlands_Amsterdam_hy_20",
         "🇺🇸 United States_Los Angeles_tuic_21",
         "🇺🇸 United States_Los Angeles_hy_25",
@@ -388,8 +388,6 @@
         "🇺🇸 United States_Los Angeles_hy_13",
         "🇺🇸 United States_Los Angeles_hy_14",
         "🇺🇸 United States_Los Angeles_hy_15",
-        "🇺🇸 United States_None_hy_18",
-        "🇺🇸 United States_None_hy_19",
         "🇺🇸 United States_Los Angeles_tuic_21",
         "🇺🇸 United States_Los Angeles_hy_25",
         "🇺🇸 United States_None_hy_28",
@@ -427,6 +425,8 @@
         "🇫🇷 France_None_hy_12",
         "🇳🇱 The Netherlands_Amsterdam_tuic_16",
         "🇳🇱 The Netherlands_Amsterdam_hy_17",
+        "🇫🇷 France_Paris_hy_18",
+        "🇫🇷 France_Paris_hy_19",
         "🇳🇱 The Netherlands_Amsterdam_hy_20",
         "🇳🇱 The Netherlands_Amsterdam_tuic_26",
         "🇳🇱 The Netherlands_Amsterdam_hy_27",
@@ -457,8 +457,8 @@
         "🇺🇸 United States_Los Angeles_hy_15",
         "🇳🇱 The Netherlands_Amsterdam_tuic_16",
         "🇳🇱 The Netherlands_Amsterdam_hy_17",
-        "🇺🇸 United States_None_hy_18",
-        "🇺🇸 United States_None_hy_19",
+        "🇫🇷 France_Paris_hy_18",
+        "🇫🇷 France_Paris_hy_19",
         "🇳🇱 The Netherlands_Amsterdam_hy_20",
         "🇺🇸 United States_Los Angeles_tuic_21",
         "🇺🇸 United States_Los Angeles_hy_25",
@@ -722,16 +722,16 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_None_hy_18",
+      "tag": "🇫🇷 France_Paris_hy_18",
       "type": "hysteria",
-      "server": "198.40.52.27",
-      "server_port": 36194,
+      "server": "51.159.111.32",
+      "server_port": 23880,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "dongtaiwang.com",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
+        "server_name": "bing.com",
         "insecure": true,
         "alpn": [
           "h3"
@@ -739,16 +739,16 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_None_hy_19",
+      "tag": "🇫🇷 France_Paris_hy_19",
       "type": "hysteria",
-      "server": "198.40.52.27",
-      "server_port": 36194,
+      "server": "51.159.111.32",
+      "server_port": 23880,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "dongtaiwang.com",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
+        "server_name": "bing.com",
         "insecure": true,
         "alpn": [
           "h3"
