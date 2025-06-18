@@ -137,11 +137,11 @@
         "🇹🇼 Taiwan_Taipei_vless_1",
         "🇹🇼 Taiwan_Taipei_vless_2",
         "🇹🇼 Taiwan_Taipei_vless_3",
-        "🇹🇼 Taiwan_Taipei_vless_4",
+        "🇹🇼 Taiwan_Keelung_vless_4",
         "🇺🇸 United States_Los Angeles_vless_5",
         "🇷🇺 Russia_None_vless_6",
         "🇺🇸 United States_Los Angeles_vless_7",
-        "🇹🇼 Taiwan_Taipei_vless_8",
+        "🇹🇼 Taiwan_Keelung_vless_8",
         "🇺🇸 United States_Los Angeles_vless_9",
         "🇺🇸 United States_None_vless_10",
         "🇺🇸 United States_Los Angeles_vless_11"
@@ -360,8 +360,8 @@
         "🇹🇼 Taiwan_Taipei_vless_1",
         "🇹🇼 Taiwan_Taipei_vless_2",
         "🇹🇼 Taiwan_Taipei_vless_3",
-        "🇹🇼 Taiwan_Taipei_vless_4",
-        "🇹🇼 Taiwan_Taipei_vless_8"
+        "🇹🇼 Taiwan_Keelung_vless_4",
+        "🇹🇼 Taiwan_Keelung_vless_8"
       ]
     },
     {
@@ -494,11 +494,11 @@
         "🇹🇼 Taiwan_Taipei_vless_1",
         "🇹🇼 Taiwan_Taipei_vless_2",
         "🇹🇼 Taiwan_Taipei_vless_3",
-        "🇹🇼 Taiwan_Taipei_vless_4",
+        "🇹🇼 Taiwan_Keelung_vless_4",
         "🇺🇸 United States_Los Angeles_vless_5",
         "🇷🇺 Russia_None_vless_6",
         "🇺🇸 United States_Los Angeles_vless_7",
-        "🇹🇼 Taiwan_Taipei_vless_8",
+        "🇹🇼 Taiwan_Keelung_vless_8",
         "🇺🇸 United States_Los Angeles_vless_9",
         "🇺🇸 United States_None_vless_10",
         "🇺🇸 United States_Los Angeles_vless_11"
@@ -1381,7 +1381,7 @@
       }
     },
     {
-      "tag": "🇹🇼 Taiwan_Taipei_vless_4",
+      "tag": "🇹🇼 Taiwan_Keelung_vless_4",
       "type": "vless",
       "server": "tw-2.534582.xyz",
       "server_port": 39747,
@@ -1469,7 +1469,7 @@
       }
     },
     {
-      "tag": "🇹🇼 Taiwan_Taipei_vless_8",
+      "tag": "🇹🇼 Taiwan_Keelung_vless_8",
       "type": "vless",
       "server": "tw-2.534582.xyz",
       "server_port": 39747,
