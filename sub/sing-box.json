@@ -1104,8 +1104,8 @@
     {
       "tag": "🇷🇺 Russia_Moscow_hysteria2_1",
       "type": "hysteria2",
-      "server": "46.29.163.171",
-      "server_port": 30033,
+      "server": "45.129.2.248",
+      "server_port": 23579,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
@@ -1121,8 +1121,8 @@
     {
       "tag": "🇷🇺 Russia_Moscow_hysteria2_2",
       "type": "hysteria2",
-      "server": "46.29.163.171",
-      "server_port": 30033,
+      "server": "45.129.2.248",
+      "server_port": 23579,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
