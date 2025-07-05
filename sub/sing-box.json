@@ -143,7 +143,7 @@
         "🇺🇸 United States_Los Angeles_vless_7",
         "🇹🇼 Taiwan_Taipei_vless_8",
         "🇺🇸 United States_Los Angeles_vless_9",
-        "🇺🇸 United States_None_vless_10",
+        "🇷🇺 Russia_None_vless_10",
         "🇺🇸 United States_Los Angeles_vless_11"
       ]
     },
@@ -411,7 +411,7 @@
         "🇷🇺 Russia_None_vless_6",
         "🇺🇸 United States_Los Angeles_vless_7",
         "🇺🇸 United States_Los Angeles_vless_9",
-        "🇺🇸 United States_None_vless_10",
+        "🇷🇺 Russia_None_vless_10",
         "🇺🇸 United States_Los Angeles_vless_11"
       ]
     },
@@ -500,7 +500,7 @@
         "🇺🇸 United States_Los Angeles_vless_7",
         "🇹🇼 Taiwan_Taipei_vless_8",
         "🇺🇸 United States_Los Angeles_vless_9",
-        "🇺🇸 United States_None_vless_10",
+        "🇷🇺 Russia_None_vless_10",
         "🇺🇸 United States_Los Angeles_vless_11"
       ],
       "url": "http://www.gstatic.com/generate_204",
@@ -1513,20 +1513,20 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_None_vless_10",
+      "tag": "🇷🇺 Russia_None_vless_10",
       "type": "vless",
-      "server": "198.40.52.26",
-      "server_port": 20783,
-      "uuid": "942e9337-6cd1-471e-ae3e-6a4ae0f38465",
+      "server": "185.22.155.105",
+      "server_port": 62750,
+      "uuid": "fdd2d176-2602-46f2-b694-ce247de88b22",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "aws.amazon.com",
+        "server_name": "www.paypal.com",
         "reality": {
           "enabled": true,
-          "public_key": "hoDqIoXDTQap0fGHAsSkCPmGq3CpUjjnholUcahMb3Y"
+          "public_key": "_E_YXE_gOkDrffe4t6gcajtnjFZAJ3g7ZwTJbL3IOHA"
         },
         "utls": {
           "enabled": true,
