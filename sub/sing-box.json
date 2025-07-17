@@ -1363,7 +1363,7 @@
     {
       "tag": "🇹🇼 Taiwan_Keelung_vless_4",
       "type": "vless",
-      "server": "tw-2.534582.xyz",
+      "server": "tx-2.756794.xyz",
       "server_port": 49226,
       "uuid": "9244d7a3-6c74-4035-b64f-a90f3ee6e173",
       "packet_encoding": "xudp",
@@ -1451,7 +1451,7 @@
     {
       "tag": "🇹🇼 Taiwan_Keelung_vless_8",
       "type": "vless",
-      "server": "tw-2.534582.xyz",
+      "server": "tx-2.756794.xyz",
       "server_port": 49226,
       "uuid": "9244d7a3-6c74-4035-b64f-a90f3ee6e173",
       "packet_encoding": "xudp",
