@@ -125,7 +125,7 @@
         "🇳🇱 The Netherlands_Amsterdam_hysteria2_2",
         "🇷🇺 Russia_Moscow_hysteria2_3",
         "🇫🇷 France_Paris_hysteria2_4",
-        "🇫🇷 France_Paris_hysteria2_5",
+        "🇺🇸 United States_None_hysteria2_5",
         "🇺🇸 United States_Los Angeles_hysteria2_6",
         "🇷🇺 Russia_Moscow_hysteria2_7",
         "🇫🇷 France_Paris_hysteria2_8",
@@ -400,6 +400,7 @@
         "🇺🇸 United States_None_hysteria_9",
         "🇷🇺 Russia_Moscow_hysteria2_0",
         "🇷🇺 Russia_Moscow_hysteria2_3",
+        "🇺🇸 United States_None_hysteria2_5",
         "🇺🇸 United States_Los Angeles_hysteria2_6",
         "🇷🇺 Russia_Moscow_hysteria2_7",
         "🇺🇸 United States_Los Angeles_hysteria2_10",
@@ -434,7 +435,6 @@
         "🇳🇱 The Netherlands_Amsterdam_hysteria2_1",
         "🇳🇱 The Netherlands_Amsterdam_hysteria2_2",
         "🇫🇷 France_Paris_hysteria2_4",
-        "🇫🇷 France_Paris_hysteria2_5",
         "🇫🇷 France_Paris_hysteria2_8",
         "🇫🇷 France_Paris_hysteria2_9"
       ]
@@ -480,7 +480,7 @@
         "🇳🇱 The Netherlands_Amsterdam_hysteria2_2",
         "🇷🇺 Russia_Moscow_hysteria2_3",
         "🇫🇷 France_Paris_hysteria2_4",
-        "🇫🇷 France_Paris_hysteria2_5",
+        "🇺🇸 United States_None_hysteria2_5",
         "🇺🇸 United States_Los Angeles_hysteria2_6",
         "🇷🇺 Russia_Moscow_hysteria2_7",
         "🇫🇷 France_Paris_hysteria2_8",
@@ -1150,10 +1150,10 @@
       }
     },
     {
-      "tag": "🇫🇷 France_Paris_hysteria2_5",
+      "tag": "🇺🇸 United States_None_hysteria2_5",
       "type": "hysteria2",
-      "server": "51.159.226.1",
-      "server_port": 35810,
+      "server": "208.87.243.187",
+      "server_port": 22222,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
