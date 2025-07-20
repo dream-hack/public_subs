@@ -1385,7 +1385,7 @@
     {
       "tag": "🇺🇸 United States_Los Angeles_vless_5",
       "type": "vless",
-      "server": "108.181.3.68",
+      "server": "108.181.3.67",
       "server_port": 51499,
       "uuid": "c643de0a-9678-4c18-9f55-58620425bac0",
       "packet_encoding": "xudp",
@@ -1429,7 +1429,7 @@
     {
       "tag": "🇺🇸 United States_Los Angeles_vless_7",
       "type": "vless",
-      "server": "108.181.3.68",
+      "server": "108.181.3.67",
       "server_port": 51499,
       "uuid": "c643de0a-9678-4c18-9f55-58620425bac0",
       "packet_encoding": "xudp",
@@ -1473,7 +1473,7 @@
     {
       "tag": "🇺🇸 United States_Los Angeles_vless_9",
       "type": "vless",
-      "server": "108.181.3.68",
+      "server": "108.181.3.67",
       "server_port": 51499,
       "uuid": "c643de0a-9678-4c18-9f55-58620425bac0",
       "packet_encoding": "xudp",
@@ -1517,7 +1517,7 @@
     {
       "tag": "🇺🇸 United States_Los Angeles_vless_11",
       "type": "vless",
-      "server": "108.181.3.68",
+      "server": "108.181.3.67",
       "server_port": 51499,
       "uuid": "c643de0a-9678-4c18-9f55-58620425bac0",
       "packet_encoding": "xudp",
