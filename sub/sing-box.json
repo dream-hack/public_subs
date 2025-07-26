@@ -121,8 +121,8 @@
         "🇫🇷 France_Paris_hysteria_10",
         "🇫🇷 France_Paris_hysteria_11",
         "🇺🇸 United States_Los Angeles_hysteria2_0",
-        "🇫🇷 France_Paris_hysteria2_1",
-        "🇫🇷 France_Paris_hysteria2_2",
+        "🇺🇸 United States_Los Angeles_hysteria2_1",
+        "🇺🇸 United States_Los Angeles_hysteria2_2",
         "🇺🇸 United States_Los Angeles_hysteria2_3",
         "🇫🇷 France_Paris_hysteria2_4",
         "🇺🇸 United States_None_hysteria2_5",
@@ -394,6 +394,8 @@
         "🇺🇸 United States_None_hysteria_7",
         "🇺🇸 United States_None_hysteria_9",
         "🇺🇸 United States_Los Angeles_hysteria2_0",
+        "🇺🇸 United States_Los Angeles_hysteria2_1",
+        "🇺🇸 United States_Los Angeles_hysteria2_2",
         "🇺🇸 United States_Los Angeles_hysteria2_3",
         "🇺🇸 United States_None_hysteria2_5",
         "🇺🇸 United States_Los Angeles_hysteria2_6",
@@ -430,8 +432,6 @@
         "🇫🇷 France_None_hysteria_8",
         "🇫🇷 France_Paris_hysteria_10",
         "🇫🇷 France_Paris_hysteria_11",
-        "🇫🇷 France_Paris_hysteria2_1",
-        "🇫🇷 France_Paris_hysteria2_2",
         "🇫🇷 France_Paris_hysteria2_4",
         "🇫🇷 France_Paris_hysteria2_7",
         "🇫🇷 France_Paris_hysteria2_8",
@@ -476,8 +476,8 @@
         "🇫🇷 France_Paris_hysteria_10",
         "🇫🇷 France_Paris_hysteria_11",
         "🇺🇸 United States_Los Angeles_hysteria2_0",
-        "🇫🇷 France_Paris_hysteria2_1",
-        "🇫🇷 France_Paris_hysteria2_2",
+        "🇺🇸 United States_Los Angeles_hysteria2_1",
+        "🇺🇸 United States_Los Angeles_hysteria2_2",
         "🇺🇸 United States_Los Angeles_hysteria2_3",
         "🇫🇷 France_Paris_hysteria2_4",
         "🇺🇸 United States_None_hysteria2_5",
@@ -1085,10 +1085,10 @@
       ]
     },
     {
-      "tag": "🇫🇷 France_Paris_hysteria2_1",
+      "tag": "🇺🇸 United States_Los Angeles_hysteria2_1",
       "type": "hysteria2",
-      "server": "64.31.63.57",
-      "server_port": 44462,
+      "server": "104.168.10.176",
+      "server_port": 35205,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
@@ -1099,13 +1099,16 @@
         "alpn": [
           "h3"
         ]
-      }
+      },
+      "server_ports": [
+        "10000:20000"
+      ]
     },
     {
-      "tag": "🇫🇷 France_Paris_hysteria2_2",
+      "tag": "🇺🇸 United States_Los Angeles_hysteria2_2",
       "type": "hysteria2",
-      "server": "64.31.63.57",
-      "server_port": 44462,
+      "server": "104.168.10.176",
+      "server_port": 35205,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
@@ -1116,7 +1119,10 @@
         "alpn": [
           "h3"
         ]
-      }
+      },
+      "server_ports": [
+        "10000:20000"
+      ]
     },
     {
       "tag": "🇺🇸 United States_Los Angeles_hysteria2_3",
