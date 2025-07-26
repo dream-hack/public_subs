@@ -1067,8 +1067,8 @@
     {
       "tag": "🇺🇸 United States_Los Angeles_hysteria2_0",
       "type": "hysteria2",
-      "server": "104.168.10.164",
-      "server_port": 63632,
+      "server": "104.168.10.176",
+      "server_port": 35205,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
@@ -1121,8 +1121,8 @@
     {
       "tag": "🇺🇸 United States_Los Angeles_hysteria2_3",
       "type": "hysteria2",
-      "server": "104.168.10.164",
-      "server_port": 63632,
+      "server": "104.168.10.176",
+      "server_port": 35205,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
