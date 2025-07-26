@@ -103,6 +103,7 @@
         "🇫🇷 France_Paris_hy_19",
         "🇳🇱 The Netherlands_Amsterdam_hy_20",
         "🇺🇸 United States_Los Angeles_tuic_21",
+        "🇺🇸 United States_Los Angeles_hy_23",
         "🇺🇸 United States_Los Angeles_hy_25",
         "🇳🇱 The Netherlands_Amsterdam_tuic_26",
         "🇳🇱 The Netherlands_Amsterdam_hy_27",
@@ -135,13 +136,13 @@
         "🇹🇼 Taiwan_Taipei_vless_1",
         "🇹🇼 Taiwan_Taipei_vless_2",
         "🇹🇼 Taiwan_Taipei_vless_3",
-        "🇷🇺 Russia_None_vless_4",
+        "🇺🇸 United States_Los Angeles_vless_4",
         "🇺🇸 United States_Los Angeles_vless_5",
-        "🇷🇺 Russia_None_vless_6",
+        "🇺🇸 United States_Los Angeles_vless_6",
         "🇺🇸 United States_Los Angeles_vless_7",
-        "🇷🇺 Russia_None_vless_8",
+        "🇺🇸 United States_Los Angeles_vless_8",
         "🇺🇸 United States_Los Angeles_vless_9",
-        "🇷🇺 Russia_None_vless_10",
+        "🇺🇸 United States_Los Angeles_vless_10",
         "🇺🇸 United States_Los Angeles_vless_11"
       ]
     },
@@ -387,6 +388,7 @@
         "🇺🇸 United States_Los Angeles_hy_14",
         "🇺🇸 United States_Los Angeles_hy_15",
         "🇺🇸 United States_Los Angeles_tuic_21",
+        "🇺🇸 United States_Los Angeles_hy_23",
         "🇺🇸 United States_Los Angeles_hy_25",
         "🇷🇺 Russia_None_hysteria_0",
         "🇷🇺 Russia_None_hysteria_1",
@@ -400,13 +402,13 @@
         "🇺🇸 United States_None_hysteria2_5",
         "🇺🇸 United States_Los Angeles_hysteria2_6",
         "🇺🇸 United States_Los Angeles_hysteria2_10",
-        "🇷🇺 Russia_None_vless_4",
+        "🇺🇸 United States_Los Angeles_vless_4",
         "🇺🇸 United States_Los Angeles_vless_5",
-        "🇷🇺 Russia_None_vless_6",
+        "🇺🇸 United States_Los Angeles_vless_6",
         "🇺🇸 United States_Los Angeles_vless_7",
-        "🇷🇺 Russia_None_vless_8",
+        "🇺🇸 United States_Los Angeles_vless_8",
         "🇺🇸 United States_Los Angeles_vless_9",
-        "🇷🇺 Russia_None_vless_10",
+        "🇺🇸 United States_Los Angeles_vless_10",
         "🇺🇸 United States_Los Angeles_vless_11"
       ]
     },
@@ -456,6 +458,7 @@
         "🇫🇷 France_Paris_hy_19",
         "🇳🇱 The Netherlands_Amsterdam_hy_20",
         "🇺🇸 United States_Los Angeles_tuic_21",
+        "🇺🇸 United States_Los Angeles_hy_23",
         "🇺🇸 United States_Los Angeles_hy_25",
         "🇳🇱 The Netherlands_Amsterdam_tuic_26",
         "🇳🇱 The Netherlands_Amsterdam_hy_27",
@@ -488,13 +491,13 @@
         "🇹🇼 Taiwan_Taipei_vless_1",
         "🇹🇼 Taiwan_Taipei_vless_2",
         "🇹🇼 Taiwan_Taipei_vless_3",
-        "🇷🇺 Russia_None_vless_4",
+        "🇺🇸 United States_Los Angeles_vless_4",
         "🇺🇸 United States_Los Angeles_vless_5",
-        "🇷🇺 Russia_None_vless_6",
+        "🇺🇸 United States_Los Angeles_vless_6",
         "🇺🇸 United States_Los Angeles_vless_7",
-        "🇷🇺 Russia_None_vless_8",
+        "🇺🇸 United States_Los Angeles_vless_8",
         "🇺🇸 United States_Los Angeles_vless_9",
-        "🇷🇺 Russia_None_vless_10",
+        "🇺🇸 United States_Los Angeles_vless_10",
         "🇺🇸 United States_Los Angeles_vless_11"
       ],
       "url": "http://www.gstatic.com/generate_204",
@@ -767,6 +770,23 @@
         ],
         "insecure": true,
         "server_name": "bing.com"
+      }
+    },
+    {
+      "tag": "🇺🇸 United States_Los Angeles_hy_23",
+      "type": "hysteria",
+      "server": "108.181.24.77",
+      "server_port": 11512,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
       }
     },
     {
@@ -1341,20 +1361,20 @@
       }
     },
     {
-      "tag": "🇷🇺 Russia_None_vless_4",
+      "tag": "🇺🇸 United States_Los Angeles_vless_4",
       "type": "vless",
-      "server": "185.22.155.105",
-      "server_port": 62750,
-      "uuid": "fdd2d176-2602-46f2-b694-ce247de88b22",
+      "server": "108.181.3.66",
+      "server_port": 51499,
+      "uuid": "c643de0a-9678-4c18-9f55-58620425bac0",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "www.paypal.com",
+        "server_name": "aws.amazon.com",
         "reality": {
           "enabled": true,
-          "public_key": "_E_YXE_gOkDrffe4t6gcajtnjFZAJ3g7ZwTJbL3IOHA"
+          "public_key": "S4-VtlwDUlz7CbSlpf8mqD4ejRWFOISwCXqdtm3JCww"
         },
         "utls": {
           "enabled": true,
@@ -1365,7 +1385,7 @@
     {
       "tag": "🇺🇸 United States_Los Angeles_vless_5",
       "type": "vless",
-      "server": "108.181.3.67",
+      "server": "108.181.3.66",
       "server_port": 51499,
       "uuid": "c643de0a-9678-4c18-9f55-58620425bac0",
       "packet_encoding": "xudp",
@@ -1385,20 +1405,20 @@
       }
     },
     {
-      "tag": "🇷🇺 Russia_None_vless_6",
+      "tag": "🇺🇸 United States_Los Angeles_vless_6",
       "type": "vless",
-      "server": "185.22.155.105",
-      "server_port": 62750,
-      "uuid": "fdd2d176-2602-46f2-b694-ce247de88b22",
+      "server": "108.181.3.66",
+      "server_port": 51499,
+      "uuid": "c643de0a-9678-4c18-9f55-58620425bac0",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "www.paypal.com",
+        "server_name": "aws.amazon.com",
         "reality": {
           "enabled": true,
-          "public_key": "_E_YXE_gOkDrffe4t6gcajtnjFZAJ3g7ZwTJbL3IOHA"
+          "public_key": "S4-VtlwDUlz7CbSlpf8mqD4ejRWFOISwCXqdtm3JCww"
         },
         "utls": {
           "enabled": true,
@@ -1409,7 +1429,7 @@
     {
       "tag": "🇺🇸 United States_Los Angeles_vless_7",
       "type": "vless",
-      "server": "108.181.3.67",
+      "server": "108.181.3.66",
       "server_port": 51499,
       "uuid": "c643de0a-9678-4c18-9f55-58620425bac0",
       "packet_encoding": "xudp",
@@ -1429,20 +1449,20 @@
       }
     },
     {
-      "tag": "🇷🇺 Russia_None_vless_8",
+      "tag": "🇺🇸 United States_Los Angeles_vless_8",
       "type": "vless",
-      "server": "185.22.155.105",
-      "server_port": 62750,
-      "uuid": "fdd2d176-2602-46f2-b694-ce247de88b22",
+      "server": "108.181.3.66",
+      "server_port": 51499,
+      "uuid": "c643de0a-9678-4c18-9f55-58620425bac0",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "www.paypal.com",
+        "server_name": "aws.amazon.com",
         "reality": {
           "enabled": true,
-          "public_key": "_E_YXE_gOkDrffe4t6gcajtnjFZAJ3g7ZwTJbL3IOHA"
+          "public_key": "S4-VtlwDUlz7CbSlpf8mqD4ejRWFOISwCXqdtm3JCww"
         },
         "utls": {
           "enabled": true,
@@ -1453,7 +1473,7 @@
     {
       "tag": "🇺🇸 United States_Los Angeles_vless_9",
       "type": "vless",
-      "server": "108.181.3.67",
+      "server": "108.181.3.66",
       "server_port": 51499,
       "uuid": "c643de0a-9678-4c18-9f55-58620425bac0",
       "packet_encoding": "xudp",
@@ -1473,20 +1493,20 @@
       }
     },
     {
-      "tag": "🇷🇺 Russia_None_vless_10",
+      "tag": "🇺🇸 United States_Los Angeles_vless_10",
       "type": "vless",
-      "server": "185.22.155.105",
-      "server_port": 62750,
-      "uuid": "fdd2d176-2602-46f2-b694-ce247de88b22",
+      "server": "108.181.3.66",
+      "server_port": 51499,
+      "uuid": "c643de0a-9678-4c18-9f55-58620425bac0",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "www.paypal.com",
+        "server_name": "aws.amazon.com",
         "reality": {
           "enabled": true,
-          "public_key": "_E_YXE_gOkDrffe4t6gcajtnjFZAJ3g7ZwTJbL3IOHA"
+          "public_key": "S4-VtlwDUlz7CbSlpf8mqD4ejRWFOISwCXqdtm3JCww"
         },
         "utls": {
           "enabled": true,
@@ -1497,7 +1517,7 @@
     {
       "tag": "🇺🇸 United States_Los Angeles_vless_11",
       "type": "vless",
-      "server": "108.181.3.67",
+      "server": "108.181.3.66",
       "server_port": 51499,
       "uuid": "c643de0a-9678-4c18-9f55-58620425bac0",
       "packet_encoding": "xudp",
