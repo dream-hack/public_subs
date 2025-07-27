@@ -88,7 +88,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇺🇸 United States_Los Angeles_hy_6",
         "🇺🇸 United States_None_hy_7",
         "🇺🇸 United States_None_hy_8",
         "🇳🇱 The Netherlands_Amsterdam_hy_9",
@@ -379,7 +378,6 @@
       "tag": "America",
       "type": "selector",
       "outbounds": [
-        "🇺🇸 United States_Los Angeles_hy_6",
         "🇺🇸 United States_None_hy_7",
         "🇺🇸 United States_None_hy_8",
         "🇺🇸 United States_Los Angeles_tuic_11",
@@ -443,7 +441,6 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇺🇸 United States_Los Angeles_hy_6",
         "🇺🇸 United States_None_hy_7",
         "🇺🇸 United States_None_hy_8",
         "🇳🇱 The Netherlands_Amsterdam_hy_9",
@@ -507,23 +504,6 @@
     {
       "type": "direct",
       "tag": "direct"
-    },
-    {
-      "tag": "🇺🇸 United States_Los Angeles_hy_6",
-      "type": "hysteria",
-      "server": "108.181.24.77",
-      "server_port": 11512,
-      "up_mbps": 50,
-      "down_mbps": 80,
-      "auth_str": "dongtaiwang.com",
-      "tls": {
-        "enabled": true,
-        "server_name": "apple.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
     },
     {
       "tag": "🇺🇸 United States_None_hy_7",
