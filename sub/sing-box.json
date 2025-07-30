@@ -94,6 +94,7 @@
         "🇳🇱 The Netherlands_Amsterdam_hy_9",
         "🇳🇱 The Netherlands_Amsterdam_hy_10",
         "🇺🇸 United States_Los Angeles_tuic_11",
+        "🇺🇸 United States_Los Angeles_tuic_12",
         "🇺🇸 United States_Los Angeles_hy_13",
         "🇺🇸 United States_Los Angeles_hy_14",
         "🇺🇸 United States_Los Angeles_hy_15",
@@ -136,11 +137,11 @@
         "🇹🇼 Taiwan_Taipei_vless_1",
         "🇹🇼 Taiwan_Taipei_vless_2",
         "🇹🇼 Taiwan_Taipei_vless_3",
-        "🇳🇱 The Netherlands_Amsterdam_vless_4",
+        "🇺🇸 United States_Los Angeles_vless_4",
         "🇺🇸 United States_Los Angeles_vless_5",
         "🇺🇸 United States_Los Angeles_vless_6",
         "🇺🇸 United States_Los Angeles_vless_7",
-        "🇳🇱 The Netherlands_Amsterdam_vless_8",
+        "🇺🇸 United States_Los Angeles_vless_8",
         "🇺🇸 United States_Los Angeles_vless_9",
         "🇺🇸 United States_Los Angeles_vless_10",
         "🇺🇸 United States_Los Angeles_vless_11"
@@ -383,6 +384,7 @@
         "🇺🇸 United States_None_hy_7",
         "🇺🇸 United States_None_hy_8",
         "🇺🇸 United States_Los Angeles_tuic_11",
+        "🇺🇸 United States_Los Angeles_tuic_12",
         "🇺🇸 United States_Los Angeles_hy_13",
         "🇺🇸 United States_Los Angeles_hy_14",
         "🇺🇸 United States_Los Angeles_hy_15",
@@ -399,9 +401,11 @@
         "🇺🇸 United States_None_hysteria2_5",
         "🇺🇸 United States_Los Angeles_hysteria2_6",
         "🇺🇸 United States_Los Angeles_hysteria2_10",
+        "🇺🇸 United States_Los Angeles_vless_4",
         "🇺🇸 United States_Los Angeles_vless_5",
         "🇺🇸 United States_Los Angeles_vless_6",
         "🇺🇸 United States_Los Angeles_vless_7",
+        "🇺🇸 United States_Los Angeles_vless_8",
         "🇺🇸 United States_Los Angeles_vless_9",
         "🇺🇸 United States_Los Angeles_vless_10",
         "🇺🇸 United States_Los Angeles_vless_11"
@@ -434,9 +438,7 @@
         "🇫🇷 France_Paris_hysteria2_7",
         "🇫🇷 France_Paris_hysteria2_8",
         "🇫🇷 France_Paris_hysteria2_9",
-        "🇫🇷 France_Paris_hysteria2_11",
-        "🇳🇱 The Netherlands_Amsterdam_vless_4",
-        "🇳🇱 The Netherlands_Amsterdam_vless_8"
+        "🇫🇷 France_Paris_hysteria2_11"
       ]
     },
     {
@@ -449,6 +451,7 @@
         "🇳🇱 The Netherlands_Amsterdam_hy_9",
         "🇳🇱 The Netherlands_Amsterdam_hy_10",
         "🇺🇸 United States_Los Angeles_tuic_11",
+        "🇺🇸 United States_Los Angeles_tuic_12",
         "🇺🇸 United States_Los Angeles_hy_13",
         "🇺🇸 United States_Los Angeles_hy_14",
         "🇺🇸 United States_Los Angeles_hy_15",
@@ -491,11 +494,11 @@
         "🇹🇼 Taiwan_Taipei_vless_1",
         "🇹🇼 Taiwan_Taipei_vless_2",
         "🇹🇼 Taiwan_Taipei_vless_3",
-        "🇳🇱 The Netherlands_Amsterdam_vless_4",
+        "🇺🇸 United States_Los Angeles_vless_4",
         "🇺🇸 United States_Los Angeles_vless_5",
         "🇺🇸 United States_Los Angeles_vless_6",
         "🇺🇸 United States_Los Angeles_vless_7",
-        "🇳🇱 The Netherlands_Amsterdam_vless_8",
+        "🇺🇸 United States_Los Angeles_vless_8",
         "🇺🇸 United States_Los Angeles_vless_9",
         "🇺🇸 United States_Los Angeles_vless_10",
         "🇺🇸 United States_Los Angeles_vless_11"
@@ -512,7 +515,7 @@
       "tag": "🇺🇸 United States_Los Angeles_hy_6",
       "type": "hysteria",
       "server": "108.181.24.77",
-      "server_port": 11512,
+      "server_port": 37872,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "dongtaiwang.com",
@@ -529,7 +532,7 @@
       "tag": "🇺🇸 United States_None_hy_7",
       "type": "hysteria",
       "server": "208.87.243.151",
-      "server_port": 17549,
+      "server_port": 38845,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "",
@@ -546,7 +549,7 @@
       "tag": "🇺🇸 United States_None_hy_8",
       "type": "hysteria",
       "server": "208.87.243.151",
-      "server_port": 17549,
+      "server_port": 38845,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "",
@@ -614,10 +617,30 @@
       }
     },
     {
+      "tag": "🇺🇸 United States_Los Angeles_tuic_12",
+      "type": "tuic",
+      "server": "108.181.5.131",
+      "server_port": 34008,
+      "uuid": "f84c91a4-0125-4495-82f3-732cd0a0bba8",
+      "password": "dongtaiwang.com",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
+      "tls": {
+        "enabled": true,
+        "alpn": [
+          "h3"
+        ],
+        "insecure": true,
+        "server_name": "bing.com"
+      }
+    },
+    {
       "tag": "🇺🇸 United States_Los Angeles_hy_13",
       "type": "hysteria",
       "server": "108.181.24.77",
-      "server_port": 11512,
+      "server_port": 37872,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "dongtaiwang.com",
@@ -634,7 +657,7 @@
       "tag": "🇺🇸 United States_Los Angeles_hy_14",
       "type": "hysteria",
       "server": "108.181.24.77",
-      "server_port": 11512,
+      "server_port": 37872,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "dongtaiwang.com",
@@ -651,7 +674,7 @@
       "tag": "🇺🇸 United States_Los Angeles_hy_15",
       "type": "hysteria",
       "server": "108.181.24.77",
-      "server_port": 11512,
+      "server_port": 37872,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "dongtaiwang.com",
@@ -949,7 +972,7 @@
       "tag": "🇺🇸 United States_None_hysteria_5",
       "type": "hysteria",
       "server": "208.87.243.151",
-      "server_port": 17549,
+      "server_port": 38845,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
@@ -1017,7 +1040,7 @@
       "tag": "🇺🇸 United States_None_hysteria_9",
       "type": "hysteria",
       "server": "208.87.243.151",
-      "server_port": 17549,
+      "server_port": 38845,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
@@ -1373,20 +1396,20 @@
       }
     },
     {
-      "tag": "🇳🇱 The Netherlands_Amsterdam_vless_4",
+      "tag": "🇺🇸 United States_Los Angeles_vless_4",
       "type": "vless",
-      "server": "109.104.154.108",
+      "server": "108.181.3.70",
       "server_port": 443,
-      "uuid": "ecd0debb-8d92-4669-bc3d-c85c58039c80",
+      "uuid": "6ae3299d-8ffd-4fbe-8ced-a1212c7494d5",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "www.leercapitulo.co",
+        "server_name": "mora.jp",
         "reality": {
           "enabled": true,
-          "public_key": "35jqkQSCGim20Ma3fZ_FrIqc698_HxwXYPdcG-N6MW8",
-          "short_id": "2a3edfce"
+          "public_key": "-RHyomPu2-OzDxr5gK4FxSCAlpOFWHHwibF_wjw1XE8",
+          "short_id": "ac98c97b33d428ac"
         },
         "utls": {
           "enabled": true,
@@ -1461,20 +1484,20 @@
       }
     },
     {
-      "tag": "🇳🇱 The Netherlands_Amsterdam_vless_8",
+      "tag": "🇺🇸 United States_Los Angeles_vless_8",
       "type": "vless",
-      "server": "109.104.154.108",
+      "server": "108.181.3.70",
       "server_port": 443,
-      "uuid": "ecd0debb-8d92-4669-bc3d-c85c58039c80",
+      "uuid": "6ae3299d-8ffd-4fbe-8ced-a1212c7494d5",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "www.leercapitulo.co",
+        "server_name": "mora.jp",
         "reality": {
           "enabled": true,
-          "public_key": "35jqkQSCGim20Ma3fZ_FrIqc698_HxwXYPdcG-N6MW8",
-          "short_id": "2a3edfce"
+          "public_key": "-RHyomPu2-OzDxr5gK4FxSCAlpOFWHHwibF_wjw1XE8",
+          "short_id": "ac98c97b33d428ac"
         },
         "utls": {
           "enabled": true,
