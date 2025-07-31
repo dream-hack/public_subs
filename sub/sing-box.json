@@ -137,11 +137,11 @@
         "🇹🇼 Taiwan_Taipei_vless_1",
         "🇹🇼 Taiwan_Taipei_vless_2",
         "🇹🇼 Taiwan_Taipei_vless_3",
-        "🇺🇸 United States_Los Angeles_vless_4",
+        "🇳🇱 The Netherlands_Amsterdam_vless_4",
         "🇺🇸 United States_Los Angeles_vless_5",
         "🇺🇸 United States_Los Angeles_vless_6",
         "🇺🇸 United States_Los Angeles_vless_7",
-        "🇺🇸 United States_Los Angeles_vless_8",
+        "🇳🇱 The Netherlands_Amsterdam_vless_8",
         "🇺🇸 United States_Los Angeles_vless_9",
         "🇺🇸 United States_Los Angeles_vless_10",
         "🇺🇸 United States_Los Angeles_vless_11"
@@ -401,11 +401,9 @@
         "🇺🇸 United States_None_hysteria2_5",
         "🇺🇸 United States_Los Angeles_hysteria2_6",
         "🇺🇸 United States_Los Angeles_hysteria2_10",
-        "🇺🇸 United States_Los Angeles_vless_4",
         "🇺🇸 United States_Los Angeles_vless_5",
         "🇺🇸 United States_Los Angeles_vless_6",
         "🇺🇸 United States_Los Angeles_vless_7",
-        "🇺🇸 United States_Los Angeles_vless_8",
         "🇺🇸 United States_Los Angeles_vless_9",
         "🇺🇸 United States_Los Angeles_vless_10",
         "🇺🇸 United States_Los Angeles_vless_11"
@@ -438,7 +436,9 @@
         "🇫🇷 France_Paris_hysteria2_7",
         "🇫🇷 France_Paris_hysteria2_8",
         "🇫🇷 France_Paris_hysteria2_9",
-        "🇫🇷 France_Paris_hysteria2_11"
+        "🇫🇷 France_Paris_hysteria2_11",
+        "🇳🇱 The Netherlands_Amsterdam_vless_4",
+        "🇳🇱 The Netherlands_Amsterdam_vless_8"
       ]
     },
     {
@@ -494,11 +494,11 @@
         "🇹🇼 Taiwan_Taipei_vless_1",
         "🇹🇼 Taiwan_Taipei_vless_2",
         "🇹🇼 Taiwan_Taipei_vless_3",
-        "🇺🇸 United States_Los Angeles_vless_4",
+        "🇳🇱 The Netherlands_Amsterdam_vless_4",
         "🇺🇸 United States_Los Angeles_vless_5",
         "🇺🇸 United States_Los Angeles_vless_6",
         "🇺🇸 United States_Los Angeles_vless_7",
-        "🇺🇸 United States_Los Angeles_vless_8",
+        "🇳🇱 The Netherlands_Amsterdam_vless_8",
         "🇺🇸 United States_Los Angeles_vless_9",
         "🇺🇸 United States_Los Angeles_vless_10",
         "🇺🇸 United States_Los Angeles_vless_11"
@@ -1396,20 +1396,20 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_Los Angeles_vless_4",
+      "tag": "🇳🇱 The Netherlands_Amsterdam_vless_4",
       "type": "vless",
-      "server": "108.181.3.70",
-      "server_port": 443,
-      "uuid": "6ae3299d-8ffd-4fbe-8ced-a1212c7494d5",
+      "server": "109.104.154.108",
+      "server_port": 34288,
+      "uuid": "69af8d2d-435e-4d4f-a0e7-4556dc7e9ed5",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "mora.jp",
+        "server_name": "www.yahoo.com",
         "reality": {
           "enabled": true,
-          "public_key": "-RHyomPu2-OzDxr5gK4FxSCAlpOFWHHwibF_wjw1XE8",
-          "short_id": "ac98c97b33d428ac"
+          "public_key": "61o28fH6Wm4QFW29xn7DI8s2kCx3wpQPsactbIC2Xzg",
+          "short_id": "15c47aba"
         },
         "utls": {
           "enabled": true,
@@ -1484,20 +1484,20 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_Los Angeles_vless_8",
+      "tag": "🇳🇱 The Netherlands_Amsterdam_vless_8",
       "type": "vless",
-      "server": "108.181.3.70",
-      "server_port": 443,
-      "uuid": "6ae3299d-8ffd-4fbe-8ced-a1212c7494d5",
+      "server": "109.104.154.108",
+      "server_port": 34288,
+      "uuid": "69af8d2d-435e-4d4f-a0e7-4556dc7e9ed5",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "mora.jp",
+        "server_name": "www.yahoo.com",
         "reality": {
           "enabled": true,
-          "public_key": "-RHyomPu2-OzDxr5gK4FxSCAlpOFWHHwibF_wjw1XE8",
-          "short_id": "ac98c97b33d428ac"
+          "public_key": "61o28fH6Wm4QFW29xn7DI8s2kCx3wpQPsactbIC2Xzg",
+          "short_id": "15c47aba"
         },
         "utls": {
           "enabled": true,
