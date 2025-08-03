@@ -127,6 +127,7 @@
         "🇺🇸 United States_Los Angeles_hysteria2_3",
         "🇫🇷 France_Paris_hysteria2_4",
         "🇺🇸 United States_None_hysteria2_5",
+        "🇺🇸 United States_Los Angeles_hysteria2_6",
         "🇫🇷 France_Paris_hysteria2_7",
         "🇫🇷 France_Paris_hysteria2_8",
         "🇫🇷 France_Paris_hysteria2_9",
@@ -398,6 +399,7 @@
         "🇺🇸 United States_Los Angeles_hysteria2_2",
         "🇺🇸 United States_Los Angeles_hysteria2_3",
         "🇺🇸 United States_None_hysteria2_5",
+        "🇺🇸 United States_Los Angeles_hysteria2_6",
         "🇺🇸 United States_Los Angeles_hysteria2_10",
         "🇺🇸 United States_Los Angeles_vless_5",
         "🇺🇸 United States_Los Angeles_vless_6",
@@ -482,6 +484,7 @@
         "🇺🇸 United States_Los Angeles_hysteria2_3",
         "🇫🇷 France_Paris_hysteria2_4",
         "🇺🇸 United States_None_hysteria2_5",
+        "🇺🇸 United States_Los Angeles_hysteria2_6",
         "🇫🇷 France_Paris_hysteria2_7",
         "🇫🇷 France_Paris_hysteria2_8",
         "🇫🇷 France_Paris_hysteria2_9",
@@ -1192,6 +1195,23 @@
       "tls": {
         "enabled": true,
         "server_name": "www.bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇺🇸 United States_Los Angeles_hysteria2_6",
+      "type": "hysteria2",
+      "server": "108.181.5.130",
+      "server_port": 63015,
+      "password": "dongtaiwang.com",
+      "up_mbps": 10,
+      "down_mbps": 100,
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
         "insecure": true,
         "alpn": [
           "h3"
