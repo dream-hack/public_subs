@@ -101,7 +101,6 @@
         "🇳🇱 The Netherlands_Amsterdam_tuic_16",
         "🇳🇱 The Netherlands_Amsterdam_hy_17",
         "🇫🇷 France_Paris_hy_18",
-        "🇫🇷 France_Paris_hy_19",
         "🇳🇱 The Netherlands_Amsterdam_hy_20",
         "🇺🇸 United States_Los Angeles_tuic_21",
         "🇺🇸 United States_Los Angeles_hy_23",
@@ -416,7 +415,6 @@
         "🇳🇱 The Netherlands_Amsterdam_tuic_16",
         "🇳🇱 The Netherlands_Amsterdam_hy_17",
         "🇫🇷 France_Paris_hy_18",
-        "🇫🇷 France_Paris_hy_19",
         "🇳🇱 The Netherlands_Amsterdam_hy_20",
         "🇳🇱 The Netherlands_Amsterdam_tuic_26",
         "🇳🇱 The Netherlands_Amsterdam_hy_27",
@@ -458,7 +456,6 @@
         "🇳🇱 The Netherlands_Amsterdam_tuic_16",
         "🇳🇱 The Netherlands_Amsterdam_hy_17",
         "🇫🇷 France_Paris_hy_18",
-        "🇫🇷 France_Paris_hy_19",
         "🇳🇱 The Netherlands_Amsterdam_hy_20",
         "🇺🇸 United States_Los Angeles_tuic_21",
         "🇺🇸 United States_Los Angeles_hy_23",
@@ -726,23 +723,6 @@
     },
     {
       "tag": "🇫🇷 France_Paris_hy_18",
-      "type": "hysteria",
-      "server": "51.159.111.32",
-      "server_port": 23880,
-      "up_mbps": 50,
-      "down_mbps": 80,
-      "auth_str": "dongtaiwang.com",
-      "tls": {
-        "enabled": true,
-        "server_name": "bing.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
-    },
-    {
-      "tag": "🇫🇷 France_Paris_hy_19",
       "type": "hysteria",
       "server": "51.159.111.32",
       "server_port": 23880,
