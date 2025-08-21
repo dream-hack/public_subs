@@ -93,6 +93,10 @@
         "🇺🇸 United States_None_hy_8",
         "🇳🇱 The Netherlands_Amsterdam_hy_9",
         "🇳🇱 The Netherlands_Amsterdam_hy_10",
+        "Unknown_hy_10",
+        "Unknown_hy_10 2",
+        "Unknown_hy_10 3",
+        "Unknown_hy_10 4",
         "🇺🇸 United States_Los Angeles_tuic_11",
         "🇺🇸 United States_Los Angeles_tuic_12",
         "🇺🇸 United States_Los Angeles_hy_13",
@@ -103,6 +107,10 @@
         "🇫🇷 France_Paris_hy_18",
         "🇫🇷 France_Paris_hy_19",
         "🇳🇱 The Netherlands_Amsterdam_hy_20",
+        "Unknown_hy_20",
+        "Unknown_hy_20 2",
+        "Unknown_hy_20 3",
+        "Unknown_hy_20 4",
         "🇺🇸 United States_Los Angeles_tuic_21",
         "🇺🇸 United States_Los Angeles_hy_23",
         "🇺🇸 United States_Los Angeles_hy_25",
@@ -411,11 +419,19 @@
       "outbounds": [
         "🇳🇱 The Netherlands_Amsterdam_hy_9",
         "🇳🇱 The Netherlands_Amsterdam_hy_10",
+        "Unknown_hy_10",
+        "Unknown_hy_10 2",
+        "Unknown_hy_10 3",
+        "Unknown_hy_10 4",
         "🇳🇱 The Netherlands_Amsterdam_tuic_16",
         "🇳🇱 The Netherlands_Amsterdam_hy_17",
         "🇫🇷 France_Paris_hy_18",
         "🇫🇷 France_Paris_hy_19",
         "🇳🇱 The Netherlands_Amsterdam_hy_20",
+        "Unknown_hy_20",
+        "Unknown_hy_20 2",
+        "Unknown_hy_20 3",
+        "Unknown_hy_20 4",
         "🇳🇱 The Netherlands_Amsterdam_tuic_26",
         "🇳🇱 The Netherlands_Amsterdam_hy_27",
         "🇫🇷 France_Paris_hy_28",
@@ -450,6 +466,10 @@
         "🇺🇸 United States_None_hy_8",
         "🇳🇱 The Netherlands_Amsterdam_hy_9",
         "🇳🇱 The Netherlands_Amsterdam_hy_10",
+        "Unknown_hy_10",
+        "Unknown_hy_10 2",
+        "Unknown_hy_10 3",
+        "Unknown_hy_10 4",
         "🇺🇸 United States_Los Angeles_tuic_11",
         "🇺🇸 United States_Los Angeles_tuic_12",
         "🇺🇸 United States_Los Angeles_hy_13",
@@ -460,6 +480,10 @@
         "🇫🇷 France_Paris_hy_18",
         "🇫🇷 France_Paris_hy_19",
         "🇳🇱 The Netherlands_Amsterdam_hy_20",
+        "Unknown_hy_20",
+        "Unknown_hy_20 2",
+        "Unknown_hy_20 3",
+        "Unknown_hy_20 4",
         "🇺🇸 United States_Los Angeles_tuic_21",
         "🇺🇸 United States_Los Angeles_hy_23",
         "🇺🇸 United States_Los Angeles_hy_25",
@@ -583,6 +607,74 @@
       "tag": "🇳🇱 The Netherlands_Amsterdam_hy_10",
       "type": "hysteria",
       "server": "62.210.10.113",
+      "server_port": 13767,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "Unknown_hy_10",
+      "type": "hysteria",
+      "server": "2001:bc8:32d7:306::123",
+      "server_port": 13767,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "Unknown_hy_10 2",
+      "type": "hysteria",
+      "server": "2001:bc8:32d7:306::124",
+      "server_port": 13767,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "Unknown_hy_10 3",
+      "type": "hysteria",
+      "server": "2001:bc8:32d7:306::125",
+      "server_port": 13767,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "Unknown_hy_10 4",
+      "type": "hysteria",
+      "server": "2001:bc8:32d7:306::126",
       "server_port": 13767,
       "up_mbps": 50,
       "down_mbps": 80,
@@ -762,6 +854,74 @@
       "tag": "🇳🇱 The Netherlands_Amsterdam_hy_20",
       "type": "hysteria",
       "server": "62.210.10.113",
+      "server_port": 13767,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "Unknown_hy_20",
+      "type": "hysteria",
+      "server": "2001:bc8:32d7:306::123",
+      "server_port": 13767,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "Unknown_hy_20 2",
+      "type": "hysteria",
+      "server": "2001:bc8:32d7:306::124",
+      "server_port": 13767,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "Unknown_hy_20 3",
+      "type": "hysteria",
+      "server": "2001:bc8:32d7:306::125",
+      "server_port": 13767,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "Unknown_hy_20 4",
+      "type": "hysteria",
+      "server": "2001:bc8:32d7:306::126",
       "server_port": 13767,
       "up_mbps": 50,
       "down_mbps": 80,
