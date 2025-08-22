@@ -90,7 +90,8 @@
         "direct",
         "🇺🇸 United States_Los Angeles_hy_6",
         "🇺🇸 United States_None_hy_7",
-        "🇺🇸 United States_None_hy_8",
+        "Unknown_hy_7",
+        "Unknown_hy_8",
         "🇳🇱 The Netherlands_Amsterdam_hy_9",
         "🇳🇱 The Netherlands_Amsterdam_hy_10",
         "Unknown_hy_10",
@@ -398,7 +399,6 @@
       "outbounds": [
         "🇺🇸 United States_Los Angeles_hy_6",
         "🇺🇸 United States_None_hy_7",
-        "🇺🇸 United States_None_hy_8",
         "🇺🇸 United States_Los Angeles_tuic_11",
         "🇺🇸 United States_Los Angeles_tuic_12",
         "🇺🇸 United States_Los Angeles_hy_13",
@@ -425,6 +425,8 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
+        "Unknown_hy_7",
+        "Unknown_hy_8",
         "🇳🇱 The Netherlands_Amsterdam_hy_9",
         "🇳🇱 The Netherlands_Amsterdam_hy_10",
         "Unknown_hy_10",
@@ -479,7 +481,8 @@
       "outbounds": [
         "🇺🇸 United States_Los Angeles_hy_6",
         "🇺🇸 United States_None_hy_7",
-        "🇺🇸 United States_None_hy_8",
+        "Unknown_hy_7",
+        "Unknown_hy_8",
         "🇳🇱 The Netherlands_Amsterdam_hy_9",
         "🇳🇱 The Netherlands_Amsterdam_hy_10",
         "Unknown_hy_10",
@@ -594,9 +597,26 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_None_hy_8",
+      "tag": "Unknown_hy_7",
       "type": "hysteria",
-      "server": "208.87.243.151",
+      "server": "2604:6600:2004::18b",
+      "server_port": 38845,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "Unknown_hy_8",
+      "type": "hysteria",
+      "server": "2604:6600:2004::18b",
       "server_port": 38845,
       "up_mbps": 50,
       "down_mbps": 80,
