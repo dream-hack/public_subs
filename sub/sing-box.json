@@ -89,6 +89,8 @@
         "auto",
         "direct",
         "Unknown_hy2_0",
+        "Unknown_tuic_1",
+        "Unknown_tuic_3",
         "Unknown_hy2_5",
         "🇺🇸 United States_Los Angeles_hy_6",
         "🇺🇸 United States_None_hy_7",
@@ -435,6 +437,8 @@
       "type": "selector",
       "outbounds": [
         "Unknown_hy2_0",
+        "Unknown_tuic_1",
+        "Unknown_tuic_3",
         "Unknown_hy2_5",
         "Unknown_hy_7",
         "Unknown_hy_8",
@@ -515,6 +519,8 @@
       "type": "urltest",
       "outbounds": [
         "Unknown_hy2_0",
+        "Unknown_tuic_1",
+        "Unknown_tuic_3",
         "Unknown_hy2_5",
         "🇺🇸 United States_Los Angeles_hy_6",
         "🇺🇸 United States_None_hy_7",
@@ -629,6 +635,46 @@
         "alpn": [
           "h3"
         ]
+      }
+    },
+    {
+      "tag": "Unknown_tuic_1",
+      "type": "tuic",
+      "server": "2001:bc8:32d7:302::16",
+      "server_port": 34997,
+      "uuid": "8687b6e0-ef24-4cd2-bcd2-02d3732bf554",
+      "password": "dongtaiwang.com",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
+      "tls": {
+        "enabled": true,
+        "alpn": [
+          "h3"
+        ],
+        "insecure": true,
+        "server_name": "bing.com"
+      }
+    },
+    {
+      "tag": "Unknown_tuic_3",
+      "type": "tuic",
+      "server": "2001:bc8:32d7:302::16",
+      "server_port": 34997,
+      "uuid": "8687b6e0-ef24-4cd2-bcd2-02d3732bf554",
+      "password": "dongtaiwang.com",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
+      "tls": {
+        "enabled": true,
+        "alpn": [
+          "h3"
+        ],
+        "insecure": true,
+        "server_name": "bing.com"
       }
     },
     {
