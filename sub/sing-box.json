@@ -169,6 +169,8 @@
         "🇫🇷 France_Paris_hysteria2_9",
         "🇺🇸 United States_Los Angeles_hysteria2_10",
         "🇫🇷 France_Paris_hysteria2_11",
+        "Unknown_vless_0",
+        "Unknown_vless_3",
         "🇳🇱 The Netherlands_Amsterdam_vless_4",
         "🇳🇱 The Netherlands_Amsterdam_vless_5",
         "🇳🇱 The Netherlands_Amsterdam_vless_6",
@@ -498,6 +500,8 @@
         "🇫🇷 France_Paris_hysteria2_8",
         "🇫🇷 France_Paris_hysteria2_9",
         "🇫🇷 France_Paris_hysteria2_11",
+        "Unknown_vless_0",
+        "Unknown_vless_3",
         "🇳🇱 The Netherlands_Amsterdam_vless_4",
         "🇳🇱 The Netherlands_Amsterdam_vless_5",
         "🇳🇱 The Netherlands_Amsterdam_vless_6",
@@ -591,6 +595,8 @@
         "🇫🇷 France_Paris_hysteria2_9",
         "🇺🇸 United States_Los Angeles_hysteria2_10",
         "🇫🇷 France_Paris_hysteria2_11",
+        "Unknown_vless_0",
+        "Unknown_vless_3",
         "🇳🇱 The Netherlands_Amsterdam_vless_4",
         "🇳🇱 The Netherlands_Amsterdam_vless_5",
         "🇳🇱 The Netherlands_Amsterdam_vless_6",
@@ -2064,6 +2070,50 @@
         "alpn": [
           "h3"
         ]
+      }
+    },
+    {
+      "tag": "Unknown_vless_0",
+      "type": "vless",
+      "server": "2001:bc8:32d7:302::13",
+      "server_port": 34324,
+      "uuid": "26c462ba-a90c-4814-9d7c-a629bc0bdb5c",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "dash.cloudflare.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "Unknown_vless_3",
+      "type": "vless",
+      "server": "2001:bc8:32d7:302::13",
+      "server_port": 34324,
+      "uuid": "26c462ba-a90c-4814-9d7c-a629bc0bdb5c",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "dash.cloudflare.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
