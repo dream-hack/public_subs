@@ -1092,37 +1092,9 @@ proxies:
   reality-opts:
     public-key: pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M
     short-id: ''
-- name: Unknown_reality_5
-  type: vless
-  server: 2001:bc8:32d7:302::14
-  port: 34324
-  uuid: 26c462ba-a90c-4814-9d7c-a629bc0bdb5c
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: dash.cloudflare.com
-  reality-opts:
-    public-key: pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M
-    short-id: ''
 - name: Unknown_reality_7
   type: vless
   server: 2001:bc8:32d7:302::15
-  port: 34324
-  uuid: 26c462ba-a90c-4814-9d7c-a629bc0bdb5c
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: dash.cloudflare.com
-  reality-opts:
-    public-key: pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M
-    short-id: ''
-- name: Unknown_reality_9
-  type: vless
-  server: 2001:bc8:32d7:302::14
   port: 34324
   uuid: 26c462ba-a90c-4814-9d7c-a629bc0bdb5c
   network: tcp
@@ -1243,9 +1215,7 @@ proxy-groups:
   - France_Paris_B11
   - Unknown_reality_0
   - Unknown_reality_3
-  - Unknown_reality_5
   - Unknown_reality_7
-  - Unknown_reality_9
   - Unknown_reality_11
 - name: 自动选择
   type: url-test
@@ -1342,9 +1312,7 @@ proxy-groups:
   - France_Paris_B11
   - Unknown_reality_0
   - Unknown_reality_3
-  - Unknown_reality_5
   - Unknown_reality_7
-  - Unknown_reality_9
   - Unknown_reality_11
 rules:
 - DOMAIN,clash.razord.top,DIRECT
