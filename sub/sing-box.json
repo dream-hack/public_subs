@@ -90,7 +90,9 @@
         "direct",
         "Unknown_hy2_0",
         "Unknown_tuic_1",
+        "Unknown_hy2_2",
         "Unknown_tuic_3",
+        "Unknown_hy2_4",
         "Unknown_hy2_5",
         "🇺🇸 United States_Los Angeles_hy_6",
         "🇺🇸 United States_None_hy_7",
@@ -438,7 +440,9 @@
       "outbounds": [
         "Unknown_hy2_0",
         "Unknown_tuic_1",
+        "Unknown_hy2_2",
         "Unknown_tuic_3",
+        "Unknown_hy2_4",
         "Unknown_hy2_5",
         "Unknown_hy_7",
         "Unknown_hy_8",
@@ -520,7 +524,9 @@
       "outbounds": [
         "Unknown_hy2_0",
         "Unknown_tuic_1",
+        "Unknown_hy2_2",
         "Unknown_tuic_3",
+        "Unknown_hy2_4",
         "Unknown_hy2_5",
         "🇺🇸 United States_Los Angeles_hy_6",
         "🇺🇸 United States_None_hy_7",
@@ -624,7 +630,7 @@
       "tag": "Unknown_hy2_0",
       "type": "hysteria2",
       "server": "2001:bc8:32d7:302::11",
-      "server_port": 33563,
+      "server_port": 20088,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
@@ -658,6 +664,23 @@
       }
     },
     {
+      "tag": "Unknown_hy2_2",
+      "type": "hysteria2",
+      "server": "2001:bc8:32d7:302::17",
+      "server_port": 20088,
+      "password": "dongtaiwang.com",
+      "up_mbps": 10,
+      "down_mbps": 100,
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
       "tag": "Unknown_tuic_3",
       "type": "tuic",
       "server": "2001:bc8:32d7:302::16",
@@ -678,10 +701,27 @@
       }
     },
     {
+      "tag": "Unknown_hy2_4",
+      "type": "hysteria2",
+      "server": "2001:bc8:32d7:302::17",
+      "server_port": 20088,
+      "password": "dongtaiwang.com",
+      "up_mbps": 10,
+      "down_mbps": 100,
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
       "tag": "Unknown_hy2_5",
       "type": "hysteria2",
       "server": "2001:bc8:32d7:302::11",
-      "server_port": 33563,
+      "server_port": 20088,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
