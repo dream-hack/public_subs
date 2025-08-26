@@ -2226,7 +2226,7 @@
     {
       "tag": "🇹🇼 Taiwan_Taipei_vless_5",
       "type": "vless",
-      "server": "fan.683024.xyz",
+      "server": "fan1.193919.xyz",
       "server_port": 42348,
       "uuid": "68ea0080-62e5-4b84-95a9-8d6bec2fe3fe",
       "packet_encoding": "xudp",
@@ -2314,7 +2314,7 @@
     {
       "tag": "🇹🇼 Taiwan_Taipei_vless_9",
       "type": "vless",
-      "server": "fan.683024.xyz",
+      "server": "fan1.193919.xyz",
       "server_port": 42348,
       "uuid": "68ea0080-62e5-4b84-95a9-8d6bec2fe3fe",
       "packet_encoding": "xudp",
