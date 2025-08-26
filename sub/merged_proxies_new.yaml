@@ -788,7 +788,7 @@ proxies:
   down: 55 Mbps
 - name: Taiwan_Taipei_291
   type: anytls
-  server: tw.399403.xyz
+  server: fan2.856098.xyz
   port: 8443
   password: dongtaiwang.com
   client-fingerprint: chrome
