@@ -159,7 +159,7 @@ proxies:
 - name: The Netherlands_Amsterdam_101
   type: hysteria
   server: 62.210.10.113
-  port: 13767
+  port: 14801
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -171,7 +171,7 @@ proxies:
 - name: Unknown_102
   type: hysteria
   server: 2001:bc8:32d7:306::123
-  port: 13767
+  port: 14801
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -183,7 +183,7 @@ proxies:
 - name: Unknown_103
   type: hysteria
   server: 2001:bc8:32d7:306::124
-  port: 13767
+  port: 14801
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -195,7 +195,7 @@ proxies:
 - name: Unknown_104
   type: hysteria
   server: 2001:bc8:32d7:306::125
-  port: 13767
+  port: 14801
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -207,7 +207,7 @@ proxies:
 - name: Unknown_105
   type: hysteria
   server: 2001:bc8:32d7:306::126
-  port: 13767
+  port: 14801
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -483,7 +483,7 @@ proxies:
 - name: The Netherlands_Amsterdam_201
   type: hysteria
   server: 62.210.10.113
-  port: 13767
+  port: 14801
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -495,7 +495,7 @@ proxies:
 - name: Unknown_202
   type: hysteria
   server: 2001:bc8:32d7:306::123
-  port: 13767
+  port: 14801
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -507,7 +507,7 @@ proxies:
 - name: Unknown_203
   type: hysteria
   server: 2001:bc8:32d7:306::124
-  port: 13767
+  port: 14801
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -519,7 +519,7 @@ proxies:
 - name: Unknown_204
   type: hysteria
   server: 2001:bc8:32d7:306::125
-  port: 13767
+  port: 14801
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -531,7 +531,7 @@ proxies:
 - name: Unknown_205
   type: hysteria
   server: 2001:bc8:32d7:306::126
-  port: 13767
+  port: 14801
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
