@@ -159,7 +159,7 @@ proxies:
 - name: France_Paris_101
   type: hysteria
   server: 51.159.107.20
-  port: 18899
+  port: 20001
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -171,7 +171,7 @@ proxies:
 - name: Unknown_102
   type: hysteria
   server: 2001:bc8:1203:25::1
-  port: 18899
+  port: 20001
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -183,7 +183,7 @@ proxies:
 - name: Unknown_103
   type: hysteria
   server: 2001:bc8:1203:25::2
-  port: 18899
+  port: 20001
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -195,7 +195,7 @@ proxies:
 - name: Unknown_104
   type: hysteria
   server: 2001:bc8:1203:25::3
-  port: 18899
+  port: 20001
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -207,7 +207,7 @@ proxies:
 - name: Unknown_105
   type: hysteria
   server: 2001:bc8:1203:25::4
-  port: 18899
+  port: 20001
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -483,7 +483,7 @@ proxies:
 - name: France_Paris_201
   type: hysteria
   server: 51.159.107.20
-  port: 18899
+  port: 20001
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -495,7 +495,7 @@ proxies:
 - name: Unknown_202
   type: hysteria
   server: 2001:bc8:1203:25::1
-  port: 18899
+  port: 20001
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -507,7 +507,7 @@ proxies:
 - name: Unknown_203
   type: hysteria
   server: 2001:bc8:1203:25::2
-  port: 18899
+  port: 20001
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -519,7 +519,7 @@ proxies:
 - name: Unknown_204
   type: hysteria
   server: 2001:bc8:1203:25::3
-  port: 18899
+  port: 20001
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -531,7 +531,7 @@ proxies:
 - name: Unknown_205
   type: hysteria
   server: 2001:bc8:1203:25::4
-  port: 18899
+  port: 20001
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
