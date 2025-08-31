@@ -111,7 +111,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_None_71
+- name: United States_Los Angeles_71
   type: hysteria
   server: 208.87.243.151
   port: 38845
@@ -379,7 +379,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: The Netherlands_Amsterdam_161
+- name: France_Paris_161
   server: 62.210.10.113
   port: 33998
   type: tuic
@@ -444,7 +444,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: The Netherlands_Amsterdam_171
+- name: France_Paris_171
   type: hysteria
   server: 62.210.10.113
   port: 13767
@@ -697,7 +697,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: The Netherlands_Amsterdam_261
+- name: France_Paris_261
   server: 62.210.10.113
   port: 33998
   type: tuic
@@ -762,7 +762,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: The Netherlands_Amsterdam_271
+- name: France_Paris_271
   type: hysteria
   server: 62.210.10.113
   port: 13767
@@ -856,7 +856,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_None_A4
+- name: France_Paris_A4
   type: hysteria
   server: 195.154.200.40
   port: 15010
@@ -870,7 +870,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_None_A5
+- name: United States_Los Angeles_A5
   type: hysteria
   server: 208.87.243.151
   port: 38845
@@ -884,7 +884,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_Paris_A6
+- name: The Netherlands_Haarlem_A6
   type: hysteria
   server: 51.159.226.1
   port: 14241
@@ -898,7 +898,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_None_A7
+- name: United States_Los Angeles_A7
   type: hysteria
   server: 208.87.243.187
   port: 15823
@@ -912,7 +912,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_None_A8
+- name: France_Paris_A8
   type: hysteria
   server: 195.154.200.40
   port: 15010
@@ -926,7 +926,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_None_A9
+- name: United States_Los Angeles_A9
   type: hysteria
   server: 208.87.243.151
   port: 38845
@@ -940,7 +940,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_Paris_A10
+- name: The Netherlands_Haarlem_A10
   type: hysteria
   server: 51.159.226.1
   port: 49003
@@ -954,7 +954,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_Paris_A11
+- name: The Netherlands_Haarlem_A11
   type: hysteria
   server: 51.159.226.1
   port: 49003
@@ -968,7 +968,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Los Angeles_B0
+- name: France_Paris_B0
   type: hysteria2
   server: 104.168.10.176
   port: 35205
@@ -976,7 +976,7 @@ proxies:
   fast-open: true
   sni: apple.com
   skip-cert-verify: true
-- name: United States_Los Angeles_B1
+- name: France_Paris_B1
   type: hysteria2
   server: 104.168.10.176
   port: 35205
@@ -984,7 +984,7 @@ proxies:
   fast-open: true
   sni: apple.com
   skip-cert-verify: true
-- name: United States_Los Angeles_B2
+- name: France_Paris_B2
   type: hysteria2
   server: 104.168.10.176
   port: 35205
@@ -992,7 +992,7 @@ proxies:
   fast-open: true
   sni: apple.com
   skip-cert-verify: true
-- name: United States_Los Angeles_B3
+- name: France_Paris_B3
   type: hysteria2
   server: 104.168.10.176
   port: 35205
@@ -1008,7 +1008,7 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: United States_None_B5
+- name: United States_Los Angeles_B5
   type: hysteria2
   server: 208.87.243.187
   port: 22222
@@ -1024,7 +1024,7 @@ proxies:
   fast-open: true
   sni: apple.com
   skip-cert-verify: true
-- name: France_Paris_B7
+- name: The Netherlands_Haarlem_B7
   type: hysteria2
   server: 51.158.218.2
   port: 50066
@@ -1040,7 +1040,7 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: France_Paris_B9
+- name: The Netherlands_Haarlem_B9
   type: hysteria2
   server: 51.158.218.2
   port: 50066
@@ -1056,7 +1056,7 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: France_Paris_B11
+- name: The Netherlands_Haarlem_B11
   type: hysteria2
   server: 51.158.218.2
   port: 50066
@@ -1133,7 +1133,7 @@ proxy-groups:
   - Unknown_41
   - Unknown_51
   - United States_Los Angeles_61
-  - United States_None_71
+  - United States_Los Angeles_71
   - Unknown_72
   - Unknown_81
   - The Netherlands_Amsterdam_91
@@ -1155,12 +1155,12 @@ proxy-groups:
   - Unknown_153
   - Unknown_154
   - Unknown_155
-  - The Netherlands_Amsterdam_161
+  - France_Paris_161
   - Unknown_162
   - Unknown_163
   - Unknown_164
   - Unknown_165
-  - The Netherlands_Amsterdam_171
+  - France_Paris_171
   - France_Paris_181
   - France_Paris_191
   - France_Paris_201
@@ -1181,38 +1181,38 @@ proxy-groups:
   - Unknown_253
   - Unknown_254
   - Unknown_255
-  - The Netherlands_Amsterdam_261
+  - France_Paris_261
   - Unknown_262
   - Unknown_263
   - Unknown_264
   - Unknown_265
-  - The Netherlands_Amsterdam_271
+  - France_Paris_271
   - France_Paris_281
   - Taiwan_Taipei_291
   - The Netherlands_Amsterdam_A0
   - The Netherlands_Amsterdam_A1
   - The Netherlands_Amsterdam_A2
   - The Netherlands_Amsterdam_A3
-  - France_None_A4
-  - United States_None_A5
-  - France_Paris_A6
-  - United States_None_A7
-  - France_None_A8
-  - United States_None_A9
-  - France_Paris_A10
-  - France_Paris_A11
-  - United States_Los Angeles_B0
-  - United States_Los Angeles_B1
-  - United States_Los Angeles_B2
-  - United States_Los Angeles_B3
+  - France_Paris_A4
+  - United States_Los Angeles_A5
+  - The Netherlands_Haarlem_A6
+  - United States_Los Angeles_A7
+  - France_Paris_A8
+  - United States_Los Angeles_A9
+  - The Netherlands_Haarlem_A10
+  - The Netherlands_Haarlem_A11
+  - France_Paris_B0
+  - France_Paris_B1
+  - France_Paris_B2
+  - France_Paris_B3
   - France_Paris_B4
-  - United States_None_B5
+  - United States_Los Angeles_B5
   - United States_Los Angeles_B6
-  - France_Paris_B7
+  - The Netherlands_Haarlem_B7
   - France_Paris_B8
-  - France_Paris_B9
+  - The Netherlands_Haarlem_B9
   - United States_Los Angeles_B10
-  - France_Paris_B11
+  - The Netherlands_Haarlem_B11
   - Unknown_reality_0
   - Unknown_reality_3
   - Unknown_reality_7
@@ -1230,7 +1230,7 @@ proxy-groups:
   - Unknown_41
   - Unknown_51
   - United States_Los Angeles_61
-  - United States_None_71
+  - United States_Los Angeles_71
   - Unknown_72
   - Unknown_81
   - The Netherlands_Amsterdam_91
@@ -1252,12 +1252,12 @@ proxy-groups:
   - Unknown_153
   - Unknown_154
   - Unknown_155
-  - The Netherlands_Amsterdam_161
+  - France_Paris_161
   - Unknown_162
   - Unknown_163
   - Unknown_164
   - Unknown_165
-  - The Netherlands_Amsterdam_171
+  - France_Paris_171
   - France_Paris_181
   - France_Paris_191
   - France_Paris_201
@@ -1278,38 +1278,38 @@ proxy-groups:
   - Unknown_253
   - Unknown_254
   - Unknown_255
-  - The Netherlands_Amsterdam_261
+  - France_Paris_261
   - Unknown_262
   - Unknown_263
   - Unknown_264
   - Unknown_265
-  - The Netherlands_Amsterdam_271
+  - France_Paris_271
   - France_Paris_281
   - Taiwan_Taipei_291
   - The Netherlands_Amsterdam_A0
   - The Netherlands_Amsterdam_A1
   - The Netherlands_Amsterdam_A2
   - The Netherlands_Amsterdam_A3
-  - France_None_A4
-  - United States_None_A5
-  - France_Paris_A6
-  - United States_None_A7
-  - France_None_A8
-  - United States_None_A9
-  - France_Paris_A10
-  - France_Paris_A11
-  - United States_Los Angeles_B0
-  - United States_Los Angeles_B1
-  - United States_Los Angeles_B2
-  - United States_Los Angeles_B3
+  - France_Paris_A4
+  - United States_Los Angeles_A5
+  - The Netherlands_Haarlem_A6
+  - United States_Los Angeles_A7
+  - France_Paris_A8
+  - United States_Los Angeles_A9
+  - The Netherlands_Haarlem_A10
+  - The Netherlands_Haarlem_A11
+  - France_Paris_B0
+  - France_Paris_B1
+  - France_Paris_B2
+  - France_Paris_B3
   - France_Paris_B4
-  - United States_None_B5
+  - United States_Los Angeles_B5
   - United States_Los Angeles_B6
-  - France_Paris_B7
+  - The Netherlands_Haarlem_B7
   - France_Paris_B8
-  - France_Paris_B9
+  - The Netherlands_Haarlem_B9
   - United States_Los Angeles_B10
-  - France_Paris_B11
+  - The Netherlands_Haarlem_B11
   - Unknown_reality_0
   - Unknown_reality_3
   - Unknown_reality_7
