@@ -216,11 +216,11 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_Los Angeles_111
-  server: 108.181.5.131
-  port: 22998
+- name: France_Paris_111
+  server: 62.210.10.140
+  port: 23556
   type: tuic
-  uuid: f350ada4-7d6a-46d0-bc44-27f93436286f
+  uuid: e732a82b-612f-415d-a9f8-e4b1df37d066
   password: dongtaiwang.com
   alpn:
   - h3
@@ -229,11 +229,11 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: United States_Los Angeles_121
-  server: 108.181.5.131
-  port: 22998
+- name: Unknown_121
+  server: 2001:bc8:32d7:312::2
+  port: 23556
   type: tuic
-  uuid: f350ada4-7d6a-46d0-bc44-27f93436286f
+  uuid: e732a82b-612f-415d-a9f8-e4b1df37d066
   password: dongtaiwang.com
   alpn:
   - h3
@@ -540,11 +540,11 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_Los Angeles_211
-  server: 108.181.5.131
-  port: 22998
+- name: France_Paris_211
+  server: 62.210.10.140
+  port: 23556
   type: tuic
-  uuid: f350ada4-7d6a-46d0-bc44-27f93436286f
+  uuid: e732a82b-612f-415d-a9f8-e4b1df37d066
   password: dongtaiwang.com
   alpn:
   - h3
@@ -553,13 +553,19 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: United States_Los Angeles_221
-  type: mieru
-  server: 108.181.23.41
-  port: 50223
-  transport: TCP
-  username: dongtaiwang.com
+- name: Unknown_221
+  server: 2001:bc8:32d7:312::2
+  port: 23556
+  type: tuic
+  uuid: e732a82b-612f-415d-a9f8-e4b1df37d066
   password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: United States_Los Angeles_231
   type: hysteria
   server: 108.181.24.77
@@ -1016,14 +1022,6 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: United States_Los Angeles_B6
-  type: hysteria2
-  server: 108.181.5.130
-  port: 63015
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
-  skip-cert-verify: true
 - name: The Netherlands_Haarlem_B7
   type: hysteria2
   server: 51.158.218.2
@@ -1044,14 +1042,6 @@ proxies:
   type: hysteria2
   server: 51.158.218.2
   port: 50066
-  password: dongtaiwang.com
-  fast-open: true
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: United States_Los Angeles_B10
-  type: hysteria2
-  server: 108.181.22.213
-  port: 15167
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -1142,8 +1132,8 @@ proxy-groups:
   - Unknown_103
   - Unknown_104
   - Unknown_105
-  - United States_Los Angeles_111
-  - United States_Los Angeles_121
+  - France_Paris_111
+  - Unknown_121
   - United States_Los Angeles_131
   - Unknown_141
   - Unknown_142
@@ -1168,8 +1158,8 @@ proxy-groups:
   - Unknown_203
   - Unknown_204
   - Unknown_205
-  - United States_Los Angeles_211
-  - United States_Los Angeles_221
+  - France_Paris_211
+  - Unknown_221
   - United States_Los Angeles_231
   - Unknown_241
   - Unknown_242
@@ -1207,11 +1197,9 @@ proxy-groups:
   - France_Paris_B3
   - France_Paris_B4
   - United States_Los Angeles_B5
-  - United States_Los Angeles_B6
   - The Netherlands_Haarlem_B7
   - France_Paris_B8
   - The Netherlands_Haarlem_B9
-  - United States_Los Angeles_B10
   - The Netherlands_Haarlem_B11
   - Unknown_reality_0
   - Unknown_reality_3
@@ -1239,8 +1227,8 @@ proxy-groups:
   - Unknown_103
   - Unknown_104
   - Unknown_105
-  - United States_Los Angeles_111
-  - United States_Los Angeles_121
+  - France_Paris_111
+  - Unknown_121
   - United States_Los Angeles_131
   - Unknown_141
   - Unknown_142
@@ -1265,8 +1253,8 @@ proxy-groups:
   - Unknown_203
   - Unknown_204
   - Unknown_205
-  - United States_Los Angeles_211
-  - United States_Los Angeles_221
+  - France_Paris_211
+  - Unknown_221
   - United States_Los Angeles_231
   - Unknown_241
   - Unknown_242
@@ -1304,11 +1292,9 @@ proxy-groups:
   - France_Paris_B3
   - France_Paris_B4
   - United States_Los Angeles_B5
-  - United States_Los Angeles_B6
   - The Netherlands_Haarlem_B7
   - France_Paris_B8
   - The Netherlands_Haarlem_B9
-  - United States_Los Angeles_B10
   - The Netherlands_Haarlem_B11
   - Unknown_reality_0
   - Unknown_reality_3
