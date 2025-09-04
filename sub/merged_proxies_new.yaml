@@ -220,8 +220,8 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Unknown_121
-  server: 2001:bc8:32d7:312::2
+- name: France_Paris_121
+  server: 62.210.10.140
   port: 23556
   type: tuic
   uuid: e732a82b-612f-415d-a9f8-e4b1df37d066
@@ -548,8 +548,8 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Unknown_221
-  server: 2001:bc8:32d7:312::2
+- name: France_Paris_221
+  server: 62.210.10.140
   port: 23556
   type: tuic
   uuid: e732a82b-612f-415d-a9f8-e4b1df37d066
@@ -1021,6 +1021,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
+- name: France_Paris_B6
+  type: hysteria2
+  server: 62.210.10.140
+  port: 33224
+  password: dongtaiwang.com
+  fast-open: true
+  sni: apple.com
+  skip-cert-verify: true
 - name: The Netherlands_Haarlem_B7
   type: hysteria2
   server: 51.158.218.2
@@ -1044,6 +1052,14 @@ proxies:
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
+  skip-cert-verify: true
+- name: France_Paris_B10
+  type: hysteria2
+  server: 62.210.10.140
+  port: 33224
+  password: dongtaiwang.com
+  fast-open: true
+  sni: apple.com
   skip-cert-verify: true
 - name: The Netherlands_Haarlem_B11
   type: hysteria2
@@ -1131,7 +1147,7 @@ proxy-groups:
   - Unknown_104
   - Unknown_105
   - France_Paris_111
-  - Unknown_121
+  - France_Paris_121
   - Unknown_131
   - Unknown_141
   - Unknown_142
@@ -1157,7 +1173,7 @@ proxy-groups:
   - Unknown_204
   - Unknown_205
   - France_Paris_211
-  - Unknown_221
+  - France_Paris_221
   - Unknown_231
   - Unknown_241
   - Unknown_242
@@ -1195,9 +1211,11 @@ proxy-groups:
   - France_Paris_B3
   - France_Paris_B4
   - United States_Los Angeles_B5
+  - France_Paris_B6
   - The Netherlands_Haarlem_B7
   - France_Paris_B8
   - The Netherlands_Haarlem_B9
+  - France_Paris_B10
   - The Netherlands_Haarlem_B11
   - Unknown_reality_0
   - Unknown_reality_3
@@ -1225,7 +1243,7 @@ proxy-groups:
   - Unknown_104
   - Unknown_105
   - France_Paris_111
-  - Unknown_121
+  - France_Paris_121
   - Unknown_131
   - Unknown_141
   - Unknown_142
@@ -1251,7 +1269,7 @@ proxy-groups:
   - Unknown_204
   - Unknown_205
   - France_Paris_211
-  - Unknown_221
+  - France_Paris_221
   - Unknown_231
   - Unknown_241
   - Unknown_242
@@ -1289,9 +1307,11 @@ proxy-groups:
   - France_Paris_B3
   - France_Paris_B4
   - United States_Los Angeles_B5
+  - France_Paris_B6
   - The Netherlands_Haarlem_B7
   - France_Paris_B8
   - The Netherlands_Haarlem_B9
+  - France_Paris_B10
   - The Netherlands_Haarlem_B11
   - Unknown_reality_0
   - Unknown_reality_3
