@@ -104,7 +104,7 @@
         "Unknown_hy_10 3",
         "Unknown_hy_10 4",
         "🇫🇷 France_Paris_tuic_11",
-        "Unknown_tuic_12",
+        "🇫🇷 France_Paris_tuic_12",
         "Unknown_vless_13",
         "Unknown_tuic_14",
         "Unknown_tuic_14 2",
@@ -130,7 +130,7 @@
         "Unknown_hy_20 3",
         "Unknown_hy_20 4",
         "🇫🇷 France_Paris_tuic_21",
-        "Unknown_tuic_22",
+        "🇫🇷 France_Paris_tuic_22",
         "Unknown_vless_23",
         "Unknown_tuic_24",
         "Unknown_tuic_24 2",
@@ -167,18 +167,20 @@
         "🇫🇷 France_Paris_hysteria2_3",
         "🇫🇷 France_Paris_hysteria2_4",
         "🇺🇸 United States_Los Angeles_hysteria2_5",
+        "🇫🇷 France_Paris_hysteria2_6",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_7",
         "🇫🇷 France_Paris_hysteria2_8",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_9",
+        "🇫🇷 France_Paris_hysteria2_10",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_11",
         "Unknown_vless_0",
         "Unknown_vless_3",
         "🇫🇷 France_Paris_vless_4",
-        "🇹🇼 Taiwan_Keelung_vless_5",
+        "🇹🇼 Taiwan_Taipei_vless_5",
         "Unknown_vless_6",
         "Unknown_vless_7",
         "🇫🇷 France_Paris_vless_8",
-        "🇹🇼 Taiwan_Keelung_vless_9",
+        "🇹🇼 Taiwan_Taipei_vless_9",
         "Unknown_vless_10",
         "Unknown_vless_11"
       ]
@@ -392,8 +394,8 @@
       "tag": "TaiWan",
       "type": "selector",
       "outbounds": [
-        "🇹🇼 Taiwan_Keelung_vless_5",
-        "🇹🇼 Taiwan_Keelung_vless_9"
+        "🇹🇼 Taiwan_Taipei_vless_5",
+        "🇹🇼 Taiwan_Taipei_vless_9"
       ]
     },
     {
@@ -438,7 +440,7 @@
         "Unknown_hy_10 3",
         "Unknown_hy_10 4",
         "🇫🇷 France_Paris_tuic_11",
-        "Unknown_tuic_12",
+        "🇫🇷 France_Paris_tuic_12",
         "Unknown_vless_13",
         "Unknown_tuic_14",
         "Unknown_tuic_14 2",
@@ -464,7 +466,7 @@
         "Unknown_hy_20 3",
         "Unknown_hy_20 4",
         "🇫🇷 France_Paris_tuic_21",
-        "Unknown_tuic_22",
+        "🇫🇷 France_Paris_tuic_22",
         "Unknown_vless_23",
         "Unknown_tuic_24",
         "Unknown_tuic_24 2",
@@ -499,9 +501,11 @@
         "🇫🇷 France_Paris_hysteria2_2",
         "🇫🇷 France_Paris_hysteria2_3",
         "🇫🇷 France_Paris_hysteria2_4",
+        "🇫🇷 France_Paris_hysteria2_6",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_7",
         "🇫🇷 France_Paris_hysteria2_8",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_9",
+        "🇫🇷 France_Paris_hysteria2_10",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_11",
         "Unknown_vless_0",
         "Unknown_vless_3",
@@ -533,7 +537,7 @@
         "Unknown_hy_10 3",
         "Unknown_hy_10 4",
         "🇫🇷 France_Paris_tuic_11",
-        "Unknown_tuic_12",
+        "🇫🇷 France_Paris_tuic_12",
         "Unknown_vless_13",
         "Unknown_tuic_14",
         "Unknown_tuic_14 2",
@@ -559,7 +563,7 @@
         "Unknown_hy_20 3",
         "Unknown_hy_20 4",
         "🇫🇷 France_Paris_tuic_21",
-        "Unknown_tuic_22",
+        "🇫🇷 France_Paris_tuic_22",
         "Unknown_vless_23",
         "Unknown_tuic_24",
         "Unknown_tuic_24 2",
@@ -596,18 +600,20 @@
         "🇫🇷 France_Paris_hysteria2_3",
         "🇫🇷 France_Paris_hysteria2_4",
         "🇺🇸 United States_Los Angeles_hysteria2_5",
+        "🇫🇷 France_Paris_hysteria2_6",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_7",
         "🇫🇷 France_Paris_hysteria2_8",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_9",
+        "🇫🇷 France_Paris_hysteria2_10",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_11",
         "Unknown_vless_0",
         "Unknown_vless_3",
         "🇫🇷 France_Paris_vless_4",
-        "🇹🇼 Taiwan_Keelung_vless_5",
+        "🇹🇼 Taiwan_Taipei_vless_5",
         "Unknown_vless_6",
         "Unknown_vless_7",
         "🇫🇷 France_Paris_vless_8",
-        "🇹🇼 Taiwan_Keelung_vless_9",
+        "🇹🇼 Taiwan_Taipei_vless_9",
         "Unknown_vless_10",
         "Unknown_vless_11"
       ],
@@ -901,9 +907,9 @@
       }
     },
     {
-      "tag": "Unknown_tuic_12",
+      "tag": "🇫🇷 France_Paris_tuic_12",
       "type": "tuic",
-      "server": "2001:bc8:32d7:312::2",
+      "server": "62.210.10.140",
       "server_port": 23556,
       "uuid": "e732a82b-612f-415d-a9f8-e4b1df37d066",
       "password": "dongtaiwang.com",
@@ -1389,9 +1395,9 @@
       }
     },
     {
-      "tag": "Unknown_tuic_22",
+      "tag": "🇫🇷 France_Paris_tuic_22",
       "type": "tuic",
-      "server": "2001:bc8:32d7:312::2",
+      "server": "62.210.10.140",
       "server_port": 23556,
       "uuid": "e732a82b-612f-415d-a9f8-e4b1df37d066",
       "password": "dongtaiwang.com",
@@ -2073,6 +2079,23 @@
       }
     },
     {
+      "tag": "🇫🇷 France_Paris_hysteria2_6",
+      "type": "hysteria2",
+      "server": "62.210.10.140",
+      "server_port": 33224,
+      "password": "dongtaiwang.com",
+      "up_mbps": 10,
+      "down_mbps": 100,
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
       "tag": "🇳🇱 The Netherlands_Haarlem_hysteria2_7",
       "type": "hysteria2",
       "server": "51.158.218.2",
@@ -2117,6 +2140,23 @@
       "tls": {
         "enabled": true,
         "server_name": "www.bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇫🇷 France_Paris_hysteria2_10",
+      "type": "hysteria2",
+      "server": "62.210.10.140",
+      "server_port": 33224,
+      "password": "dongtaiwang.com",
+      "up_mbps": 10,
+      "down_mbps": 100,
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
         "insecure": true,
         "alpn": [
           "h3"
@@ -2207,7 +2247,7 @@
       }
     },
     {
-      "tag": "🇹🇼 Taiwan_Keelung_vless_5",
+      "tag": "🇹🇼 Taiwan_Taipei_vless_5",
       "type": "vless",
       "server": "fan1.193919.xyz",
       "server_port": 42348,
@@ -2299,7 +2339,7 @@
       }
     },
     {
-      "tag": "🇹🇼 Taiwan_Keelung_vless_9",
+      "tag": "🇹🇼 Taiwan_Taipei_vless_9",
       "type": "vless",
       "server": "fan1.193919.xyz",
       "server_port": 42348,
