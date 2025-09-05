@@ -104,7 +104,7 @@
         "Unknown_hy_10 3",
         "Unknown_hy_10 4",
         "🇫🇷 France_Paris_tuic_11",
-        "🇫🇷 France_Paris_tuic_12",
+        "🇫🇷 France_Paris_hy_12",
         "Unknown_vless_13",
         "Unknown_tuic_14",
         "Unknown_tuic_14 2",
@@ -130,7 +130,7 @@
         "Unknown_hy_20 3",
         "Unknown_hy_20 4",
         "🇫🇷 France_Paris_tuic_21",
-        "🇫🇷 France_Paris_tuic_22",
+        "🇫🇷 France_Paris_hy_22",
         "Unknown_vless_23",
         "Unknown_tuic_24",
         "Unknown_tuic_24 2",
@@ -180,7 +180,7 @@
         "Unknown_vless_6",
         "Unknown_vless_7",
         "🇫🇷 France_Paris_vless_8",
-        "🇹🇼 Taiwan_Taipei_vless_9",
+        "🇹🇼 Taiwan_Keelung_vless_9",
         "Unknown_vless_10",
         "Unknown_vless_11"
       ]
@@ -395,7 +395,7 @@
       "type": "selector",
       "outbounds": [
         "🇹🇼 Taiwan_Taipei_vless_5",
-        "🇹🇼 Taiwan_Taipei_vless_9"
+        "🇹🇼 Taiwan_Keelung_vless_9"
       ]
     },
     {
@@ -440,7 +440,7 @@
         "Unknown_hy_10 3",
         "Unknown_hy_10 4",
         "🇫🇷 France_Paris_tuic_11",
-        "🇫🇷 France_Paris_tuic_12",
+        "🇫🇷 France_Paris_hy_12",
         "Unknown_vless_13",
         "Unknown_tuic_14",
         "Unknown_tuic_14 2",
@@ -466,7 +466,7 @@
         "Unknown_hy_20 3",
         "Unknown_hy_20 4",
         "🇫🇷 France_Paris_tuic_21",
-        "🇫🇷 France_Paris_tuic_22",
+        "🇫🇷 France_Paris_hy_22",
         "Unknown_vless_23",
         "Unknown_tuic_24",
         "Unknown_tuic_24 2",
@@ -537,7 +537,7 @@
         "Unknown_hy_10 3",
         "Unknown_hy_10 4",
         "🇫🇷 France_Paris_tuic_11",
-        "🇫🇷 France_Paris_tuic_12",
+        "🇫🇷 France_Paris_hy_12",
         "Unknown_vless_13",
         "Unknown_tuic_14",
         "Unknown_tuic_14 2",
@@ -563,7 +563,7 @@
         "Unknown_hy_20 3",
         "Unknown_hy_20 4",
         "🇫🇷 France_Paris_tuic_21",
-        "🇫🇷 France_Paris_tuic_22",
+        "🇫🇷 France_Paris_hy_22",
         "Unknown_vless_23",
         "Unknown_tuic_24",
         "Unknown_tuic_24 2",
@@ -613,7 +613,7 @@
         "Unknown_vless_6",
         "Unknown_vless_7",
         "🇫🇷 France_Paris_vless_8",
-        "🇹🇼 Taiwan_Taipei_vless_9",
+        "🇹🇼 Taiwan_Keelung_vless_9",
         "Unknown_vless_10",
         "Unknown_vless_11"
       ],
@@ -907,23 +907,20 @@
       }
     },
     {
-      "tag": "🇫🇷 France_Paris_tuic_12",
-      "type": "tuic",
+      "tag": "🇫🇷 France_Paris_hy_12",
+      "type": "hysteria",
       "server": "62.210.10.140",
-      "server_port": 23556,
-      "uuid": "e732a82b-612f-415d-a9f8-e4b1df37d066",
-      "password": "dongtaiwang.com",
-      "congestion_control": "bbr",
-      "udp_relay_mode": "native",
-      "zero_rtt_handshake": false,
-      "heartbeat": "10s",
+      "server_port": 42248,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "dongtaiwang.com",
       "tls": {
         "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true,
         "alpn": [
           "h3"
-        ],
-        "insecure": true,
-        "server_name": "bing.com"
+        ]
       }
     },
     {
@@ -1395,23 +1392,20 @@
       }
     },
     {
-      "tag": "🇫🇷 France_Paris_tuic_22",
-      "type": "tuic",
+      "tag": "🇫🇷 France_Paris_hy_22",
+      "type": "hysteria",
       "server": "62.210.10.140",
-      "server_port": 23556,
-      "uuid": "e732a82b-612f-415d-a9f8-e4b1df37d066",
-      "password": "dongtaiwang.com",
-      "congestion_control": "bbr",
-      "udp_relay_mode": "native",
-      "zero_rtt_handshake": false,
-      "heartbeat": "10s",
+      "server_port": 42248,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "dongtaiwang.com",
       "tls": {
         "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true,
         "alpn": [
           "h3"
-        ],
-        "insecure": true,
-        "server_name": "bing.com"
+        ]
       }
     },
     {
@@ -2339,7 +2333,7 @@
       }
     },
     {
-      "tag": "🇹🇼 Taiwan_Taipei_vless_9",
+      "tag": "🇹🇼 Taiwan_Keelung_vless_9",
       "type": "vless",
       "server": "fan1.193919.xyz",
       "server_port": 42348,
