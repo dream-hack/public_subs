@@ -167,11 +167,9 @@
         "🇫🇷 France_Paris_hysteria2_3",
         "🇫🇷 France_Paris_hysteria2_4",
         "🇺🇸 United States_Los Angeles_hysteria2_5",
-        "🇫🇷 France_Paris_hysteria2_6",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_7",
         "🇫🇷 France_Paris_hysteria2_8",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_9",
-        "🇫🇷 France_Paris_hysteria2_10",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_11",
         "Unknown_vless_0",
         "Unknown_vless_3",
@@ -180,7 +178,7 @@
         "Unknown_vless_6",
         "Unknown_vless_7",
         "🇫🇷 France_Paris_vless_8",
-        "🇹🇼 Taiwan_Keelung_vless_9",
+        "🇹🇼 Taiwan_Taipei_vless_9",
         "Unknown_vless_10",
         "Unknown_vless_11"
       ]
@@ -395,7 +393,7 @@
       "type": "selector",
       "outbounds": [
         "🇹🇼 Taiwan_Keelung_vless_5",
-        "🇹🇼 Taiwan_Keelung_vless_9"
+        "🇹🇼 Taiwan_Taipei_vless_9"
       ]
     },
     {
@@ -501,11 +499,9 @@
         "🇫🇷 France_Paris_hysteria2_2",
         "🇫🇷 France_Paris_hysteria2_3",
         "🇫🇷 France_Paris_hysteria2_4",
-        "🇫🇷 France_Paris_hysteria2_6",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_7",
         "🇫🇷 France_Paris_hysteria2_8",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_9",
-        "🇫🇷 France_Paris_hysteria2_10",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_11",
         "Unknown_vless_0",
         "Unknown_vless_3",
@@ -600,11 +596,9 @@
         "🇫🇷 France_Paris_hysteria2_3",
         "🇫🇷 France_Paris_hysteria2_4",
         "🇺🇸 United States_Los Angeles_hysteria2_5",
-        "🇫🇷 France_Paris_hysteria2_6",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_7",
         "🇫🇷 France_Paris_hysteria2_8",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_9",
-        "🇫🇷 France_Paris_hysteria2_10",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_11",
         "Unknown_vless_0",
         "Unknown_vless_3",
@@ -613,7 +607,7 @@
         "Unknown_vless_6",
         "Unknown_vless_7",
         "🇫🇷 France_Paris_vless_8",
-        "🇹🇼 Taiwan_Keelung_vless_9",
+        "🇹🇼 Taiwan_Taipei_vless_9",
         "Unknown_vless_10",
         "Unknown_vless_11"
       ],
@@ -2073,23 +2067,6 @@
       }
     },
     {
-      "tag": "🇫🇷 France_Paris_hysteria2_6",
-      "type": "hysteria2",
-      "server": "62.210.10.140",
-      "server_port": 33224,
-      "password": "dongtaiwang.com",
-      "up_mbps": 10,
-      "down_mbps": 100,
-      "tls": {
-        "enabled": true,
-        "server_name": "apple.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
-    },
-    {
       "tag": "🇳🇱 The Netherlands_Haarlem_hysteria2_7",
       "type": "hysteria2",
       "server": "51.158.218.2",
@@ -2134,23 +2111,6 @@
       "tls": {
         "enabled": true,
         "server_name": "www.bing.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
-    },
-    {
-      "tag": "🇫🇷 France_Paris_hysteria2_10",
-      "type": "hysteria2",
-      "server": "62.210.10.140",
-      "server_port": 33224,
-      "password": "dongtaiwang.com",
-      "up_mbps": 10,
-      "down_mbps": 100,
-      "tls": {
-        "enabled": true,
-        "server_name": "apple.com",
         "insecure": true,
         "alpn": [
           "h3"
@@ -2333,7 +2293,7 @@
       }
     },
     {
-      "tag": "🇹🇼 Taiwan_Keelung_vless_9",
+      "tag": "🇹🇼 Taiwan_Taipei_vless_9",
       "type": "vless",
       "server": "fan1.193919.xyz",
       "server_port": 42348,
