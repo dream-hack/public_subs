@@ -1019,14 +1019,6 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: France_Paris_B6
-  type: hysteria2
-  server: 62.210.10.140
-  port: 33224
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
-  skip-cert-verify: true
 - name: The Netherlands_Haarlem_B7
   type: hysteria2
   server: 51.158.218.2
@@ -1050,14 +1042,6 @@ proxies:
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
-  skip-cert-verify: true
-- name: France_Paris_B10
-  type: hysteria2
-  server: 62.210.10.140
-  port: 33224
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
   skip-cert-verify: true
 - name: The Netherlands_Haarlem_B11
   type: hysteria2
@@ -1209,11 +1193,9 @@ proxy-groups:
   - France_Paris_B3
   - France_Paris_B4
   - United States_Los Angeles_B5
-  - France_Paris_B6
   - The Netherlands_Haarlem_B7
   - France_Paris_B8
   - The Netherlands_Haarlem_B9
-  - France_Paris_B10
   - The Netherlands_Haarlem_B11
   - Unknown_reality_0
   - Unknown_reality_3
@@ -1305,11 +1287,9 @@ proxy-groups:
   - France_Paris_B3
   - France_Paris_B4
   - United States_Los Angeles_B5
-  - France_Paris_B6
   - The Netherlands_Haarlem_B7
   - France_Paris_B8
   - The Netherlands_Haarlem_B9
-  - France_Paris_B10
   - The Netherlands_Haarlem_B11
   - Unknown_reality_0
   - Unknown_reality_3
