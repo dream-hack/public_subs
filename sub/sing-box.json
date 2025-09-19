@@ -174,7 +174,7 @@
         "Unknown_vless_0",
         "Unknown_vless_3",
         "🇫🇷 France_Paris_vless_4",
-        "🇹🇼 Taiwan_Keelung_vless_5",
+        "🇹🇼 Taiwan_Xizhi District_vless_5",
         "Unknown_vless_6",
         "Unknown_vless_7",
         "🇫🇷 France_Paris_vless_8",
@@ -392,7 +392,7 @@
       "tag": "TaiWan",
       "type": "selector",
       "outbounds": [
-        "🇹🇼 Taiwan_Keelung_vless_5",
+        "🇹🇼 Taiwan_Xizhi District_vless_5",
         "🇹🇼 Taiwan_Keelung_vless_9"
       ]
     },
@@ -603,7 +603,7 @@
         "Unknown_vless_0",
         "Unknown_vless_3",
         "🇫🇷 France_Paris_vless_4",
-        "🇹🇼 Taiwan_Keelung_vless_5",
+        "🇹🇼 Taiwan_Xizhi District_vless_5",
         "Unknown_vless_6",
         "Unknown_vless_7",
         "🇫🇷 France_Paris_vless_8",
@@ -2201,7 +2201,7 @@
       }
     },
     {
-      "tag": "🇹🇼 Taiwan_Keelung_vless_5",
+      "tag": "🇹🇼 Taiwan_Xizhi District_vless_5",
       "type": "vless",
       "server": "fan1.193919.xyz",
       "server_port": 42348,
