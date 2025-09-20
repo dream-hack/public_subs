@@ -178,7 +178,7 @@
         "Unknown_vless_6",
         "Unknown_vless_7",
         "🇫🇷 France_Paris_vless_8",
-        "🇹🇼 Taiwan_Keelung_vless_9",
+        "🇹🇼 Taiwan_Taipei_vless_9",
         "Unknown_vless_10",
         "Unknown_vless_11"
       ]
@@ -393,7 +393,7 @@
       "type": "selector",
       "outbounds": [
         "🇹🇼 Taiwan_Taipei_vless_5",
-        "🇹🇼 Taiwan_Keelung_vless_9"
+        "🇹🇼 Taiwan_Taipei_vless_9"
       ]
     },
     {
@@ -607,7 +607,7 @@
         "Unknown_vless_6",
         "Unknown_vless_7",
         "🇫🇷 France_Paris_vless_8",
-        "🇹🇼 Taiwan_Keelung_vless_9",
+        "🇹🇼 Taiwan_Taipei_vless_9",
         "Unknown_vless_10",
         "Unknown_vless_11"
       ],
@@ -2293,20 +2293,20 @@
       }
     },
     {
-      "tag": "🇹🇼 Taiwan_Keelung_vless_9",
+      "tag": "🇹🇼 Taiwan_Taipei_vless_9",
       "type": "vless",
-      "server": "fan1.193919.xyz",
-      "server_port": 42348,
-      "uuid": "68ea0080-62e5-4b84-95a9-8d6bec2fe3fe",
+      "server": "fan3.394615.xyz",
+      "server_port": 34500,
+      "uuid": "1b6ba596-1bbe-4bde-98a3-96a54a436dcf",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "www.yahoo.com",
+        "server_name": "www.lovelive-anime.jp",
         "reality": {
           "enabled": true,
-          "public_key": "k4XAXur_dLeMaXuxxJcBM_0zEI5KDj9BWazoZ0yi53I",
-          "short_id": "fac09bb3"
+          "public_key": "8_4rYT2K6drdqcfVF9YqGhleZFW5MzZGTmAxHFHn1zA",
+          "short_id": "3a1381d1b2cc9e19"
         },
         "utls": {
           "enabled": true,
