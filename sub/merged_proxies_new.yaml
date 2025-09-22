@@ -374,23 +374,76 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
 - name: France_Paris_161
-  type: hysteria
-  server: 51.159.111.32
-  port: 23880
-  auth-str: dongtaiwang.com
-  sni: bing.com
-  skip-cert-verify: true
+  server: 62.210.10.113
+  port: 33998
+  type: tuic
+  uuid: 909212b8-5d67-4532-885e-7a6b5e724ab8
+  password: dongtaiwang.com
   alpn:
   - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: Unknown_162
+  server: 2001:bc8:32d7:306::123
+  port: 33998
+  type: tuic
+  uuid: 909212b8-5d67-4532-885e-7a6b5e724ab8
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: Unknown_163
+  server: 2001:bc8:32d7:306::124
+  port: 33998
+  type: tuic
+  uuid: 909212b8-5d67-4532-885e-7a6b5e724ab8
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: Unknown_164
+  server: 2001:bc8:32d7:306::125
+  port: 33998
+  type: tuic
+  uuid: 909212b8-5d67-4532-885e-7a6b5e724ab8
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: Unknown_165
+  server: 2001:bc8:32d7:306::126
+  port: 33998
+  type: tuic
+  uuid: 909212b8-5d67-4532-885e-7a6b5e724ab8
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: France_Paris_171
   type: hysteria
-  server: 51.159.111.32
-  port: 23880
+  server: 62.210.10.113
+  port: 13767
   auth-str: dongtaiwang.com
-  sni: bing.com
+  sni: apple.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -648,23 +701,76 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
 - name: France_Paris_261
-  type: hysteria
-  server: 51.159.111.32
-  port: 23880
-  auth-str: dongtaiwang.com
-  sni: bing.com
-  skip-cert-verify: true
+  server: 62.210.10.113
+  port: 33998
+  type: tuic
+  uuid: 909212b8-5d67-4532-885e-7a6b5e724ab8
+  password: dongtaiwang.com
   alpn:
   - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: Unknown_262
+  server: 2001:bc8:32d7:306::123
+  port: 33998
+  type: tuic
+  uuid: 909212b8-5d67-4532-885e-7a6b5e724ab8
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: Unknown_263
+  server: 2001:bc8:32d7:306::124
+  port: 33998
+  type: tuic
+  uuid: 909212b8-5d67-4532-885e-7a6b5e724ab8
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: Unknown_264
+  server: 2001:bc8:32d7:306::125
+  port: 33998
+  type: tuic
+  uuid: 909212b8-5d67-4532-885e-7a6b5e724ab8
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: Unknown_265
+  server: 2001:bc8:32d7:306::126
+  port: 33998
+  type: tuic
+  uuid: 909212b8-5d67-4532-885e-7a6b5e724ab8
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: France_Paris_271
   type: hysteria
-  server: 51.159.111.32
-  port: 23880
+  server: 62.210.10.113
+  port: 13767
   auth-str: dongtaiwang.com
-  sni: bing.com
+  sni: apple.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -1036,6 +1142,10 @@ proxy-groups:
   - Unknown_154
   - Unknown_155
   - France_Paris_161
+  - Unknown_162
+  - Unknown_163
+  - Unknown_164
+  - Unknown_165
   - France_Paris_171
   - France_Paris_181
   - France_Paris_191
@@ -1058,6 +1168,10 @@ proxy-groups:
   - Unknown_254
   - Unknown_255
   - France_Paris_261
+  - Unknown_262
+  - Unknown_263
+  - Unknown_264
+  - Unknown_265
   - France_Paris_271
   - France_Paris_281
   - Taiwan_Taipei_291
@@ -1122,6 +1236,10 @@ proxy-groups:
   - Unknown_154
   - Unknown_155
   - France_Paris_161
+  - Unknown_162
+  - Unknown_163
+  - Unknown_164
+  - Unknown_165
   - France_Paris_171
   - France_Paris_181
   - France_Paris_191
@@ -1144,6 +1262,10 @@ proxy-groups:
   - Unknown_254
   - Unknown_255
   - France_Paris_261
+  - Unknown_262
+  - Unknown_263
+  - Unknown_264
+  - Unknown_265
   - France_Paris_271
   - France_Paris_281
   - Taiwan_Taipei_291
