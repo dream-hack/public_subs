@@ -116,7 +116,11 @@
         "Unknown_hy_15 3",
         "Unknown_hy_15 4",
         "Unknown_hy_15 5",
-        "🇫🇷 France_Paris_hy_16",
+        "🇫🇷 France_Paris_tuic_16",
+        "Unknown_tuic_16",
+        "Unknown_tuic_16 2",
+        "Unknown_tuic_16 3",
+        "Unknown_tuic_16 4",
         "🇫🇷 France_Paris_hy_17",
         "🇫🇷 France_Paris_hy_18",
         "🇫🇷 France_Paris_hy_19",
@@ -138,7 +142,11 @@
         "Unknown_hy_25 3",
         "Unknown_hy_25 4",
         "Unknown_hy_25 5",
-        "🇫🇷 France_Paris_hy_26",
+        "🇫🇷 France_Paris_tuic_26",
+        "Unknown_tuic_26",
+        "Unknown_tuic_26 2",
+        "Unknown_tuic_26 3",
+        "Unknown_tuic_26 4",
         "🇫🇷 France_Paris_hy_27",
         "🇫🇷 France_Paris_hy_28",
         "🇳🇱 The Netherlands_Amsterdam_hysteria_0",
@@ -442,7 +450,11 @@
         "Unknown_hy_15 3",
         "Unknown_hy_15 4",
         "Unknown_hy_15 5",
-        "🇫🇷 France_Paris_hy_16",
+        "🇫🇷 France_Paris_tuic_16",
+        "Unknown_tuic_16",
+        "Unknown_tuic_16 2",
+        "Unknown_tuic_16 3",
+        "Unknown_tuic_16 4",
         "🇫🇷 France_Paris_hy_17",
         "🇫🇷 France_Paris_hy_18",
         "🇫🇷 France_Paris_hy_19",
@@ -464,7 +476,11 @@
         "Unknown_hy_25 3",
         "Unknown_hy_25 4",
         "Unknown_hy_25 5",
-        "🇫🇷 France_Paris_hy_26",
+        "🇫🇷 France_Paris_tuic_26",
+        "Unknown_tuic_26",
+        "Unknown_tuic_26 2",
+        "Unknown_tuic_26 3",
+        "Unknown_tuic_26 4",
         "🇫🇷 France_Paris_hy_27",
         "🇫🇷 France_Paris_hy_28",
         "🇳🇱 The Netherlands_Amsterdam_hysteria_0",
@@ -529,7 +545,11 @@
         "Unknown_hy_15 3",
         "Unknown_hy_15 4",
         "Unknown_hy_15 5",
-        "🇫🇷 France_Paris_hy_16",
+        "🇫🇷 France_Paris_tuic_16",
+        "Unknown_tuic_16",
+        "Unknown_tuic_16 2",
+        "Unknown_tuic_16 3",
+        "Unknown_tuic_16 4",
         "🇫🇷 France_Paris_hy_17",
         "🇫🇷 France_Paris_hy_18",
         "🇫🇷 France_Paris_hy_19",
@@ -551,7 +571,11 @@
         "Unknown_hy_25 3",
         "Unknown_hy_25 4",
         "Unknown_hy_25 5",
-        "🇫🇷 France_Paris_hy_26",
+        "🇫🇷 France_Paris_tuic_26",
+        "Unknown_tuic_26",
+        "Unknown_tuic_26 2",
+        "Unknown_tuic_26 3",
+        "Unknown_tuic_26 4",
         "🇫🇷 France_Paris_hy_27",
         "🇫🇷 France_Paris_hy_28",
         "🇳🇱 The Netherlands_Amsterdam_hysteria_0",
@@ -1106,33 +1130,116 @@
       }
     },
     {
-      "tag": "🇫🇷 France_Paris_hy_16",
-      "type": "hysteria",
-      "server": "51.159.111.32",
-      "server_port": 23880,
-      "up_mbps": 50,
-      "down_mbps": 80,
-      "auth_str": "dongtaiwang.com",
+      "tag": "🇫🇷 France_Paris_tuic_16",
+      "type": "tuic",
+      "server": "62.210.10.113",
+      "server_port": 33998,
+      "uuid": "909212b8-5d67-4532-885e-7a6b5e724ab8",
+      "password": "dongtaiwang.com",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
       "tls": {
         "enabled": true,
-        "server_name": "bing.com",
-        "insecure": true,
         "alpn": [
           "h3"
-        ]
+        ],
+        "insecure": true,
+        "server_name": "bing.com"
+      }
+    },
+    {
+      "tag": "Unknown_tuic_16",
+      "type": "tuic",
+      "server": "2001:bc8:32d7:306::123",
+      "server_port": 33998,
+      "uuid": "909212b8-5d67-4532-885e-7a6b5e724ab8",
+      "password": "dongtaiwang.com",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
+      "tls": {
+        "enabled": true,
+        "alpn": [
+          "h3"
+        ],
+        "insecure": true,
+        "server_name": "bing.com"
+      }
+    },
+    {
+      "tag": "Unknown_tuic_16 2",
+      "type": "tuic",
+      "server": "2001:bc8:32d7:306::124",
+      "server_port": 33998,
+      "uuid": "909212b8-5d67-4532-885e-7a6b5e724ab8",
+      "password": "dongtaiwang.com",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
+      "tls": {
+        "enabled": true,
+        "alpn": [
+          "h3"
+        ],
+        "insecure": true,
+        "server_name": "bing.com"
+      }
+    },
+    {
+      "tag": "Unknown_tuic_16 3",
+      "type": "tuic",
+      "server": "2001:bc8:32d7:306::125",
+      "server_port": 33998,
+      "uuid": "909212b8-5d67-4532-885e-7a6b5e724ab8",
+      "password": "dongtaiwang.com",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
+      "tls": {
+        "enabled": true,
+        "alpn": [
+          "h3"
+        ],
+        "insecure": true,
+        "server_name": "bing.com"
+      }
+    },
+    {
+      "tag": "Unknown_tuic_16 4",
+      "type": "tuic",
+      "server": "2001:bc8:32d7:306::126",
+      "server_port": 33998,
+      "uuid": "909212b8-5d67-4532-885e-7a6b5e724ab8",
+      "password": "dongtaiwang.com",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
+      "tls": {
+        "enabled": true,
+        "alpn": [
+          "h3"
+        ],
+        "insecure": true,
+        "server_name": "bing.com"
       }
     },
     {
       "tag": "🇫🇷 France_Paris_hy_17",
       "type": "hysteria",
-      "server": "51.159.111.32",
-      "server_port": 23880,
+      "server": "62.210.10.113",
+      "server_port": 13767,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "dongtaiwang.com",
       "tls": {
         "enabled": true,
-        "server_name": "bing.com",
+        "server_name": "apple.com",
         "insecure": true,
         "alpn": [
           "h3"
@@ -1508,33 +1615,116 @@
       }
     },
     {
-      "tag": "🇫🇷 France_Paris_hy_26",
-      "type": "hysteria",
-      "server": "51.159.111.32",
-      "server_port": 23880,
-      "up_mbps": 50,
-      "down_mbps": 80,
-      "auth_str": "dongtaiwang.com",
+      "tag": "🇫🇷 France_Paris_tuic_26",
+      "type": "tuic",
+      "server": "62.210.10.113",
+      "server_port": 33998,
+      "uuid": "909212b8-5d67-4532-885e-7a6b5e724ab8",
+      "password": "dongtaiwang.com",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
       "tls": {
         "enabled": true,
-        "server_name": "bing.com",
-        "insecure": true,
         "alpn": [
           "h3"
-        ]
+        ],
+        "insecure": true,
+        "server_name": "bing.com"
+      }
+    },
+    {
+      "tag": "Unknown_tuic_26",
+      "type": "tuic",
+      "server": "2001:bc8:32d7:306::123",
+      "server_port": 33998,
+      "uuid": "909212b8-5d67-4532-885e-7a6b5e724ab8",
+      "password": "dongtaiwang.com",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
+      "tls": {
+        "enabled": true,
+        "alpn": [
+          "h3"
+        ],
+        "insecure": true,
+        "server_name": "bing.com"
+      }
+    },
+    {
+      "tag": "Unknown_tuic_26 2",
+      "type": "tuic",
+      "server": "2001:bc8:32d7:306::124",
+      "server_port": 33998,
+      "uuid": "909212b8-5d67-4532-885e-7a6b5e724ab8",
+      "password": "dongtaiwang.com",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
+      "tls": {
+        "enabled": true,
+        "alpn": [
+          "h3"
+        ],
+        "insecure": true,
+        "server_name": "bing.com"
+      }
+    },
+    {
+      "tag": "Unknown_tuic_26 3",
+      "type": "tuic",
+      "server": "2001:bc8:32d7:306::125",
+      "server_port": 33998,
+      "uuid": "909212b8-5d67-4532-885e-7a6b5e724ab8",
+      "password": "dongtaiwang.com",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
+      "tls": {
+        "enabled": true,
+        "alpn": [
+          "h3"
+        ],
+        "insecure": true,
+        "server_name": "bing.com"
+      }
+    },
+    {
+      "tag": "Unknown_tuic_26 4",
+      "type": "tuic",
+      "server": "2001:bc8:32d7:306::126",
+      "server_port": 33998,
+      "uuid": "909212b8-5d67-4532-885e-7a6b5e724ab8",
+      "password": "dongtaiwang.com",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
+      "tls": {
+        "enabled": true,
+        "alpn": [
+          "h3"
+        ],
+        "insecure": true,
+        "server_name": "bing.com"
       }
     },
     {
       "tag": "🇫🇷 France_Paris_hy_27",
       "type": "hysteria",
-      "server": "51.159.111.32",
-      "server_port": 23880,
+      "server": "62.210.10.113",
+      "server_port": 13767,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "dongtaiwang.com",
       "tls": {
         "enabled": true,
-        "server_name": "bing.com",
+        "server_name": "apple.com",
         "insecure": true,
         "alpn": [
           "h3"
