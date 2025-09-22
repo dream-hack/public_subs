@@ -438,10 +438,10 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: France_Paris_171
+- name: United States_Los Angeles_171
   type: hysteria
-  server: 62.210.10.113
-  port: 13767
+  server: 208.87.243.151
+  port: 10023
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -765,10 +765,10 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: France_Paris_271
+- name: United States_Los Angeles_271
   type: hysteria
-  server: 62.210.10.113
-  port: 13767
+  server: 208.87.243.151
+  port: 10023
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -1146,7 +1146,7 @@ proxy-groups:
   - Unknown_163
   - Unknown_164
   - Unknown_165
-  - France_Paris_171
+  - United States_Los Angeles_171
   - France_Paris_181
   - France_Paris_191
   - France_Paris_201
@@ -1172,7 +1172,7 @@ proxy-groups:
   - Unknown_263
   - Unknown_264
   - Unknown_265
-  - France_Paris_271
+  - United States_Los Angeles_271
   - France_Paris_281
   - Taiwan_Taipei_291
   - The Netherlands_Amsterdam_A0
@@ -1240,7 +1240,7 @@ proxy-groups:
   - Unknown_163
   - Unknown_164
   - Unknown_165
-  - France_Paris_171
+  - United States_Los Angeles_171
   - France_Paris_181
   - France_Paris_191
   - France_Paris_201
@@ -1266,7 +1266,7 @@ proxy-groups:
   - Unknown_263
   - Unknown_264
   - Unknown_265
-  - France_Paris_271
+  - United States_Los Angeles_271
   - France_Paris_281
   - Taiwan_Taipei_291
   - The Netherlands_Amsterdam_A0
