@@ -971,38 +971,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_Paris_B0
-  type: hysteria2
-  server: 104.168.10.176
-  port: 35205
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
-  skip-cert-verify: true
-- name: France_Paris_B1
-  type: hysteria2
-  server: 104.168.10.176
-  port: 35205
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
-  skip-cert-verify: true
-- name: France_Paris_B2
-  type: hysteria2
-  server: 104.168.10.176
-  port: 35205
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
-  skip-cert-verify: true
-- name: France_Paris_B3
-  type: hysteria2
-  server: 104.168.10.176
-  port: 35205
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
-  skip-cert-verify: true
 - name: France_Paris_B4
   type: hysteria2
   server: 51.159.111.32
@@ -1187,10 +1155,6 @@ proxy-groups:
   - France_Paris_A9
   - The Netherlands_Haarlem_A10
   - The Netherlands_Haarlem_A11
-  - France_Paris_B0
-  - France_Paris_B1
-  - France_Paris_B2
-  - France_Paris_B3
   - France_Paris_B4
   - United States_Los Angeles_B5
   - The Netherlands_Haarlem_B7
@@ -1281,10 +1245,6 @@ proxy-groups:
   - France_Paris_A9
   - The Netherlands_Haarlem_A10
   - The Netherlands_Haarlem_A11
-  - France_Paris_B0
-  - France_Paris_B1
-  - France_Paris_B2
-  - France_Paris_B3
   - France_Paris_B4
   - United States_Los Angeles_B5
   - The Netherlands_Haarlem_B7
