@@ -2113,7 +2113,7 @@
       "type": "vless",
       "server": "fan3.394615.xyz",
       "server_port": 34500,
-      "uuid": "1b6ba596-1bbe-4bde-98a3-96a54a436dcf",
+      "uuid": "8b66e552-e89d-4c4f-bb5a-e3d37bf151b8",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -2121,7 +2121,7 @@
         "server_name": "www.lovelive-anime.jp",
         "reality": {
           "enabled": true,
-          "public_key": "8_4rYT2K6drdqcfVF9YqGhleZFW5MzZGTmAxHFHn1zA",
+          "public_key": "Yg6kOijRv1IbFcwhY0WmwJ8KW7YTtux4QlQhekEzNEQ",
           "short_id": "3a1381d1b2cc9e19"
         },
         "utls": {
@@ -2205,7 +2205,7 @@
       "type": "vless",
       "server": "fan3.394615.xyz",
       "server_port": 34500,
-      "uuid": "1b6ba596-1bbe-4bde-98a3-96a54a436dcf",
+      "uuid": "8b66e552-e89d-4c4f-bb5a-e3d37bf151b8",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -2213,7 +2213,7 @@
         "server_name": "www.lovelive-anime.jp",
         "reality": {
           "enabled": true,
-          "public_key": "8_4rYT2K6drdqcfVF9YqGhleZFW5MzZGTmAxHFHn1zA",
+          "public_key": "Yg6kOijRv1IbFcwhY0WmwJ8KW7YTtux4QlQhekEzNEQ",
           "short_id": "3a1381d1b2cc9e19"
         },
         "utls": {
