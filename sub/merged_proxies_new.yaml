@@ -99,7 +99,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_61
+- name: France_61
   type: hysteria
   server: 62.210.127.217
   port: 50011
@@ -135,7 +135,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_91
+- name: France_91
   type: hysteria
   server: 62.210.127.217
   port: 50011
@@ -147,7 +147,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_101
+- name: France_101
   type: hysteria
   server: 51.159.107.20
   port: 20001
@@ -207,7 +207,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_111
+- name: France_111
   server: 62.210.10.140
   port: 23556
   type: tuic
@@ -220,7 +220,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: France_Paris_121
+- name: France_121
   type: hysteria
   server: 62.210.10.140
   port: 42248
@@ -373,7 +373,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_161
+- name: France_161
   server: 62.210.10.113
   port: 33998
   type: tuic
@@ -438,7 +438,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: United States_Los Angeles_171
+- name: United States_171
   type: hysteria
   server: 208.87.243.151
   port: 10023
@@ -450,7 +450,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_181
+- name: France_181
   type: hysteria
   server: 51.159.111.32
   port: 23880
@@ -462,7 +462,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_191
+- name: France_191
   type: hysteria
   server: 51.159.111.32
   port: 23880
@@ -474,7 +474,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_201
+- name: France_201
   type: hysteria
   server: 51.159.107.20
   port: 20001
@@ -534,7 +534,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_211
+- name: France_211
   server: 62.210.10.140
   port: 23556
   type: tuic
@@ -547,7 +547,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: France_Paris_221
+- name: France_221
   type: hysteria
   server: 62.210.10.140
   port: 42248
@@ -700,7 +700,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_261
+- name: France_261
   server: 62.210.10.113
   port: 33998
   type: tuic
@@ -765,7 +765,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: United States_Los Angeles_271
+- name: United States_271
   type: hysteria
   server: 208.87.243.151
   port: 10023
@@ -777,7 +777,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_281
+- name: France_281
   type: hysteria
   server: 51.159.111.32
   port: 23880
@@ -789,7 +789,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: Taiwan_Taipei_291
+- name: Taiwan_291
   type: anytls
   server: fan2.856098.xyz
   port: 8443
@@ -803,7 +803,7 @@ proxies:
   - h2
   - http/1.1
   skip-cert-verify: true
-- name: The Netherlands_Amsterdam_A0
+- name: The Netherlands_A0
   type: hysteria
   server: 109.104.153.91
   port: 37519
@@ -817,7 +817,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: The Netherlands_Amsterdam_A1
+- name: The Netherlands_A1
   type: hysteria
   server: 109.104.153.91
   port: 37519
@@ -831,7 +831,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: The Netherlands_Amsterdam_A2
+- name: The Netherlands_A2
   type: hysteria
   server: 109.104.153.91
   port: 37519
@@ -845,7 +845,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: The Netherlands_Amsterdam_A3
+- name: The Netherlands_A3
   type: hysteria
   server: 109.104.153.91
   port: 37519
@@ -859,7 +859,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_Paris_A4
+- name: France_A4
   type: hysteria
   server: 195.154.200.40
   port: 15010
@@ -873,7 +873,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_Paris_A5
+- name: France_A5
   type: hysteria
   server: 62.210.127.217
   port: 40099
@@ -887,7 +887,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: The Netherlands_Haarlem_A6
+- name: The Netherlands_A6
   type: hysteria
   server: 51.159.226.1
   port: 14241
@@ -901,7 +901,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Los Angeles_A7
+- name: United States_A7
   type: hysteria
   server: 208.87.243.187
   port: 15823
@@ -915,7 +915,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_Paris_A8
+- name: France_A8
   type: hysteria
   server: 195.154.200.40
   port: 15010
@@ -929,7 +929,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_Paris_A9
+- name: France_A9
   type: hysteria
   server: 62.210.127.217
   port: 40099
@@ -943,7 +943,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: The Netherlands_Haarlem_A10
+- name: The Netherlands_A10
   type: hysteria
   server: 51.159.226.1
   port: 49003
@@ -957,7 +957,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: The Netherlands_Haarlem_A11
+- name: The Netherlands_A11
   type: hysteria
   server: 51.159.226.1
   port: 49003
@@ -971,7 +971,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_Paris_B4
+- name: France_B4
   type: hysteria2
   server: 51.159.111.32
   port: 5355
@@ -979,7 +979,7 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: United States_Los Angeles_B5
+- name: United States_B5
   type: hysteria2
   server: 208.87.243.187
   port: 22222
@@ -987,7 +987,7 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: The Netherlands_Haarlem_B7
+- name: The Netherlands_B7
   type: hysteria2
   server: 51.158.218.2
   port: 50066
@@ -995,7 +995,7 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: France_Paris_B8
+- name: France_B8
   type: hysteria2
   server: 51.159.111.32
   port: 5355
@@ -1003,7 +1003,7 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: The Netherlands_Haarlem_B9
+- name: The Netherlands_B9
   type: hysteria2
   server: 51.158.218.2
   port: 50066
@@ -1011,7 +1011,7 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: The Netherlands_Haarlem_B11
+- name: The Netherlands_B11
   type: hysteria2
   server: 51.158.218.2
   port: 50066
@@ -1087,17 +1087,17 @@ proxy-groups:
   - Unknown_31
   - Unknown_41
   - Unknown_51
-  - France_Paris_61
+  - France_61
   - Unknown_71
   - Unknown_81
-  - France_Paris_91
-  - France_Paris_101
+  - France_91
+  - France_101
   - Unknown_102
   - Unknown_103
   - Unknown_104
   - Unknown_105
-  - France_Paris_111
-  - France_Paris_121
+  - France_111
+  - France_121
   - Unknown_131
   - Unknown_141
   - Unknown_142
@@ -1109,21 +1109,21 @@ proxy-groups:
   - Unknown_153
   - Unknown_154
   - Unknown_155
-  - France_Paris_161
+  - France_161
   - Unknown_162
   - Unknown_163
   - Unknown_164
   - Unknown_165
-  - United States_Los Angeles_171
-  - France_Paris_181
-  - France_Paris_191
-  - France_Paris_201
+  - United States_171
+  - France_181
+  - France_191
+  - France_201
   - Unknown_202
   - Unknown_203
   - Unknown_204
   - Unknown_205
-  - France_Paris_211
-  - France_Paris_221
+  - France_211
+  - France_221
   - Unknown_231
   - Unknown_241
   - Unknown_242
@@ -1135,32 +1135,32 @@ proxy-groups:
   - Unknown_253
   - Unknown_254
   - Unknown_255
-  - France_Paris_261
+  - France_261
   - Unknown_262
   - Unknown_263
   - Unknown_264
   - Unknown_265
-  - United States_Los Angeles_271
-  - France_Paris_281
-  - Taiwan_Taipei_291
-  - The Netherlands_Amsterdam_A0
-  - The Netherlands_Amsterdam_A1
-  - The Netherlands_Amsterdam_A2
-  - The Netherlands_Amsterdam_A3
-  - France_Paris_A4
-  - France_Paris_A5
-  - The Netherlands_Haarlem_A6
-  - United States_Los Angeles_A7
-  - France_Paris_A8
-  - France_Paris_A9
-  - The Netherlands_Haarlem_A10
-  - The Netherlands_Haarlem_A11
-  - France_Paris_B4
-  - United States_Los Angeles_B5
-  - The Netherlands_Haarlem_B7
-  - France_Paris_B8
-  - The Netherlands_Haarlem_B9
-  - The Netherlands_Haarlem_B11
+  - United States_271
+  - France_281
+  - Taiwan_291
+  - The Netherlands_A0
+  - The Netherlands_A1
+  - The Netherlands_A2
+  - The Netherlands_A3
+  - France_A4
+  - France_A5
+  - The Netherlands_A6
+  - United States_A7
+  - France_A8
+  - France_A9
+  - The Netherlands_A10
+  - The Netherlands_A11
+  - France_B4
+  - United States_B5
+  - The Netherlands_B7
+  - France_B8
+  - The Netherlands_B9
+  - The Netherlands_B11
   - Unknown_reality_0
   - Unknown_reality_3
   - Unknown_reality_7
@@ -1177,17 +1177,17 @@ proxy-groups:
   - Unknown_31
   - Unknown_41
   - Unknown_51
-  - France_Paris_61
+  - France_61
   - Unknown_71
   - Unknown_81
-  - France_Paris_91
-  - France_Paris_101
+  - France_91
+  - France_101
   - Unknown_102
   - Unknown_103
   - Unknown_104
   - Unknown_105
-  - France_Paris_111
-  - France_Paris_121
+  - France_111
+  - France_121
   - Unknown_131
   - Unknown_141
   - Unknown_142
@@ -1199,21 +1199,21 @@ proxy-groups:
   - Unknown_153
   - Unknown_154
   - Unknown_155
-  - France_Paris_161
+  - France_161
   - Unknown_162
   - Unknown_163
   - Unknown_164
   - Unknown_165
-  - United States_Los Angeles_171
-  - France_Paris_181
-  - France_Paris_191
-  - France_Paris_201
+  - United States_171
+  - France_181
+  - France_191
+  - France_201
   - Unknown_202
   - Unknown_203
   - Unknown_204
   - Unknown_205
-  - France_Paris_211
-  - France_Paris_221
+  - France_211
+  - France_221
   - Unknown_231
   - Unknown_241
   - Unknown_242
@@ -1225,32 +1225,32 @@ proxy-groups:
   - Unknown_253
   - Unknown_254
   - Unknown_255
-  - France_Paris_261
+  - France_261
   - Unknown_262
   - Unknown_263
   - Unknown_264
   - Unknown_265
-  - United States_Los Angeles_271
-  - France_Paris_281
-  - Taiwan_Taipei_291
-  - The Netherlands_Amsterdam_A0
-  - The Netherlands_Amsterdam_A1
-  - The Netherlands_Amsterdam_A2
-  - The Netherlands_Amsterdam_A3
-  - France_Paris_A4
-  - France_Paris_A5
-  - The Netherlands_Haarlem_A6
-  - United States_Los Angeles_A7
-  - France_Paris_A8
-  - France_Paris_A9
-  - The Netherlands_Haarlem_A10
-  - The Netherlands_Haarlem_A11
-  - France_Paris_B4
-  - United States_Los Angeles_B5
-  - The Netherlands_Haarlem_B7
-  - France_Paris_B8
-  - The Netherlands_Haarlem_B9
-  - The Netherlands_Haarlem_B11
+  - United States_271
+  - France_281
+  - Taiwan_291
+  - The Netherlands_A0
+  - The Netherlands_A1
+  - The Netherlands_A2
+  - The Netherlands_A3
+  - France_A4
+  - France_A5
+  - The Netherlands_A6
+  - United States_A7
+  - France_A8
+  - France_A9
+  - The Netherlands_A10
+  - The Netherlands_A11
+  - France_B4
+  - United States_B5
+  - The Netherlands_B7
+  - France_B8
+  - The Netherlands_B9
+  - The Netherlands_B11
   - Unknown_reality_0
   - Unknown_reality_3
   - Unknown_reality_7
