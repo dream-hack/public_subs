@@ -887,20 +887,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: The Netherlands_Haarlem_A6
-  type: hysteria
-  server: 51.159.226.1
-  port: 14241
-  ports: 14241
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: United States_Los Angeles_A7
   type: hysteria
   server: 208.87.243.187
@@ -1149,7 +1135,6 @@ proxy-groups:
   - The Netherlands_Amsterdam_A3
   - France_Paris_A4
   - France_Paris_A5
-  - The Netherlands_Haarlem_A6
   - United States_Los Angeles_A7
   - France_Paris_A8
   - France_Paris_A9
@@ -1239,7 +1224,6 @@ proxy-groups:
   - The Netherlands_Amsterdam_A3
   - France_Paris_A4
   - France_Paris_A5
-  - The Netherlands_Haarlem_A6
   - United States_Los Angeles_A7
   - France_Paris_A8
   - France_Paris_A9
