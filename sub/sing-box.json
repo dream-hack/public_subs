@@ -99,10 +99,10 @@
         "Unknown_hy_8",
         "🇫🇷 France_Paris_hy_9",
         "🇫🇷 France_Paris_hy_10",
+        "🇫🇷 France_Paris_hy_10 2",
         "Unknown_hy_10",
         "Unknown_hy_10 2",
         "Unknown_hy_10 3",
-        "Unknown_hy_10 4",
         "🇫🇷 France_Paris_tuic_11",
         "🇫🇷 France_Paris_hy_12",
         "Unknown_vless_13",
@@ -125,10 +125,10 @@
         "🇫🇷 France_Paris_hy_18",
         "🇫🇷 France_Paris_hy_19",
         "🇫🇷 France_Paris_hy_20",
+        "🇫🇷 France_Paris_hy_20 2",
         "Unknown_hy_20",
         "Unknown_hy_20 2",
         "Unknown_hy_20 3",
-        "Unknown_hy_20 4",
         "🇫🇷 France_Paris_tuic_21",
         "🇫🇷 France_Paris_hy_22",
         "Unknown_vless_23",
@@ -431,10 +431,10 @@
         "Unknown_hy_8",
         "🇫🇷 France_Paris_hy_9",
         "🇫🇷 France_Paris_hy_10",
+        "🇫🇷 France_Paris_hy_10 2",
         "Unknown_hy_10",
         "Unknown_hy_10 2",
         "Unknown_hy_10 3",
-        "Unknown_hy_10 4",
         "🇫🇷 France_Paris_tuic_11",
         "🇫🇷 France_Paris_hy_12",
         "Unknown_vless_13",
@@ -456,10 +456,10 @@
         "🇫🇷 France_Paris_hy_18",
         "🇫🇷 France_Paris_hy_19",
         "🇫🇷 France_Paris_hy_20",
+        "🇫🇷 France_Paris_hy_20 2",
         "Unknown_hy_20",
         "Unknown_hy_20 2",
         "Unknown_hy_20 3",
-        "Unknown_hy_20 4",
         "🇫🇷 France_Paris_tuic_21",
         "🇫🇷 France_Paris_hy_22",
         "Unknown_vless_23",
@@ -520,10 +520,10 @@
         "Unknown_hy_8",
         "🇫🇷 France_Paris_hy_9",
         "🇫🇷 France_Paris_hy_10",
+        "🇫🇷 France_Paris_hy_10 2",
         "Unknown_hy_10",
         "Unknown_hy_10 2",
         "Unknown_hy_10 3",
-        "Unknown_hy_10 4",
         "🇫🇷 France_Paris_tuic_11",
         "🇫🇷 France_Paris_hy_12",
         "Unknown_vless_13",
@@ -546,10 +546,10 @@
         "🇫🇷 France_Paris_hy_18",
         "🇫🇷 France_Paris_hy_19",
         "🇫🇷 France_Paris_hy_20",
+        "🇫🇷 France_Paris_hy_20 2",
         "Unknown_hy_20",
         "Unknown_hy_20 2",
         "Unknown_hy_20 3",
-        "Unknown_hy_20 4",
         "🇫🇷 France_Paris_tuic_21",
         "🇫🇷 France_Paris_hy_22",
         "Unknown_vless_23",
@@ -801,10 +801,10 @@
       }
     },
     {
-      "tag": "Unknown_hy_10",
+      "tag": "🇫🇷 France_Paris_hy_10 2",
       "type": "hysteria",
-      "server": "2001:bc8:1203:25::1",
-      "server_port": 20001,
+      "server": "62.210.11.74",
+      "server_port": 30011,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "dongtaiwang.com",
@@ -818,7 +818,7 @@
       }
     },
     {
-      "tag": "Unknown_hy_10 2",
+      "tag": "Unknown_hy_10",
       "type": "hysteria",
       "server": "2001:bc8:1203:25::2",
       "server_port": 20001,
@@ -835,7 +835,7 @@
       }
     },
     {
-      "tag": "Unknown_hy_10 3",
+      "tag": "Unknown_hy_10 2",
       "type": "hysteria",
       "server": "2001:bc8:1203:25::3",
       "server_port": 20001,
@@ -852,7 +852,7 @@
       }
     },
     {
-      "tag": "Unknown_hy_10 4",
+      "tag": "Unknown_hy_10 3",
       "type": "hysteria",
       "server": "2001:bc8:1203:25::4",
       "server_port": 20001,
@@ -1286,10 +1286,10 @@
       }
     },
     {
-      "tag": "Unknown_hy_20",
+      "tag": "🇫🇷 France_Paris_hy_20 2",
       "type": "hysteria",
-      "server": "2001:bc8:1203:25::1",
-      "server_port": 20001,
+      "server": "62.210.11.74",
+      "server_port": 30011,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "dongtaiwang.com",
@@ -1303,7 +1303,7 @@
       }
     },
     {
-      "tag": "Unknown_hy_20 2",
+      "tag": "Unknown_hy_20",
       "type": "hysteria",
       "server": "2001:bc8:1203:25::2",
       "server_port": 20001,
@@ -1320,7 +1320,7 @@
       }
     },
     {
-      "tag": "Unknown_hy_20 3",
+      "tag": "Unknown_hy_20 2",
       "type": "hysteria",
       "server": "2001:bc8:1203:25::3",
       "server_port": 20001,
@@ -1337,7 +1337,7 @@
       }
     },
     {
-      "tag": "Unknown_hy_20 4",
+      "tag": "Unknown_hy_20 3",
       "type": "hysteria",
       "server": "2001:bc8:1203:25::4",
       "server_port": 20001,
