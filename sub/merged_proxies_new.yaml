@@ -452,7 +452,7 @@ proxies:
   down: 55 Mbps
 - name: France_Paris_181
   type: hysteria
-  server: 51.159.111.32
+  server: 163.172.21.105
   port: 23880
   auth-str: dongtaiwang.com
   sni: bing.com
@@ -464,7 +464,7 @@ proxies:
   down: 55 Mbps
 - name: France_Paris_191
   type: hysteria
-  server: 51.159.111.32
+  server: 163.172.21.105
   port: 23880
   auth-str: dongtaiwang.com
   sni: bing.com
@@ -779,7 +779,7 @@ proxies:
   down: 55 Mbps
 - name: France_Paris_281
   type: hysteria
-  server: 51.159.111.32
+  server: 163.172.21.105
   port: 23880
   auth-str: dongtaiwang.com
   sni: bing.com
@@ -901,20 +901,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Los Angeles_A7
-  type: hysteria
-  server: 208.87.243.187
-  port: 15823
-  ports: 15823
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: France_Paris_A8
   type: hysteria
   server: 195.154.200.40
@@ -957,32 +943,10 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: The Netherlands_Haarlem_A11
-  type: hysteria
-  server: 51.159.226.1
-  port: 49003
-  ports: 49003
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: France_Paris_B4
   type: hysteria2
-  server: 51.159.111.32
+  server: 163.172.21.105
   port: 5355
-  password: dongtaiwang.com
-  fast-open: true
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: United States_Los Angeles_B5
-  type: hysteria2
-  server: 208.87.243.187
-  port: 22222
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -997,16 +961,8 @@ proxies:
   skip-cert-verify: true
 - name: France_Paris_B8
   type: hysteria2
-  server: 51.159.111.32
+  server: 163.172.21.105
   port: 5355
-  password: dongtaiwang.com
-  fast-open: true
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: The Netherlands_Haarlem_B9
-  type: hysteria2
-  server: 51.158.218.2
-  port: 50066
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -1150,16 +1106,12 @@ proxy-groups:
   - France_Paris_A4
   - France_Paris_A5
   - The Netherlands_Haarlem_A6
-  - United States_Los Angeles_A7
   - France_Paris_A8
   - France_Paris_A9
   - The Netherlands_Haarlem_A10
-  - The Netherlands_Haarlem_A11
   - France_Paris_B4
-  - United States_Los Angeles_B5
   - The Netherlands_Haarlem_B7
   - France_Paris_B8
-  - The Netherlands_Haarlem_B9
   - The Netherlands_Haarlem_B11
   - Unknown_reality_0
   - Unknown_reality_3
@@ -1240,16 +1192,12 @@ proxy-groups:
   - France_Paris_A4
   - France_Paris_A5
   - The Netherlands_Haarlem_A6
-  - United States_Los Angeles_A7
   - France_Paris_A8
   - France_Paris_A9
   - The Netherlands_Haarlem_A10
-  - The Netherlands_Haarlem_A11
   - France_Paris_B4
-  - United States_Los Angeles_B5
   - The Netherlands_Haarlem_B7
   - France_Paris_B8
-  - The Netherlands_Haarlem_B9
   - The Netherlands_Haarlem_B11
   - Unknown_reality_0
   - Unknown_reality_3
