@@ -149,7 +149,7 @@ proxies:
   down: 55 Mbps
 - name: France_Paris_101
   server: 51.159.107.20
-  port: 10088
+  port: 55255
   type: tuic
   uuid: 79529c4a-4028-4701-a6d6-4e94b78b50fd
   password: dongtaiwang.com
@@ -455,9 +455,9 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_181
+- name: Unknown_181
   type: hysteria
-  server: 163.172.21.105
+  server: 2001:bc8:1203:106::16
   port: 23880
   auth-str: dongtaiwang.com
   sni: bing.com
@@ -467,21 +467,23 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_191
-  type: hysteria
-  server: 163.172.21.105
-  port: 23880
-  auth-str: dongtaiwang.com
-  sni: bing.com
-  skip-cert-verify: true
+- name: Taiwan_Taipei_191
+  type: anytls
+  server: fan2.856098.xyz
+  port: 8443
+  password: dongtaiwang.com
+  client-fingerprint: chrome
+  udp: true
+  idle-session-check-interval: 30
+  idle-session-timeout: 30
+  min-idle-session: 0
   alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
+  - h2
+  - http/1.1
+  skip-cert-verify: true
 - name: France_Paris_201
   server: 51.159.107.20
-  port: 10088
+  port: 55255
   type: tuic
   uuid: 79529c4a-4028-4701-a6d6-4e94b78b50fd
   password: dongtaiwang.com
@@ -787,9 +789,9 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_281
+- name: Unknown_281
   type: hysteria
-  server: 163.172.21.105
+  server: 2001:bc8:1203:106::16
   port: 23880
   auth-str: dongtaiwang.com
   sni: bing.com
@@ -997,8 +999,8 @@ proxy-groups:
   - Unknown_164
   - Unknown_165
   - United States_Los Angeles_171
-  - France_Paris_181
-  - France_Paris_191
+  - Unknown_181
+  - Taiwan_Taipei_191
   - France_Paris_201
   - France_Paris_202
   - Unknown_203
@@ -1023,7 +1025,7 @@ proxy-groups:
   - Unknown_264
   - Unknown_265
   - United States_Los Angeles_271
-  - France_Paris_281
+  - Unknown_281
   - Taiwan_Taipei_291
   - France_Paris_A4
   - France_Paris_A5
@@ -1077,8 +1079,8 @@ proxy-groups:
   - Unknown_164
   - Unknown_165
   - United States_Los Angeles_171
-  - France_Paris_181
-  - France_Paris_191
+  - Unknown_181
+  - Taiwan_Taipei_191
   - France_Paris_201
   - France_Paris_202
   - Unknown_203
@@ -1103,7 +1105,7 @@ proxy-groups:
   - Unknown_264
   - Unknown_265
   - United States_Los Angeles_271
-  - France_Paris_281
+  - Unknown_281
   - Taiwan_Taipei_291
   - France_Paris_A4
   - France_Paris_A5
