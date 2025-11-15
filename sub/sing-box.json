@@ -118,7 +118,6 @@
         "Unknown_tuic_16",
         "Unknown_tuic_16 2",
         "Unknown_tuic_16 3",
-        "Unknown_tuic_16 4",
         "🇺🇸 United States_Los Angeles_hy_17",
         "🇫🇷 France_Paris_hy_18",
         "🇫🇷 France_Paris_hy_19",
@@ -142,7 +141,6 @@
         "Unknown_tuic_26",
         "Unknown_tuic_26 2",
         "Unknown_tuic_26 3",
-        "Unknown_tuic_26 4",
         "🇺🇸 United States_Los Angeles_hy_27",
         "🇫🇷 France_Paris_hy_28",
         "🇫🇷 France_Paris_hysteria_4",
@@ -436,7 +434,6 @@
         "Unknown_tuic_16",
         "Unknown_tuic_16 2",
         "Unknown_tuic_16 3",
-        "Unknown_tuic_16 4",
         "🇫🇷 France_Paris_hy_18",
         "🇫🇷 France_Paris_hy_19",
         "🇫🇷 France_Paris_tuic_20",
@@ -459,7 +456,6 @@
         "Unknown_tuic_26",
         "Unknown_tuic_26 2",
         "Unknown_tuic_26 3",
-        "Unknown_tuic_26 4",
         "🇫🇷 France_Paris_hy_28",
         "🇫🇷 France_Paris_hysteria_4",
         "🇫🇷 France_Paris_hysteria_5",
@@ -515,7 +511,6 @@
         "Unknown_tuic_16",
         "Unknown_tuic_16 2",
         "Unknown_tuic_16 3",
-        "Unknown_tuic_16 4",
         "🇺🇸 United States_Los Angeles_hy_17",
         "🇫🇷 France_Paris_hy_18",
         "🇫🇷 France_Paris_hy_19",
@@ -539,7 +534,6 @@
         "Unknown_tuic_26",
         "Unknown_tuic_26 2",
         "Unknown_tuic_26 3",
-        "Unknown_tuic_26 4",
         "🇺🇸 United States_Los Angeles_hy_27",
         "🇫🇷 France_Paris_hy_28",
         "🇫🇷 France_Paris_hysteria_4",
@@ -1070,7 +1064,7 @@
     {
       "tag": "Unknown_tuic_16",
       "type": "tuic",
-      "server": "2001:bc8:32d7:306::123",
+      "server": "2001:bc8:32d7:306::124",
       "server_port": 33998,
       "uuid": "909212b8-5d67-4532-885e-7a6b5e724ab8",
       "password": "dongtaiwang.com",
@@ -1090,26 +1084,6 @@
     {
       "tag": "Unknown_tuic_16 2",
       "type": "tuic",
-      "server": "2001:bc8:32d7:306::124",
-      "server_port": 33998,
-      "uuid": "909212b8-5d67-4532-885e-7a6b5e724ab8",
-      "password": "dongtaiwang.com",
-      "congestion_control": "bbr",
-      "udp_relay_mode": "native",
-      "zero_rtt_handshake": false,
-      "heartbeat": "10s",
-      "tls": {
-        "enabled": true,
-        "alpn": [
-          "h3"
-        ],
-        "insecure": true,
-        "server_name": "bing.com"
-      }
-    },
-    {
-      "tag": "Unknown_tuic_16 3",
-      "type": "tuic",
       "server": "2001:bc8:32d7:306::125",
       "server_port": 33998,
       "uuid": "909212b8-5d67-4532-885e-7a6b5e724ab8",
@@ -1128,7 +1102,7 @@
       }
     },
     {
-      "tag": "Unknown_tuic_16 4",
+      "tag": "Unknown_tuic_16 3",
       "type": "tuic",
       "server": "2001:bc8:32d7:306::126",
       "server_port": 33998,
@@ -1521,7 +1495,7 @@
     {
       "tag": "Unknown_tuic_26",
       "type": "tuic",
-      "server": "2001:bc8:32d7:306::123",
+      "server": "2001:bc8:32d7:306::124",
       "server_port": 33998,
       "uuid": "909212b8-5d67-4532-885e-7a6b5e724ab8",
       "password": "dongtaiwang.com",
@@ -1541,26 +1515,6 @@
     {
       "tag": "Unknown_tuic_26 2",
       "type": "tuic",
-      "server": "2001:bc8:32d7:306::124",
-      "server_port": 33998,
-      "uuid": "909212b8-5d67-4532-885e-7a6b5e724ab8",
-      "password": "dongtaiwang.com",
-      "congestion_control": "bbr",
-      "udp_relay_mode": "native",
-      "zero_rtt_handshake": false,
-      "heartbeat": "10s",
-      "tls": {
-        "enabled": true,
-        "alpn": [
-          "h3"
-        ],
-        "insecure": true,
-        "server_name": "bing.com"
-      }
-    },
-    {
-      "tag": "Unknown_tuic_26 3",
-      "type": "tuic",
       "server": "2001:bc8:32d7:306::125",
       "server_port": 33998,
       "uuid": "909212b8-5d67-4532-885e-7a6b5e724ab8",
@@ -1579,7 +1533,7 @@
       }
     },
     {
-      "tag": "Unknown_tuic_26 4",
+      "tag": "Unknown_tuic_26 3",
       "type": "tuic",
       "server": "2001:bc8:32d7:306::126",
       "server_port": 33998,
