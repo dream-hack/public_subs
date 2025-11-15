@@ -98,12 +98,10 @@
         "Unknown_hy_7",
         "Unknown_hy_8",
         "Unknown_hy_9",
-        "🇫🇷 France_Paris_hy_10",
-        "🇫🇷 France_Paris_hy_10 2",
+        "🇫🇷 France_Paris_tuic_10",
         "Unknown_hy_10",
         "Unknown_hy_10 2",
         "Unknown_hy_10 3",
-        "🇫🇷 France_Paris_tuic_11",
         "🇫🇷 France_Paris_hy_12",
         "Unknown_vless_13",
         "Unknown_tuic_14",
@@ -124,12 +122,10 @@
         "🇺🇸 United States_Los Angeles_hy_17",
         "🇫🇷 France_Paris_hy_18",
         "🇫🇷 France_Paris_hy_19",
-        "🇫🇷 France_Paris_hy_20",
-        "🇫🇷 France_Paris_hy_20 2",
+        "🇫🇷 France_Paris_tuic_20",
         "Unknown_hy_20",
         "Unknown_hy_20 2",
         "Unknown_hy_20 3",
-        "🇫🇷 France_Paris_tuic_21",
         "🇫🇷 France_Paris_hy_22",
         "Unknown_vless_23",
         "Unknown_tuic_24",
@@ -420,12 +416,10 @@
         "Unknown_hy_7",
         "Unknown_hy_8",
         "Unknown_hy_9",
-        "🇫🇷 France_Paris_hy_10",
-        "🇫🇷 France_Paris_hy_10 2",
+        "🇫🇷 France_Paris_tuic_10",
         "Unknown_hy_10",
         "Unknown_hy_10 2",
         "Unknown_hy_10 3",
-        "🇫🇷 France_Paris_tuic_11",
         "🇫🇷 France_Paris_hy_12",
         "Unknown_vless_13",
         "Unknown_tuic_14",
@@ -445,12 +439,10 @@
         "Unknown_tuic_16 4",
         "🇫🇷 France_Paris_hy_18",
         "🇫🇷 France_Paris_hy_19",
-        "🇫🇷 France_Paris_hy_20",
-        "🇫🇷 France_Paris_hy_20 2",
+        "🇫🇷 France_Paris_tuic_20",
         "Unknown_hy_20",
         "Unknown_hy_20 2",
         "Unknown_hy_20 3",
-        "🇫🇷 France_Paris_tuic_21",
         "🇫🇷 France_Paris_hy_22",
         "Unknown_vless_23",
         "Unknown_tuic_24",
@@ -503,12 +495,10 @@
         "Unknown_hy_7",
         "Unknown_hy_8",
         "Unknown_hy_9",
-        "🇫🇷 France_Paris_hy_10",
-        "🇫🇷 France_Paris_hy_10 2",
+        "🇫🇷 France_Paris_tuic_10",
         "Unknown_hy_10",
         "Unknown_hy_10 2",
         "Unknown_hy_10 3",
-        "🇫🇷 France_Paris_tuic_11",
         "🇫🇷 France_Paris_hy_12",
         "Unknown_vless_13",
         "Unknown_tuic_14",
@@ -529,12 +519,10 @@
         "🇺🇸 United States_Los Angeles_hy_17",
         "🇫🇷 France_Paris_hy_18",
         "🇫🇷 France_Paris_hy_19",
-        "🇫🇷 France_Paris_hy_20",
-        "🇫🇷 France_Paris_hy_20 2",
+        "🇫🇷 France_Paris_tuic_20",
         "Unknown_hy_20",
         "Unknown_hy_20 2",
         "Unknown_hy_20 3",
-        "🇫🇷 France_Paris_tuic_21",
         "🇫🇷 France_Paris_hy_22",
         "Unknown_vless_23",
         "Unknown_tuic_24",
@@ -760,37 +748,23 @@
       }
     },
     {
-      "tag": "🇫🇷 France_Paris_hy_10",
-      "type": "hysteria",
+      "tag": "🇫🇷 France_Paris_tuic_10",
+      "type": "tuic",
       "server": "51.159.107.20",
-      "server_port": 20001,
-      "up_mbps": 50,
-      "down_mbps": 80,
-      "auth_str": "dongtaiwang.com",
+      "server_port": 10088,
+      "uuid": "79529c4a-4028-4701-a6d6-4e94b78b50fd",
+      "password": "dongtaiwang.com",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
-        "insecure": true,
         "alpn": [
           "h3"
-        ]
-      }
-    },
-    {
-      "tag": "🇫🇷 France_Paris_hy_10 2",
-      "type": "hysteria",
-      "server": "62.210.11.74",
-      "server_port": 30011,
-      "up_mbps": 50,
-      "down_mbps": 80,
-      "auth_str": "dongtaiwang.com",
-      "tls": {
-        "enabled": true,
-        "server_name": "apple.com",
+        ],
         "insecure": true,
-        "alpn": [
-          "h3"
-        ]
+        "server_name": "bing.com"
       }
     },
     {
@@ -842,26 +816,6 @@
         "alpn": [
           "h3"
         ]
-      }
-    },
-    {
-      "tag": "🇫🇷 France_Paris_tuic_11",
-      "type": "tuic",
-      "server": "62.210.10.140",
-      "server_port": 23556,
-      "uuid": "e732a82b-612f-415d-a9f8-e4b1df37d066",
-      "password": "dongtaiwang.com",
-      "congestion_control": "bbr",
-      "udp_relay_mode": "native",
-      "zero_rtt_handshake": false,
-      "heartbeat": "10s",
-      "tls": {
-        "enabled": true,
-        "alpn": [
-          "h3"
-        ],
-        "insecure": true,
-        "server_name": "bing.com"
       }
     },
     {
@@ -1245,37 +1199,23 @@
       }
     },
     {
-      "tag": "🇫🇷 France_Paris_hy_20",
-      "type": "hysteria",
+      "tag": "🇫🇷 France_Paris_tuic_20",
+      "type": "tuic",
       "server": "51.159.107.20",
-      "server_port": 20001,
-      "up_mbps": 50,
-      "down_mbps": 80,
-      "auth_str": "dongtaiwang.com",
+      "server_port": 10088,
+      "uuid": "79529c4a-4028-4701-a6d6-4e94b78b50fd",
+      "password": "dongtaiwang.com",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
-        "insecure": true,
         "alpn": [
           "h3"
-        ]
-      }
-    },
-    {
-      "tag": "🇫🇷 France_Paris_hy_20 2",
-      "type": "hysteria",
-      "server": "62.210.11.74",
-      "server_port": 30011,
-      "up_mbps": 50,
-      "down_mbps": 80,
-      "auth_str": "dongtaiwang.com",
-      "tls": {
-        "enabled": true,
-        "server_name": "apple.com",
+        ],
         "insecure": true,
-        "alpn": [
-          "h3"
-        ]
+        "server_name": "bing.com"
       }
     },
     {
@@ -1327,26 +1267,6 @@
         "alpn": [
           "h3"
         ]
-      }
-    },
-    {
-      "tag": "🇫🇷 France_Paris_tuic_21",
-      "type": "tuic",
-      "server": "62.210.10.140",
-      "server_port": 23556,
-      "uuid": "e732a82b-612f-415d-a9f8-e4b1df37d066",
-      "password": "dongtaiwang.com",
-      "congestion_control": "bbr",
-      "udp_relay_mode": "native",
-      "zero_rtt_handshake": false,
-      "heartbeat": "10s",
-      "tls": {
-        "enabled": true,
-        "alpn": [
-          "h3"
-        ],
-        "insecure": true,
-        "server_name": "bing.com"
       }
     },
     {
