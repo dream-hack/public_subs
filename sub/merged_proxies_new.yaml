@@ -174,9 +174,9 @@ proxies:
   - h2
   - http/1.1
   skip-cert-verify: true
-- name: Unknown_103
+- name: France_Paris_103
   type: hysteria
-  server: 2001:bc8:1203:25::2
+  server: 51.159.107.20
   port: 20001
   auth-str: dongtaiwang.com
   sni: apple.com
@@ -508,9 +508,9 @@ proxies:
   - h2
   - http/1.1
   skip-cert-verify: true
-- name: Unknown_203
+- name: France_Paris_203
   type: hysteria
-  server: 2001:bc8:1203:25::2
+  server: 51.159.107.20
   port: 20001
   auth-str: dongtaiwang.com
   sni: apple.com
@@ -977,7 +977,7 @@ proxy-groups:
   - Unknown_91
   - France_Paris_101
   - France_Paris_102
-  - Unknown_103
+  - France_Paris_103
   - Unknown_104
   - Unknown_105
   - France_Paris_111
@@ -1003,7 +1003,7 @@ proxy-groups:
   - Taiwan_Taipei_191
   - France_Paris_201
   - France_Paris_202
-  - Unknown_203
+  - France_Paris_203
   - Unknown_204
   - Unknown_205
   - France_Paris_211
@@ -1057,7 +1057,7 @@ proxy-groups:
   - Unknown_91
   - France_Paris_101
   - France_Paris_102
-  - Unknown_103
+  - France_Paris_103
   - Unknown_104
   - Unknown_105
   - France_Paris_111
@@ -1083,7 +1083,7 @@ proxy-groups:
   - Taiwan_Taipei_191
   - France_Paris_201
   - France_Paris_202
-  - Unknown_203
+  - France_Paris_203
   - Unknown_204
   - Unknown_205
   - France_Paris_211
