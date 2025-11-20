@@ -25,19 +25,18 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: Unknown_11
-  server: 2001:bc8:32d7:302::16
-  port: 34997
-  type: tuic
-  uuid: 8687b6e0-ef24-4cd2-bcd2-02d3732bf554
+- name: Unknown_01
+  type: hysteria2
+  server: 2001:bc8:32d7:302::11
+  port: 20088
   password: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
   alpn:
   - h3
-  sni: bing.com
-  skip-cert-verify: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: Unknown_21
   type: hysteria2
   server: 2001:bc8:32d7:302::17
@@ -50,6 +49,19 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
+- name: Unknown_31
+  server: 2001:bc8:32d7:302::16
+  port: 34997
+  type: tuic
+  uuid: 8687b6e0-ef24-4cd2-bcd2-02d3732bf554
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: Unknown_41
   type: hysteria2
   server: 2001:bc8:32d7:302::17
@@ -65,6 +77,18 @@ proxies:
 - name: France_Paris_61
   type: hysteria
   server: 62.210.10.186
+  port: 50011
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: Unknown_71
+  type: hysteria
+  server: 2001:bc8:32d7:158::4
   port: 50011
   auth-str: dongtaiwang.com
   sni: apple.com
@@ -916,10 +940,12 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - Unknown_11
+  - Unknown_01
   - Unknown_21
+  - Unknown_31
   - Unknown_41
   - France_Paris_61
+  - Unknown_71
   - Unknown_81
   - Unknown_91
   - France_Paris_101
@@ -992,10 +1018,12 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - Unknown_11
+  - Unknown_01
   - Unknown_21
+  - Unknown_31
   - Unknown_41
   - France_Paris_61
+  - Unknown_71
   - Unknown_81
   - Unknown_91
   - France_Paris_101
