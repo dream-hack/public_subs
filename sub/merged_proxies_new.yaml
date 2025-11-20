@@ -25,18 +25,6 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: Unknown_01
-  type: hysteria2
-  server: 2001:bc8:32d7:302::11
-  port: 20088
-  password: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
 - name: Unknown_11
   server: 2001:bc8:32d7:302::16
   port: 34997
@@ -50,11 +38,35 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
+- name: Unknown_21
+  type: hysteria2
+  server: 2001:bc8:32d7:302::17
+  port: 20088
+  password: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: Unknown_41
   type: hysteria2
   server: 2001:bc8:32d7:302::17
   port: 20088
   password: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: France_Paris_61
+  type: hysteria
+  server: 62.210.10.186
+  port: 50011
+  auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
   alpn:
@@ -149,6 +161,20 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
+- name: France_Paris_111
+  type: anytls
+  server: 62.210.10.140
+  port: 8443
+  password: dongtaiwang.com
+  client-fingerprint: chrome
+  udp: true
+  idle-session-check-interval: 30
+  idle-session-timeout: 30
+  min-idle-session: 0
+  alpn:
+  - h2
+  - http/1.1
+  skip-cert-verify: true
 - name: France_Paris_121
   type: hysteria
   server: 62.210.10.140
@@ -890,9 +916,10 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - Unknown_01
   - Unknown_11
+  - Unknown_21
   - Unknown_41
+  - France_Paris_61
   - Unknown_81
   - Unknown_91
   - France_Paris_101
@@ -900,6 +927,7 @@ proxy-groups:
   - France_Paris_103
   - Unknown_104
   - Unknown_105
+  - France_Paris_111
   - France_Paris_121
   - Unknown_131
   - Unknown_141
@@ -964,9 +992,10 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - Unknown_01
   - Unknown_11
+  - Unknown_21
   - Unknown_41
+  - France_Paris_61
   - Unknown_81
   - Unknown_91
   - France_Paris_101
@@ -974,6 +1003,7 @@ proxy-groups:
   - France_Paris_103
   - Unknown_104
   - Unknown_105
+  - France_Paris_111
   - France_Paris_121
   - Unknown_131
   - Unknown_141
