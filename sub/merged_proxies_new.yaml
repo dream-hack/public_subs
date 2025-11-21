@@ -147,11 +147,11 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_101
-  server: 51.159.107.20
-  port: 55255
+- name: United Kingdom_None_101
+  server: 89.144.35.230
+  port: 50088
   type: tuic
-  uuid: 79529c4a-4028-4701-a6d6-4e94b78b50fd
+  uuid: 93959440-4f83-4352-b939-906b1fd3fa59
   password: dongtaiwang.com
   alpn:
   - h3
@@ -481,11 +481,11 @@ proxies:
   - h2
   - http/1.1
   skip-cert-verify: true
-- name: France_Paris_201
-  server: 51.159.107.20
-  port: 55255
+- name: United Kingdom_None_201
+  server: 89.144.35.230
+  port: 50088
   type: tuic
-  uuid: 79529c4a-4028-4701-a6d6-4e94b78b50fd
+  uuid: 93959440-4f83-4352-b939-906b1fd3fa59
   password: dongtaiwang.com
   alpn:
   - h3
@@ -975,7 +975,7 @@ proxy-groups:
   - Unknown_71
   - Unknown_81
   - Unknown_91
-  - France_Paris_101
+  - United Kingdom_None_101
   - France_Paris_102
   - France_Paris_103
   - Unknown_104
@@ -1001,7 +1001,7 @@ proxy-groups:
   - United States_Los Angeles_171
   - Unknown_181
   - Taiwan_Taipei_191
-  - France_Paris_201
+  - United Kingdom_None_201
   - France_Paris_202
   - France_Paris_203
   - Unknown_204
@@ -1055,7 +1055,7 @@ proxy-groups:
   - Unknown_71
   - Unknown_81
   - Unknown_91
-  - France_Paris_101
+  - United Kingdom_None_101
   - France_Paris_102
   - France_Paris_103
   - Unknown_104
@@ -1081,7 +1081,7 @@ proxy-groups:
   - United States_Los Angeles_171
   - Unknown_181
   - Taiwan_Taipei_191
-  - France_Paris_201
+  - United Kingdom_None_201
   - France_Paris_202
   - France_Paris_203
   - Unknown_204
