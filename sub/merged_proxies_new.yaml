@@ -25,6 +25,18 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- name: Unknown_01
+  type: hysteria2
+  server: 2001:bc8:32d7:302::11
+  port: 20088
+  password: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: Unknown_11
   server: 2001:bc8:32d7:302::16
   port: 34997
@@ -80,6 +92,18 @@ proxies:
   server: 2001:bc8:32d7:302::11
   port: 20088
   password: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: France_Paris_61
+  type: hysteria
+  server: 62.210.10.186
+  port: 50011
+  auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
   alpn:
@@ -520,6 +544,113 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
+- name: France_Paris_211
+  type: anytls
+  server: 62.210.10.140
+  port: 8443
+  password: dongtaiwang.com
+  client-fingerprint: chrome
+  udp: true
+  idle-session-check-interval: 30
+  idle-session-timeout: 30
+  min-idle-session: 0
+  alpn:
+  - h2
+  - http/1.1
+  skip-cert-verify: true
+- name: France_Paris_221
+  type: hysteria
+  server: 62.210.10.140
+  port: 42248
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: Unknown_231
+  type: vless
+  server: 2001:bc8:32d7:158::5
+  port: 10033
+  uuid: 56618bde-5a09-4ef8-ae56-6e7a8d69ec67
+  network: grpc
+  udp: true
+  tls: true
+  flow: null
+  servername: nijigen-works.jp
+  reality-opts:
+    public-key: m1ORavmKKsF8kn6JfNF1m35wRORu8c6YLyxpSfyiYQ0
+    short-id: dfdfb0e2e2d400c4
+  grpc-opts:
+    grpc-service-name: FhwHiFzK
+  client-fingerprint: chrome
+- name: Unknown_241
+  server: 2001:bc8:1203:106::100
+  port: 55111
+  type: tuic
+  uuid: 5ae31731-78ac-483a-b524-011d05072ef5
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: Unknown_242
+  server: 2001:bc8:1203:106::101
+  port: 55111
+  type: tuic
+  uuid: 5ae31731-78ac-483a-b524-011d05072ef5
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: Unknown_243
+  server: 2001:bc8:1203:106::102
+  port: 55111
+  type: tuic
+  uuid: 5ae31731-78ac-483a-b524-011d05072ef5
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: Unknown_244
+  server: 2001:bc8:1203:106::103
+  port: 55111
+  type: tuic
+  uuid: 5ae31731-78ac-483a-b524-011d05072ef5
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: Unknown_245
+  server: 2001:bc8:1203:106::104
+  port: 55111
+  type: tuic
+  uuid: 5ae31731-78ac-483a-b524-011d05072ef5
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: Unknown_251
   type: hysteria
   server: 2001:bc8:1203:106::200
@@ -834,11 +965,13 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
+  - Unknown_01
   - Unknown_11
   - Unknown_21
   - Unknown_31
   - Unknown_41
   - Unknown_51
+  - France_Paris_61
   - Unknown_71
   - Unknown_81
   - Unknown_91
@@ -873,6 +1006,14 @@ proxy-groups:
   - France_Paris_203
   - Unknown_204
   - Unknown_205
+  - France_Paris_211
+  - France_Paris_221
+  - Unknown_231
+  - Unknown_241
+  - Unknown_242
+  - Unknown_243
+  - Unknown_244
+  - Unknown_245
   - Unknown_251
   - Unknown_252
   - Unknown_253
@@ -904,11 +1045,13 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
+  - Unknown_01
   - Unknown_11
   - Unknown_21
   - Unknown_31
   - Unknown_41
   - Unknown_51
+  - France_Paris_61
   - Unknown_71
   - Unknown_81
   - Unknown_91
@@ -943,6 +1086,14 @@ proxy-groups:
   - France_Paris_203
   - Unknown_204
   - Unknown_205
+  - France_Paris_211
+  - France_Paris_221
+  - Unknown_231
+  - Unknown_241
+  - Unknown_242
+  - Unknown_243
+  - Unknown_244
+  - Unknown_245
   - Unknown_251
   - Unknown_252
   - Unknown_253
