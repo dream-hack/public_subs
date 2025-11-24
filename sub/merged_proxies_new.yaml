@@ -711,72 +711,6 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_261
-  server: 62.210.10.113
-  port: 33998
-  type: tuic
-  uuid: 909212b8-5d67-4532-885e-7a6b5e724ab8
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  sni: bing.com
-  skip-cert-verify: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
-- name: Taiwan_Taipei_262
-  type: anytls
-  server: fan3.394615.xyz
-  port: 8443
-  password: dongtaiwang.com
-  client-fingerprint: chrome
-  udp: true
-  idle-session-check-interval: 30
-  idle-session-timeout: 30
-  min-idle-session: 0
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
-- name: Unknown_263
-  server: 2001:bc8:32d7:306::124
-  port: 33998
-  type: tuic
-  uuid: 909212b8-5d67-4532-885e-7a6b5e724ab8
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  sni: bing.com
-  skip-cert-verify: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
-- name: Unknown_264
-  server: 2001:bc8:32d7:306::125
-  port: 33998
-  type: tuic
-  uuid: 909212b8-5d67-4532-885e-7a6b5e724ab8
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  sni: bing.com
-  skip-cert-verify: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
-- name: Unknown_265
-  server: 2001:bc8:32d7:306::126
-  port: 33998
-  type: tuic
-  uuid: 909212b8-5d67-4532-885e-7a6b5e724ab8
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  sni: bing.com
-  skip-cert-verify: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
 - name: United States_Los Angeles_271
   type: hysteria
   server: 208.87.243.151
@@ -945,20 +879,6 @@ proxies:
   reality-opts:
     public-key: pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M
     short-id: ''
-- name: Unknown_reality_3
-  type: vless
-  server: 2001:bc8:32d7:302::13
-  port: 34324
-  uuid: 26c462ba-a90c-4814-9d7c-a629bc0bdb5c
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: dash.cloudflare.com
-  reality-opts:
-    public-key: pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M
-    short-id: ''
 proxy-groups:
 - name: 节点选择
   type: select
@@ -1019,11 +939,6 @@ proxy-groups:
   - Unknown_253
   - Unknown_254
   - Unknown_255
-  - France_Paris_261
-  - Taiwan_Taipei_262
-  - Unknown_263
-  - Unknown_264
-  - Unknown_265
   - United States_Los Angeles_271
   - Unknown_281
   - Taiwan_Taipei_291
@@ -1038,7 +953,6 @@ proxy-groups:
   - France_Paris_B8
   - The Netherlands_Haarlem_B11
   - Unknown_reality_0
-  - Unknown_reality_3
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1099,11 +1013,6 @@ proxy-groups:
   - Unknown_253
   - Unknown_254
   - Unknown_255
-  - France_Paris_261
-  - Taiwan_Taipei_262
-  - Unknown_263
-  - Unknown_264
-  - Unknown_265
   - United States_Los Angeles_271
   - Unknown_281
   - Taiwan_Taipei_291
@@ -1118,7 +1027,6 @@ proxy-groups:
   - France_Paris_B8
   - The Netherlands_Haarlem_B11
   - Unknown_reality_0
-  - Unknown_reality_3
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
