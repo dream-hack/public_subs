@@ -26,10 +26,10 @@ dns:
     - 240.0.0.0/4
 proxies:
 - name: Unknown_01
-  type: hysteria2
-  server: 2001:bc8:32d7:302::11
-  port: 20088
-  password: dongtaiwang.com
+  type: hysteria
+  server: 2001:bc8:32d7:17b::2
+  port: 11000
+  auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
   alpn:
@@ -51,10 +51,10 @@ proxies:
   udp-relay-mode: native
   congestion-controller: bbr
 - name: Unknown_21
-  type: hysteria2
-  server: 2001:bc8:32d7:302::17
-  port: 20088
-  password: dongtaiwang.com
+  type: hysteria
+  server: 2001:bc8:32d7:17b::2
+  port: 11000
+  auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
   alpn:
@@ -76,10 +76,10 @@ proxies:
   udp-relay-mode: native
   congestion-controller: bbr
 - name: Unknown_41
-  type: hysteria2
-  server: 2001:bc8:32d7:302::17
-  port: 20088
-  password: dongtaiwang.com
+  type: hysteria
+  server: 2001:bc8:32d7:17b::2
+  port: 11000
+  auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
   alpn:
@@ -88,10 +88,10 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
 - name: Unknown_51
-  type: hysteria2
-  server: 2001:bc8:32d7:302::11
-  port: 20088
-  password: dongtaiwang.com
+  type: hysteria
+  server: 2001:bc8:32d7:17b::2
+  port: 11000
+  auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
   alpn:
