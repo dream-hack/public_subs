@@ -147,8 +147,8 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: United Kingdom_None_101
-  server: 89.144.35.230
+- name: The Netherlands_Haarlem_101
+  server: 51.158.205.126
   port: 50088
   type: tuic
   uuid: 93959440-4f83-4352-b939-906b1fd3fa59
@@ -846,8 +846,8 @@ proxies:
 - name: The Netherlands_Haarlem_A6
   type: hysteria
   server: 51.159.226.1
-  port: 14241
-  ports: 14241
+  port: 49003
+  ports: 49003
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -975,7 +975,7 @@ proxy-groups:
   - Unknown_71
   - Unknown_81
   - Unknown_91
-  - United Kingdom_None_101
+  - The Netherlands_Haarlem_101
   - France_Paris_102
   - France_Paris_103
   - Unknown_104
@@ -1055,7 +1055,7 @@ proxy-groups:
   - Unknown_71
   - Unknown_81
   - Unknown_91
-  - United Kingdom_None_101
+  - The Netherlands_Haarlem_101
   - France_Paris_102
   - France_Paris_103
   - Unknown_104
