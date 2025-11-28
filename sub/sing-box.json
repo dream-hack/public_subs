@@ -1155,9 +1155,9 @@
     {
       "tag": "🇫🇷 France_Paris_tuic_20",
       "type": "tuic",
-      "server": "51.159.107.20",
-      "server_port": 55255,
-      "uuid": "79529c4a-4028-4701-a6d6-4e94b78b50fd",
+      "server": "62.210.99.62",
+      "server_port": 50088,
+      "uuid": "93959440-4f83-4352-b939-906b1fd3fa59",
       "password": "dongtaiwang.com",
       "congestion_control": "bbr",
       "udp_relay_mode": "native",
@@ -1175,7 +1175,7 @@
     {
       "tag": "🇫🇷 France_Paris_hy_20",
       "type": "hysteria",
-      "server": "51.159.107.20",
+      "server": "62.210.99.62",
       "server_port": 20001,
       "up_mbps": 50,
       "down_mbps": 80,
@@ -1192,7 +1192,7 @@
     {
       "tag": "Unknown_hy_20",
       "type": "hysteria",
-      "server": "2001:bc8:1203:25::3",
+      "server": "2001:bc8:32d7:402::3",
       "server_port": 20001,
       "up_mbps": 50,
       "down_mbps": 80,
@@ -1209,7 +1209,7 @@
     {
       "tag": "Unknown_hy_20 2",
       "type": "hysteria",
-      "server": "2001:bc8:1203:25::4",
+      "server": "2001:bc8:32d7:402::4",
       "server_port": 20001,
       "up_mbps": 50,
       "down_mbps": 80,
