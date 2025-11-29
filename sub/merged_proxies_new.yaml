@@ -899,6 +899,14 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
+- name: France_Paris_B4
+  type: hysteria2
+  server: 163.172.21.105
+  port: 5355
+  password: dongtaiwang.com
+  fast-open: true
+  sni: www.bing.com
+  skip-cert-verify: true
 - name: The Netherlands_Haarlem_B7
   type: hysteria2
   server: 51.158.218.2
@@ -1025,6 +1033,7 @@ proxy-groups:
   - France_Paris_A8
   - France_Paris_A9
   - The Netherlands_Haarlem_A10
+  - France_Paris_B4
   - The Netherlands_Haarlem_B7
   - France_Paris_B8
   - The Netherlands_Haarlem_B11
@@ -1104,6 +1113,7 @@ proxy-groups:
   - France_Paris_A8
   - France_Paris_A9
   - The Netherlands_Haarlem_A10
+  - France_Paris_B4
   - The Netherlands_Haarlem_B7
   - France_Paris_B8
   - The Netherlands_Haarlem_B11
