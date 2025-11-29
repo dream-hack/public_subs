@@ -1155,7 +1155,7 @@
     {
       "tag": "🇫🇷 France_Paris_tuic_20",
       "type": "tuic",
-      "server": "62.210.99.62",
+      "server": "ipv4.758733.xyz",
       "server_port": 50088,
       "uuid": "93959440-4f83-4352-b939-906b1fd3fa59",
       "password": "dongtaiwang.com",
@@ -1175,7 +1175,7 @@
     {
       "tag": "🇫🇷 France_Paris_hy_20",
       "type": "hysteria",
-      "server": "62.210.99.62",
+      "server": "ipv4.758733.xyz",
       "server_port": 20001,
       "up_mbps": 50,
       "down_mbps": 80,

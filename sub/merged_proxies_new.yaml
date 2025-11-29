@@ -147,8 +147,8 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: The Netherlands_Haarlem_101
-  server: 51.158.205.126
+- name: France_Paris_101
+  server: ipv4.758733.xyz
   port: 50088
   type: tuic
   uuid: 93959440-4f83-4352-b939-906b1fd3fa59
@@ -176,7 +176,7 @@ proxies:
   skip-cert-verify: true
 - name: France_Paris_103
   type: hysteria
-  server: 51.159.107.20
+  server: ipv4.758733.xyz
   port: 20001
   auth-str: dongtaiwang.com
   sni: apple.com
@@ -188,7 +188,7 @@ proxies:
   down: 55 Mbps
 - name: Unknown_104
   type: hysteria
-  server: 2001:bc8:1203:25::3
+  server: 2001:bc8:32d7:402::3
   port: 20001
   auth-str: dongtaiwang.com
   sni: apple.com
@@ -200,7 +200,7 @@ proxies:
   down: 55 Mbps
 - name: Unknown_105
   type: hysteria
-  server: 2001:bc8:1203:25::4
+  server: 2001:bc8:32d7:402::4
   port: 20001
   auth-str: dongtaiwang.com
   sni: apple.com
@@ -975,7 +975,7 @@ proxy-groups:
   - Unknown_71
   - Unknown_81
   - Unknown_91
-  - The Netherlands_Haarlem_101
+  - France_Paris_101
   - France_Paris_102
   - France_Paris_103
   - Unknown_104
@@ -1055,7 +1055,7 @@ proxy-groups:
   - Unknown_71
   - Unknown_81
   - Unknown_91
-  - The Netherlands_Haarlem_101
+  - France_Paris_101
   - France_Paris_102
   - France_Paris_103
   - Unknown_104
