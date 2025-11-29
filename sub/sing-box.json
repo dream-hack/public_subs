@@ -1688,7 +1688,7 @@
     {
       "tag": "🇳🇱 The Netherlands_Haarlem_hysteria2_7",
       "type": "hysteria2",
-      "server": "51.158.218.2",
+      "server": "51.158.205.126",
       "server_port": 50066,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
@@ -1722,7 +1722,7 @@
     {
       "tag": "🇳🇱 The Netherlands_Haarlem_hysteria2_11",
       "type": "hysteria2",
-      "server": "51.158.218.2",
+      "server": "51.158.205.126",
       "server_port": 50066,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
