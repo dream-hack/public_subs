@@ -236,22 +236,6 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: Unknown_131
-  type: vless
-  server: 2001:bc8:32d7:158::5
-  port: 10033
-  uuid: 56618bde-5a09-4ef8-ae56-6e7a8d69ec67
-  network: grpc
-  udp: true
-  tls: true
-  flow: null
-  servername: nijigen-works.jp
-  reality-opts:
-    public-key: m1ORavmKKsF8kn6JfNF1m35wRORu8c6YLyxpSfyiYQ0
-    short-id: dfdfb0e2e2d400c4
-  grpc-opts:
-    grpc-service-name: FhwHiFzK
-  client-fingerprint: chrome
 - name: Unknown_141
   server: 2001:bc8:1203:106::100
   port: 55111
@@ -570,22 +554,6 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: Unknown_231
-  type: vless
-  server: 2001:bc8:32d7:158::5
-  port: 10033
-  uuid: 56618bde-5a09-4ef8-ae56-6e7a8d69ec67
-  network: grpc
-  udp: true
-  tls: true
-  flow: null
-  servername: nijigen-works.jp
-  reality-opts:
-    public-key: m1ORavmKKsF8kn6JfNF1m35wRORu8c6YLyxpSfyiYQ0
-    short-id: dfdfb0e2e2d400c4
-  grpc-opts:
-    grpc-service-name: FhwHiFzK
-  client-fingerprint: chrome
 - name: Unknown_241
   server: 2001:bc8:1203:106::100
   port: 55111
@@ -982,7 +950,6 @@ proxy-groups:
   - Unknown_105
   - France_Paris_111
   - France_Paris_121
-  - Unknown_131
   - Unknown_141
   - Unknown_142
   - Unknown_143
@@ -1008,7 +975,6 @@ proxy-groups:
   - Unknown_205
   - France_Paris_211
   - France_Paris_221
-  - Unknown_231
   - Unknown_241
   - Unknown_242
   - Unknown_243
@@ -1062,7 +1028,6 @@ proxy-groups:
   - Unknown_105
   - France_Paris_111
   - France_Paris_121
-  - Unknown_131
   - Unknown_141
   - Unknown_142
   - Unknown_143
@@ -1088,7 +1053,6 @@ proxy-groups:
   - Unknown_205
   - France_Paris_211
   - France_Paris_221
-  - Unknown_231
   - Unknown_241
   - Unknown_242
   - Unknown_243
