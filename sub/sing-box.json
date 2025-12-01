@@ -103,7 +103,6 @@
         "Unknown_hy_10",
         "Unknown_hy_10 2",
         "🇫🇷 France_Paris_hy_12",
-        "Unknown_vless_13",
         "Unknown_tuic_14",
         "Unknown_tuic_14 2",
         "Unknown_tuic_14 3",
@@ -125,7 +124,6 @@
         "Unknown_hy_20",
         "Unknown_hy_20 2",
         "🇫🇷 France_Paris_hy_22",
-        "Unknown_vless_23",
         "Unknown_tuic_24",
         "Unknown_tuic_24 2",
         "Unknown_tuic_24 3",
@@ -418,7 +416,6 @@
         "Unknown_hy_10",
         "Unknown_hy_10 2",
         "🇫🇷 France_Paris_hy_12",
-        "Unknown_vless_13",
         "Unknown_tuic_14",
         "Unknown_tuic_14 2",
         "Unknown_tuic_14 3",
@@ -439,7 +436,6 @@
         "Unknown_hy_20",
         "Unknown_hy_20 2",
         "🇫🇷 France_Paris_hy_22",
-        "Unknown_vless_23",
         "Unknown_tuic_24",
         "Unknown_tuic_24 2",
         "Unknown_tuic_24 3",
@@ -494,7 +490,6 @@
         "Unknown_hy_10",
         "Unknown_hy_10 2",
         "🇫🇷 France_Paris_hy_12",
-        "Unknown_vless_13",
         "Unknown_tuic_14",
         "Unknown_tuic_14 2",
         "Unknown_tuic_14 3",
@@ -516,7 +511,6 @@
         "Unknown_hy_20",
         "Unknown_hy_20 2",
         "🇫🇷 France_Paris_hy_22",
-        "Unknown_vless_23",
         "Unknown_tuic_24",
         "Unknown_tuic_24 2",
         "Unknown_tuic_24 3",
@@ -824,33 +818,6 @@
         "alpn": [
           "h3"
         ]
-      }
-    },
-    {
-      "tag": "Unknown_vless_13",
-      "type": "vless",
-      "server": "2001:bc8:32d7:158::5",
-      "server_port": 10033,
-      "uuid": "56618bde-5a09-4ef8-ae56-6e7a8d69ec67",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "nijigen-works.jp",
-        "reality": {
-          "enabled": true,
-          "public_key": "m1ORavmKKsF8kn6JfNF1m35wRORu8c6YLyxpSfyiYQ0",
-          "short_id": "dfdfb0e2e2d400c4"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "FhwHiFzK"
       }
     },
     {
@@ -1238,33 +1205,6 @@
         "alpn": [
           "h3"
         ]
-      }
-    },
-    {
-      "tag": "Unknown_vless_23",
-      "type": "vless",
-      "server": "2001:bc8:32d7:158::5",
-      "server_port": 10033,
-      "uuid": "56618bde-5a09-4ef8-ae56-6e7a8d69ec67",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "nijigen-works.jp",
-        "reality": {
-          "enabled": true,
-          "public_key": "m1ORavmKKsF8kn6JfNF1m35wRORu8c6YLyxpSfyiYQ0",
-          "short_id": "dfdfb0e2e2d400c4"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "FhwHiFzK"
       }
     },
     {
