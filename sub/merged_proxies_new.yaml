@@ -210,10 +210,10 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_111
+- name: South Africa_None_111
   type: anytls
-  server: 62.210.10.140
-  port: 8443
+  server: 45.221.98.14
+  port: 59901
   password: dongtaiwang.com
   client-fingerprint: chrome
   udp: true
@@ -528,10 +528,10 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_211
+- name: South Africa_None_211
   type: anytls
-  server: 62.210.10.140
-  port: 8443
+  server: 45.221.98.14
+  port: 59901
   password: dongtaiwang.com
   client-fingerprint: chrome
   udp: true
@@ -948,7 +948,7 @@ proxy-groups:
   - France_Paris_103
   - Unknown_104
   - Unknown_105
-  - France_Paris_111
+  - South Africa_None_111
   - France_Paris_121
   - Unknown_141
   - Unknown_142
@@ -973,7 +973,7 @@ proxy-groups:
   - France_Paris_203
   - Unknown_204
   - Unknown_205
-  - France_Paris_211
+  - South Africa_None_211
   - France_Paris_221
   - Unknown_241
   - Unknown_242
@@ -1026,7 +1026,7 @@ proxy-groups:
   - France_Paris_103
   - Unknown_104
   - Unknown_105
-  - France_Paris_111
+  - South Africa_None_111
   - France_Paris_121
   - Unknown_141
   - Unknown_142
@@ -1051,7 +1051,7 @@ proxy-groups:
   - France_Paris_203
   - Unknown_204
   - Unknown_205
-  - France_Paris_211
+  - South Africa_None_211
   - France_Paris_221
   - Unknown_241
   - Unknown_242
