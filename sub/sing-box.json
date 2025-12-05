@@ -102,7 +102,9 @@
         "🇫🇷 France_Paris_hy_10",
         "Unknown_hy_10",
         "Unknown_hy_10 2",
-        "🇫🇷 France_Paris_hy_12",
+        "🇫🇷 France_Paris_vless_12",
+        "Unknown_vless_12",
+        "Unknown_vless_12 2",
         "Unknown_tuic_14",
         "Unknown_tuic_14 2",
         "Unknown_tuic_14 3",
@@ -123,7 +125,9 @@
         "🇫🇷 France_Paris_hy_20",
         "Unknown_hy_20",
         "Unknown_hy_20 2",
-        "🇫🇷 France_Paris_hy_22",
+        "🇫🇷 France_Paris_vless_22",
+        "Unknown_vless_22",
+        "Unknown_vless_22 2",
         "Unknown_tuic_24",
         "Unknown_tuic_24 2",
         "Unknown_tuic_24 3",
@@ -415,7 +419,9 @@
         "🇫🇷 France_Paris_hy_10",
         "Unknown_hy_10",
         "Unknown_hy_10 2",
-        "🇫🇷 France_Paris_hy_12",
+        "🇫🇷 France_Paris_vless_12",
+        "Unknown_vless_12",
+        "Unknown_vless_12 2",
         "Unknown_tuic_14",
         "Unknown_tuic_14 2",
         "Unknown_tuic_14 3",
@@ -435,7 +441,9 @@
         "🇫🇷 France_Paris_hy_20",
         "Unknown_hy_20",
         "Unknown_hy_20 2",
-        "🇫🇷 France_Paris_hy_22",
+        "🇫🇷 France_Paris_vless_22",
+        "Unknown_vless_22",
+        "Unknown_vless_22 2",
         "Unknown_tuic_24",
         "Unknown_tuic_24 2",
         "Unknown_tuic_24 3",
@@ -489,7 +497,9 @@
         "🇫🇷 France_Paris_hy_10",
         "Unknown_hy_10",
         "Unknown_hy_10 2",
-        "🇫🇷 France_Paris_hy_12",
+        "🇫🇷 France_Paris_vless_12",
+        "Unknown_vless_12",
+        "Unknown_vless_12 2",
         "Unknown_tuic_14",
         "Unknown_tuic_14 2",
         "Unknown_tuic_14 3",
@@ -510,7 +520,9 @@
         "🇫🇷 France_Paris_hy_20",
         "Unknown_hy_20",
         "Unknown_hy_20 2",
-        "🇫🇷 France_Paris_hy_22",
+        "🇫🇷 France_Paris_vless_22",
+        "Unknown_vless_22",
+        "Unknown_vless_22 2",
         "Unknown_tuic_24",
         "Unknown_tuic_24 2",
         "Unknown_tuic_24 3",
@@ -804,20 +816,72 @@
       }
     },
     {
-      "tag": "🇫🇷 France_Paris_hy_12",
-      "type": "hysteria",
-      "server": "62.210.10.140",
-      "server_port": 42248,
-      "up_mbps": 50,
-      "down_mbps": 80,
-      "auth_str": "dongtaiwang.com",
+      "tag": "🇫🇷 France_Paris_vless_12",
+      "type": "vless",
+      "server": "195.154.200.131",
+      "server_port": 17401,
+      "uuid": "add14a5b-f648-4423-8a1f-8b8f54c0daef",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
+        "insecure": false,
+        "server_name": "itunes.apple.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "IXcXrT_Y0ATTZlGOhPnSmKo-cuGr4yMKV9Rz4-nA3yU",
+          "short_id": "8ef4455ba637425b"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "Unknown_vless_12",
+      "type": "vless",
+      "server": "2001:bc8:32d7:181::2",
+      "server_port": 17401,
+      "uuid": "add14a5b-f648-4423-8a1f-8b8f54c0daef",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "itunes.apple.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "IXcXrT_Y0ATTZlGOhPnSmKo-cuGr4yMKV9Rz4-nA3yU",
+          "short_id": "8ef4455ba637425b"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "Unknown_vless_12 2",
+      "type": "vless",
+      "server": "2001:bc8:32d7:181::3",
+      "server_port": 17401,
+      "uuid": "add14a5b-f648-4423-8a1f-8b8f54c0daef",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "itunes.apple.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "IXcXrT_Y0ATTZlGOhPnSmKo-cuGr4yMKV9Rz4-nA3yU",
+          "short_id": "8ef4455ba637425b"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -1191,20 +1255,72 @@
       }
     },
     {
-      "tag": "🇫🇷 France_Paris_hy_22",
-      "type": "hysteria",
-      "server": "62.210.10.140",
-      "server_port": 42248,
-      "up_mbps": 50,
-      "down_mbps": 80,
-      "auth_str": "dongtaiwang.com",
+      "tag": "🇫🇷 France_Paris_vless_22",
+      "type": "vless",
+      "server": "195.154.200.131",
+      "server_port": 17401,
+      "uuid": "add14a5b-f648-4423-8a1f-8b8f54c0daef",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
+        "insecure": false,
+        "server_name": "itunes.apple.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "IXcXrT_Y0ATTZlGOhPnSmKo-cuGr4yMKV9Rz4-nA3yU",
+          "short_id": "8ef4455ba637425b"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "Unknown_vless_22",
+      "type": "vless",
+      "server": "2001:bc8:32d7:181::2",
+      "server_port": 17401,
+      "uuid": "add14a5b-f648-4423-8a1f-8b8f54c0daef",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "itunes.apple.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "IXcXrT_Y0ATTZlGOhPnSmKo-cuGr4yMKV9Rz4-nA3yU",
+          "short_id": "8ef4455ba637425b"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "Unknown_vless_22 2",
+      "type": "vless",
+      "server": "2001:bc8:32d7:181::3",
+      "server_port": 17401,
+      "uuid": "add14a5b-f648-4423-8a1f-8b8f54c0daef",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "itunes.apple.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "IXcXrT_Y0ATTZlGOhPnSmKo-cuGr4yMKV9Rz4-nA3yU",
+          "short_id": "8ef4455ba637425b"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {

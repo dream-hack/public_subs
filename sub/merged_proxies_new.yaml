@@ -296,15 +296,15 @@ proxies:
       enabled: true
       up: 50
       down: 100
-- name: Unknown_141
-  server: 2001:bc8:1203:106::100
-  port: 55111
+- name: The Netherlands_Haarlem_141
+  server: 51.158.194.63
+  port: 55880
   type: tuic
-  uuid: 5ae31731-78ac-483a-b524-011d05072ef5
+  uuid: 95844688-9279-43ff-9f85-20e62b2cbcd4
   password: dongtaiwang.com
   alpn:
   - h3
-  sni: bing.com
+  sni: apple.com
   skip-cert-verify: true
   reduce-rtt: true
   udp-relay-mode: native
@@ -674,15 +674,15 @@ proxies:
       enabled: true
       up: 50
       down: 100
-- name: Unknown_241
-  server: 2001:bc8:1203:106::100
-  port: 55111
+- name: The Netherlands_Haarlem_241
+  server: 51.158.194.63
+  port: 55880
   type: tuic
-  uuid: 5ae31731-78ac-483a-b524-011d05072ef5
+  uuid: 95844688-9279-43ff-9f85-20e62b2cbcd4
   password: dongtaiwang.com
   alpn:
   - h3
-  sni: bing.com
+  sni: apple.com
   skip-cert-verify: true
   reduce-rtt: true
   udp-relay-mode: native
@@ -1072,7 +1072,7 @@ proxy-groups:
   - France_Paris_121
   - Unknown_122
   - Unknown_123
-  - Unknown_141
+  - The Netherlands_Haarlem_141
   - Unknown_142
   - Unknown_143
   - Unknown_144
@@ -1099,7 +1099,7 @@ proxy-groups:
   - France_Paris_221
   - Unknown_222
   - Unknown_223
-  - Unknown_241
+  - The Netherlands_Haarlem_241
   - Unknown_242
   - Unknown_243
   - Unknown_244
@@ -1154,7 +1154,7 @@ proxy-groups:
   - France_Paris_121
   - Unknown_122
   - Unknown_123
-  - Unknown_141
+  - The Netherlands_Haarlem_141
   - Unknown_142
   - Unknown_143
   - Unknown_144
@@ -1181,7 +1181,7 @@ proxy-groups:
   - France_Paris_221
   - Unknown_222
   - Unknown_223
-  - Unknown_241
+  - The Netherlands_Haarlem_241
   - Unknown_242
   - Unknown_243
   - Unknown_244
