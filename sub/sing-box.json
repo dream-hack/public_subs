@@ -888,8 +888,8 @@
       "tag": "🇳🇱 The Netherlands_Haarlem_tuic_14",
       "type": "tuic",
       "server": "51.158.194.63",
-      "server_port": 55880,
-      "uuid": "95844688-9279-43ff-9f85-20e62b2cbcd4",
+      "server_port": 29522,
+      "uuid": "b7dd1167-c5d9-45b9-ab75-83cd9e635537",
       "password": "dongtaiwang.com",
       "congestion_control": "bbr",
       "udp_relay_mode": "native",
@@ -901,7 +901,7 @@
           "h3"
         ],
         "insecure": true,
-        "server_name": "apple.com"
+        "server_name": "www.microsoft.com"
       }
     },
     {
@@ -1327,8 +1327,8 @@
       "tag": "🇳🇱 The Netherlands_Haarlem_tuic_24",
       "type": "tuic",
       "server": "51.158.194.63",
-      "server_port": 55880,
-      "uuid": "95844688-9279-43ff-9f85-20e62b2cbcd4",
+      "server_port": 29522,
+      "uuid": "b7dd1167-c5d9-45b9-ab75-83cd9e635537",
       "password": "dongtaiwang.com",
       "congestion_control": "bbr",
       "udp_relay_mode": "native",
@@ -1340,7 +1340,7 @@
           "h3"
         ],
         "insecure": true,
-        "server_name": "apple.com"
+        "server_name": "www.microsoft.com"
       }
     },
     {
