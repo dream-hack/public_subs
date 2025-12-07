@@ -998,10 +998,10 @@ proxies:
 - name: The Netherlands_Haarlem_B7
   type: hysteria2
   server: 51.158.194.63
-  port: 50066
+  port: 32952
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: www.microsoft.com
   skip-cert-verify: true
 - name: France_Paris_B8
   type: hysteria2
@@ -1014,10 +1014,10 @@ proxies:
 - name: The Netherlands_Haarlem_B11
   type: hysteria2
   server: 51.158.194.63
-  port: 50066
+  port: 32952
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: www.microsoft.com
   skip-cert-verify: true
 - name: Unknown_reality_0
   type: vless
