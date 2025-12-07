@@ -1745,13 +1745,13 @@
       "tag": "🇳🇱 The Netherlands_Haarlem_hysteria2_7",
       "type": "hysteria2",
       "server": "51.158.194.63",
-      "server_port": 50066,
+      "server_port": 32952,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
       "tls": {
         "enabled": true,
-        "server_name": "www.bing.com",
+        "server_name": "www.microsoft.com",
         "insecure": true,
         "alpn": [
           "h3"
@@ -1779,13 +1779,13 @@
       "tag": "🇳🇱 The Netherlands_Haarlem_hysteria2_11",
       "type": "hysteria2",
       "server": "51.158.194.63",
-      "server_port": 50066,
+      "server_port": 32952,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
       "tls": {
         "enabled": true,
-        "server_name": "www.bing.com",
+        "server_name": "www.microsoft.com",
         "insecure": true,
         "alpn": [
           "h3"
