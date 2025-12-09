@@ -905,9 +905,9 @@ proxies:
   skip-cert-verify: true
 - name: France_Paris_A4
   type: hysteria
-  server: 195.154.200.40
-  port: 15010
-  ports: 15010
+  server: 62.210.10.186
+  port: 40099
+  ports: 40099
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -947,9 +947,9 @@ proxies:
   - h3
 - name: France_Paris_A8
   type: hysteria
-  server: 195.154.200.40
-  port: 15010
-  ports: 15010
+  server: 62.210.10.186
+  port: 40099
+  ports: 40099
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -987,7 +987,23 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
+- name: The Netherlands_Haarlem_B4
+  type: hysteria2
+  server: 51.158.194.63
+  port: 32952
+  password: dongtaiwang.com
+  fast-open: true
+  sni: www.microsoft.com
+  skip-cert-verify: true
 - name: The Netherlands_Haarlem_B7
+  type: hysteria2
+  server: 51.158.194.63
+  port: 32952
+  password: dongtaiwang.com
+  fast-open: true
+  sni: www.microsoft.com
+  skip-cert-verify: true
+- name: The Netherlands_Haarlem_B8
   type: hysteria2
   server: 51.158.194.63
   port: 32952
@@ -1107,7 +1123,9 @@ proxy-groups:
   - France_Paris_A8
   - France_Paris_A9
   - The Netherlands_Haarlem_A10
+  - The Netherlands_Haarlem_B4
   - The Netherlands_Haarlem_B7
+  - The Netherlands_Haarlem_B8
   - The Netherlands_Haarlem_B11
   - Unknown_reality_0
   - Unknown_reality_3
@@ -1187,7 +1205,9 @@ proxy-groups:
   - France_Paris_A8
   - France_Paris_A9
   - The Netherlands_Haarlem_A10
+  - The Netherlands_Haarlem_B4
   - The Netherlands_Haarlem_B7
+  - The Netherlands_Haarlem_B8
   - The Netherlands_Haarlem_B11
   - Unknown_reality_0
   - Unknown_reality_3
