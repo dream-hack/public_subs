@@ -150,7 +150,9 @@
         "🇫🇷 France_Paris_hysteria_8",
         "🇫🇷 France_Paris_hysteria_9",
         "🇳🇱 The Netherlands_Haarlem_hysteria_10",
+        "🇳🇱 The Netherlands_Haarlem_hysteria2_4",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_7",
+        "🇳🇱 The Netherlands_Haarlem_hysteria2_8",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_11",
         "Unknown_vless_0",
         "Unknown_vless_3",
@@ -463,7 +465,9 @@
         "🇫🇷 France_Paris_hysteria_8",
         "🇫🇷 France_Paris_hysteria_9",
         "🇳🇱 The Netherlands_Haarlem_hysteria_10",
+        "🇳🇱 The Netherlands_Haarlem_hysteria2_4",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_7",
+        "🇳🇱 The Netherlands_Haarlem_hysteria2_8",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_11",
         "Unknown_vless_0",
         "Unknown_vless_3",
@@ -541,7 +545,9 @@
         "🇫🇷 France_Paris_hysteria_8",
         "🇫🇷 France_Paris_hysteria_9",
         "🇳🇱 The Netherlands_Haarlem_hysteria_10",
+        "🇳🇱 The Netherlands_Haarlem_hysteria2_4",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_7",
+        "🇳🇱 The Netherlands_Haarlem_hysteria2_8",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_11",
         "Unknown_vless_0",
         "Unknown_vless_3",
@@ -1619,8 +1625,8 @@
     {
       "tag": "🇫🇷 France_Paris_hysteria_4",
       "type": "hysteria",
-      "server": "195.154.200.40",
-      "server_port": 15010,
+      "server": "62.210.10.186",
+      "server_port": 40099,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
@@ -1670,8 +1676,8 @@
     {
       "tag": "🇫🇷 France_Paris_hysteria_8",
       "type": "hysteria",
-      "server": "195.154.200.40",
-      "server_port": 15010,
+      "server": "62.210.10.186",
+      "server_port": 40099,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
@@ -1719,7 +1725,41 @@
       }
     },
     {
+      "tag": "🇳🇱 The Netherlands_Haarlem_hysteria2_4",
+      "type": "hysteria2",
+      "server": "51.158.194.63",
+      "server_port": 32952,
+      "password": "dongtaiwang.com",
+      "up_mbps": 10,
+      "down_mbps": 100,
+      "tls": {
+        "enabled": true,
+        "server_name": "www.microsoft.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
       "tag": "🇳🇱 The Netherlands_Haarlem_hysteria2_7",
+      "type": "hysteria2",
+      "server": "51.158.194.63",
+      "server_port": 32952,
+      "password": "dongtaiwang.com",
+      "up_mbps": 10,
+      "down_mbps": 100,
+      "tls": {
+        "enabled": true,
+        "server_name": "www.microsoft.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇳🇱 The Netherlands_Haarlem_hysteria2_8",
       "type": "hysteria2",
       "server": "51.158.194.63",
       "server_port": 32952,
