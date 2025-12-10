@@ -298,58 +298,10 @@ proxies:
       down: 100
 - name: Unknown_151
   type: hysteria
-  server: 2001:bc8:1203:106::200
-  port: 47821
+  server: 2001:bc8:32d7:14f::4
+  port: 23880
   auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_152
-  type: hysteria
-  server: 2001:bc8:1203:106::201
-  port: 47821
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_153
-  type: hysteria
-  server: 2001:bc8:1203:106::202
-  port: 47821
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_154
-  type: hysteria
-  server: 2001:bc8:1203:106::203
-  port: 47821
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_155
-  type: hysteria
-  server: 2001:bc8:1203:106::204
-  port: 47821
-  auth-str: dongtaiwang.com
-  sni: apple.com
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -436,7 +388,7 @@ proxies:
   down: 55 Mbps
 - name: Unknown_181
   type: hysteria
-  server: 2001:bc8:1203:106::16
+  server: 2001:bc8:32d7:14f::4
   port: 23880
   auth-str: dongtaiwang.com
   sni: bing.com
@@ -611,58 +563,10 @@ proxies:
       down: 100
 - name: Unknown_251
   type: hysteria
-  server: 2001:bc8:1203:106::200
-  port: 47821
+  server: 2001:bc8:32d7:14f::4
+  port: 23880
   auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_252
-  type: hysteria
-  server: 2001:bc8:1203:106::201
-  port: 47821
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_253
-  type: hysteria
-  server: 2001:bc8:1203:106::202
-  port: 47821
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_254
-  type: hysteria
-  server: 2001:bc8:1203:106::203
-  port: 47821
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_255
-  type: hysteria
-  server: 2001:bc8:1203:106::204
-  port: 47821
-  auth-str: dongtaiwang.com
-  sni: apple.com
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -749,7 +653,7 @@ proxies:
   down: 55 Mbps
 - name: Unknown_281
   type: hysteria
-  server: 2001:bc8:1203:106::16
+  server: 2001:bc8:32d7:14f::4
   port: 23880
   auth-str: dongtaiwang.com
   sni: bing.com
@@ -801,17 +705,17 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: The Netherlands_Haarlem_A6
+- name: France_Paris_A6
   type: hysteria
-  server: 51.159.226.1
-  port: 49003
-  ports: 49003
+  server: 62.210.127.177
+  port: 23880
+  ports: 23880
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
   fast-open: true
   protocol: udp
-  sni: apple.com
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -843,17 +747,17 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: The Netherlands_Haarlem_A10
+- name: France_Paris_A10
   type: hysteria
-  server: 51.159.226.1
-  port: 49003
-  ports: 49003
+  server: 62.210.127.177
+  port: 23880
+  ports: 23880
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
   fast-open: true
   protocol: udp
-  sni: apple.com
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -943,10 +847,6 @@ proxy-groups:
   - Unknown_122
   - Unknown_123
   - Unknown_151
-  - Unknown_152
-  - Unknown_153
-  - Unknown_154
-  - Unknown_155
   - France_Paris_161
   - Taiwan_Taipei_162
   - Unknown_163
@@ -965,10 +865,6 @@ proxy-groups:
   - Unknown_222
   - Unknown_223
   - Unknown_251
-  - Unknown_252
-  - Unknown_253
-  - Unknown_254
-  - Unknown_255
   - France_Paris_261
   - Taiwan_Taipei_262
   - Unknown_263
@@ -979,10 +875,10 @@ proxy-groups:
   - Taiwan_Taipei_291
   - France_Paris_A4
   - France_Paris_A5
-  - The Netherlands_Haarlem_A6
+  - France_Paris_A6
   - France_Paris_A8
   - France_Paris_A9
-  - The Netherlands_Haarlem_A10
+  - France_Paris_A10
   - The Netherlands_Haarlem_B4
   - The Netherlands_Haarlem_B7
   - The Netherlands_Haarlem_B8
@@ -1015,10 +911,6 @@ proxy-groups:
   - Unknown_122
   - Unknown_123
   - Unknown_151
-  - Unknown_152
-  - Unknown_153
-  - Unknown_154
-  - Unknown_155
   - France_Paris_161
   - Taiwan_Taipei_162
   - Unknown_163
@@ -1037,10 +929,6 @@ proxy-groups:
   - Unknown_222
   - Unknown_223
   - Unknown_251
-  - Unknown_252
-  - Unknown_253
-  - Unknown_254
-  - Unknown_255
   - France_Paris_261
   - Taiwan_Taipei_262
   - Unknown_263
@@ -1051,10 +939,10 @@ proxy-groups:
   - Taiwan_Taipei_291
   - France_Paris_A4
   - France_Paris_A5
-  - The Netherlands_Haarlem_A6
+  - France_Paris_A6
   - France_Paris_A8
   - France_Paris_A9
-  - The Netherlands_Haarlem_A10
+  - France_Paris_A10
   - The Netherlands_Haarlem_B4
   - The Netherlands_Haarlem_B7
   - The Netherlands_Haarlem_B8
