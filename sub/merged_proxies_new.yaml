@@ -111,6 +111,18 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
+- name: Unknown_71
+  type: hysteria
+  server: 2001:bc8:32d7:158::4
+  port: 50011
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: Unknown_81
   type: hysteria
   server: 2001:bc8:32d7:158::4
@@ -822,6 +834,7 @@ proxy-groups:
   - Unknown_41
   - Unknown_51
   - France_Paris_61
+  - Unknown_71
   - Unknown_81
   - Unknown_91
   - France_Paris_101
@@ -885,6 +898,7 @@ proxy-groups:
   - Unknown_41
   - Unknown_51
   - France_Paris_61
+  - Unknown_71
   - Unknown_81
   - Unknown_91
   - France_Paris_101
