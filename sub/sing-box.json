@@ -93,6 +93,7 @@
         "Unknown_hy_2",
         "Unknown_tuic_3",
         "Unknown_hy_4",
+        "Unknown_hy_5",
         "🇫🇷 France_Paris_hy_6",
         "Unknown_hy_7",
         "Unknown_hy_8",
@@ -101,8 +102,15 @@
         "🇫🇷 France_Paris_hy_10",
         "Unknown_hy_10",
         "Unknown_hy_10 2",
+        "🇫🇷 France_Paris_vless_12",
+        "Unknown_vless_12",
+        "Unknown_vless_12 2",
         "🇳🇱 The Netherlands_Haarlem_tuic_14",
         "Unknown_hy_15",
+        "🇫🇷 France_Paris_tuic_16",
+        "Unknown_tuic_16",
+        "Unknown_tuic_16 2",
+        "Unknown_tuic_16 3",
         "🇺🇸 United States_Los Angeles_hy_17",
         "Unknown_hy_18",
         "🇫🇷 France_Paris_tuic_20",
@@ -134,6 +142,7 @@
         "Unknown_vless_3",
         "🇩🇪 Germany_None_vless_4",
         "🇹🇼 Taiwan_Taipei_vless_5",
+        "Unknown_vless_6",
         "Unknown_vless_7",
         "🇩🇪 Germany_None_vless_8",
         "🇹🇼 Taiwan_Taipei_vless_9",
@@ -385,6 +394,7 @@
         "Unknown_hy_2",
         "Unknown_tuic_3",
         "Unknown_hy_4",
+        "Unknown_hy_5",
         "🇫🇷 France_Paris_hy_6",
         "Unknown_hy_7",
         "Unknown_hy_8",
@@ -393,8 +403,15 @@
         "🇫🇷 France_Paris_hy_10",
         "Unknown_hy_10",
         "Unknown_hy_10 2",
+        "🇫🇷 France_Paris_vless_12",
+        "Unknown_vless_12",
+        "Unknown_vless_12 2",
         "🇳🇱 The Netherlands_Haarlem_tuic_14",
         "Unknown_hy_15",
+        "🇫🇷 France_Paris_tuic_16",
+        "Unknown_tuic_16",
+        "Unknown_tuic_16 2",
+        "Unknown_tuic_16 3",
         "Unknown_hy_18",
         "🇫🇷 France_Paris_tuic_20",
         "🇫🇷 France_Paris_hy_20",
@@ -423,6 +440,7 @@
         "Unknown_vless_0",
         "Unknown_vless_3",
         "🇩🇪 Germany_None_vless_4",
+        "Unknown_vless_6",
         "Unknown_vless_7",
         "🇩🇪 Germany_None_vless_8",
         "Unknown_vless_10",
@@ -438,6 +456,7 @@
         "Unknown_hy_2",
         "Unknown_tuic_3",
         "Unknown_hy_4",
+        "Unknown_hy_5",
         "🇫🇷 France_Paris_hy_6",
         "Unknown_hy_7",
         "Unknown_hy_8",
@@ -446,8 +465,15 @@
         "🇫🇷 France_Paris_hy_10",
         "Unknown_hy_10",
         "Unknown_hy_10 2",
+        "🇫🇷 France_Paris_vless_12",
+        "Unknown_vless_12",
+        "Unknown_vless_12 2",
         "🇳🇱 The Netherlands_Haarlem_tuic_14",
         "Unknown_hy_15",
+        "🇫🇷 France_Paris_tuic_16",
+        "Unknown_tuic_16",
+        "Unknown_tuic_16 2",
+        "Unknown_tuic_16 3",
         "🇺🇸 United States_Los Angeles_hy_17",
         "Unknown_hy_18",
         "🇫🇷 France_Paris_tuic_20",
@@ -479,6 +505,7 @@
         "Unknown_vless_3",
         "🇩🇪 Germany_None_vless_4",
         "🇹🇼 Taiwan_Taipei_vless_5",
+        "Unknown_vless_6",
         "Unknown_vless_7",
         "🇩🇪 Germany_None_vless_8",
         "🇹🇼 Taiwan_Taipei_vless_9",
@@ -569,6 +596,23 @@
     },
     {
       "tag": "Unknown_hy_4",
+      "type": "hysteria",
+      "server": "2001:bc8:32d7:17b::2",
+      "server_port": 11000,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "Unknown_hy_5",
       "type": "hysteria",
       "server": "2001:bc8:32d7:17b::2",
       "server_port": 11000,
@@ -724,6 +768,75 @@
       }
     },
     {
+      "tag": "🇫🇷 France_Paris_vless_12",
+      "type": "vless",
+      "server": "195.154.200.131",
+      "server_port": 17401,
+      "uuid": "add14a5b-f648-4423-8a1f-8b8f54c0daef",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "itunes.apple.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "IXcXrT_Y0ATTZlGOhPnSmKo-cuGr4yMKV9Rz4-nA3yU",
+          "short_id": "8ef4455ba637425b"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "Unknown_vless_12",
+      "type": "vless",
+      "server": "2001:bc8:32d7:181::2",
+      "server_port": 17401,
+      "uuid": "add14a5b-f648-4423-8a1f-8b8f54c0daef",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "itunes.apple.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "IXcXrT_Y0ATTZlGOhPnSmKo-cuGr4yMKV9Rz4-nA3yU",
+          "short_id": "8ef4455ba637425b"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "Unknown_vless_12 2",
+      "type": "vless",
+      "server": "2001:bc8:32d7:181::3",
+      "server_port": 17401,
+      "uuid": "add14a5b-f648-4423-8a1f-8b8f54c0daef",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "itunes.apple.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "IXcXrT_Y0ATTZlGOhPnSmKo-cuGr4yMKV9Rz4-nA3yU",
+          "short_id": "8ef4455ba637425b"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇳🇱 The Netherlands_Haarlem_tuic_14",
       "type": "tuic",
       "server": "51.158.194.63",
@@ -758,6 +871,86 @@
         "alpn": [
           "h3"
         ]
+      }
+    },
+    {
+      "tag": "🇫🇷 France_Paris_tuic_16",
+      "type": "tuic",
+      "server": "62.210.10.113",
+      "server_port": 33998,
+      "uuid": "909212b8-5d67-4532-885e-7a6b5e724ab8",
+      "password": "dongtaiwang.com",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
+      "tls": {
+        "enabled": true,
+        "alpn": [
+          "h3"
+        ],
+        "insecure": true,
+        "server_name": "bing.com"
+      }
+    },
+    {
+      "tag": "Unknown_tuic_16",
+      "type": "tuic",
+      "server": "2001:bc8:32d7:306::124",
+      "server_port": 33998,
+      "uuid": "909212b8-5d67-4532-885e-7a6b5e724ab8",
+      "password": "dongtaiwang.com",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
+      "tls": {
+        "enabled": true,
+        "alpn": [
+          "h3"
+        ],
+        "insecure": true,
+        "server_name": "bing.com"
+      }
+    },
+    {
+      "tag": "Unknown_tuic_16 2",
+      "type": "tuic",
+      "server": "2001:bc8:32d7:306::125",
+      "server_port": 33998,
+      "uuid": "909212b8-5d67-4532-885e-7a6b5e724ab8",
+      "password": "dongtaiwang.com",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
+      "tls": {
+        "enabled": true,
+        "alpn": [
+          "h3"
+        ],
+        "insecure": true,
+        "server_name": "bing.com"
+      }
+    },
+    {
+      "tag": "Unknown_tuic_16 3",
+      "type": "tuic",
+      "server": "2001:bc8:32d7:306::126",
+      "server_port": 33998,
+      "uuid": "909212b8-5d67-4532-885e-7a6b5e724ab8",
+      "password": "dongtaiwang.com",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
+      "tls": {
+        "enabled": true,
+        "alpn": [
+          "h3"
+        ],
+        "insecure": true,
+        "server_name": "bing.com"
       }
     },
     {
@@ -1341,6 +1534,32 @@
           "enabled": true,
           "fingerprint": "chrome"
         }
+      }
+    },
+    {
+      "tag": "Unknown_vless_6",
+      "type": "vless",
+      "server": "2001:bc8:32d7:158::6",
+      "server_port": 10033,
+      "uuid": "56618bde-5a09-4ef8-ae56-6e7a8d69ec67",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "nijigen-works.jp",
+        "reality": {
+          "enabled": true,
+          "public_key": "m1ORavmKKsF8kn6JfNF1m35wRORu8c6YLyxpSfyiYQ0",
+          "short_id": "dfdfb0e2e2d400c4"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "FhwHiFzK"
       }
     },
     {
