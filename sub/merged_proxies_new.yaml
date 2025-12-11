@@ -296,18 +296,6 @@ proxies:
       enabled: true
       up: 50
       down: 100
-- name: Unknown_151
-  type: hysteria
-  server: 2001:bc8:32d7:14f::4
-  port: 23880
-  auth-str: dongtaiwang.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
 - name: France_Paris_161
   server: 62.210.10.113
   port: 33998
@@ -374,18 +362,6 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: United States_Los Angeles_171
-  type: hysteria
-  server: 208.87.243.151
-  port: 10023
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
 - name: Unknown_181
   type: hysteria
   server: 2001:bc8:32d7:14f::4
@@ -846,13 +822,11 @@ proxy-groups:
   - France_Paris_121
   - Unknown_122
   - Unknown_123
-  - Unknown_151
   - France_Paris_161
   - Taiwan_Taipei_162
   - Unknown_163
   - Unknown_164
   - Unknown_165
-  - United States_Los Angeles_171
   - Unknown_181
   - Taiwan_Taipei_191
   - France_Paris_201
@@ -910,13 +884,11 @@ proxy-groups:
   - France_Paris_121
   - Unknown_122
   - Unknown_123
-  - Unknown_151
   - France_Paris_161
   - Taiwan_Taipei_162
   - Unknown_163
   - Unknown_164
   - Unknown_165
-  - United States_Los Angeles_171
   - Unknown_181
   - Taiwan_Taipei_191
   - France_Paris_201
