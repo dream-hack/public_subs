@@ -94,9 +94,7 @@
         "Unknown_tuic_3",
         "Unknown_hy_4",
         "Unknown_hy_5",
-        "🇫🇷 France_Paris_hy_6",
         "Unknown_hy_7",
-        "Unknown_hy_8",
         "Unknown_hy_9",
         "🇫🇷 France_Paris_tuic_10",
         "🇫🇷 France_Paris_hy_10",
@@ -106,7 +104,6 @@
         "Unknown_vless_12",
         "Unknown_vless_12 2",
         "🇳🇱 The Netherlands_Haarlem_tuic_14",
-        "Unknown_hy_15",
         "🇫🇷 France_Paris_tuic_16",
         "Unknown_tuic_16",
         "Unknown_tuic_16 2",
@@ -142,8 +139,6 @@
         "Unknown_vless_3",
         "🇩🇪 Germany_None_vless_4",
         "🇹🇼 Taiwan_Taipei_vless_5",
-        "Unknown_vless_6",
-        "Unknown_vless_7",
         "🇩🇪 Germany_None_vless_8",
         "🇹🇼 Taiwan_Taipei_vless_9",
         "Unknown_vless_10",
@@ -395,9 +390,7 @@
         "Unknown_tuic_3",
         "Unknown_hy_4",
         "Unknown_hy_5",
-        "🇫🇷 France_Paris_hy_6",
         "Unknown_hy_7",
-        "Unknown_hy_8",
         "Unknown_hy_9",
         "🇫🇷 France_Paris_tuic_10",
         "🇫🇷 France_Paris_hy_10",
@@ -407,7 +400,6 @@
         "Unknown_vless_12",
         "Unknown_vless_12 2",
         "🇳🇱 The Netherlands_Haarlem_tuic_14",
-        "Unknown_hy_15",
         "🇫🇷 France_Paris_tuic_16",
         "Unknown_tuic_16",
         "Unknown_tuic_16 2",
@@ -440,8 +432,6 @@
         "Unknown_vless_0",
         "Unknown_vless_3",
         "🇩🇪 Germany_None_vless_4",
-        "Unknown_vless_6",
-        "Unknown_vless_7",
         "🇩🇪 Germany_None_vless_8",
         "Unknown_vless_10",
         "Unknown_vless_11"
@@ -457,9 +447,7 @@
         "Unknown_tuic_3",
         "Unknown_hy_4",
         "Unknown_hy_5",
-        "🇫🇷 France_Paris_hy_6",
         "Unknown_hy_7",
-        "Unknown_hy_8",
         "Unknown_hy_9",
         "🇫🇷 France_Paris_tuic_10",
         "🇫🇷 France_Paris_hy_10",
@@ -469,7 +457,6 @@
         "Unknown_vless_12",
         "Unknown_vless_12 2",
         "🇳🇱 The Netherlands_Haarlem_tuic_14",
-        "Unknown_hy_15",
         "🇫🇷 France_Paris_tuic_16",
         "Unknown_tuic_16",
         "Unknown_tuic_16 2",
@@ -505,8 +492,6 @@
         "Unknown_vless_3",
         "🇩🇪 Germany_None_vless_4",
         "🇹🇼 Taiwan_Taipei_vless_5",
-        "Unknown_vless_6",
-        "Unknown_vless_7",
         "🇩🇪 Germany_None_vless_8",
         "🇹🇼 Taiwan_Taipei_vless_9",
         "Unknown_vless_10",
@@ -629,41 +614,7 @@
       }
     },
     {
-      "tag": "🇫🇷 France_Paris_hy_6",
-      "type": "hysteria",
-      "server": "62.210.10.186",
-      "server_port": 50011,
-      "up_mbps": 50,
-      "down_mbps": 80,
-      "auth_str": "dongtaiwang.com",
-      "tls": {
-        "enabled": true,
-        "server_name": "apple.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
-    },
-    {
       "tag": "Unknown_hy_7",
-      "type": "hysteria",
-      "server": "2001:bc8:32d7:158::4",
-      "server_port": 50011,
-      "up_mbps": 50,
-      "down_mbps": 80,
-      "auth_str": "dongtaiwang.com",
-      "tls": {
-        "enabled": true,
-        "server_name": "apple.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
-    },
-    {
-      "tag": "Unknown_hy_8",
       "type": "hysteria",
       "server": "2001:bc8:32d7:158::4",
       "server_port": 50011,
@@ -854,23 +805,6 @@
         ],
         "insecure": true,
         "server_name": "www.microsoft.com"
-      }
-    },
-    {
-      "tag": "Unknown_hy_15",
-      "type": "hysteria",
-      "server": "2001:bc8:32d7:14f::4",
-      "server_port": 23880,
-      "up_mbps": 50,
-      "down_mbps": 80,
-      "auth_str": "dongtaiwang.com",
-      "tls": {
-        "enabled": true,
-        "server_name": "bing.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
       }
     },
     {
@@ -1534,58 +1468,6 @@
           "enabled": true,
           "fingerprint": "chrome"
         }
-      }
-    },
-    {
-      "tag": "Unknown_vless_6",
-      "type": "vless",
-      "server": "2001:bc8:32d7:158::6",
-      "server_port": 10033,
-      "uuid": "56618bde-5a09-4ef8-ae56-6e7a8d69ec67",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "nijigen-works.jp",
-        "reality": {
-          "enabled": true,
-          "public_key": "m1ORavmKKsF8kn6JfNF1m35wRORu8c6YLyxpSfyiYQ0",
-          "short_id": "dfdfb0e2e2d400c4"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "FhwHiFzK"
-      }
-    },
-    {
-      "tag": "Unknown_vless_7",
-      "type": "vless",
-      "server": "2001:bc8:32d7:158::6",
-      "server_port": 10033,
-      "uuid": "56618bde-5a09-4ef8-ae56-6e7a8d69ec67",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "nijigen-works.jp",
-        "reality": {
-          "enabled": true,
-          "public_key": "m1ORavmKKsF8kn6JfNF1m35wRORu8c6YLyxpSfyiYQ0",
-          "short_id": "dfdfb0e2e2d400c4"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "FhwHiFzK"
       }
     },
     {
