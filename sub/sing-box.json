@@ -95,6 +95,7 @@
         "Unknown_hy_4",
         "Unknown_hy_5",
         "🇫🇷 France_Paris_hy_6",
+        "Unknown_hy_7",
         "Unknown_hy_8",
         "Unknown_hy_9",
         "🇫🇷 France_Paris_tuic_10",
@@ -395,6 +396,7 @@
         "Unknown_hy_4",
         "Unknown_hy_5",
         "🇫🇷 France_Paris_hy_6",
+        "Unknown_hy_7",
         "Unknown_hy_8",
         "Unknown_hy_9",
         "🇫🇷 France_Paris_tuic_10",
@@ -456,6 +458,7 @@
         "Unknown_hy_4",
         "Unknown_hy_5",
         "🇫🇷 France_Paris_hy_6",
+        "Unknown_hy_7",
         "Unknown_hy_8",
         "Unknown_hy_9",
         "🇫🇷 France_Paris_tuic_10",
@@ -629,6 +632,23 @@
       "tag": "🇫🇷 France_Paris_hy_6",
       "type": "hysteria",
       "server": "62.210.10.186",
+      "server_port": 50011,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "Unknown_hy_7",
+      "type": "hysteria",
+      "server": "2001:bc8:32d7:158::4",
       "server_port": 50011,
       "up_mbps": 50,
       "down_mbps": 80,
