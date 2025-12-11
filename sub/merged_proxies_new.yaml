@@ -25,42 +25,32 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: Unknown_21
-  type: hysteria
-  server: 2001:bc8:32d7:17b::2
-  port: 11000
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
+- name: Unknown_11
+  server: 2001:bc8:32d7:302::16
+  port: 34997
+  type: tuic
+  uuid: 8687b6e0-ef24-4cd2-bcd2-02d3732bf554
+  password: dongtaiwang.com
   alpn:
   - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_41
-  type: hysteria
-  server: 2001:bc8:32d7:17b::2
-  port: 11000
-  auth-str: dongtaiwang.com
-  sni: apple.com
+  sni: bing.com
   skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: Unknown_31
+  server: 2001:bc8:32d7:302::16
+  port: 34997
+  type: tuic
+  uuid: 8687b6e0-ef24-4cd2-bcd2-02d3732bf554
+  password: dongtaiwang.com
   alpn:
   - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_51
-  type: hysteria
-  server: 2001:bc8:32d7:17b::2
-  port: 11000
-  auth-str: dongtaiwang.com
-  sni: apple.com
+  sni: bing.com
   skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: France_Paris_61
   type: hysteria
   server: 62.210.10.186
@@ -101,69 +91,6 @@ proxies:
   type: hysteria
   server: 2001:bc8:32d7:158::2
   port: 50011
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: France_Paris_101
-  server: ipv4.758733.xyz
-  port: 50088
-  type: tuic
-  uuid: 93959440-4f83-4352-b939-906b1fd3fa59
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  sni: bing.com
-  skip-cert-verify: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
-- name: France_Paris_102
-  type: anytls
-  server: 62.210.11.74
-  port: 8443
-  password: dongtaiwang.com
-  client-fingerprint: chrome
-  udp: true
-  idle-session-check-interval: 30
-  idle-session-timeout: 30
-  min-idle-session: 0
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
-- name: France_Paris_103
-  type: hysteria
-  server: ipv4.758733.xyz
-  port: 20001
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_104
-  type: hysteria
-  server: 2001:bc8:32d7:402::3
-  port: 20001
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_105
-  type: hysteria
-  server: 2001:bc8:32d7:402::4
-  port: 20001
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -258,18 +185,6 @@ proxies:
       enabled: true
       up: 50
       down: 100
-- name: Unknown_151
-  type: hysteria
-  server: 2001:bc8:32d7:14f::4
-  port: 23880
-  auth-str: dongtaiwang.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
 - name: France_Paris_161
   server: 62.210.10.113
   port: 33998
@@ -342,18 +257,6 @@ proxies:
   port: 10023
   auth-str: dongtaiwang.com
   sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_181
-  type: hysteria
-  server: 2001:bc8:32d7:14f::4
-  port: 23880
-  auth-str: dongtaiwang.com
-  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -601,6 +504,18 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
+- name: United States_Los Angeles_271
+  type: hysteria
+  server: 208.87.243.151
+  port: 10023
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: Unknown_281
   type: hysteria
   server: 2001:bc8:32d7:14f::4
@@ -613,20 +528,6 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: Taiwan_Taipei_291
-  type: anytls
-  server: fan2.856098.xyz
-  port: 8443
-  password: dongtaiwang.com
-  client-fingerprint: chrome
-  udp: true
-  idle-session-check-interval: 30
-  idle-session-timeout: 30
-  min-idle-session: 0
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
 - name: France_Paris_A4
   type: hysteria
   server: 62.210.10.186
@@ -669,20 +570,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_Paris_A8
-  type: hysteria
-  server: 62.210.10.186
-  port: 40099
-  ports: 40099
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: France_Paris_A9
   type: hysteria
   server: 62.210.10.186
@@ -711,23 +598,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: The Netherlands_Haarlem_B7
-  type: hysteria2
-  server: 51.158.194.63
-  port: 32952
-  password: dongtaiwang.com
-  fast-open: true
-  sni: www.microsoft.com
-  skip-cert-verify: true
-- name: The Netherlands_Haarlem_B8
-  type: hysteria2
-  server: 51.158.194.63
-  port: 32952
-  password: dongtaiwang.com
-  fast-open: true
-  sni: www.microsoft.com
-  skip-cert-verify: true
-- name: The Netherlands_Haarlem_B11
+- name: The Netherlands_Haarlem_B4
   type: hysteria2
   server: 51.158.194.63
   port: 32952
@@ -749,36 +620,42 @@ proxies:
   reality-opts:
     public-key: pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M
     short-id: ''
+- name: Unknown_reality_3
+  type: vless
+  server: 2001:bc8:32d7:302::13
+  port: 34324
+  uuid: 26c462ba-a90c-4814-9d7c-a629bc0bdb5c
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: dash.cloudflare.com
+  reality-opts:
+    public-key: pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M
+    short-id: ''
 proxy-groups:
 - name: 节点选择
   type: select
   proxies:
   - 自动选择
   - DIRECT
-  - Unknown_21
-  - Unknown_41
-  - Unknown_51
+  - Unknown_11
+  - Unknown_31
   - France_Paris_61
   - Unknown_71
   - Unknown_81
   - Unknown_91
-  - France_Paris_101
-  - France_Paris_102
-  - France_Paris_103
-  - Unknown_104
-  - Unknown_105
   - South Africa_None_111
   - France_Paris_121
   - Unknown_122
   - Unknown_123
-  - Unknown_151
   - France_Paris_161
   - Taiwan_Taipei_162
   - Unknown_163
   - Unknown_164
   - Unknown_165
   - United States_Los Angeles_171
-  - Unknown_181
   - Taiwan_Taipei_191
   - France_Paris_201
   - France_Paris_202
@@ -795,48 +672,38 @@ proxy-groups:
   - Unknown_263
   - Unknown_264
   - Unknown_265
+  - United States_Los Angeles_271
   - Unknown_281
-  - Taiwan_Taipei_291
   - France_Paris_A4
   - France_Paris_A5
   - France_Paris_A6
-  - France_Paris_A8
   - France_Paris_A9
   - France_Paris_A10
-  - The Netherlands_Haarlem_B7
-  - The Netherlands_Haarlem_B8
-  - The Netherlands_Haarlem_B11
+  - The Netherlands_Haarlem_B4
   - Unknown_reality_0
+  - Unknown_reality_3
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - Unknown_21
-  - Unknown_41
-  - Unknown_51
+  - Unknown_11
+  - Unknown_31
   - France_Paris_61
   - Unknown_71
   - Unknown_81
   - Unknown_91
-  - France_Paris_101
-  - France_Paris_102
-  - France_Paris_103
-  - Unknown_104
-  - Unknown_105
   - South Africa_None_111
   - France_Paris_121
   - Unknown_122
   - Unknown_123
-  - Unknown_151
   - France_Paris_161
   - Taiwan_Taipei_162
   - Unknown_163
   - Unknown_164
   - Unknown_165
   - United States_Los Angeles_171
-  - Unknown_181
   - Taiwan_Taipei_191
   - France_Paris_201
   - France_Paris_202
@@ -853,18 +720,16 @@ proxy-groups:
   - Unknown_263
   - Unknown_264
   - Unknown_265
+  - United States_Los Angeles_271
   - Unknown_281
-  - Taiwan_Taipei_291
   - France_Paris_A4
   - France_Paris_A5
   - France_Paris_A6
-  - France_Paris_A8
   - France_Paris_A9
   - France_Paris_A10
-  - The Netherlands_Haarlem_B7
-  - The Netherlands_Haarlem_B8
-  - The Netherlands_Haarlem_B11
+  - The Netherlands_Haarlem_B4
   - Unknown_reality_0
+  - Unknown_reality_3
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
