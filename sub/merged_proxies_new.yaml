@@ -160,19 +160,29 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
 - name: France_Paris_102
-  type: anytls
-  server: 62.210.11.74
-  port: 8443
-  password: dongtaiwang.com
-  client-fingerprint: chrome
+  type: vless
+  server: 195.154.200.13
+  port: 17401
+  uuid: add14a5b-f648-4423-8a1f-8b8f54c0daef
+  network: tcp
   udp: true
-  idle-session-check-interval: 30
-  idle-session-timeout: 30
-  min-idle-session: 0
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
+  tls: true
+  flow: null
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: IXcXrT_Y0ATTZlGOhPnSmKo-cuGr4yMKV9Rz4-nA3yU
+    short-id: 8ef4455ba637425b
+  smux:
+    enabled: true
+    protocol: h2mux
+    max-connections: 1
+    min-streams: 4
+    padding: true
+    brutal-opts:
+      enabled: true
+      up: 50
+      down: 100
 - name: France_Paris_103
   type: hysteria
   server: ipv4.758733.xyz
@@ -424,19 +434,29 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
 - name: France_Paris_202
-  type: anytls
-  server: 62.210.11.74
-  port: 8443
-  password: dongtaiwang.com
-  client-fingerprint: chrome
+  type: vless
+  server: 195.154.200.13
+  port: 17401
+  uuid: add14a5b-f648-4423-8a1f-8b8f54c0daef
+  network: tcp
   udp: true
-  idle-session-check-interval: 30
-  idle-session-timeout: 30
-  min-idle-session: 0
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
+  tls: true
+  flow: null
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: IXcXrT_Y0ATTZlGOhPnSmKo-cuGr4yMKV9Rz4-nA3yU
+    short-id: 8ef4455ba637425b
+  smux:
+    enabled: true
+    protocol: h2mux
+    max-connections: 1
+    min-streams: 4
+    padding: true
+    brutal-opts:
+      enabled: true
+      up: 50
+      down: 100
 - name: France_Paris_203
   type: hysteria
   server: ipv4.758733.xyz
@@ -675,11 +695,11 @@ proxies:
   - h2
   - http/1.1
   skip-cert-verify: true
-- name: France_Paris_A4
+- name: Germany_None_A4
   type: hysteria
-  server: 62.210.10.186
-  port: 40099
-  ports: 40099
+  server: 5.83.129.248
+  port: 10023
+  ports: 10023
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -689,11 +709,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_Paris_A5
+- name: Germany_None_A5
   type: hysteria
-  server: 62.210.10.186
-  port: 40099
-  ports: 40099
+  server: 5.83.129.248
+  port: 56701
+  ports: 56701
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -717,11 +737,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_Paris_A8
+- name: Germany_None_A8
   type: hysteria
-  server: 62.210.10.186
-  port: 40099
-  ports: 40099
+  server: 5.83.129.248
+  port: 10023
+  ports: 10023
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -731,11 +751,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_Paris_A9
+- name: Germany_None_A9
   type: hysteria
-  server: 62.210.10.186
-  port: 40099
-  ports: 40099
+  server: 5.83.129.248
+  port: 56701
+  ports: 56701
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -871,11 +891,11 @@ proxy-groups:
   - United States_Los Angeles_271
   - Unknown_281
   - Taiwan_Taipei_291
-  - France_Paris_A4
-  - France_Paris_A5
+  - Germany_None_A4
+  - Germany_None_A5
   - France_Paris_A6
-  - France_Paris_A8
-  - France_Paris_A9
+  - Germany_None_A8
+  - Germany_None_A9
   - France_Paris_A10
   - The Netherlands_Haarlem_B4
   - The Netherlands_Haarlem_B7
@@ -935,11 +955,11 @@ proxy-groups:
   - United States_Los Angeles_271
   - Unknown_281
   - Taiwan_Taipei_291
-  - France_Paris_A4
-  - France_Paris_A5
+  - Germany_None_A4
+  - Germany_None_A5
   - France_Paris_A6
-  - France_Paris_A8
-  - France_Paris_A9
+  - Germany_None_A8
+  - Germany_None_A9
   - France_Paris_A10
   - The Netherlands_Haarlem_B4
   - The Netherlands_Haarlem_B7
