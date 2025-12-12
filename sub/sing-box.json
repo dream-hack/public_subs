@@ -99,6 +99,7 @@
         "Unknown_hy_8",
         "Unknown_hy_9",
         "🇫🇷 France_Paris_hy_10",
+        "🇫🇷 France_Paris_vless_10",
         "🇫🇷 France_Paris_hy_10 2",
         "Unknown_hy_10",
         "Unknown_hy_10 2",
@@ -114,6 +115,7 @@
         "🇺🇸 United States_Los Angeles_hy_17",
         "Unknown_hy_18",
         "🇫🇷 France_Paris_hy_20",
+        "🇫🇷 France_Paris_vless_20",
         "🇫🇷 France_Paris_hy_20 2",
         "Unknown_hy_20",
         "Unknown_hy_20 2",
@@ -128,11 +130,11 @@
         "Unknown_tuic_26 3",
         "🇺🇸 United States_Los Angeles_hy_27",
         "Unknown_hy_28",
-        "🇫🇷 France_Paris_hysteria_4",
-        "🇫🇷 France_Paris_hysteria_5",
+        "🇩🇪 Germany_None_hysteria_4",
+        "🇩🇪 Germany_None_hysteria_5",
         "🇫🇷 France_Paris_hysteria_6",
-        "🇫🇷 France_Paris_hysteria_8",
-        "🇫🇷 France_Paris_hysteria_9",
+        "🇩🇪 Germany_None_hysteria_8",
+        "🇩🇪 Germany_None_hysteria_9",
         "🇫🇷 France_Paris_hysteria_10",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_4",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_7",
@@ -400,6 +402,7 @@
         "Unknown_hy_8",
         "Unknown_hy_9",
         "🇫🇷 France_Paris_hy_10",
+        "🇫🇷 France_Paris_vless_10",
         "🇫🇷 France_Paris_hy_10 2",
         "Unknown_hy_10",
         "Unknown_hy_10 2",
@@ -414,6 +417,7 @@
         "Unknown_tuic_16 3",
         "Unknown_hy_18",
         "🇫🇷 France_Paris_hy_20",
+        "🇫🇷 France_Paris_vless_20",
         "🇫🇷 France_Paris_hy_20 2",
         "Unknown_hy_20",
         "Unknown_hy_20 2",
@@ -427,11 +431,11 @@
         "Unknown_tuic_26 2",
         "Unknown_tuic_26 3",
         "Unknown_hy_28",
-        "🇫🇷 France_Paris_hysteria_4",
-        "🇫🇷 France_Paris_hysteria_5",
+        "🇩🇪 Germany_None_hysteria_4",
+        "🇩🇪 Germany_None_hysteria_5",
         "🇫🇷 France_Paris_hysteria_6",
-        "🇫🇷 France_Paris_hysteria_8",
-        "🇫🇷 France_Paris_hysteria_9",
+        "🇩🇪 Germany_None_hysteria_8",
+        "🇩🇪 Germany_None_hysteria_9",
         "🇫🇷 France_Paris_hysteria_10",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_4",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_7",
@@ -462,6 +466,7 @@
         "Unknown_hy_8",
         "Unknown_hy_9",
         "🇫🇷 France_Paris_hy_10",
+        "🇫🇷 France_Paris_vless_10",
         "🇫🇷 France_Paris_hy_10 2",
         "Unknown_hy_10",
         "Unknown_hy_10 2",
@@ -477,6 +482,7 @@
         "🇺🇸 United States_Los Angeles_hy_17",
         "Unknown_hy_18",
         "🇫🇷 France_Paris_hy_20",
+        "🇫🇷 France_Paris_vless_20",
         "🇫🇷 France_Paris_hy_20 2",
         "Unknown_hy_20",
         "Unknown_hy_20 2",
@@ -491,11 +497,11 @@
         "Unknown_tuic_26 3",
         "🇺🇸 United States_Los Angeles_hy_27",
         "Unknown_hy_28",
-        "🇫🇷 France_Paris_hysteria_4",
-        "🇫🇷 France_Paris_hysteria_5",
+        "🇩🇪 Germany_None_hysteria_4",
+        "🇩🇪 Germany_None_hysteria_5",
         "🇫🇷 France_Paris_hysteria_6",
-        "🇫🇷 France_Paris_hysteria_8",
-        "🇫🇷 France_Paris_hysteria_9",
+        "🇩🇪 Germany_None_hysteria_8",
+        "🇩🇪 Germany_None_hysteria_9",
         "🇫🇷 France_Paris_hysteria_10",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_4",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_7",
@@ -711,6 +717,29 @@
         "alpn": [
           "h3"
         ]
+      }
+    },
+    {
+      "tag": "🇫🇷 France_Paris_vless_10",
+      "type": "vless",
+      "server": "195.154.200.13",
+      "server_port": 17401,
+      "uuid": "add14a5b-f648-4423-8a1f-8b8f54c0daef",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "itunes.apple.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "IXcXrT_Y0ATTZlGOhPnSmKo-cuGr4yMKV9Rz4-nA3yU",
+          "short_id": "8ef4455ba637425b"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -1002,6 +1031,29 @@
       }
     },
     {
+      "tag": "🇫🇷 France_Paris_vless_20",
+      "type": "vless",
+      "server": "195.154.200.13",
+      "server_port": 17401,
+      "uuid": "add14a5b-f648-4423-8a1f-8b8f54c0daef",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "itunes.apple.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "IXcXrT_Y0ATTZlGOhPnSmKo-cuGr4yMKV9Rz4-nA3yU",
+          "short_id": "8ef4455ba637425b"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇫🇷 France_Paris_hy_20 2",
       "type": "hysteria",
       "server": "ipv4.758733.xyz",
@@ -1273,10 +1325,10 @@
       }
     },
     {
-      "tag": "🇫🇷 France_Paris_hysteria_4",
+      "tag": "🇩🇪 Germany_None_hysteria_4",
       "type": "hysteria",
-      "server": "62.210.10.186",
-      "server_port": 40099,
+      "server": "5.83.129.248",
+      "server_port": 10023,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
@@ -1290,10 +1342,10 @@
       }
     },
     {
-      "tag": "🇫🇷 France_Paris_hysteria_5",
+      "tag": "🇩🇪 Germany_None_hysteria_5",
       "type": "hysteria",
-      "server": "62.210.10.186",
-      "server_port": 40099,
+      "server": "5.83.129.248",
+      "server_port": 56701,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
@@ -1324,10 +1376,10 @@
       }
     },
     {
-      "tag": "🇫🇷 France_Paris_hysteria_8",
+      "tag": "🇩🇪 Germany_None_hysteria_8",
       "type": "hysteria",
-      "server": "62.210.10.186",
-      "server_port": 40099,
+      "server": "5.83.129.248",
+      "server_port": 10023,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
@@ -1341,10 +1393,10 @@
       }
     },
     {
-      "tag": "🇫🇷 France_Paris_hysteria_9",
+      "tag": "🇩🇪 Germany_None_hysteria_9",
       "type": "hysteria",
-      "server": "62.210.10.186",
-      "server_port": 40099,
+      "server": "5.83.129.248",
+      "server_port": 56701,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
