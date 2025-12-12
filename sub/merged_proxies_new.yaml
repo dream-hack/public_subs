@@ -148,18 +148,17 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
 - name: France_Paris_101
-  server: ipv4.758733.xyz
-  port: 50088
-  type: tuic
-  uuid: 93959440-4f83-4352-b939-906b1fd3fa59
-  password: dongtaiwang.com
+  type: hysteria
+  server: ipv4-2.758733.xyz
+  port: 30077
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
   alpn:
   - h3
-  sni: bing.com
-  skip-cert-verify: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: France_Paris_102
   type: anytls
   server: 62.210.11.74
@@ -226,7 +225,7 @@ proxies:
   skip-cert-verify: true
 - name: France_Paris_121
   type: vless
-  server: 195.154.200.131
+  server: 195.154.200.13
   port: 17401
   uuid: add14a5b-f648-4423-8a1f-8b8f54c0daef
   network: tcp
@@ -413,18 +412,17 @@ proxies:
   - http/1.1
   skip-cert-verify: true
 - name: France_Paris_201
-  server: ipv4.758733.xyz
-  port: 50088
-  type: tuic
-  uuid: 93959440-4f83-4352-b939-906b1fd3fa59
-  password: dongtaiwang.com
+  type: hysteria
+  server: ipv4-2.758733.xyz
+  port: 30077
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
   alpn:
   - h3
-  sni: bing.com
-  skip-cert-verify: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: France_Paris_202
   type: anytls
   server: 62.210.11.74
@@ -491,7 +489,7 @@ proxies:
   skip-cert-verify: true
 - name: France_Paris_221
   type: vless
-  server: 195.154.200.131
+  server: 195.154.200.13
   port: 17401
   uuid: add14a5b-f648-4423-8a1f-8b8f54c0daef
   network: tcp
