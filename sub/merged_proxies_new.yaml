@@ -695,11 +695,11 @@ proxies:
   - h2
   - http/1.1
   skip-cert-verify: true
-- name: Germany_None_A4
+- name: France_Paris_A4
   type: hysteria
-  server: 5.83.129.248
-  port: 10023
-  ports: 10023
+  server: 51.159.107.20
+  port: 40121
+  ports: 40121
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -709,11 +709,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Germany_None_A5
+- name: France_Paris_A5
   type: hysteria
-  server: 5.83.129.248
-  port: 56701
-  ports: 56701
+  server: 51.159.107.20
+  port: 40121
+  ports: 40121
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -737,11 +737,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Germany_None_A8
+- name: France_Paris_A8
   type: hysteria
-  server: 5.83.129.248
-  port: 10023
-  ports: 10023
+  server: 51.159.107.20
+  port: 40121
+  ports: 40121
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -751,11 +751,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Germany_None_A9
+- name: France_Paris_A9
   type: hysteria
-  server: 5.83.129.248
-  port: 56701
-  ports: 56701
+  server: 51.159.107.20
+  port: 40121
+  ports: 40121
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -891,11 +891,11 @@ proxy-groups:
   - United States_Los Angeles_271
   - Unknown_281
   - Taiwan_Taipei_291
-  - Germany_None_A4
-  - Germany_None_A5
+  - France_Paris_A4
+  - France_Paris_A5
   - France_Paris_A6
-  - Germany_None_A8
-  - Germany_None_A9
+  - France_Paris_A8
+  - France_Paris_A9
   - France_Paris_A10
   - The Netherlands_Haarlem_B4
   - The Netherlands_Haarlem_B7
@@ -955,11 +955,11 @@ proxy-groups:
   - United States_Los Angeles_271
   - Unknown_281
   - Taiwan_Taipei_291
-  - Germany_None_A4
-  - Germany_None_A5
+  - France_Paris_A4
+  - France_Paris_A5
   - France_Paris_A6
-  - Germany_None_A8
-  - Germany_None_A9
+  - France_Paris_A8
+  - France_Paris_A9
   - France_Paris_A10
   - The Netherlands_Haarlem_B4
   - The Netherlands_Haarlem_B7
