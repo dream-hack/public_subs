@@ -106,7 +106,7 @@
         "🇫🇷 France_Paris_vless_12",
         "Unknown_vless_12",
         "Unknown_vless_12 2",
-        "🇳🇱 The Netherlands_Haarlem_tuic_14",
+        "🇬🇧 United Kingdom_None_tuic_14",
         "Unknown_hy_15",
         "🇫🇷 France_Paris_tuic_16",
         "Unknown_tuic_16",
@@ -122,7 +122,7 @@
         "🇫🇷 France_Paris_vless_22",
         "Unknown_vless_22",
         "Unknown_vless_22 2",
-        "🇳🇱 The Netherlands_Haarlem_tuic_24",
+        "🇬🇧 United Kingdom_None_tuic_24",
         "Unknown_hy_25",
         "🇫🇷 France_Paris_tuic_26",
         "Unknown_tuic_26",
@@ -409,7 +409,7 @@
         "🇫🇷 France_Paris_vless_12",
         "Unknown_vless_12",
         "Unknown_vless_12 2",
-        "🇳🇱 The Netherlands_Haarlem_tuic_14",
+        "🇬🇧 United Kingdom_None_tuic_14",
         "Unknown_hy_15",
         "🇫🇷 France_Paris_tuic_16",
         "Unknown_tuic_16",
@@ -424,7 +424,7 @@
         "🇫🇷 France_Paris_vless_22",
         "Unknown_vless_22",
         "Unknown_vless_22 2",
-        "🇳🇱 The Netherlands_Haarlem_tuic_24",
+        "🇬🇧 United Kingdom_None_tuic_24",
         "Unknown_hy_25",
         "🇫🇷 France_Paris_tuic_26",
         "Unknown_tuic_26",
@@ -473,7 +473,7 @@
         "🇫🇷 France_Paris_vless_12",
         "Unknown_vless_12",
         "Unknown_vless_12 2",
-        "🇳🇱 The Netherlands_Haarlem_tuic_14",
+        "🇬🇧 United Kingdom_None_tuic_14",
         "Unknown_hy_15",
         "🇫🇷 France_Paris_tuic_16",
         "Unknown_tuic_16",
@@ -489,7 +489,7 @@
         "🇫🇷 France_Paris_vless_22",
         "Unknown_vless_22",
         "Unknown_vless_22 2",
-        "🇳🇱 The Netherlands_Haarlem_tuic_24",
+        "🇬🇧 United Kingdom_None_tuic_24",
         "Unknown_hy_25",
         "🇫🇷 France_Paris_tuic_26",
         "Unknown_tuic_26",
@@ -863,11 +863,11 @@
       }
     },
     {
-      "tag": "🇳🇱 The Netherlands_Haarlem_tuic_14",
+      "tag": "🇬🇧 United Kingdom_None_tuic_14",
       "type": "tuic",
-      "server": "51.158.194.63",
-      "server_port": 29522,
-      "uuid": "b7dd1167-c5d9-45b9-ab75-83cd9e635537",
+      "server": "89.144.35.231",
+      "server_port": 33457,
+      "uuid": "66d37a65-7f6f-4e7c-a0f6-163bd917756a",
       "password": "dongtaiwang.com",
       "congestion_control": "bbr",
       "udp_relay_mode": "native",
@@ -879,7 +879,7 @@
           "h3"
         ],
         "insecure": true,
-        "server_name": "www.microsoft.com"
+        "server_name": "apple.com"
       }
     },
     {
@@ -1174,11 +1174,11 @@
       }
     },
     {
-      "tag": "🇳🇱 The Netherlands_Haarlem_tuic_24",
+      "tag": "🇬🇧 United Kingdom_None_tuic_24",
       "type": "tuic",
-      "server": "51.158.194.63",
-      "server_port": 29522,
-      "uuid": "b7dd1167-c5d9-45b9-ab75-83cd9e635537",
+      "server": "89.144.35.231",
+      "server_port": 33457,
+      "uuid": "66d37a65-7f6f-4e7c-a0f6-163bd917756a",
       "password": "dongtaiwang.com",
       "congestion_control": "bbr",
       "udp_relay_mode": "native",
@@ -1190,7 +1190,7 @@
           "h3"
         ],
         "insecure": true,
-        "server_name": "www.microsoft.com"
+        "server_name": "apple.com"
       }
     },
     {
