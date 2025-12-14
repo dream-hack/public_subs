@@ -106,6 +106,7 @@
         "🇫🇷 France_Paris_vless_12",
         "Unknown_vless_12",
         "Unknown_vless_12 2",
+        "Unknown_vless_13",
         "🇬🇧 United Kingdom_None_tuic_14",
         "Unknown_hy_15",
         "🇫🇷 France_Paris_tuic_16",
@@ -122,6 +123,7 @@
         "🇫🇷 France_Paris_vless_22",
         "Unknown_vless_22",
         "Unknown_vless_22 2",
+        "Unknown_vless_23",
         "🇬🇧 United Kingdom_None_tuic_24",
         "Unknown_hy_25",
         "🇫🇷 France_Paris_tuic_26",
@@ -409,6 +411,7 @@
         "🇫🇷 France_Paris_vless_12",
         "Unknown_vless_12",
         "Unknown_vless_12 2",
+        "Unknown_vless_13",
         "🇬🇧 United Kingdom_None_tuic_14",
         "Unknown_hy_15",
         "🇫🇷 France_Paris_tuic_16",
@@ -424,6 +427,7 @@
         "🇫🇷 France_Paris_vless_22",
         "Unknown_vless_22",
         "Unknown_vless_22 2",
+        "Unknown_vless_23",
         "🇬🇧 United Kingdom_None_tuic_24",
         "Unknown_hy_25",
         "🇫🇷 France_Paris_tuic_26",
@@ -473,6 +477,7 @@
         "🇫🇷 France_Paris_vless_12",
         "Unknown_vless_12",
         "Unknown_vless_12 2",
+        "Unknown_vless_13",
         "🇬🇧 United Kingdom_None_tuic_14",
         "Unknown_hy_15",
         "🇫🇷 France_Paris_tuic_16",
@@ -489,6 +494,7 @@
         "🇫🇷 France_Paris_vless_22",
         "Unknown_vless_22",
         "Unknown_vless_22 2",
+        "Unknown_vless_23",
         "🇬🇧 United Kingdom_None_tuic_24",
         "Unknown_hy_25",
         "🇫🇷 France_Paris_tuic_26",
@@ -863,6 +869,29 @@
       }
     },
     {
+      "tag": "Unknown_vless_13",
+      "type": "vless",
+      "server": "2001:bc8:32d7:1cb::10",
+      "server_port": 12618,
+      "uuid": "582d6615-b8a3-4674-96c1-5b087563b091",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "itunes.apple.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "Y3mEtIPC1rjwUrwJ4UsqX6QeZnJUoBN6hG2rRSQx4Rw",
+          "short_id": "8c4e4d7198e3631c"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇬🇧 United Kingdom_None_tuic_14",
       "type": "tuic",
       "server": "89.144.35.231",
@@ -1166,6 +1195,29 @@
           "enabled": true,
           "public_key": "IXcXrT_Y0ATTZlGOhPnSmKo-cuGr4yMKV9Rz4-nA3yU",
           "short_id": "8ef4455ba637425b"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "Unknown_vless_23",
+      "type": "vless",
+      "server": "2001:bc8:32d7:1cb::10",
+      "server_port": 12618,
+      "uuid": "582d6615-b8a3-4674-96c1-5b087563b091",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "itunes.apple.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "Y3mEtIPC1rjwUrwJ4UsqX6QeZnJUoBN6hG2rRSQx4Rw",
+          "short_id": "8c4e4d7198e3631c"
         },
         "utls": {
           "enabled": true,
