@@ -147,16 +147,15 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_101
-  type: hysteria
-  server: ipv4-2.758733.xyz
-  port: 30077
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
+- name: The Netherlands_Haarlem_101
+  type: hysteria2
+  server: 51.158.194.63
+  port: 32952
+  password: dongtaiwang.com
   alpn:
   - h3
-  protocol: udp
+  sni: www.microsoft.com
+  skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
 - name: France_Paris_102
@@ -445,16 +444,15 @@ proxies:
   - h2
   - http/1.1
   skip-cert-verify: true
-- name: France_Paris_201
-  type: hysteria
-  server: ipv4-2.758733.xyz
-  port: 30077
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
+- name: The Netherlands_Haarlem_201
+  type: hysteria2
+  server: 51.158.194.63
+  port: 32952
+  password: dongtaiwang.com
   alpn:
   - h3
-  protocol: udp
+  sni: www.microsoft.com
+  skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
 - name: France_Paris_202
@@ -903,7 +901,7 @@ proxy-groups:
   - Unknown_71
   - Unknown_81
   - France_Paris_91
-  - France_Paris_101
+  - The Netherlands_Haarlem_101
   - France_Paris_102
   - France_Paris_103
   - Unknown_104
@@ -922,7 +920,7 @@ proxy-groups:
   - United States_Los Angeles_171
   - Unknown_181
   - Taiwan_Taipei_191
-  - France_Paris_201
+  - The Netherlands_Haarlem_201
   - France_Paris_202
   - France_Paris_203
   - Unknown_204
@@ -969,7 +967,7 @@ proxy-groups:
   - Unknown_71
   - Unknown_81
   - France_Paris_91
-  - France_Paris_101
+  - The Netherlands_Haarlem_101
   - France_Paris_102
   - France_Paris_103
   - Unknown_104
@@ -988,7 +986,7 @@ proxy-groups:
   - United States_Los Angeles_171
   - Unknown_181
   - Taiwan_Taipei_191
-  - France_Paris_201
+  - The Netherlands_Haarlem_201
   - France_Paris_202
   - France_Paris_203
   - Unknown_204
