@@ -146,11 +146,11 @@
         "Unknown_vless_3",
         "🇬🇧 United Kingdom_None_vless_4",
         "🇹🇼 Taiwan_Taipei_vless_5",
-        "Unknown_vless_6",
+        "🇬🇧 United Kingdom_None_vless_6",
         "Unknown_vless_7",
         "🇬🇧 United Kingdom_None_vless_8",
         "🇹🇼 Taiwan_Taipei_vless_9",
-        "Unknown_vless_10",
+        "🇬🇧 United Kingdom_None_vless_10",
         "Unknown_vless_11"
       ]
     },
@@ -448,10 +448,10 @@
         "Unknown_vless_0",
         "Unknown_vless_3",
         "🇬🇧 United Kingdom_None_vless_4",
-        "Unknown_vless_6",
+        "🇬🇧 United Kingdom_None_vless_6",
         "Unknown_vless_7",
         "🇬🇧 United Kingdom_None_vless_8",
-        "Unknown_vless_10",
+        "🇬🇧 United Kingdom_None_vless_10",
         "Unknown_vless_11"
       ]
     },
@@ -517,11 +517,11 @@
         "Unknown_vless_3",
         "🇬🇧 United Kingdom_None_vless_4",
         "🇹🇼 Taiwan_Taipei_vless_5",
-        "Unknown_vless_6",
+        "🇬🇧 United Kingdom_None_vless_6",
         "Unknown_vless_7",
         "🇬🇧 United Kingdom_None_vless_8",
         "🇹🇼 Taiwan_Taipei_vless_9",
-        "Unknown_vless_10",
+        "🇬🇧 United Kingdom_None_vless_10",
         "Unknown_vless_11"
       ],
       "url": "http://www.gstatic.com/generate_204",
@@ -1635,20 +1635,21 @@
       }
     },
     {
-      "tag": "Unknown_vless_6",
+      "tag": "🇬🇧 United Kingdom_None_vless_6",
       "type": "vless",
-      "server": "2001:bc8:32d7:14f::6",
-      "server_port": 60011,
-      "uuid": "a1f699e4-d7b7-4cdc-8414-1105e08fe4c5",
+      "server": "89.144.35.230",
+      "server_port": 54582,
+      "uuid": "5cfc52bc-e701-4160-89df-930a0c040576",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "www.pixiv.co.jp",
+        "server_name": "apple.com",
         "reality": {
           "enabled": true,
-          "public_key": "BTCE_8R4FJ7wf9mR7PkONJyeihtHqi_TptjC20eMhic",
-          "short_id": "ea22dff3025e4ff8"
+          "public_key": "kfw5DgkyKiovC3dzb-o2PUYnZPnbYvbx2IwERUv9czY",
+          "short_id": "225e2cc8"
         },
         "utls": {
           "enabled": true,
@@ -1723,20 +1724,21 @@
       }
     },
     {
-      "tag": "Unknown_vless_10",
+      "tag": "🇬🇧 United Kingdom_None_vless_10",
       "type": "vless",
-      "server": "2001:bc8:32d7:14f::6",
-      "server_port": 60011,
-      "uuid": "a1f699e4-d7b7-4cdc-8414-1105e08fe4c5",
+      "server": "89.144.35.230",
+      "server_port": 54582,
+      "uuid": "5cfc52bc-e701-4160-89df-930a0c040576",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "www.pixiv.co.jp",
+        "server_name": "apple.com",
         "reality": {
           "enabled": true,
-          "public_key": "BTCE_8R4FJ7wf9mR7PkONJyeihtHqi_TptjC20eMhic",
-          "short_id": "ea22dff3025e4ff8"
+          "public_key": "kfw5DgkyKiovC3dzb-o2PUYnZPnbYvbx2IwERUv9czY",
+          "short_id": "225e2cc8"
         },
         "utls": {
           "enabled": true,
