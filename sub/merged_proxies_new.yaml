@@ -147,10 +147,10 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_101
+- name: Germany_None_101
   type: hysteria
-  server: ipv4-2.758733.xyz
-  port: 30077
+  server: 5.178.101.33
+  port: 23008
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -445,10 +445,10 @@ proxies:
   - h2
   - http/1.1
   skip-cert-verify: true
-- name: France_Paris_201
+- name: Germany_None_201
   type: hysteria
-  server: ipv4-2.758733.xyz
-  port: 30077
+  server: 5.178.101.33
+  port: 23008
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -903,7 +903,7 @@ proxy-groups:
   - Unknown_71
   - Unknown_81
   - France_Paris_91
-  - France_Paris_101
+  - Germany_None_101
   - France_Paris_102
   - France_Paris_103
   - Unknown_104
@@ -922,7 +922,7 @@ proxy-groups:
   - United States_Los Angeles_171
   - Unknown_181
   - Taiwan_Taipei_191
-  - France_Paris_201
+  - Germany_None_201
   - France_Paris_202
   - France_Paris_203
   - Unknown_204
@@ -969,7 +969,7 @@ proxy-groups:
   - Unknown_71
   - Unknown_81
   - France_Paris_91
-  - France_Paris_101
+  - Germany_None_101
   - France_Paris_102
   - France_Paris_103
   - Unknown_104
@@ -988,7 +988,7 @@ proxy-groups:
   - United States_Los Angeles_171
   - Unknown_181
   - Taiwan_Taipei_191
-  - France_Paris_201
+  - Germany_None_201
   - France_Paris_202
   - France_Paris_203
   - Unknown_204
