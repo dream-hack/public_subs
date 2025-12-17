@@ -827,13 +827,13 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: The Netherlands_Haarlem_B4
+- name: Germany_None_B4
   type: hysteria2
-  server: 51.158.194.63
-  port: 32952
+  server: 5.178.101.106
+  port: 11000
   password: dongtaiwang.com
   fast-open: true
-  sni: www.microsoft.com
+  sni: apple.com
   skip-cert-verify: true
 - name: The Netherlands_Haarlem_B7
   type: hysteria2
@@ -843,13 +843,13 @@ proxies:
   fast-open: true
   sni: www.microsoft.com
   skip-cert-verify: true
-- name: The Netherlands_Haarlem_B8
+- name: Germany_None_B8
   type: hysteria2
-  server: 51.158.194.63
-  port: 32952
+  server: 5.178.101.106
+  port: 11000
   password: dongtaiwang.com
   fast-open: true
-  sni: www.microsoft.com
+  sni: apple.com
   skip-cert-verify: true
 - name: The Netherlands_Haarlem_B11
   type: hysteria2
@@ -947,9 +947,9 @@ proxy-groups:
   - United Kingdom_None_A8
   - United Kingdom_None_A9
   - France_Paris_A10
-  - The Netherlands_Haarlem_B4
+  - Germany_None_B4
   - The Netherlands_Haarlem_B7
-  - The Netherlands_Haarlem_B8
+  - Germany_None_B8
   - The Netherlands_Haarlem_B11
   - Unknown_reality_0
   - Unknown_reality_3
@@ -1013,9 +1013,9 @@ proxy-groups:
   - United Kingdom_None_A8
   - United Kingdom_None_A9
   - France_Paris_A10
-  - The Netherlands_Haarlem_B4
+  - Germany_None_B4
   - The Netherlands_Haarlem_B7
-  - The Netherlands_Haarlem_B8
+  - Germany_None_B8
   - The Netherlands_Haarlem_B11
   - Unknown_reality_0
   - Unknown_reality_3
