@@ -138,9 +138,9 @@
         "🇬🇧 United Kingdom_None_hysteria_8",
         "🇬🇧 United Kingdom_None_hysteria_9",
         "🇫🇷 France_Paris_hysteria_10",
-        "🇳🇱 The Netherlands_Haarlem_hysteria2_4",
+        "🇩🇪 Germany_None_hysteria2_4",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_7",
-        "🇳🇱 The Netherlands_Haarlem_hysteria2_8",
+        "🇩🇪 Germany_None_hysteria2_8",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_11",
         "Unknown_vless_0",
         "Unknown_vless_3",
@@ -441,9 +441,9 @@
         "🇬🇧 United Kingdom_None_hysteria_8",
         "🇬🇧 United Kingdom_None_hysteria_9",
         "🇫🇷 France_Paris_hysteria_10",
-        "🇳🇱 The Netherlands_Haarlem_hysteria2_4",
+        "🇩🇪 Germany_None_hysteria2_4",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_7",
-        "🇳🇱 The Netherlands_Haarlem_hysteria2_8",
+        "🇩🇪 Germany_None_hysteria2_8",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_11",
         "Unknown_vless_0",
         "Unknown_vless_3",
@@ -509,9 +509,9 @@
         "🇬🇧 United Kingdom_None_hysteria_8",
         "🇬🇧 United Kingdom_None_hysteria_9",
         "🇫🇷 France_Paris_hysteria_10",
-        "🇳🇱 The Netherlands_Haarlem_hysteria2_4",
+        "🇩🇪 Germany_None_hysteria2_4",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_7",
-        "🇳🇱 The Netherlands_Haarlem_hysteria2_8",
+        "🇩🇪 Germany_None_hysteria2_8",
         "🇳🇱 The Netherlands_Haarlem_hysteria2_11",
         "Unknown_vless_0",
         "Unknown_vless_3",
@@ -1479,21 +1479,24 @@
       }
     },
     {
-      "tag": "🇳🇱 The Netherlands_Haarlem_hysteria2_4",
+      "tag": "🇩🇪 Germany_None_hysteria2_4",
       "type": "hysteria2",
-      "server": "51.158.194.63",
-      "server_port": 32952,
+      "server": "5.178.101.106",
+      "server_port": 11000,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
       "tls": {
         "enabled": true,
-        "server_name": "www.microsoft.com",
+        "server_name": "apple.com",
         "insecure": true,
         "alpn": [
           "h3"
         ]
-      }
+      },
+      "server_ports": [
+        "12000:13000"
+      ]
     },
     {
       "tag": "🇳🇱 The Netherlands_Haarlem_hysteria2_7",
@@ -1513,21 +1516,24 @@
       }
     },
     {
-      "tag": "🇳🇱 The Netherlands_Haarlem_hysteria2_8",
+      "tag": "🇩🇪 Germany_None_hysteria2_8",
       "type": "hysteria2",
-      "server": "51.158.194.63",
-      "server_port": 32952,
+      "server": "5.178.101.106",
+      "server_port": 11000,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
       "tls": {
         "enabled": true,
-        "server_name": "www.microsoft.com",
+        "server_name": "apple.com",
         "insecure": true,
         "alpn": [
           "h3"
         ]
-      }
+      },
+      "server_ports": [
+        "12000:13000"
+      ]
     },
     {
       "tag": "🇳🇱 The Netherlands_Haarlem_hysteria2_11",
